@@ -22,6 +22,7 @@ import {
 } from './steps';
 
 export interface SnykSastWorkflowOptions extends SnykReusableWorkflowOptions {
+  readonly authenticateSnykOptions: AuthenticateSnykOptions;
   readonly delta?: boolean;
   readonly installSnykPrDiffOptions?: InstallSnykPrDiffOptions;
   readonly checkoutBaselineOptions?: CheckoutOptions;
@@ -53,9 +54,6 @@ export class SnykSastWorkflow extends Component {
     const workflowName = options.workflowName ?? 'snyk-sast';
     const jobId = options?.jobId ?? 'sast-scan';
     const jobName = options?.jobOptions?.name ?? 'Run SAST Scan with Snyk';
-    const authenticateSnykOptions: AuthenticateSnykOptions = {
-      snykOrgId: options.orgId,
-    };
 
     // default options
     const checkoutBaselineOptions: CheckoutOptions = {
@@ -79,13 +77,13 @@ export class SnykSastWorkflow extends Component {
       name: 'Run snyk code on baseline branch',
       id: 'snyk-sast-baseline',
       continueOnError: true,
-      authenticateSnykOptions,
+      authenticateSnykOptions: options.authenticateSnykOptions,
       ...(options?.runSnykSastBaselineOptions ?? {}),
     };
     const runSnykSastCurrentOptions: RunSnykSastOptions = {
       name: 'Run snyk code on current branch',
       id: 'snyk-sast-current',
-      authenticateSnykOptions,
+      authenticateSnykOptions: options.authenticateSnykOptions,
       ...(options?.runSnykSastCurrentOptions ?? {}),
       continueOnError: false,
     };

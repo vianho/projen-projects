@@ -56,7 +56,9 @@ export class SnykScaWorkflow extends Component {
         SnykWorkflowSteps.checkout(),
         ...SnykWorkflowSteps.setupNode(options?.setupNodeOptions ?? {}),
         ...SnykWorkflowSteps.installSnyk(options?.installSnykOptions ?? {}),
-        ...SnykWorkflowSteps.runSnykScaWithDelta(options.runSnykScaWithDeltaOptions),
+        ...SnykWorkflowSteps.runSnykScaWithDelta(
+          options.runSnykScaWithDeltaOptions,
+        ),
       ],
       ...(options.jobOptions ?? {}),
       ...filteredRunsOnOptions(

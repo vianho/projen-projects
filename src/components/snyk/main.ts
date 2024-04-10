@@ -6,12 +6,13 @@ import {
   SecurityScanWorkflow,
   SecurityScanWorkflowOptions,
 } from './security-scan-workflow';
+import { AuthenticateSnykOptions } from './steps';
 import * as constants from '../../constants';
 import { Envrc } from '../envrc';
 
 export interface SnykComponentOptions {
-  readonly snykOrgId: string;
-  readonly snykMonitoredProjectId: string;
+  readonly snykOrgId?: string;
+  readonly snykMonitoredProjectId?: string;
 
   readonly workflowName?: string;
   readonly securityScanWorkflowOptions?: SecurityScanWorkflowOptions;
@@ -38,6 +39,13 @@ export class SnykComponent extends Component {
     this.snykWorkflowName = options?.workflowName ?? 'snyk-scans';
     this.enableSca = options?.enableSca ?? true;
     this.enableSast = options?.enableSast ?? true;
+    const snykOrgId = options?.snykOrgId ?? constants.DEFAULT_SNYK_ORG;
+    const snykMonitoredProjectId =
+      options?.snykMonitoredProjectId ??
+      constants.DEFAULT_SNYK_MONITORED_PROJECT_ID;
+    const authenticateSnykOptions: AuthenticateSnykOptions = {
+      snykOrgId: snykOrgId,
+    };
 
     new Envrc(project, '.envrc');
     project.gitignore.exclude('.bin/');
@@ -63,14 +71,11 @@ export class SnykComponent extends Component {
       );
       if (this.enableSca) {
         const snykScaWorkflowOptions: SnykScaWorkflowOptions = {
-          orgId: options.snykOrgId,
           runSnykScaWithDeltaOptions: {
-            snykMonitoredProjectId: options.snykMonitoredProjectId,
-            authenticateSnykOptions: {
-              snykOrgId: options.snykOrgId,
-            },
+            snykMonitoredProjectId: snykMonitoredProjectId,
+            authenticateSnykOptions: authenticateSnykOptions,
           },
-          ...options?.snykScaWorkflowOptions,
+          ...(options?.snykScaWorkflowOptions ?? {}),
         };
         const snykScaWorkflow = new SnykScaWorkflow(
           project,
@@ -89,8 +94,8 @@ export class SnykComponent extends Component {
       }
       if (this.enableSast) {
         const snykSastWorkflowOptions: SnykSastWorkflowOptions = {
-          orgId: options.snykOrgId,
-          ...options.snykSastWorkflowOptions,
+          authenticateSnykOptions: authenticateSnykOptions,
+          ...(options?.snykSastWorkflowOptions ?? {}),
         };
         const snykSastWorkflow = new SnykSastWorkflow(
           project,

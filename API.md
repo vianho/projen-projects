@@ -11615,34 +11615,14 @@ const snykComponentOptions: SnykComponentOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.enableSast">enableSast</a></code> | <code>boolean</code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.enableSca">enableSca</a></code> | <code>boolean</code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.securityScanWorkflowOptions">securityScanWorkflowOptions</a></code> | <code><a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#projen-projects.SnykComponentOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#projen-projects.SnykComponentOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.snykSastWorkflowOptions">snykSastWorkflowOptions</a></code> | <code><a href="#projen-projects.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.snykScaWorkflowOptions">snykScaWorkflowOptions</a></code> | <code><a href="#projen-projects.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykComponentOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
-
----
-
-##### `snykMonitoredProjectId`<sup>Required</sup> <a name="snykMonitoredProjectId" id="projen-projects.SnykComponentOptions.property.snykMonitoredProjectId"></a>
-
-```typescript
-public readonly snykMonitoredProjectId: string;
-```
-
-- *Type:* string
-
----
-
-##### `snykOrgId`<sup>Required</sup> <a name="snykOrgId" id="projen-projects.SnykComponentOptions.property.snykOrgId"></a>
-
-```typescript
-public readonly snykOrgId: string;
-```
-
-- *Type:* string
 
 ---
 
@@ -11673,6 +11653,26 @@ public readonly securityScanWorkflowOptions: SecurityScanWorkflowOptions;
 ```
 
 - *Type:* <a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a>
+
+---
+
+##### `snykMonitoredProjectId`<sup>Optional</sup> <a name="snykMonitoredProjectId" id="projen-projects.SnykComponentOptions.property.snykMonitoredProjectId"></a>
+
+```typescript
+public readonly snykMonitoredProjectId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `snykOrgId`<sup>Optional</sup> <a name="snykOrgId" id="projen-projects.SnykComponentOptions.property.snykOrgId"></a>
+
+```typescript
+public readonly snykOrgId: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -11720,23 +11720,12 @@ const snykReusableWorkflowOptions: SnykReusableWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.orgId">orgId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
-
----
-
-##### `orgId`<sup>Required</sup> <a name="orgId" id="projen-projects.SnykReusableWorkflowOptions.property.orgId"></a>
-
-```typescript
-public readonly orgId: string;
-```
-
-- *Type:* string
 
 ---
 
@@ -11814,13 +11803,13 @@ const snykSastWorkflowOptions: SnykSastWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.orgId">orgId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
+| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.checkoutBaselineOptions">checkoutBaselineOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.checkoutCurrentOptions">checkoutCurrentOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.delta">delta</a></code> | <code>boolean</code> | *No description.* |
@@ -11829,16 +11818,6 @@ const snykSastWorkflowOptions: SnykSastWorkflowOptions = { ... }
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.runSnykSastBaselineOptions">runSnykSastBaselineOptions</a></code> | <code><a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.runSnykSastCurrentOptions">runSnykSastCurrentOptions</a></code> | <code><a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykSastWorkflowOptions.property.uploadArtifactOptions">uploadArtifactOptions</a></code> | <code>projen.github.UploadArtifactOptions</code> | *No description.* |
-
----
-
-##### `orgId`<sup>Required</sup> <a name="orgId" id="projen-projects.SnykSastWorkflowOptions.property.orgId"></a>
-
-```typescript
-public readonly orgId: string;
-```
-
-- *Type:* string
 
 ---
 
@@ -11899,6 +11878,16 @@ public readonly workflowOptions: GithubWorkflowOptions;
 ```
 
 - *Type:* projen.github.GithubWorkflowOptions
+
+---
+
+##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="projen-projects.SnykSastWorkflowOptions.property.authenticateSnykOptions"></a>
+
+```typescript
+public readonly authenticateSnykOptions: AuthenticateSnykOptions;
+```
+
+- *Type:* <a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
 
 ---
 
@@ -11996,7 +11985,6 @@ const snykScaWorkflowOptions: SnykScaWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.orgId">orgId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
@@ -12004,16 +11992,6 @@ const snykScaWorkflowOptions: SnykScaWorkflowOptions = { ... }
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
 | <code><a href="#projen-projects.SnykScaWorkflowOptions.property.runSnykScaWithDeltaOptions">runSnykScaWithDeltaOptions</a></code> | <code><a href="#projen-projects.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a></code> | *No description.* |
-
----
-
-##### `orgId`<sup>Required</sup> <a name="orgId" id="projen-projects.SnykScaWorkflowOptions.property.orgId"></a>
-
-```typescript
-public readonly orgId: string;
-```
-
-- *Type:* string
 
 ---
 
