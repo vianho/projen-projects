@@ -7,13 +7,6 @@ import { SeverityThreshold } from './enums';
 import * as constants from '../../constants';
 
 export class SnykWorkflowSteps extends WorkflowSteps {
-  private static multiLineCommands = (
-    commands: string[],
-    delimiter: string = '\n',
-  ): string => {
-    return commands.join(delimiter);
-  };
-
   public static setupNode(options?: SetupNodeOptions): JobStep[] {
     const nodeVersion = options?.nodeVersion ?? 20;
     return [
@@ -246,6 +239,13 @@ export class SnykWorkflowSteps extends WorkflowSteps {
       },
     ];
   }
+
+  private static multiLineCommands = (
+    commands: string[],
+    delimiter: string = '\n',
+  ): string => {
+    return commands.join(delimiter);
+  };
 }
 
 export interface SetupNodeOptions extends JobStepConfiguration {
