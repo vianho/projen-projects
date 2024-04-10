@@ -1,1 +1,1 @@
-export * from "./envrc";
+export * from './envrc';

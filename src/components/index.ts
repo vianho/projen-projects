@@ -1,2 +1,2 @@
-export * from "./envrc";
-export * from "./snyk";
+export * from './envrc';
+export * from './snyk';

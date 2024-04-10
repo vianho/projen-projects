@@ -1,4 +1,4 @@
-import { FileBase, FileBaseOptions, IResolver, Project } from "projen";
+import { FileBase, FileBaseOptions, IResolver, Project } from 'projen';
 
 export interface EnvrcOptions extends FileBaseOptions {}
 
@@ -8,15 +8,15 @@ export interface EnvrcOptions extends FileBaseOptions {}
 // echo 'eval "$(direnv hook zsh)"' >> ~/.zshrc
 // direnv allow .
 export class Envrc extends FileBase {
-    constructor(project: Project, filePath: string, options?: EnvrcOptions) {
-        super(project, filePath, options);
-    }
-    protected synthesizeContent(resolver: IResolver): string | undefined {
-        const lines = [
-            ...(this.marker ? [`# ${this.marker}`] : []),
-            "PATH_add .bin",
-        ];
+  constructor(project: Project, filePath: string, options?: EnvrcOptions) {
+    super(project, filePath, options);
+  }
+  protected synthesizeContent(resolver: IResolver): string | undefined {
+    const lines = [
+      ...(this.marker ? [`# ${this.marker}`] : []),
+      'PATH_add .bin',
+    ];
 
-        return `${resolver.resolve(lines).join("\n")}\n`;
-    }
+    return `${resolver.resolve(lines).join('\n')}\n`;
+  }
 }

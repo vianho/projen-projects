@@ -5,21 +5,21 @@ import {
   python,
   java,
   cdk,
-} from "projen";
+} from 'projen';
 import {
   GithubWorkflow,
   CheckoutOptions,
   UploadArtifactOptions,
   DownloadArtifactOptions,
-} from "projen/lib/github";
-import { JobPermission, JobStep } from "projen/lib/github/workflows-model";
+} from 'projen/lib/github';
+import { JobPermission, JobStep } from 'projen/lib/github/workflows-model';
+import { SnykReusableWorkflowOptions } from './snyk-reusable-workflow-options';
 import {
   AuthenticateSnykOptions,
   InstallSnykPrDiffOptions,
   RunSnykSastOptions,
   SnykWorkflowSteps,
-} from "./steps";
-import { SnykReusableWorkflowOptions } from "./snyk-reusable-workflow-options";
+} from './steps';
 
 export interface SnykSastWorkflowOptions extends SnykReusableWorkflowOptions {
   readonly delta?: boolean;
@@ -38,11 +38,11 @@ export class SnykSastWorkflow extends Component {
 
   constructor(
     project:
-      | javascript.NodeProject
-      | python.PythonProject
-      | java.JavaProject
-      | cdk.JsiiProject,
-    options: SnykSastWorkflowOptions
+    | javascript.NodeProject
+    | python.PythonProject
+    | java.JavaProject
+    | cdk.JsiiProject,
+    options: SnykSastWorkflowOptions,
   ) {
     super(project);
 
@@ -50,60 +50,60 @@ export class SnykSastWorkflow extends Component {
       return;
     }
 
-    const workflowName = options.workflowName ?? "snyk-sast";
-    const jobId = options?.jobId ?? "sast-scan";
-    const jobName = options?.jobOptions?.name ?? "Run SAST Scan with Snyk";
+    const workflowName = options.workflowName ?? 'snyk-sast';
+    const jobId = options?.jobId ?? 'sast-scan';
+    const jobName = options?.jobOptions?.name ?? 'Run SAST Scan with Snyk';
     const authenticateSnykOptions: AuthenticateSnykOptions = {
       snykOrgId: options.orgId,
-    }
+    };
 
     // default options
     const checkoutBaselineOptions: CheckoutOptions = {
-      name: "Checkout baseline",
-      id: "checkout-baseline",
+      name: 'Checkout baseline',
+      id: 'checkout-baseline',
       with: {
-        ref: "${{ github.event.before }}",
+        ref: '${{ github.event.before }}',
       },
       ...(options?.checkoutBaselineOptions ?? {}),
     };
     const checkoutCurrentOptions: CheckoutOptions = {
-      name: "Checkout current branch",
-      id: "checkout-current",
+      name: 'Checkout current branch',
+      id: 'checkout-current',
       with: {
-        ref: "${{ github.event.after }}",
+        ref: '${{ github.event.after }}',
       },
       ...(options?.checkoutCurrentOptions ?? {}),
     };
 
     const runSnykSastBaselineOptions: RunSnykSastOptions = {
-      name: "Run snyk code on baseline branch",
-      id: "snyk-sast-baseline",
+      name: 'Run snyk code on baseline branch',
+      id: 'snyk-sast-baseline',
       continueOnError: true,
       authenticateSnykOptions,
       ...(options?.runSnykSastBaselineOptions ?? {}),
     };
     const runSnykSastCurrentOptions: RunSnykSastOptions = {
-      name: "Run snyk code on current branch",
-      id: "snyk-sast-current",
+      name: 'Run snyk code on current branch',
+      id: 'snyk-sast-current',
       authenticateSnykOptions,
       ...(options?.runSnykSastCurrentOptions ?? {}),
       continueOnError: false,
     };
 
     const uploadArtifactOptions: UploadArtifactOptions = {
-      name: "Upload Baseline Result",
-      id: "upload-baseline-result",
+      name: 'Upload Baseline Result',
+      id: 'upload-baseline-result',
       with: {
         name: `\${{ steps.${runSnykSastBaselineOptions.id}.outputs.result-path }}`,
         path: `\${{ steps.${runSnykSastBaselineOptions.id}.outputs.result-path }}`,
         retentionDays: 1,
-        ifNoFilesFound: "error",
+        ifNoFilesFound: 'error',
       },
       ...(options?.uploadArtifactOptions ?? {}),
     };
     const downloadArtifactOptions: DownloadArtifactOptions = {
-      name: "Download Baseline Result",
-      id: "download-baseline-result",
+      name: 'Download Baseline Result',
+      id: 'download-baseline-result',
       with: {
         path: `\${{ steps.${runSnykSastBaselineOptions.id}.outputs.result-path }}`,
       },
@@ -114,7 +114,7 @@ export class SnykSastWorkflow extends Component {
     this.workflow = new GithubWorkflow(
       project.github,
       workflowName,
-      options.workflowOptions
+      options.workflowOptions,
     );
     this.workflow.on({
       workflowCall: {},
@@ -145,7 +145,7 @@ export class SnykSastWorkflow extends Component {
         ...SnykWorkflowSteps.setupNode(options?.setupNodeOptions ?? {}),
         ...SnykWorkflowSteps.installSnyk(options?.installSnykOptions ?? {}),
         ...SnykWorkflowSteps.installSnykPrDiff(
-          options?.installSnykPrDiffOptions ?? {}
+          options?.installSnykPrDiffOptions ?? {},
         ),
         ...(options?.delta ? runBaselineScanSteps : []),
         SnykWorkflowSteps.checkout(checkoutCurrentOptions),
@@ -155,7 +155,7 @@ export class SnykSastWorkflow extends Component {
       ...(options?.jobOptions ?? {}),
       ...filteredRunsOnOptions(
         options?.jobOptions?.runsOn,
-        options?.jobOptions?.runsOnGroup
+        options?.jobOptions?.runsOnGroup,
       ),
     });
     project.logger.info(`✅ Done generating ${workflowName} workflow...`);

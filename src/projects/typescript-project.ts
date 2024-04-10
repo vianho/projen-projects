@@ -1,9 +1,9 @@
-import { typescript } from "projen";
-import { SnykComponent, SnykComponentOptions } from "../components/snyk";
+import { typescript } from 'projen';
+import { SnykComponent, SnykComponentOptions } from '../components/snyk';
 
 export interface TypescriptProjectOptions
   extends typescript.TypeScriptProjectOptions {
-  snykOptions: SnykComponentOptions;
+  readonly snykOptions: SnykComponentOptions;
 }
 
 /**
@@ -17,6 +17,6 @@ export class TypescriptProject extends typescript.TypeScriptProject {
     });
 
     new SnykComponent(this, options.snykOptions);
-    this.npmignore?.exclude(".bin");
+    this.npmignore?.exclude('.bin');
   }
 }

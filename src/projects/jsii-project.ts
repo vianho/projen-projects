@@ -1,8 +1,8 @@
-import { cdk } from "projen";
-import { SnykComponent, SnykComponentOptions } from "../components/snyk";
+import { cdk } from 'projen';
+import { SnykComponent, SnykComponentOptions } from '../components/snyk';
 
 export interface JSIIProjectOptions extends cdk.JsiiProjectOptions {
-  snykOptions: SnykComponentOptions;
+  readonly snykOptions: SnykComponentOptions;
 }
 
 /**
@@ -16,6 +16,6 @@ export class JSIIProject extends cdk.JsiiProject {
     });
 
     new SnykComponent(this, options.snykOptions);
-    this.npmignore?.exclude(".bin");
+    this.npmignore?.exclude('.bin');
   }
 }

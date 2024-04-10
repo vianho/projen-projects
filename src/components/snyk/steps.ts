@@ -1,73 +1,73 @@
-import { WorkflowSteps } from "projen/lib/github";
+import { WorkflowSteps } from 'projen/lib/github';
 import {
   JobStep,
   JobStepConfiguration,
-} from "projen/lib/github/workflows-model";
-import * as constants from "../../constants";
-import { SeverityThreshold } from "./enums";
+} from 'projen/lib/github/workflows-model';
+import { SeverityThreshold } from './enums';
+import * as constants from '../../constants';
 
 export class SnykWorkflowSteps extends WorkflowSteps {
-  public static multiLineCommands(
+  private static multiLineCommands = (
     commands: string[],
-    delimiter: string = "\n"
-  ): string {
+    delimiter: string = '\n',
+  ): string => {
     return commands.join(delimiter);
-  }
+  };
 
-  public static setupNode = (options?: SetupNodeOptions): JobStep[] => {
+  public static setupNode(options?: SetupNodeOptions): JobStep[] {
     const nodeVersion = options?.nodeVersion ?? 20;
     return [
       {
         name: options?.name ?? `Setup node ${nodeVersion}`,
         id: options?.id ?? `setup-node${nodeVersion}`,
-        uses: "actions/setup-node@v4",
+        uses: 'actions/setup-node@v4',
         with: {
-          "node-version": nodeVersion,
+          'node-version': nodeVersion,
         },
       },
     ];
-  };
+  }
 
-  public static getNpmRoot = (options?: JobStepConfiguration): JobStep[] => {
+  public static getNpmRoot(options?: JobStepConfiguration): JobStep[] {
     return [
       {
-        name: options?.name ?? `Get npm global installation root folder`,
-        id: options?.id ?? `get-npm-root`,
+        name: options?.name ?? 'Get npm global installation root folder',
+        id: options?.id ?? 'get-npm-root',
         run: this.multiLineCommands([
-          "NPM_ROOT_LIBS=$(npm root -g)",
+          'NPM_ROOT_LIBS=$(npm root -g)',
           "NPM_ROOT=$(echo $NPM_ROOT_LIBS | sed 's//lib/node_modules//')",
           'echo "npm-root-global-libs=$NPM_ROOT_LIBS"',
           'echo "path=$NPM_ROOT"',
-          "echo path=$NPM_ROOT >> $GITHUB_OUTPUT",
+          'echo path=$NPM_ROOT >> $GITHUB_OUTPUT',
         ]),
       },
     ];
-  };
+  }
 
-  public static createCache = (options: CreateCacheOptions): JobStep[] => {
+  public static createCache(options: CreateCacheOptions): JobStep[] {
     return [
       {
-        name: options?.name ?? `Create cache`,
-        id: options?.id ?? `create-cache`,
-        uses: "actions/cache@v4",
+        name: options?.name ?? 'Create cache',
+        id: options?.id ?? 'create-cache',
+        uses: 'actions/cache@v4',
         with: options.with,
       },
     ];
-  };
+  }
 
-  public static installSnyk = (options: InstallSnykOptions): JobStep[] => {
+  public static installSnyk(options: InstallSnykOptions): JobStep[] {
     const cache = options?.cache ?? true;
-    const name = options?.name ?? "Install snyk and snyk-delta";
-    const id = options?.id ?? "install-snyk";
+    const name = options?.name ?? 'Install snyk and snyk-delta';
+    const id = options?.id ?? 'install-snyk';
     const snykVersion = options?.snykVersion ?? constants;
     const snykDeltaVersion = options?.snykDeltaVersion ?? constants;
-    const getNpmRootJobId: string = "get-npm-root";
+    const getNpmRootJobId: string = 'get-npm-root';
     const createCacheOptions: CreateCacheOptions = {
-      name: "Cache global npm folder",
-      id: "cache-npmg",
+      name: 'Cache global npm folder',
+      id: 'cache-npmg',
       with: {
         path: `\${{ steps.${getNpmRootJobId}.outputs.path }}`,
-        key: `\${{ runner.os }}-npm-global-snyk-\${{ hashFiles(format("{0}", ".projenrc.ts")) }}`,
+        key: '${{ runner.os }}-npm-global-snyk-${{ hashFiles(format("{0}", ".projenrc.ts")) }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
@@ -91,32 +91,32 @@ export class SnykWorkflowSteps extends WorkflowSteps {
         run: `npm i -g snyk@${snykVersion} snyk-delta@${snykDeltaVersion}`,
       },
     ];
-  };
+  }
 
-  public static installSnykPrDiff = (
-    options: InstallSnykPrDiffOptions
-  ): JobStep[] => {
+  public static installSnykPrDiff(
+    options: InstallSnykPrDiffOptions,
+  ): JobStep[] {
     const cache = options?.cache ?? true;
-    const name = options?.name ?? "Install snyk-pr-diff";
-    const id = options?.id ?? "install-snyk-pr-diff";
+    const name = options?.name ?? 'Install snyk-pr-diff';
+    const id = options?.id ?? 'install-snyk-pr-diff';
     const version = options?.version ?? constants.DEFAULT_SNYK_PR_DIFF_VERSION;
-    const path = "/usr/local/bin/snyk-pr-diff";
+    const path = '/usr/local/bin/snyk-pr-diff';
 
     const createCacheOptions: CreateCacheOptions = {
-      name: "Create cache for snyk-pr-diff",
-      id: "cache-snyk-pr-diff",
+      name: 'Create cache for snyk-pr-diff',
+      id: 'cache-snyk-pr-diff',
       with: {
         path: path,
-        key: `\${{ runner.os }}-snyk-pr-diff-\${{ hashFiles(format("{0}", ".projenrc.ts")) }}`,
+        key: '${{ runner.os }}-snyk-pr-diff-${{ hashFiles(format("{0}", ".projenrc.ts")) }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
 
     const installSnykPrDiffCommand = this.multiLineCommands([
       `wget -O snyk-pr-diff https://github.com/snyk-playground/cx-tools/raw/${version}`,
-      "chmod +x ./snyk-pr-diff",
+      'chmod +x ./snyk-pr-diff',
       `mv ./snyk-pr-diff ${path}`,
-      "which snyk-pr-diff",
+      'which snyk-pr-diff',
     ]);
     if (cache) {
       return [
@@ -136,17 +136,15 @@ export class SnykWorkflowSteps extends WorkflowSteps {
         run: installSnykPrDiffCommand,
       },
     ];
-  };
+  }
 
-  public static authenticateSnyk = (
-    options: AuthenticateSnykOptions
-  ): JobStep[] => {
+  public static authenticateSnyk(options: AuthenticateSnykOptions): JobStep[] {
     return [
       {
-        name: options?.name ?? "Authenticate Snyk",
-        id: options?.id ?? "snyk-auth",
+        name: options?.name ?? 'Authenticate Snyk',
+        id: options?.id ?? 'snyk-auth',
         run: this.multiLineCommands([
-          "snyk auth $SNYK_TOKEN",
+          'snyk auth $SNYK_TOKEN',
           `snyk config set org=${options.snykOrgId}`,
         ]),
         env: {
@@ -154,35 +152,35 @@ export class SnykWorkflowSteps extends WorkflowSteps {
         },
       },
     ];
-  };
+  }
 
-  public static runSca = (options?: RunScaOptions): JobStep[] => {
+  public static runSca(options?: RunScaOptions): JobStep[] {
     const severityThreshold =
-      options?.severityThreshold ?? SeverityThreshold.High;
-    const resultPathOutputId = options?.resultPathOutputId ?? "result-path";
-    const args = options?.args ?? "";
+      options?.severityThreshold ?? SeverityThreshold.HIGH;
+    const resultPathOutputId = options?.resultPathOutputId ?? 'result-path';
+    const args = options?.args ?? '';
 
     return [
       {
-        name: options?.name ?? "Run snyk test",
-        id: options?.id ?? "sca-scan",
+        name: options?.name ?? 'Run snyk test',
+        id: options?.id ?? 'sca-scan',
         run: this.multiLineCommands([
-          "RESULT_PATH=${{ github.workspace }}/snyk_sca_result_${{ github.sha }}.json",
+          'RESULT_PATH=${{ github.workspace }}/snyk_sca_result_${{ github.sha }}.json',
           `snyk test --prune-repeated-subdependencies --severity-threshold=${severityThreshold} --json-file-output=$RESULT_PATH ${args}`,
           `echo ${resultPathOutputId}=$RESULT_PATH >> $GITHUB_OUTPUT`,
         ]),
         continueOnError: true,
       },
     ];
-  };
+  }
 
-  public static runSnykScaWithDelta = (
-    options: RunSnykScaWithDeltaOptions
-  ): JobStep[] => {
+  public static runSnykScaWithDelta(
+    options: RunSnykScaWithDeltaOptions,
+  ): JobStep[] {
     const delta = options?.delta ?? true;
     const runScaOptions = {
-      id: "sca-scan",
-      resultPathOutputId: "result-path",
+      id: 'sca-scan',
+      resultPathOutputId: 'result-path',
       ...(options?.runScaOptions ?? {}),
     };
     const steps = [
@@ -196,36 +194,36 @@ export class SnykWorkflowSteps extends WorkflowSteps {
     if (delta) {
       if (
         snykMonitoredProjectId === undefined ||
-        snykMonitoredProjectId === ""
+        snykMonitoredProjectId === ''
       ) {
         throw Error(
-          "snykMonitoredProjectId cannot be undefined or empty when delta is true"
+          'snykMonitoredProjectId cannot be undefined or empty when delta is true',
         );
       }
       const scaScanResultPath = `\${{ steps.${runScaOptions.id}.outputs.${runScaOptions.resultPathOutputId} }}`;
       return [
         ...steps,
         {
-          name: options?.name ?? "Run snyk test with delta",
-          id: options?.id ?? "sca-scan-with-delta",
+          name: options?.name ?? 'Run snyk test with delta',
+          id: options?.id ?? 'sca-scan-with-delta',
           run: `cat ${scaScanResultPath}  | snyk-delta --baselineOrg ${snykOrgId} --baselineProject ${snykMonitoredProjectId} ${
-            debug ? "-d" : ""
+            debug ? '-d' : ''
           }`,
         },
       ];
     }
     return steps;
-  };
+  }
 
-  public static runSnykSast = (options: RunSnykSastOptions): JobStep[] => {
+  public static runSnykSast(options: RunSnykSastOptions): JobStep[] {
     const severityThreshold =
-      options?.severityThreshold ?? SeverityThreshold.High;
+      options?.severityThreshold ?? SeverityThreshold.HIGH;
     const continueOnError = options?.continueOnError ?? true;
     return [
       ...this.authenticateSnyk(options.authenticateSnykOptions),
       {
-        name: options?.name ?? "Run snyk code test",
-        id: options?.id ?? "run-snyk-sast",
+        name: options?.name ?? 'Run snyk code test',
+        id: options?.id ?? 'run-snyk-sast',
         run: this.multiLineCommands([
           "SHA=$(git log -1 '--format=format:%H')",
           'RESULT_PATH="${{ github.workspace }}/snyk_code_result_$SHA.json"',
@@ -235,19 +233,19 @@ export class SnykWorkflowSteps extends WorkflowSteps {
         continueOnError: continueOnError,
       },
     ];
-  };
+  }
 
-  public static runSnykPrDiff = (options: RunSnykPrDiffOptions): JobStep[] => {
+  public static runSnykPrDiff(options: RunSnykPrDiffOptions): JobStep[] {
     const continueOnError = options?.continueOnError ?? true;
     return [
       {
-        name: options?.name ?? "Run snyk-code-pr-diff",
-        id: options?.id ?? "run-snyk-code-pr-diff",
+        name: options?.name ?? 'Run snyk-code-pr-diff',
+        id: options?.id ?? 'run-snyk-code-pr-diff',
         run: `snyk-pr-diff code ${options.snykCodeBaselinePath} ${options.snykCodeCurrentPath}`,
         continueOnError: continueOnError,
       },
     ];
-  };
+  }
 }
 
 export interface SetupNodeOptions extends JobStepConfiguration {
@@ -306,11 +304,9 @@ export interface RunSnykScaWithDeltaOptions extends JobStepConfiguration {
 export interface RunSnykSastOptions extends JobStepConfiguration {
   readonly authenticateSnykOptions: AuthenticateSnykOptions;
   readonly severityThreshold?: string;
-  readonly continueOnError?: boolean;
 }
 
 export interface RunSnykPrDiffOptions extends JobStepConfiguration {
   readonly snykCodeBaselinePath: string;
   readonly snykCodeCurrentPath: string;
-  readonly continueOnError?: boolean;
 }

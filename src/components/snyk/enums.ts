@@ -1,6 +1,6 @@
 export enum SeverityThreshold {
-  Low = "low",
-  Medium = "medium",
-  High = "high",
-  Critical = "critical",
+  LOW = 'low',
+  MEDIUM = 'medium',
+  HIGH = 'high',
+  CRITICAL = 'critical',
 }

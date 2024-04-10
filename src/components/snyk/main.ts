@@ -1,13 +1,13 @@
-import { Component, javascript, python, java, cdk } from "projen";
-import * as constants from "../../constants";
-import { Envrc } from "../envrc";
-import { SeverityThreshold } from "./enums"
+import { Component, javascript, python, java, cdk } from 'projen';
+import { SeverityThreshold } from './enums';
+import { SnykSastWorkflowOptions, SnykSastWorkflow } from './sast-workflow';
+import { SnykScaWorkflowOptions, SnykScaWorkflow } from './sca-workflow';
 import {
   SecurityScanWorkflow,
   SecurityScanWorkflowOptions,
-} from "./security-scan-workflow";
-import { SnykScaWorkflowOptions, SnykScaWorkflow } from "./sca-workflow";
-import { SnykSastWorkflowOptions, SnykSastWorkflow } from "./sast-workflow";
+} from './security-scan-workflow';
+import * as constants from '../../constants';
+import { Envrc } from '../envrc';
 
 export interface SnykComponentOptions {
   readonly snykOrgId: string;
@@ -28,38 +28,38 @@ export class SnykComponent extends Component {
 
   constructor(
     project:
-      | javascript.NodeProject
-      | python.PythonProject
-      | java.JavaProject
-      | cdk.JsiiProject,
-    options: SnykComponentOptions
+    | javascript.NodeProject
+    | python.PythonProject
+    | java.JavaProject
+    | cdk.JsiiProject,
+    options: SnykComponentOptions,
   ) {
     super(project);
-    this.snykWorkflowName = options?.workflowName ?? "snyk-scans";
+    this.snykWorkflowName = options?.workflowName ?? 'snyk-scans';
     this.enableSca = options?.enableSca ?? true;
     this.enableSast = options?.enableSast ?? true;
 
-    new Envrc(project, ".envrc");
-    project.gitignore.exclude(".bin/");
+    new Envrc(project, '.envrc');
+    project.gitignore.exclude('.bin/');
 
-    const installSnykTask = project.addTask("install:snyk");
-    installSnykTask.exec("mkdir -p .bin");
-    installSnykTask.exec("yarn global add snyk snyk-delta");
+    const installSnykTask = project.addTask('install:snyk');
+    installSnykTask.exec('mkdir -p .bin');
+    installSnykTask.exec('yarn global add snyk snyk-delta');
     installSnykTask.exec(
-      `wget -O ./.bin/snyk-pr-diff https://github.com/snyk-playground/cx-tools/raw/${constants.DEFAULT_SNYK_PR_DIFF_VERSION}`
+      `wget -O ./.bin/snyk-pr-diff https://github.com/snyk-playground/cx-tools/raw/${constants.DEFAULT_SNYK_PR_DIFF_VERSION}`,
     );
-    installSnykTask.exec("chmod +x ./.bin/snyk-pr-diff");
+    installSnykTask.exec('chmod +x ./.bin/snyk-pr-diff');
 
-    project.addTask("sca", {
+    project.addTask('sca', {
       receiveArgs: true,
-      exec: `snyk test --prune-repeated-subdependencies --severity-threshold=${SeverityThreshold.High}`,
+      exec: `snyk test --prune-repeated-subdependencies --severity-threshold=${SeverityThreshold.HIGH}`,
     });
 
     if (this.enableSca || this.enableSast) {
       const securityWorkflow: SecurityScanWorkflow = new SecurityScanWorkflow(
         project,
         this.snykWorkflowName,
-        {}
+        {},
       );
       if (this.enableSca) {
         const snykScaWorkflowOptions: SnykScaWorkflowOptions = {
@@ -68,24 +68,24 @@ export class SnykComponent extends Component {
             snykMonitoredProjectId: options.snykMonitoredProjectId,
             authenticateSnykOptions: {
               snykOrgId: options.snykOrgId,
-            }
+            },
           },
           ...options?.snykScaWorkflowOptions,
         };
         const snykScaWorkflow = new SnykScaWorkflow(
           project,
-          snykScaWorkflowOptions
+          snykScaWorkflowOptions,
         );
         const snykScaWorkflowPath = snykScaWorkflow?.workflow?.file?.path;
 
         if (snykScaWorkflowPath === undefined) {
           throw Error(
-            "SnykSca workflow file was not created successfully. Unable to add snyk sca job in the main workflow"
+            'SnykSca workflow file was not created successfully. Unable to add snyk sca job in the main workflow',
           );
         }
 
         // call sca workflow from the main workflow
-        securityWorkflow.callReusableWorkflow("run-sca", snykScaWorkflowPath);
+        securityWorkflow.callReusableWorkflow('run-sca', snykScaWorkflowPath);
       }
       if (this.enableSast) {
         const snykSastWorkflowOptions: SnykSastWorkflowOptions = {
@@ -94,17 +94,17 @@ export class SnykComponent extends Component {
         };
         const snykSastWorkflow = new SnykSastWorkflow(
           project,
-          snykSastWorkflowOptions
+          snykSastWorkflowOptions,
         );
         const snykSastWorkflowPath = snykSastWorkflow?.workflow?.file?.path;
 
         if (snykSastWorkflowPath === undefined) {
           throw Error(
-            "Snyk SAST workflow file was not created successfully. Unable to add snyk sast job in the main workflow"
+            'Snyk SAST workflow file was not created successfully. Unable to add snyk sast job in the main workflow',
           );
         }
         // call sast workflow from the main workflow
-        securityWorkflow.callReusableWorkflow("run-sast", snykSastWorkflowPath);
+        securityWorkflow.callReusableWorkflow('run-sast', snykSastWorkflowPath);
       }
     }
   }

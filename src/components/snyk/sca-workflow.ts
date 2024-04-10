@@ -5,11 +5,11 @@ import {
   python,
   java,
   cdk,
-} from "projen";
-import { GithubWorkflow } from "projen/lib/github";
-import { JobPermission } from "projen/lib/github/workflows-model";
-import { RunSnykScaWithDeltaOptions, SnykWorkflowSteps } from "./steps";
-import { SnykReusableWorkflowOptions } from "./snyk-reusable-workflow-options";
+} from 'projen';
+import { GithubWorkflow } from 'projen/lib/github';
+import { JobPermission } from 'projen/lib/github/workflows-model';
+import { SnykReusableWorkflowOptions } from './snyk-reusable-workflow-options';
+import { RunSnykScaWithDeltaOptions, SnykWorkflowSteps } from './steps';
 
 export interface SnykScaWorkflowOptions extends SnykReusableWorkflowOptions {
   readonly runSnykScaWithDeltaOptions: RunSnykScaWithDeltaOptions;
@@ -21,11 +21,11 @@ export class SnykScaWorkflow extends Component {
 
   constructor(
     project:
-      | javascript.NodeProject
-      | python.PythonProject
-      | java.JavaProject
-      | cdk.JsiiProject,
-    options: SnykScaWorkflowOptions
+    | javascript.NodeProject
+    | python.PythonProject
+    | java.JavaProject
+    | cdk.JsiiProject,
+    options: SnykScaWorkflowOptions,
   ) {
     super(project);
 
@@ -33,14 +33,14 @@ export class SnykScaWorkflow extends Component {
       return;
     }
 
-    const workflowName = options.workflowName ?? "snyk-sca";
-    const jobName: string = options?.jobOptions?.name ?? "sca-scan";
+    const workflowName = options.workflowName ?? 'snyk-sca';
+    const jobName: string = options?.jobOptions?.name ?? 'sca-scan';
 
     project.logger.info(`📝 Generating ${workflowName} workflow...`);
     this.workflow = new GithubWorkflow(
       project.github,
       workflowName,
-      options.workflowOptions
+      options.workflowOptions,
     );
     this.workflow.on({
       workflowCall: {},
@@ -61,7 +61,7 @@ export class SnykScaWorkflow extends Component {
       ...(options.jobOptions ?? {}),
       ...filteredRunsOnOptions(
         options?.jobOptions?.runsOn,
-        options?.jobOptions?.runsOnGroup
+        options?.jobOptions?.runsOnGroup,
       ),
     });
 

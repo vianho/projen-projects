@@ -1,15 +1,15 @@
-import { Component, javascript, python, java, cdk } from "projen";
-import { GithubWorkflow, GithubWorkflowOptions } from "projen/lib/github";
+import { Component, javascript, python, java, cdk } from 'projen';
+import { GithubWorkflow, GithubWorkflowOptions } from 'projen/lib/github';
 import {
   JobCallingReusableWorkflow,
   JobPermission,
   JobPermissions,
   Triggers,
-} from "projen/lib/github/workflows-model";
+} from 'projen/lib/github/workflows-model';
 
 export interface SecurityScanWorkflowOptions {
-  triggersOptions?: Triggers;
-  workflowOptions?: GithubWorkflowOptions;
+  readonly triggersOptions?: Triggers;
+  readonly workflowOptions?: GithubWorkflowOptions;
 }
 
 export class SecurityScanWorkflow extends Component {
@@ -17,12 +17,12 @@ export class SecurityScanWorkflow extends Component {
 
   constructor(
     project:
-      | javascript.NodeProject
-      | python.PythonProject
-      | java.JavaProject
-      | cdk.JsiiProject,
+    | javascript.NodeProject
+    | python.PythonProject
+    | java.JavaProject
+    | cdk.JsiiProject,
     name: string,
-    options?: SecurityScanWorkflowOptions
+    options?: SecurityScanWorkflowOptions,
   ) {
     super(project);
 
@@ -32,7 +32,7 @@ export class SecurityScanWorkflow extends Component {
 
     const triggers: Triggers = options?.triggersOptions ?? {
       push: {
-        branches: ["main"],
+        branches: ['main'],
       },
       workflowDispatch: {},
     };
@@ -40,7 +40,7 @@ export class SecurityScanWorkflow extends Component {
     this.workflow = new GithubWorkflow(
       project.github,
       name,
-      options?.workflowOptions
+      options?.workflowOptions,
     );
     this.workflow.on(triggers);
   }
