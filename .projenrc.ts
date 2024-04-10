@@ -1,12 +1,16 @@
-import { typescript } from 'projen';
-const project = new typescript.TypeScriptProject({
-  defaultReleaseBranch: 'main',
-  name: 'ts-project',
-  projenrcTs: true,
+import { JSIIProject } from "./src/projects";
 
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+const project = new JSIIProject({
+  defaultReleaseBranch: "main",
+  name: "projen-projects",
+  projenrcTs: true,
+  repositoryUrl: "https://github.com/vianho/projen-projects",
+  author: "Silviana",
+  authorAddress: "email@example.com",
+  snykOptions: {
+    snykOrgId: "vianho",
+    snykMonitoredProjectId: "a93b3425-3b4b-4218-b1b1-a67887c0591d",
+  },
 });
+
 project.synth();

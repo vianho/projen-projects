@@ -30,7 +30,6 @@ jspm_packages/
 *.tgz
 .yarn-integrity
 .cache
-!/.projenrc.js
 /test-reports/
 junit.xml
 /coverage/
@@ -42,9 +41,17 @@ junit.xml
 !/.github/workflows/upgrade-main.yml
 !/.github/pull_request_template.md
 !/test/
-!/tsconfig.json
 !/tsconfig.dev.json
 !/src/
 /lib
 /dist/
 !/.eslintrc.json
+.jsii
+tsconfig.json
+!/API.md
+!/.envrc
+.bin/
+!/.github/workflows/snyk-scans.yml
+!/.github/workflows/snyk-sca.yml
+!/.github/workflows/snyk-sast.yml
+!/.projenrc.ts
