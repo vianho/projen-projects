@@ -146,7 +146,6 @@ jobs:
         run: mv .repo/dist dist
       - name: Release
         env:
-          TWINE_REPOSITORY_URL: https://test.pypi.org/legacy/
           TWINE_USERNAME: ${{ secrets.TWINE_USERNAME }}
           TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
         run: npx -p publib@latest publib-pypi

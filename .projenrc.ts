@@ -21,7 +21,6 @@ const project = new JSIIProject({
   publishToPypi: {
     distName: 'apidays24pj',
     module: 'apidays24pj',
-    twineRegistryUrl: 'https://test.pypi.org/legacy/',
   },
   sampleCode: false,
 });
