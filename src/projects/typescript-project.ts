@@ -3,7 +3,7 @@ import { SnykComponent, SnykComponentOptions } from '../components/snyk';
 
 export interface TypescriptProjectOptions
   extends typescript.TypeScriptProjectOptions {
-  readonly snykOptions: SnykComponentOptions;
+  readonly snykOptions?: SnykComponentOptions;
 }
 
 /**
@@ -16,7 +16,8 @@ export class TypescriptProject extends typescript.TypeScriptProject {
       ...options,
     });
 
-    new SnykComponent(this, options.snykOptions);
+    new SnykComponent(this, options?.snykOptions ?? {});
+    this.npmignore?.include('dist');
     this.npmignore?.exclude('.bin');
   }
 }

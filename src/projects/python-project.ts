@@ -2,12 +2,12 @@ import { python } from 'projen';
 import { SnykComponent, SnykComponentOptions } from '../components/snyk';
 
 export interface PythonProjectOptions extends python.PythonProjectOptions {
-  readonly snykOptions: SnykComponentOptions;
+  readonly snykOptions?: SnykComponentOptions;
 }
 
 /**
  * Python project
- * @pjid python
+ * @pjid py
  */
 export class PythonProject extends python.PythonProject {
   constructor(options: PythonProjectOptions) {
@@ -15,6 +15,6 @@ export class PythonProject extends python.PythonProject {
       ...options,
     });
 
-    new SnykComponent(this, options.snykOptions);
+    new SnykComponent(this, options?.snykOptions ?? {});
   }
 }

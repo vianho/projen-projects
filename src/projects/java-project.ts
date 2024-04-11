@@ -2,7 +2,7 @@ import { java } from 'projen';
 import { SnykComponent, SnykComponentOptions } from '../components/snyk';
 
 export interface JavaProjectOptions extends java.JavaProjectOptions {
-  readonly snykOptions: SnykComponentOptions;
+  readonly snykOptions?: SnykComponentOptions;
 }
 
 /**
@@ -15,6 +15,6 @@ export class JavaProject extends java.JavaProject {
       ...options,
     });
 
-    new SnykComponent(this, options.snykOptions);
+    new SnykComponent(this, options?.snykOptions ?? {});
   }
 }
