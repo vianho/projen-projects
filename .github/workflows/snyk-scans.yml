@@ -11,7 +11,9 @@ jobs:
     permissions:
       contents: read
     uses: ./.github/workflows/snyk-sca.yml
+    secrets: inherit
   run-sast:
     permissions:
       contents: read
     uses: ./.github/workflows/snyk-sast.yml
+    secrets: inherit

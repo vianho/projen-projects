@@ -52,6 +52,7 @@ export class SecurityScanWorkflow extends Component {
     const jobCallingReusableWorkflow: JobCallingReusableWorkflow = {
       uses: path,
       permissions: jobPermissions,
+      secrets: 'inherit',
     };
 
     this.workflow?.addJob(id, jobCallingReusableWorkflow);
