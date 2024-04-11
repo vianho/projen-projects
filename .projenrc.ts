@@ -3,7 +3,7 @@ import { JSIIProject } from './src/projects';
 
 const project = new JSIIProject({
   defaultReleaseBranch: 'main',
-  name: '@vianho/apidays24pj',
+  name: 'apidays24pj',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/vianho/projen-projects',
   author: 'Silviana',

@@ -1,5 +1,5 @@
 {
-  "name": "@vianho/apidays24pj",
+  "name": "apidays24pj",
   "repository": {
     "type": "git",
     "url": "https://github.com/vianho/projen-projects"
