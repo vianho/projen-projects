@@ -9,7 +9,7 @@ jobs:
     name: Run SAST Scan with Snyk
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: read
+      contents: read
     steps:
       - name: Setup node 20
         id: setup-node20

@@ -137,13 +137,13 @@ export class SnykSastWorkflow extends Component {
     this.workflow.addJob(jobId, {
       name: jobName,
       permissions: options?.jobOptions?.permissions ?? {
-        pullRequests: JobPermission.READ,
+        contents: JobPermission.READ,
       },
       steps: [
         ...SnykWorkflowSteps.setupNode(options?.setupNodeOptions ?? {}),
         ...SnykWorkflowSteps.installSnyk(options?.installSnykOptions ?? {}),
         ...SnykWorkflowSteps.installSnykPrDiff(
-          options?.installSnykPrDiffOptions ?? {},
+          options?.installSnykPrDiffOptions ?? {}
         ),
         ...(options?.delta ? runBaselineScanSteps : []),
         SnykWorkflowSteps.checkout(checkoutCurrentOptions),
@@ -153,7 +153,7 @@ export class SnykSastWorkflow extends Component {
       ...(options?.jobOptions ?? {}),
       ...filteredRunsOnOptions(
         options?.jobOptions?.runsOn,
-        options?.jobOptions?.runsOnGroup,
+        options?.jobOptions?.runsOnGroup
       ),
     });
     project.logger.info(`✅ Done generating ${workflowName} workflow...`);
