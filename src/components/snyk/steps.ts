@@ -60,7 +60,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
       id: 'cache-npmg',
       with: {
         path: `\${{ steps.${getNpmRootJobId}.outputs.path }}`,
-        key: '${{ runner.os }}-npm-global-snyk-${{ hashFiles(".projenrc.ts") }}',
+        key: '${{ runner.os }}-npm-global-snyk-${{ hashFiles(\'.projenrc.ts\') }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
