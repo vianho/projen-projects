@@ -1,6 +1,7 @@
 import { GithubCredentials } from 'projen/lib/github';
 import * as constants from './src/constants';
 import { JSIIProject } from './src/projects';
+import { NpmAccess } from "projen/lib/javascript";
 
 const project = new JSIIProject({
   defaultReleaseBranch: 'main',
@@ -9,6 +10,7 @@ const project = new JSIIProject({
   repositoryUrl: 'https://github.com/vianho/projen-projects',
   author: 'Silviana',
   authorAddress: 'email@example.com',
+  npmAccess: NpmAccess.PUBLIC,
   githubOptions: {
     projenCredentials: GithubCredentials.fromApp(),
   },
