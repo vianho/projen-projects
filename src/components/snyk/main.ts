@@ -8,6 +8,7 @@ import {
 } from './security-scan-workflow';
 import { AuthenticateSnykOptions } from './steps';
 import * as constants from '../../constants';
+import { getRepoNameFromGitConfig } from '../../utils';
 import { Envrc } from '../envrc';
 
 export interface SnykComponentOptions {
@@ -69,6 +70,7 @@ export class SnykComponent extends Component {
         this.snykWorkflowName,
         {},
       );
+      const repoName:string = getRepoNameFromGitConfig(process.cwd());
       if (this.enableSca) {
         const snykScaWorkflowOptions: SnykScaWorkflowOptions = {
           runSnykScaWithDeltaOptions: {
@@ -81,16 +83,17 @@ export class SnykComponent extends Component {
           project,
           snykScaWorkflowOptions,
         );
-        const snykScaWorkflowPath = snykScaWorkflow?.workflow?.file?.path;
+        const relativeWorkflowPath = snykScaWorkflow?.workflow?.file?.path;
 
-        if (snykScaWorkflowPath === undefined) {
+        if (relativeWorkflowPath === undefined) {
           throw Error(
             'SnykSca workflow file was not created successfully. Unable to add snyk sca job in the main workflow',
           );
         }
 
         // call sca workflow from the main workflow
-        securityWorkflow.callReusableWorkflow('run-sca', snykScaWorkflowPath);
+        const reusableWorkflowPath = repoName + '/' + relativeWorkflowPath;
+        securityWorkflow.callReusableWorkflow('run-sca', reusableWorkflowPath);
       }
       if (this.enableSast) {
         const snykSastWorkflowOptions: SnykSastWorkflowOptions = {
@@ -101,15 +104,16 @@ export class SnykComponent extends Component {
           project,
           snykSastWorkflowOptions,
         );
-        const snykSastWorkflowPath = snykSastWorkflow?.workflow?.file?.path;
+        const relativeWorkflowPath = snykSastWorkflow?.workflow?.file?.path;
 
-        if (snykSastWorkflowPath === undefined) {
+        if (relativeWorkflowPath === undefined) {
           throw Error(
             'Snyk SAST workflow file was not created successfully. Unable to add snyk sast job in the main workflow',
           );
         }
         // call sast workflow from the main workflow
-        securityWorkflow.callReusableWorkflow('run-sast', snykSastWorkflowPath);
+        const reusableWorkflowPath = repoName + '/' + relativeWorkflowPath;
+        securityWorkflow.callReusableWorkflow('run-sast', reusableWorkflowPath);
       }
     }
   }

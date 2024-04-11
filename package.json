@@ -1,5 +1,5 @@
 {
-  "name": "apidays24-sg-pj",
+  "name": "@vianho/apidays24pj",
   "repository": {
     "type": "git",
     "url": "https://github.com/vianho/projen-projects"
@@ -118,8 +118,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "projen-projects",
-        "module": "projen-projects"
+        "distName": "apidays24pj",
+        "module": "apidays24pj"
       }
     },
     "tsc": {

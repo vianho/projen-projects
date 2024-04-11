@@ -10,8 +10,8 @@ jobs:
   run-sca:
     permissions:
       contents: read
-    uses: .github/workflows/snyk-sca.yml
+    uses: vianho/projen-projects/.github/workflows/snyk-sca.yml
   run-sast:
     permissions:
       contents: read
-    uses: .github/workflows/snyk-sast.yml
+    uses: vianho/projen-projects/.github/workflows/snyk-sast.yml

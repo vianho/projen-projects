@@ -3,7 +3,7 @@ import { JSIIProject } from './src/projects';
 
 const project = new JSIIProject({
   defaultReleaseBranch: 'main',
-  name: 'apidays24-sg-pj',
+  name: '@vianho/apidays24pj',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/vianho/projen-projects',
   author: 'Silviana',
@@ -19,8 +19,8 @@ const project = new JSIIProject({
   devDeps: ['constructs', 'projen'],
   npmRegistryUrl: 'https://npm.pkg.github.com',
   publishToPypi: {
-    distName: 'projen-projects',
-    module: 'projen-projects',
+    distName: 'apidays24pj',
+    module: 'apidays24pj',
   },
 });
 
