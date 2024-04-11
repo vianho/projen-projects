@@ -22,6 +22,7 @@ const project = new JSIIProject({
     distName: 'apidays24pj',
     module: 'apidays24pj',
   },
+  sampleCode: false,
 });
 
 project.synth();
