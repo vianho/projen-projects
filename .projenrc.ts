@@ -1,4 +1,5 @@
 import { GithubCredentials } from 'projen/lib/github';
+import * as constants from './src/constants';
 import { JSIIProject } from './src/projects';
 
 const project = new JSIIProject({
@@ -19,8 +20,8 @@ const project = new JSIIProject({
   devDeps: ['constructs', 'projen'],
   npmRegistryUrl: 'https://npm.pkg.github.com',
   publishToPypi: {
-    distName: 'apidays24pj',
-    module: 'apidays24pj',
+    distName: constants.DEFAULT_PYPI_PACKAGE_NAME,
+    module: constants.DEFAULT_PYPI_PACKAGE_NAME,
   },
   sampleCode: false,
 });

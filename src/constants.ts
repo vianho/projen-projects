@@ -5,3 +5,5 @@ export const DEFAULT_SNYK_PR_DIFF_VERSION =
 export const DEFAULT_SNYK_TOKEN = '${{ secrets.SNYK_TOKEN }}';
 export const DEFAULT_SNYK_ORG = 'vianho';
 export const DEFAULT_SNYK_MONITORED_PROJECT_ID = 'replace-me-uuid';
+export const DEFAULT_NPM_PACKAGE_NAME = '@vianho/apidays24pj';
+export const DEFAULT_PYPI_PACKAGE_NAME = 'apidays24pj';
