@@ -18,7 +18,6 @@ const project = new JSIIProject({
   },
   peerDeps: ['constructs', 'projen'],
   devDeps: ['constructs', 'projen'],
-  npmRegistryUrl: 'https://npm.pkg.github.com',
   publishToPypi: {
     distName: constants.DEFAULT_PYPI_PACKAGE_NAME,
     module: constants.DEFAULT_PYPI_PACKAGE_NAME,
