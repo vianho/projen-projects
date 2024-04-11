@@ -52,8 +52,8 @@ export class SnykWorkflowSteps extends WorkflowSteps {
     const cache = options?.cache ?? true;
     const name = options?.name ?? 'Install snyk and snyk-delta';
     const id = options?.id ?? 'install-snyk';
-    const snykVersion = options?.snykVersion ?? constants;
-    const snykDeltaVersion = options?.snykDeltaVersion ?? constants;
+    const snykVersion = options?.snykVersion ?? constants.DEFAULT_SNYK_VERSION;
+    const snykDeltaVersion = options?.snykDeltaVersion ?? constants.DEFAULT_SNYK_DELTA_VERSION;
     const getNpmRootJobId: string = 'get-npm-root';
     const createCacheOptions: CreateCacheOptions = {
       name: 'Cache global npm folder',

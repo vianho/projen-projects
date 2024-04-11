@@ -35,7 +35,7 @@ jobs:
       - name: Install snyk and snyk-delta
         id: install-snyk
         if: steps.cache-npmg.outputs.cache-hit != 'true'
-        run: npm i -g snyk@[object Object] snyk-delta@[object Object]
+        run: npm i -g snyk@1.1256.0 snyk-delta@1.12.0
       - name: Authenticate Snyk
         id: snyk-auth
         env:
