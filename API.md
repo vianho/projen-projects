@@ -2,39 +2,39 @@
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
 
-### Envrc <a name="Envrc" id="projen-projects.Envrc"></a>
+### Envrc <a name="Envrc" id="apidays24-sg-pj.Envrc"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.Envrc.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.Envrc.Initializer"></a>
 
 ```typescript
-import { Envrc } from 'projen-projects'
+import { Envrc } from 'apidays24-sg-pj'
 
 new Envrc(project: Project, filePath: string, options?: EnvrcOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.Envrc.Initializer.parameter.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.Envrc.Initializer.parameter.filePath">filePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.Envrc.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.EnvrcOptions">EnvrcOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.Envrc.Initializer.parameter.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.Envrc.Initializer.parameter.filePath">filePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.Envrc.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.EnvrcOptions">EnvrcOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.Envrc.Initializer.parameter.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.Envrc.Initializer.parameter.project"></a>
 
 - *Type:* projen.Project
 
 ---
 
-##### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.Envrc.Initializer.parameter.filePath"></a>
+##### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.Envrc.Initializer.parameter.filePath"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Optional</sup> <a name="options" id="projen-projects.Envrc.Initializer.parameter.options"></a>
+##### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.Envrc.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.EnvrcOptions">EnvrcOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.EnvrcOptions">EnvrcOptions</a>
 
 ---
 
@@ -42,14 +42,14 @@ new Envrc(project: Project, filePath: string, options?: EnvrcOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.Envrc.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.Envrc.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
-| <code><a href="#projen-projects.Envrc.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
-| <code><a href="#projen-projects.Envrc.synthesize">synthesize</a></code> | Writes the file to the project's output directory. |
+| <code><a href="#apidays24-sg-pj.Envrc.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.Envrc.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
+| <code><a href="#apidays24-sg-pj.Envrc.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
+| <code><a href="#apidays24-sg-pj.Envrc.synthesize">synthesize</a></code> | Writes the file to the project's output directory. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.Envrc.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.Envrc.toString"></a>
 
 ```typescript
 public toString(): string
@@ -57,7 +57,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.Envrc.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.Envrc.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -67,7 +67,7 @@ Called after synthesis.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.Envrc.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.Envrc.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -75,7 +75,7 @@ public preSynthesize(): void
 
 Called before synthesis.
 
-##### `synthesize` <a name="synthesize" id="projen-projects.Envrc.synthesize"></a>
+##### `synthesize` <a name="synthesize" id="apidays24-sg-pj.Envrc.synthesize"></a>
 
 ```typescript
 public synthesize(): void
@@ -87,15 +87,15 @@ Writes the file to the project's output directory.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.Envrc.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.Envrc.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
+| <code><a href="#apidays24-sg-pj.Envrc.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.Envrc.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.Envrc.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.Envrc.isConstruct"></a>
 
 ```typescript
-import { Envrc } from 'projen-projects'
+import { Envrc } from 'apidays24-sg-pj'
 
 Envrc.isConstruct(x: any)
 ```
@@ -116,7 +116,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.Envrc.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.Envrc.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -124,17 +124,17 @@ Any object.
 
 ---
 
-##### `isComponent` <a name="isComponent" id="projen-projects.Envrc.isComponent"></a>
+##### `isComponent` <a name="isComponent" id="apidays24-sg-pj.Envrc.isComponent"></a>
 
 ```typescript
-import { Envrc } from 'projen-projects'
+import { Envrc } from 'apidays24-sg-pj'
 
 Envrc.isComponent(x: any)
 ```
 
 Test whether the given construct is a component.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.Envrc.isComponent.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.Envrc.isComponent.parameter.x"></a>
 
 - *Type:* any
 
@@ -144,18 +144,18 @@ Test whether the given construct is a component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.Envrc.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.Envrc.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.Envrc.property.absolutePath">absolutePath</a></code> | <code>string</code> | The absolute path of this file. |
-| <code><a href="#projen-projects.Envrc.property.path">path</a></code> | <code>string</code> | The file path, relative to the project's outdir. |
-| <code><a href="#projen-projects.Envrc.property.changed">changed</a></code> | <code>boolean</code> | Indicates if the file has been changed during synthesis. |
-| <code><a href="#projen-projects.Envrc.property.marker">marker</a></code> | <code>string</code> | The projen marker, used to identify files as projen-generated. |
-| <code><a href="#projen-projects.Envrc.property.executable">executable</a></code> | <code>boolean</code> | Indicates if the file should be marked as executable. |
-| <code><a href="#projen-projects.Envrc.property.readonly">readonly</a></code> | <code>boolean</code> | Indicates if the file should be read-only or read-write. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.Envrc.property.absolutePath">absolutePath</a></code> | <code>string</code> | The absolute path of this file. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.path">path</a></code> | <code>string</code> | The file path, relative to the project's outdir. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.changed">changed</a></code> | <code>boolean</code> | Indicates if the file has been changed during synthesis. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.marker">marker</a></code> | <code>string</code> | The projen marker, used to identify files as projen-generated. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.executable">executable</a></code> | <code>boolean</code> | Indicates if the file should be marked as executable. |
+| <code><a href="#apidays24-sg-pj.Envrc.property.readonly">readonly</a></code> | <code>boolean</code> | Indicates if the file should be read-only or read-write. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.Envrc.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.Envrc.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -167,7 +167,7 @@ The tree node.
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.Envrc.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.Envrc.property.project"></a>
 
 ```typescript
 public readonly project: Project;
@@ -177,7 +177,7 @@ public readonly project: Project;
 
 ---
 
-##### `absolutePath`<sup>Required</sup> <a name="absolutePath" id="projen-projects.Envrc.property.absolutePath"></a>
+##### `absolutePath`<sup>Required</sup> <a name="absolutePath" id="apidays24-sg-pj.Envrc.property.absolutePath"></a>
 
 ```typescript
 public readonly absolutePath: string;
@@ -189,7 +189,7 @@ The absolute path of this file.
 
 ---
 
-##### `path`<sup>Required</sup> <a name="path" id="projen-projects.Envrc.property.path"></a>
+##### `path`<sup>Required</sup> <a name="path" id="apidays24-sg-pj.Envrc.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -201,7 +201,7 @@ The file path, relative to the project's outdir.
 
 ---
 
-##### `changed`<sup>Optional</sup> <a name="changed" id="projen-projects.Envrc.property.changed"></a>
+##### `changed`<sup>Optional</sup> <a name="changed" id="apidays24-sg-pj.Envrc.property.changed"></a>
 
 ```typescript
 public readonly changed: boolean;
@@ -217,7 +217,7 @@ file has not been synthesized yet.
 
 ---
 
-##### `marker`<sup>Optional</sup> <a name="marker" id="projen-projects.Envrc.property.marker"></a>
+##### `marker`<sup>Optional</sup> <a name="marker" id="apidays24-sg-pj.Envrc.property.marker"></a>
 
 ```typescript
 public readonly marker: string;
@@ -231,7 +231,7 @@ Value is undefined if the project is being ejected.
 
 ---
 
-##### `executable`<sup>Required</sup> <a name="executable" id="projen-projects.Envrc.property.executable"></a>
+##### `executable`<sup>Required</sup> <a name="executable" id="apidays24-sg-pj.Envrc.property.executable"></a>
 
 ```typescript
 public readonly executable: boolean;
@@ -243,7 +243,7 @@ Indicates if the file should be marked as executable.
 
 ---
 
-##### `readonly`<sup>Required</sup> <a name="readonly" id="projen-projects.Envrc.property.readonly"></a>
+##### `readonly`<sup>Required</sup> <a name="readonly" id="apidays24-sg-pj.Envrc.property.readonly"></a>
 
 ```typescript
 public readonly readonly: boolean;
@@ -256,27 +256,27 @@ Indicates if the file should be read-only or read-write.
 ---
 
 
-### JavaProject <a name="JavaProject" id="projen-projects.JavaProject"></a>
+### JavaProject <a name="JavaProject" id="apidays24-sg-pj.JavaProject"></a>
 
 Java project.
 
-#### Initializers <a name="Initializers" id="projen-projects.JavaProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.JavaProject.Initializer"></a>
 
 ```typescript
-import { JavaProject } from 'projen-projects'
+import { JavaProject } from 'apidays24-sg-pj'
 
 new JavaProject(options: JavaProjectOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JavaProject.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.JavaProjectOptions">JavaProjectOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.JavaProjectOptions">JavaProjectOptions</a></code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.JavaProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.JavaProject.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.JavaProjectOptions">JavaProjectOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.JavaProjectOptions">JavaProjectOptions</a>
 
 ---
 
@@ -284,29 +284,29 @@ new JavaProject(options: JavaProjectOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.JavaProject.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.JavaProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#projen-projects.JavaProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#projen-projects.JavaProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
-| <code><a href="#projen-projects.JavaProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#projen-projects.JavaProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#projen-projects.JavaProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#projen-projects.JavaProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#projen-projects.JavaProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#projen-projects.JavaProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#projen-projects.JavaProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#projen-projects.JavaProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#projen-projects.JavaProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#projen-projects.JavaProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#projen-projects.JavaProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#projen-projects.JavaProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#projen-projects.JavaProject.addDependency">addDependency</a></code> | Adds a runtime dependency. |
-| <code><a href="#projen-projects.JavaProject.addPlugin">addPlugin</a></code> | Adds a build plugin to the pom. |
-| <code><a href="#projen-projects.JavaProject.addTestDependency">addTestDependency</a></code> | Adds a test dependency. |
+| <code><a href="#apidays24-sg-pj.JavaProject.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#apidays24-sg-pj.JavaProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#apidays24-sg-pj.JavaProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.JavaProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.JavaProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#apidays24-sg-pj.JavaProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#apidays24-sg-pj.JavaProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#apidays24-sg-pj.JavaProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#apidays24-sg-pj.JavaProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#apidays24-sg-pj.JavaProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addDependency">addDependency</a></code> | Adds a runtime dependency. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addPlugin">addPlugin</a></code> | Adds a build plugin to the pom. |
+| <code><a href="#apidays24-sg-pj.JavaProject.addTestDependency">addTestDependency</a></code> | Adds a test dependency. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.JavaProject.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.JavaProject.toString"></a>
 
 ```typescript
 public toString(): string
@@ -314,7 +314,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-projects.JavaProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="apidays24-sg-pj.JavaProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -325,7 +325,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="projen-projects.JavaProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="apidays24-sg-pj.JavaProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -333,7 +333,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="projen-projects.JavaProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="apidays24-sg-pj.JavaProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -341,7 +341,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.JavaProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.JavaProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -349,7 +349,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-projects.JavaProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="apidays24-sg-pj.JavaProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(_pattern: string): void
@@ -360,7 +360,7 @@ Exclude these files from the bundled package.
 Implemented by project types based on the
 packaging mechanism. For example, `NodeProject` delegates this to `.npmignore`.
 
-###### `_pattern`<sup>Required</sup> <a name="_pattern" id="projen-projects.JavaProject.addPackageIgnore.parameter._pattern"></a>
+###### `_pattern`<sup>Required</sup> <a name="_pattern" id="apidays24-sg-pj.JavaProject.addPackageIgnore.parameter._pattern"></a>
 
 - *Type:* string
 
@@ -368,7 +368,7 @@ The glob pattern to exclude.
 
 ---
 
-##### `addTask` <a name="addTask" id="projen-projects.JavaProject.addTask"></a>
+##### `addTask` <a name="addTask" id="apidays24-sg-pj.JavaProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -379,7 +379,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JavaProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JavaProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -387,7 +387,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="projen-projects.JavaProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="apidays24-sg-pj.JavaProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -395,7 +395,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="projen-projects.JavaProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="apidays24-sg-pj.JavaProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -403,7 +403,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="projen-projects.JavaProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="apidays24-sg-pj.JavaProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -411,7 +411,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="projen-projects.JavaProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="apidays24-sg-pj.JavaProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -425,7 +425,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="projen-projects.JavaProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="apidays24-sg-pj.JavaProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -433,7 +433,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.JavaProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.JavaProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -443,7 +443,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.JavaProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.JavaProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -451,7 +451,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="projen-projects.JavaProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="apidays24-sg-pj.JavaProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -459,7 +459,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JavaProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JavaProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -467,7 +467,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="projen-projects.JavaProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="apidays24-sg-pj.JavaProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -477,7 +477,7 @@ Returns the shell command to execute in order to run a task.
 
 By default, this is `npx projen@<version> <task>`
 
-###### `task`<sup>Required</sup> <a name="task" id="projen-projects.JavaProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="apidays24-sg-pj.JavaProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -485,7 +485,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="projen-projects.JavaProject.synth"></a>
+##### `synth` <a name="synth" id="apidays24-sg-pj.JavaProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -500,7 +500,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="projen-projects.JavaProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="apidays24-sg-pj.JavaProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -508,7 +508,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JavaProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JavaProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -519,7 +519,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-projects.JavaProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="apidays24-sg-pj.JavaProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -527,7 +527,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JavaProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JavaProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -535,7 +535,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-projects.JavaProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="apidays24-sg-pj.JavaProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -543,7 +543,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JavaProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JavaProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -551,7 +551,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-projects.JavaProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="apidays24-sg-pj.JavaProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -559,7 +559,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JavaProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JavaProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -570,7 +570,7 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addDependency` <a name="addDependency" id="projen-projects.JavaProject.addDependency"></a>
+##### `addDependency` <a name="addDependency" id="apidays24-sg-pj.JavaProject.addDependency"></a>
 
 ```typescript
 public addDependency(spec: string): void
@@ -578,7 +578,7 @@ public addDependency(spec: string): void
 
 Adds a runtime dependency.
 
-###### `spec`<sup>Required</sup> <a name="spec" id="projen-projects.JavaProject.addDependency.parameter.spec"></a>
+###### `spec`<sup>Required</sup> <a name="spec" id="apidays24-sg-pj.JavaProject.addDependency.parameter.spec"></a>
 
 - *Type:* string
 
@@ -586,7 +586,7 @@ Format `<groupId>/<artifactId>@<semver>`.
 
 ---
 
-##### `addPlugin` <a name="addPlugin" id="projen-projects.JavaProject.addPlugin"></a>
+##### `addPlugin` <a name="addPlugin" id="apidays24-sg-pj.JavaProject.addPlugin"></a>
 
 ```typescript
 public addPlugin(spec: string, options?: PluginOptions): Dependency
@@ -596,7 +596,7 @@ Adds a build plugin to the pom.
 
 The plug in is also added as a BUILD dep to the project.
 
-###### `spec`<sup>Required</sup> <a name="spec" id="projen-projects.JavaProject.addPlugin.parameter.spec"></a>
+###### `spec`<sup>Required</sup> <a name="spec" id="apidays24-sg-pj.JavaProject.addPlugin.parameter.spec"></a>
 
 - *Type:* string
 
@@ -604,7 +604,7 @@ dependency spec (`group/artifact@version`).
 
 ---
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.JavaProject.addPlugin.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.JavaProject.addPlugin.parameter.options"></a>
 
 - *Type:* projen.java.PluginOptions
 
@@ -612,7 +612,7 @@ plugin options.
 
 ---
 
-##### `addTestDependency` <a name="addTestDependency" id="projen-projects.JavaProject.addTestDependency"></a>
+##### `addTestDependency` <a name="addTestDependency" id="apidays24-sg-pj.JavaProject.addTestDependency"></a>
 
 ```typescript
 public addTestDependency(spec: string): void
@@ -620,7 +620,7 @@ public addTestDependency(spec: string): void
 
 Adds a test dependency.
 
-###### `spec`<sup>Required</sup> <a name="spec" id="projen-projects.JavaProject.addTestDependency.parameter.spec"></a>
+###### `spec`<sup>Required</sup> <a name="spec" id="apidays24-sg-pj.JavaProject.addTestDependency.parameter.spec"></a>
 
 - *Type:* string
 
@@ -632,16 +632,16 @@ Format `<groupId>/<artifactId>@<semver>`.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.JavaProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.JavaProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#projen-projects.JavaProject.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#apidays24-sg-pj.JavaProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.JavaProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.JavaProject.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.JavaProject.isConstruct"></a>
 
 ```typescript
-import { JavaProject } from 'projen-projects'
+import { JavaProject } from 'apidays24-sg-pj'
 
 JavaProject.isConstruct(x: any)
 ```
@@ -662,7 +662,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.JavaProject.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.JavaProject.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -670,26 +670,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="projen-projects.JavaProject.isProject"></a>
+##### `isProject` <a name="isProject" id="apidays24-sg-pj.JavaProject.isProject"></a>
 
 ```typescript
-import { JavaProject } from 'projen-projects'
+import { JavaProject } from 'apidays24-sg-pj'
 
 JavaProject.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.JavaProject.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.JavaProject.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="projen-projects.JavaProject.of"></a>
+##### `of` <a name="of" id="apidays24-sg-pj.JavaProject.of"></a>
 
 ```typescript
-import { JavaProject } from 'projen-projects'
+import { JavaProject } from 'apidays24-sg-pj'
 
 JavaProject.of(construct: IConstruct)
 ```
@@ -698,7 +698,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="projen-projects.JavaProject.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="apidays24-sg-pj.JavaProject.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -708,47 +708,47 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JavaProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.JavaProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.JavaProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#projen-projects.JavaProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#projen-projects.JavaProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#projen-projects.JavaProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#projen-projects.JavaProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#projen-projects.JavaProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#projen-projects.JavaProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#projen-projects.JavaProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#projen-projects.JavaProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#projen-projects.JavaProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#projen-projects.JavaProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.JavaProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#projen-projects.JavaProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#projen-projects.JavaProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#projen-projects.JavaProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#projen-projects.JavaProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#projen-projects.JavaProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#projen-projects.JavaProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#projen-projects.JavaProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#projen-projects.JavaProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.JavaProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#projen-projects.JavaProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#projen-projects.JavaProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#projen-projects.JavaProject.property.compile">compile</a></code> | <code>projen.java.MavenCompile</code> | Compile component. |
-| <code><a href="#projen-projects.JavaProject.property.distdir">distdir</a></code> | <code>string</code> | Maven artifact output directory. |
-| <code><a href="#projen-projects.JavaProject.property.packaging">packaging</a></code> | <code>projen.java.MavenPackaging</code> | Packaging component. |
-| <code><a href="#projen-projects.JavaProject.property.pom">pom</a></code> | <code>projen.java.Pom</code> | API for managing `pom.xml`. |
-| <code><a href="#projen-projects.JavaProject.property.junit">junit</a></code> | <code>projen.java.Junit</code> | JUnit component. |
-| <code><a href="#projen-projects.JavaProject.property.projenrc">projenrc</a></code> | <code>projen.java.Projenrc</code> | Projenrc component. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.compile">compile</a></code> | <code>projen.java.MavenCompile</code> | Compile component. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.distdir">distdir</a></code> | <code>string</code> | Maven artifact output directory. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.packaging">packaging</a></code> | <code>projen.java.MavenPackaging</code> | Packaging component. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.pom">pom</a></code> | <code>projen.java.Pom</code> | API for managing `pom.xml`. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.junit">junit</a></code> | <code>projen.java.Junit</code> | JUnit component. |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.projenrc">projenrc</a></code> | <code>projen.java.Projenrc</code> | Projenrc component. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.JavaProject.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.JavaProject.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -760,7 +760,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-projects.JavaProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="apidays24-sg-pj.JavaProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -770,7 +770,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-projects.JavaProject.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="apidays24-sg-pj.JavaProject.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -782,7 +782,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-projects.JavaProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="apidays24-sg-pj.JavaProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -792,7 +792,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="projen-projects.JavaProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="apidays24-sg-pj.JavaProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -804,7 +804,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JavaProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JavaProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -816,7 +816,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-projects.JavaProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="apidays24-sg-pj.JavaProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -828,7 +828,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="projen-projects.JavaProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="apidays24-sg-pj.JavaProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -840,7 +840,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-projects.JavaProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="apidays24-sg-pj.JavaProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -852,7 +852,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-projects.JavaProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="apidays24-sg-pj.JavaProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -864,7 +864,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="projen-projects.JavaProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="apidays24-sg-pj.JavaProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -876,7 +876,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.JavaProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JavaProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -888,7 +888,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-projects.JavaProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="apidays24-sg-pj.JavaProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -900,7 +900,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-projects.JavaProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="apidays24-sg-pj.JavaProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -910,7 +910,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-projects.JavaProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="apidays24-sg-pj.JavaProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -920,7 +920,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-projects.JavaProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="apidays24-sg-pj.JavaProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -930,7 +930,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-projects.JavaProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="apidays24-sg-pj.JavaProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -942,7 +942,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-projects.JavaProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="apidays24-sg-pj.JavaProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -954,7 +954,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="projen-projects.JavaProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="apidays24-sg-pj.JavaProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -966,7 +966,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-projects.JavaProject.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="apidays24-sg-pj.JavaProject.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -978,7 +978,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-projects.JavaProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="apidays24-sg-pj.JavaProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -990,7 +990,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-projects.JavaProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="apidays24-sg-pj.JavaProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -1000,7 +1000,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-projects.JavaProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="apidays24-sg-pj.JavaProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -1015,7 +1015,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-projects.JavaProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="apidays24-sg-pj.JavaProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -1031,7 +1031,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.JavaProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.JavaProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -1045,7 +1045,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-projects.JavaProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="apidays24-sg-pj.JavaProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -1055,7 +1055,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-projects.JavaProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="apidays24-sg-pj.JavaProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -1067,7 +1067,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.JavaProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.JavaProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -1081,7 +1081,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.JavaProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.JavaProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -1095,7 +1095,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.JavaProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.JavaProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -1109,7 +1109,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.JavaProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.JavaProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -1123,7 +1123,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `compile`<sup>Required</sup> <a name="compile" id="projen-projects.JavaProject.property.compile"></a>
+##### `compile`<sup>Required</sup> <a name="compile" id="apidays24-sg-pj.JavaProject.property.compile"></a>
 
 ```typescript
 public readonly compile: MavenCompile;
@@ -1135,7 +1135,7 @@ Compile component.
 
 ---
 
-##### `distdir`<sup>Required</sup> <a name="distdir" id="projen-projects.JavaProject.property.distdir"></a>
+##### `distdir`<sup>Required</sup> <a name="distdir" id="apidays24-sg-pj.JavaProject.property.distdir"></a>
 
 ```typescript
 public readonly distdir: string;
@@ -1147,7 +1147,7 @@ Maven artifact output directory.
 
 ---
 
-##### `packaging`<sup>Required</sup> <a name="packaging" id="projen-projects.JavaProject.property.packaging"></a>
+##### `packaging`<sup>Required</sup> <a name="packaging" id="apidays24-sg-pj.JavaProject.property.packaging"></a>
 
 ```typescript
 public readonly packaging: MavenPackaging;
@@ -1159,7 +1159,7 @@ Packaging component.
 
 ---
 
-##### `pom`<sup>Required</sup> <a name="pom" id="projen-projects.JavaProject.property.pom"></a>
+##### `pom`<sup>Required</sup> <a name="pom" id="apidays24-sg-pj.JavaProject.property.pom"></a>
 
 ```typescript
 public readonly pom: Pom;
@@ -1171,7 +1171,7 @@ API for managing `pom.xml`.
 
 ---
 
-##### `junit`<sup>Optional</sup> <a name="junit" id="projen-projects.JavaProject.property.junit"></a>
+##### `junit`<sup>Optional</sup> <a name="junit" id="apidays24-sg-pj.JavaProject.property.junit"></a>
 
 ```typescript
 public readonly junit: Junit;
@@ -1183,7 +1183,7 @@ JUnit component.
 
 ---
 
-##### `projenrc`<sup>Optional</sup> <a name="projenrc" id="projen-projects.JavaProject.property.projenrc"></a>
+##### `projenrc`<sup>Optional</sup> <a name="projenrc" id="apidays24-sg-pj.JavaProject.property.projenrc"></a>
 
 ```typescript
 public readonly projenrc: Projenrc;
@@ -1199,11 +1199,11 @@ Projenrc component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JavaProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#apidays24-sg-pj.JavaProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-projects.JavaProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="apidays24-sg-pj.JavaProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
@@ -1218,27 +1218,27 @@ this task should synthesize the project files.
 
 ---
 
-### JSIIProject <a name="JSIIProject" id="projen-projects.JSIIProject"></a>
+### JSIIProject <a name="JSIIProject" id="apidays24-sg-pj.JSIIProject"></a>
 
 JSII project.
 
-#### Initializers <a name="Initializers" id="projen-projects.JSIIProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.JSIIProject.Initializer"></a>
 
 ```typescript
-import { JSIIProject } from 'projen-projects'
+import { JSIIProject } from 'apidays24-sg-pj'
 
 new JSIIProject(options: JSIIProjectOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JSIIProject.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.JSIIProjectOptions">JSIIProjectOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.JSIIProjectOptions">JSIIProjectOptions</a></code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.JSIIProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.JSIIProject.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.JSIIProjectOptions">JSIIProjectOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.JSIIProjectOptions">JSIIProjectOptions</a>
 
 ---
 
@@ -1246,40 +1246,40 @@ new JSIIProject(options: JSIIProjectOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.JSIIProject.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.JSIIProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#projen-projects.JSIIProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#projen-projects.JSIIProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
-| <code><a href="#projen-projects.JSIIProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#projen-projects.JSIIProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#projen-projects.JSIIProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#projen-projects.JSIIProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#projen-projects.JSIIProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#projen-projects.JSIIProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#projen-projects.JSIIProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#projen-projects.JSIIProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#projen-projects.JSIIProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#projen-projects.JSIIProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#projen-projects.JSIIProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#projen-projects.JSIIProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#projen-projects.JSIIProject.addBins">addBins</a></code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
-| <code><a href="#projen-projects.JSIIProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-projects.JSIIProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
-| <code><a href="#projen-projects.JSIIProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
-| <code><a href="#projen-projects.JSIIProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
-| <code><a href="#projen-projects.JSIIProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
-| <code><a href="#projen-projects.JSIIProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
-| <code><a href="#projen-projects.JSIIProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
-| <code><a href="#projen-projects.JSIIProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-projects.JSIIProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
-| <code><a href="#projen-projects.JSIIProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
-| <code><a href="#projen-projects.JSIIProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
-| <code><a href="#projen-projects.JSIIProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addBins">addBins</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.JSIIProject.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.JSIIProject.toString"></a>
 
 ```typescript
 public toString(): string
@@ -1287,7 +1287,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-projects.JSIIProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="apidays24-sg-pj.JSIIProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -1298,7 +1298,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="projen-projects.JSIIProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="apidays24-sg-pj.JSIIProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -1306,7 +1306,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="projen-projects.JSIIProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="apidays24-sg-pj.JSIIProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -1314,7 +1314,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.JSIIProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.JSIIProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -1322,7 +1322,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-projects.JSIIProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="apidays24-sg-pj.JSIIProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(pattern: string): void
@@ -1330,7 +1330,7 @@ public addPackageIgnore(pattern: string): void
 
 Adds patterns to be ignored by npm.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.JSIIProject.addPackageIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.JSIIProject.addPackageIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -1338,7 +1338,7 @@ The pattern to ignore.
 
 ---
 
-##### `addTask` <a name="addTask" id="projen-projects.JSIIProject.addTask"></a>
+##### `addTask` <a name="addTask" id="apidays24-sg-pj.JSIIProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -1349,7 +1349,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -1357,7 +1357,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="projen-projects.JSIIProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="apidays24-sg-pj.JSIIProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -1365,7 +1365,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="projen-projects.JSIIProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="apidays24-sg-pj.JSIIProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -1373,7 +1373,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="projen-projects.JSIIProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="apidays24-sg-pj.JSIIProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -1381,7 +1381,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="projen-projects.JSIIProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="apidays24-sg-pj.JSIIProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -1395,7 +1395,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="projen-projects.JSIIProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="apidays24-sg-pj.JSIIProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -1403,7 +1403,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.JSIIProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.JSIIProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -1413,7 +1413,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.JSIIProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.JSIIProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -1421,7 +1421,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="projen-projects.JSIIProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="apidays24-sg-pj.JSIIProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -1429,7 +1429,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -1437,7 +1437,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="projen-projects.JSIIProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="apidays24-sg-pj.JSIIProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -1448,7 +1448,7 @@ Returns the shell command to execute in order to run a task.
 This will
 typically be `npx projen TASK`.
 
-###### `task`<sup>Required</sup> <a name="task" id="projen-projects.JSIIProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="apidays24-sg-pj.JSIIProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -1456,7 +1456,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="projen-projects.JSIIProject.synth"></a>
+##### `synth` <a name="synth" id="apidays24-sg-pj.JSIIProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -1471,7 +1471,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="projen-projects.JSIIProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="apidays24-sg-pj.JSIIProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -1479,7 +1479,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JSIIProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JSIIProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -1490,7 +1490,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-projects.JSIIProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="apidays24-sg-pj.JSIIProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -1498,7 +1498,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JSIIProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JSIIProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -1506,7 +1506,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-projects.JSIIProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="apidays24-sg-pj.JSIIProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -1514,7 +1514,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JSIIProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JSIIProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -1522,7 +1522,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-projects.JSIIProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="apidays24-sg-pj.JSIIProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -1530,7 +1530,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.JSIIProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.JSIIProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -1541,19 +1541,19 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addBins` <a name="addBins" id="projen-projects.JSIIProject.addBins"></a>
+##### `addBins` <a name="addBins" id="apidays24-sg-pj.JSIIProject.addBins"></a>
 
 ```typescript
 public addBins(bins: {[ key: string ]: string}): void
 ```
 
-###### `bins`<sup>Required</sup> <a name="bins" id="projen-projects.JSIIProject.addBins.parameter.bins"></a>
+###### `bins`<sup>Required</sup> <a name="bins" id="apidays24-sg-pj.JSIIProject.addBins.parameter.bins"></a>
 
 - *Type:* {[ key: string ]: string}
 
 ---
 
-##### `addBundledDeps` <a name="addBundledDeps" id="projen-projects.JSIIProject.addBundledDeps"></a>
+##### `addBundledDeps` <a name="addBundledDeps" id="apidays24-sg-pj.JSIIProject.addBundledDeps"></a>
 
 ```typescript
 public addBundledDeps(deps: string): void
@@ -1564,7 +1564,7 @@ Defines bundled dependencies.
 Bundled dependencies will be added as normal dependencies as well as to the
 `bundledDependencies` section of your `package.json`.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JSIIProject.addBundledDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JSIIProject.addBundledDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -1578,7 +1578,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="projen-projects.JSIIProject.addCompileCommand"></a>
+##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="apidays24-sg-pj.JSIIProject.addCompileCommand"></a>
 
 ```typescript
 public addCompileCommand(commands: string): void
@@ -1586,13 +1586,13 @@ public addCompileCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-projects.JSIIProject.addCompileCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="apidays24-sg-pj.JSIIProject.addCompileCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### `addDeps` <a name="addDeps" id="projen-projects.JSIIProject.addDeps"></a>
+##### `addDeps` <a name="addDeps" id="apidays24-sg-pj.JSIIProject.addDeps"></a>
 
 ```typescript
 public addDeps(deps: string): void
@@ -1600,7 +1600,7 @@ public addDeps(deps: string): void
 
 Defines normal dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JSIIProject.addDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JSIIProject.addDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -1614,7 +1614,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addDevDeps` <a name="addDevDeps" id="projen-projects.JSIIProject.addDevDeps"></a>
+##### `addDevDeps` <a name="addDevDeps" id="apidays24-sg-pj.JSIIProject.addDevDeps"></a>
 
 ```typescript
 public addDevDeps(deps: string): void
@@ -1622,7 +1622,7 @@ public addDevDeps(deps: string): void
 
 Defines development/test dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JSIIProject.addDevDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JSIIProject.addDevDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -1636,7 +1636,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addFields` <a name="addFields" id="projen-projects.JSIIProject.addFields"></a>
+##### `addFields` <a name="addFields" id="apidays24-sg-pj.JSIIProject.addFields"></a>
 
 ```typescript
 public addFields(fields: {[ key: string ]: any}): void
@@ -1644,7 +1644,7 @@ public addFields(fields: {[ key: string ]: any}): void
 
 Directly set fields in `package.json`.
 
-###### `fields`<sup>Required</sup> <a name="fields" id="projen-projects.JSIIProject.addFields.parameter.fields"></a>
+###### `fields`<sup>Required</sup> <a name="fields" id="apidays24-sg-pj.JSIIProject.addFields.parameter.fields"></a>
 
 - *Type:* {[ key: string ]: any}
 
@@ -1652,7 +1652,7 @@ The fields to set.
 
 ---
 
-##### `addKeywords` <a name="addKeywords" id="projen-projects.JSIIProject.addKeywords"></a>
+##### `addKeywords` <a name="addKeywords" id="apidays24-sg-pj.JSIIProject.addKeywords"></a>
 
 ```typescript
 public addKeywords(keywords: string): void
@@ -1660,7 +1660,7 @@ public addKeywords(keywords: string): void
 
 Adds keywords to package.json (deduplicated).
 
-###### `keywords`<sup>Required</sup> <a name="keywords" id="projen-projects.JSIIProject.addKeywords.parameter.keywords"></a>
+###### `keywords`<sup>Required</sup> <a name="keywords" id="apidays24-sg-pj.JSIIProject.addKeywords.parameter.keywords"></a>
 
 - *Type:* string
 
@@ -1668,7 +1668,7 @@ The keywords to add.
 
 ---
 
-##### `addPeerDeps` <a name="addPeerDeps" id="projen-projects.JSIIProject.addPeerDeps"></a>
+##### `addPeerDeps` <a name="addPeerDeps" id="apidays24-sg-pj.JSIIProject.addPeerDeps"></a>
 
 ```typescript
 public addPeerDeps(deps: string): void
@@ -1680,7 +1680,7 @@ When adding peer dependencies, a devDependency will also be added on the
 pinned version of the declared peer. This will ensure that you are testing
 your code against the minimum version required from your consumers.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JSIIProject.addPeerDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JSIIProject.addPeerDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -1694,7 +1694,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addScripts` <a name="addScripts" id="projen-projects.JSIIProject.addScripts"></a>
+##### `addScripts` <a name="addScripts" id="apidays24-sg-pj.JSIIProject.addScripts"></a>
 
 ```typescript
 public addScripts(scripts: {[ key: string ]: string}): void
@@ -1702,7 +1702,7 @@ public addScripts(scripts: {[ key: string ]: string}): void
 
 Replaces the contents of multiple npm package.json scripts.
 
-###### `scripts`<sup>Required</sup> <a name="scripts" id="projen-projects.JSIIProject.addScripts.parameter.scripts"></a>
+###### `scripts`<sup>Required</sup> <a name="scripts" id="apidays24-sg-pj.JSIIProject.addScripts.parameter.scripts"></a>
 
 - *Type:* {[ key: string ]: string}
 
@@ -1710,7 +1710,7 @@ The scripts to set.
 
 ---
 
-##### ~~`addTestCommand`~~ <a name="addTestCommand" id="projen-projects.JSIIProject.addTestCommand"></a>
+##### ~~`addTestCommand`~~ <a name="addTestCommand" id="apidays24-sg-pj.JSIIProject.addTestCommand"></a>
 
 ```typescript
 public addTestCommand(commands: string): void
@@ -1718,13 +1718,13 @@ public addTestCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-projects.JSIIProject.addTestCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="apidays24-sg-pj.JSIIProject.addTestCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### ~~`hasScript`~~ <a name="hasScript" id="projen-projects.JSIIProject.hasScript"></a>
+##### ~~`hasScript`~~ <a name="hasScript" id="apidays24-sg-pj.JSIIProject.hasScript"></a>
 
 ```typescript
 public hasScript(name: string): boolean
@@ -1732,7 +1732,7 @@ public hasScript(name: string): boolean
 
 Indicates if a script by the name name is defined.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.hasScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.hasScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -1740,7 +1740,7 @@ The name of the script.
 
 ---
 
-##### `removeScript` <a name="removeScript" id="projen-projects.JSIIProject.removeScript"></a>
+##### `removeScript` <a name="removeScript" id="apidays24-sg-pj.JSIIProject.removeScript"></a>
 
 ```typescript
 public removeScript(name: string): void
@@ -1748,7 +1748,7 @@ public removeScript(name: string): void
 
 Removes the npm script (always successful).
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.removeScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.removeScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -1756,7 +1756,7 @@ The name of the script.
 
 ---
 
-##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="projen-projects.JSIIProject.renderWorkflowSetup"></a>
+##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="apidays24-sg-pj.JSIIProject.renderWorkflowSetup"></a>
 
 ```typescript
 public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
@@ -1764,7 +1764,7 @@ public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
 
 Returns the set of workflow steps which should be executed to bootstrap a workflow.
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.JSIIProject.renderWorkflowSetup.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.JSIIProject.renderWorkflowSetup.parameter.options"></a>
 
 - *Type:* projen.javascript.RenderWorkflowSetupOptions
 
@@ -1772,7 +1772,7 @@ Options.
 
 ---
 
-##### `setScript` <a name="setScript" id="projen-projects.JSIIProject.setScript"></a>
+##### `setScript` <a name="setScript" id="apidays24-sg-pj.JSIIProject.setScript"></a>
 
 ```typescript
 public setScript(name: string, command: string): void
@@ -1780,7 +1780,7 @@ public setScript(name: string, command: string): void
 
 Replaces the contents of an npm package.json script.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.setScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.setScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -1788,7 +1788,7 @@ The script name.
 
 ---
 
-###### `command`<sup>Required</sup> <a name="command" id="projen-projects.JSIIProject.setScript.parameter.command"></a>
+###### `command`<sup>Required</sup> <a name="command" id="apidays24-sg-pj.JSIIProject.setScript.parameter.command"></a>
 
 - *Type:* string
 
@@ -1800,16 +1800,16 @@ The command to execute.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.JSIIProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.JSIIProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#projen-projects.JSIIProject.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.JSIIProject.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.JSIIProject.isConstruct"></a>
 
 ```typescript
-import { JSIIProject } from 'projen-projects'
+import { JSIIProject } from 'apidays24-sg-pj'
 
 JSIIProject.isConstruct(x: any)
 ```
@@ -1830,7 +1830,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.JSIIProject.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.JSIIProject.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -1838,26 +1838,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="projen-projects.JSIIProject.isProject"></a>
+##### `isProject` <a name="isProject" id="apidays24-sg-pj.JSIIProject.isProject"></a>
 
 ```typescript
-import { JSIIProject } from 'projen-projects'
+import { JSIIProject } from 'apidays24-sg-pj'
 
 JSIIProject.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.JSIIProject.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.JSIIProject.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="projen-projects.JSIIProject.of"></a>
+##### `of` <a name="of" id="apidays24-sg-pj.JSIIProject.of"></a>
 
 ```typescript
-import { JSIIProject } from 'projen-projects'
+import { JSIIProject } from 'apidays24-sg-pj'
 
 JSIIProject.of(construct: IConstruct)
 ```
@@ -1866,7 +1866,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="projen-projects.JSIIProject.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="apidays24-sg-pj.JSIIProject.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -1876,72 +1876,72 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JSIIProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.JSIIProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.JSIIProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#projen-projects.JSIIProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#projen-projects.JSIIProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#projen-projects.JSIIProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#projen-projects.JSIIProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#projen-projects.JSIIProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#projen-projects.JSIIProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#projen-projects.JSIIProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#projen-projects.JSIIProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#projen-projects.JSIIProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#projen-projects.JSIIProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.JSIIProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#projen-projects.JSIIProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#projen-projects.JSIIProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#projen-projects.JSIIProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#projen-projects.JSIIProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#projen-projects.JSIIProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#projen-projects.JSIIProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#projen-projects.JSIIProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.JSIIProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#projen-projects.JSIIProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#projen-projects.JSIIProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#projen-projects.JSIIProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
-| <code><a href="#projen-projects.JSIIProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
-| <code><a href="#projen-projects.JSIIProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
-| <code><a href="#projen-projects.JSIIProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
-| <code><a href="#projen-projects.JSIIProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
-| <code><a href="#projen-projects.JSIIProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
-| <code><a href="#projen-projects.JSIIProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
-| <code><a href="#projen-projects.JSIIProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
-| <code><a href="#projen-projects.JSIIProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
-| <code><a href="#projen-projects.JSIIProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
-| <code><a href="#projen-projects.JSIIProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
-| <code><a href="#projen-projects.JSIIProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
-| <code><a href="#projen-projects.JSIIProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
-| <code><a href="#projen-projects.JSIIProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
-| <code><a href="#projen-projects.JSIIProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
-| <code><a href="#projen-projects.JSIIProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
-| <code><a href="#projen-projects.JSIIProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
-| <code><a href="#projen-projects.JSIIProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
-| <code><a href="#projen-projects.JSIIProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
-| <code><a href="#projen-projects.JSIIProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
-| <code><a href="#projen-projects.JSIIProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
-| <code><a href="#projen-projects.JSIIProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.JSIIProject.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.JSIIProject.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -1953,7 +1953,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-projects.JSIIProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="apidays24-sg-pj.JSIIProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -1963,7 +1963,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-projects.JSIIProject.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="apidays24-sg-pj.JSIIProject.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -1975,7 +1975,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-projects.JSIIProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="apidays24-sg-pj.JSIIProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -1985,7 +1985,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="projen-projects.JSIIProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="apidays24-sg-pj.JSIIProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -1997,7 +1997,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.JSIIProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.JSIIProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -2009,7 +2009,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-projects.JSIIProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="apidays24-sg-pj.JSIIProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -2021,7 +2021,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="projen-projects.JSIIProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="apidays24-sg-pj.JSIIProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -2033,7 +2033,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-projects.JSIIProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="apidays24-sg-pj.JSIIProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -2045,7 +2045,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-projects.JSIIProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="apidays24-sg-pj.JSIIProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -2057,7 +2057,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="projen-projects.JSIIProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="apidays24-sg-pj.JSIIProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -2069,7 +2069,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -2081,7 +2081,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-projects.JSIIProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="apidays24-sg-pj.JSIIProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -2093,7 +2093,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-projects.JSIIProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="apidays24-sg-pj.JSIIProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -2103,7 +2103,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-projects.JSIIProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="apidays24-sg-pj.JSIIProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -2113,7 +2113,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-projects.JSIIProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="apidays24-sg-pj.JSIIProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -2123,7 +2123,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-projects.JSIIProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="apidays24-sg-pj.JSIIProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -2135,7 +2135,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-projects.JSIIProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="apidays24-sg-pj.JSIIProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -2147,7 +2147,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="projen-projects.JSIIProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="apidays24-sg-pj.JSIIProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -2159,7 +2159,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-projects.JSIIProject.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="apidays24-sg-pj.JSIIProject.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -2171,7 +2171,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-projects.JSIIProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="apidays24-sg-pj.JSIIProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -2183,7 +2183,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-projects.JSIIProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="apidays24-sg-pj.JSIIProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -2193,7 +2193,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-projects.JSIIProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="apidays24-sg-pj.JSIIProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -2208,7 +2208,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-projects.JSIIProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="apidays24-sg-pj.JSIIProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -2224,7 +2224,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.JSIIProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.JSIIProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -2238,7 +2238,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-projects.JSIIProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="apidays24-sg-pj.JSIIProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -2248,7 +2248,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-projects.JSIIProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="apidays24-sg-pj.JSIIProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -2260,7 +2260,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.JSIIProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.JSIIProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -2274,7 +2274,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.JSIIProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.JSIIProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -2288,7 +2288,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.JSIIProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.JSIIProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -2302,7 +2302,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.JSIIProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.JSIIProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -2316,7 +2316,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="projen-projects.JSIIProject.property.allowLibraryDependencies"></a>
+##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="apidays24-sg-pj.JSIIProject.property.allowLibraryDependencies"></a>
 
 - *Deprecated:* use `package.allowLibraryDependencies`
 
@@ -2328,7 +2328,7 @@ public readonly allowLibraryDependencies: boolean;
 
 ---
 
-##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="projen-projects.JSIIProject.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="apidays24-sg-pj.JSIIProject.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -2344,7 +2344,7 @@ tarball will be placed under `dist/js/boom-boom-1.2.3.tg`.
 
 ---
 
-##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="projen-projects.JSIIProject.property.artifactsJavascriptDirectory"></a>
+##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="apidays24-sg-pj.JSIIProject.property.artifactsJavascriptDirectory"></a>
 
 ```typescript
 public readonly artifactsJavascriptDirectory: string;
@@ -2356,7 +2356,7 @@ The location of the npm tarball after build (`${artifactsDirectory}/js`).
 
 ---
 
-##### `bundler`<sup>Required</sup> <a name="bundler" id="projen-projects.JSIIProject.property.bundler"></a>
+##### `bundler`<sup>Required</sup> <a name="bundler" id="apidays24-sg-pj.JSIIProject.property.bundler"></a>
 
 ```typescript
 public readonly bundler: Bundler;
@@ -2366,7 +2366,7 @@ public readonly bundler: Bundler;
 
 ---
 
-##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="projen-projects.JSIIProject.property.entrypoint"></a>
+##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="apidays24-sg-pj.JSIIProject.property.entrypoint"></a>
 
 - *Deprecated:* use `package.entrypoint`
 
@@ -2378,7 +2378,7 @@ public readonly entrypoint: string;
 
 ---
 
-##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="projen-projects.JSIIProject.property.manifest"></a>
+##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="apidays24-sg-pj.JSIIProject.property.manifest"></a>
 
 - *Deprecated:* use `package.addField(x, y)`
 
@@ -2390,7 +2390,7 @@ public readonly manifest: any;
 
 ---
 
-##### `npmrc`<sup>Required</sup> <a name="npmrc" id="projen-projects.JSIIProject.property.npmrc"></a>
+##### `npmrc`<sup>Required</sup> <a name="npmrc" id="apidays24-sg-pj.JSIIProject.property.npmrc"></a>
 
 ```typescript
 public readonly npmrc: NpmConfig;
@@ -2402,7 +2402,7 @@ The .npmrc file.
 
 ---
 
-##### `package`<sup>Required</sup> <a name="package" id="projen-projects.JSIIProject.property.package"></a>
+##### `package`<sup>Required</sup> <a name="package" id="apidays24-sg-pj.JSIIProject.property.package"></a>
 
 ```typescript
 public readonly package: NodePackage;
@@ -2414,7 +2414,7 @@ API for managing the node package.
 
 ---
 
-##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="projen-projects.JSIIProject.property.packageManager"></a>
+##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="apidays24-sg-pj.JSIIProject.property.packageManager"></a>
 
 - *Deprecated:* use `package.packageManager`
 
@@ -2428,7 +2428,7 @@ The package manager to use.
 
 ---
 
-##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="projen-projects.JSIIProject.property.runScriptCommand"></a>
+##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="apidays24-sg-pj.JSIIProject.property.runScriptCommand"></a>
 
 ```typescript
 public readonly runScriptCommand: string;
@@ -2440,7 +2440,7 @@ The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the p
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.JSIIProject.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.JSIIProject.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: AutoMerge;
@@ -2452,7 +2452,7 @@ Component that sets up mergify for merging approved pull requests.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-projects.JSIIProject.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="apidays24-sg-pj.JSIIProject.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: BuildWorkflow;
@@ -2466,7 +2466,7 @@ The PR build GitHub workflow.
 
 ---
 
-##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="projen-projects.JSIIProject.property.buildWorkflowJobId"></a>
+##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="apidays24-sg-pj.JSIIProject.property.buildWorkflowJobId"></a>
 
 ```typescript
 public readonly buildWorkflowJobId: string;
@@ -2478,7 +2478,7 @@ The job ID of the build workflow.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="projen-projects.JSIIProject.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="apidays24-sg-pj.JSIIProject.property.jest"></a>
 
 ```typescript
 public readonly jest: Jest;
@@ -2490,7 +2490,7 @@ The Jest configuration (if enabled).
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-projects.JSIIProject.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="apidays24-sg-pj.JSIIProject.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -2502,7 +2502,7 @@ Maximum node version required by this package.
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-projects.JSIIProject.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="apidays24-sg-pj.JSIIProject.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -2514,7 +2514,7 @@ Minimum node.js version required by this package.
 
 ---
 
-##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="projen-projects.JSIIProject.property.npmignore"></a>
+##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="apidays24-sg-pj.JSIIProject.property.npmignore"></a>
 
 ```typescript
 public readonly npmignore: IgnoreFile;
@@ -2526,7 +2526,7 @@ The .npmignore file.
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-projects.JSIIProject.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="apidays24-sg-pj.JSIIProject.property.prettier"></a>
 
 ```typescript
 public readonly prettier: Prettier;
@@ -2536,7 +2536,7 @@ public readonly prettier: Prettier;
 
 ---
 
-##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="projen-projects.JSIIProject.property.publisher"></a>
+##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="apidays24-sg-pj.JSIIProject.property.publisher"></a>
 
 - *Deprecated:* use `release.publisher`.
 
@@ -2553,7 +2553,7 @@ release workflow.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="projen-projects.JSIIProject.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="apidays24-sg-pj.JSIIProject.property.release"></a>
 
 ```typescript
 public readonly release: Release;
@@ -2565,7 +2565,7 @@ Release management.
 
 ---
 
-##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="projen-projects.JSIIProject.property.upgradeWorkflow"></a>
+##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="apidays24-sg-pj.JSIIProject.property.upgradeWorkflow"></a>
 
 ```typescript
 public readonly upgradeWorkflow: UpgradeDependencies;
@@ -2577,7 +2577,7 @@ The upgrade workflow.
 
 ---
 
-##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="projen-projects.JSIIProject.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="apidays24-sg-pj.JSIIProject.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -2587,7 +2587,7 @@ public readonly docsDirectory: string;
 
 ---
 
-##### `libdir`<sup>Required</sup> <a name="libdir" id="projen-projects.JSIIProject.property.libdir"></a>
+##### `libdir`<sup>Required</sup> <a name="libdir" id="apidays24-sg-pj.JSIIProject.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -2599,7 +2599,7 @@ The directory in which compiled .js files reside.
 
 ---
 
-##### `srcdir`<sup>Required</sup> <a name="srcdir" id="projen-projects.JSIIProject.property.srcdir"></a>
+##### `srcdir`<sup>Required</sup> <a name="srcdir" id="apidays24-sg-pj.JSIIProject.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -2611,7 +2611,7 @@ The directory in which the .ts sources reside.
 
 ---
 
-##### `testdir`<sup>Required</sup> <a name="testdir" id="projen-projects.JSIIProject.property.testdir"></a>
+##### `testdir`<sup>Required</sup> <a name="testdir" id="apidays24-sg-pj.JSIIProject.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -2623,7 +2623,7 @@ The directory in which tests reside.
 
 ---
 
-##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="projen-projects.JSIIProject.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="apidays24-sg-pj.JSIIProject.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfig;
@@ -2635,7 +2635,7 @@ A typescript configuration file which covers all files (sources, tests, projen).
 
 ---
 
-##### `watchTask`<sup>Required</sup> <a name="watchTask" id="projen-projects.JSIIProject.property.watchTask"></a>
+##### `watchTask`<sup>Required</sup> <a name="watchTask" id="apidays24-sg-pj.JSIIProject.property.watchTask"></a>
 
 ```typescript
 public readonly watchTask: Task;
@@ -2647,7 +2647,7 @@ The "watch" task.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-projects.JSIIProject.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="apidays24-sg-pj.JSIIProject.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -2657,7 +2657,7 @@ public readonly docgen: boolean;
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-projects.JSIIProject.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="apidays24-sg-pj.JSIIProject.property.eslint"></a>
 
 ```typescript
 public readonly eslint: Eslint;
@@ -2667,7 +2667,7 @@ public readonly eslint: Eslint;
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-projects.JSIIProject.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="apidays24-sg-pj.JSIIProject.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfig;
@@ -2677,7 +2677,7 @@ public readonly tsconfig: TypescriptConfig;
 
 ---
 
-##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="projen-projects.JSIIProject.property.tsconfigEslint"></a>
+##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="apidays24-sg-pj.JSIIProject.property.tsconfigEslint"></a>
 
 ```typescript
 public readonly tsconfigEslint: TypescriptConfig;
@@ -2691,12 +2691,12 @@ public readonly tsconfigEslint: TypescriptConfig;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JSIIProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
-| <code><a href="#projen-projects.JSIIProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#apidays24-sg-pj.JSIIProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-projects.JSIIProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="apidays24-sg-pj.JSIIProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
@@ -2711,7 +2711,7 @@ this task should synthesize the project files.
 
 ---
 
-##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="projen-projects.JSIIProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
+##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="apidays24-sg-pj.JSIIProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
 
 ```typescript
 public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
@@ -2721,27 +2721,27 @@ public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
 
 ---
 
-### PythonProject <a name="PythonProject" id="projen-projects.PythonProject"></a>
+### PythonProject <a name="PythonProject" id="apidays24-sg-pj.PythonProject"></a>
 
 Python project.
 
-#### Initializers <a name="Initializers" id="projen-projects.PythonProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.PythonProject.Initializer"></a>
 
 ```typescript
-import { PythonProject } from 'projen-projects'
+import { PythonProject } from 'apidays24-sg-pj'
 
 new PythonProject(options: PythonProjectOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.PythonProject.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.PythonProjectOptions">PythonProjectOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.PythonProjectOptions">PythonProjectOptions</a></code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.PythonProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.PythonProject.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.PythonProjectOptions">PythonProjectOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.PythonProjectOptions">PythonProjectOptions</a>
 
 ---
 
@@ -2749,28 +2749,28 @@ new PythonProject(options: PythonProjectOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.PythonProject.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.PythonProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#projen-projects.PythonProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#projen-projects.PythonProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
-| <code><a href="#projen-projects.PythonProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#projen-projects.PythonProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#projen-projects.PythonProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#projen-projects.PythonProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#projen-projects.PythonProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#projen-projects.PythonProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#projen-projects.PythonProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#projen-projects.PythonProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#projen-projects.PythonProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#projen-projects.PythonProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#projen-projects.PythonProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#projen-projects.PythonProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#projen-projects.PythonProject.addDependency">addDependency</a></code> | Adds a runtime dependency. |
-| <code><a href="#projen-projects.PythonProject.addDevDependency">addDevDependency</a></code> | Adds a dev dependency. |
+| <code><a href="#apidays24-sg-pj.PythonProject.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addPackageIgnore">addPackageIgnore</a></code> | Exclude these files from the bundled package. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#apidays24-sg-pj.PythonProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#apidays24-sg-pj.PythonProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.PythonProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.PythonProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#apidays24-sg-pj.PythonProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#apidays24-sg-pj.PythonProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#apidays24-sg-pj.PythonProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#apidays24-sg-pj.PythonProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#apidays24-sg-pj.PythonProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addDependency">addDependency</a></code> | Adds a runtime dependency. |
+| <code><a href="#apidays24-sg-pj.PythonProject.addDevDependency">addDevDependency</a></code> | Adds a dev dependency. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.PythonProject.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.PythonProject.toString"></a>
 
 ```typescript
 public toString(): string
@@ -2778,7 +2778,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-projects.PythonProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="apidays24-sg-pj.PythonProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -2789,7 +2789,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="projen-projects.PythonProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="apidays24-sg-pj.PythonProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -2797,7 +2797,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="projen-projects.PythonProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="apidays24-sg-pj.PythonProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -2805,7 +2805,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.PythonProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.PythonProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -2813,7 +2813,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-projects.PythonProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="apidays24-sg-pj.PythonProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(_pattern: string): void
@@ -2824,7 +2824,7 @@ Exclude these files from the bundled package.
 Implemented by project types based on the
 packaging mechanism. For example, `NodeProject` delegates this to `.npmignore`.
 
-###### `_pattern`<sup>Required</sup> <a name="_pattern" id="projen-projects.PythonProject.addPackageIgnore.parameter._pattern"></a>
+###### `_pattern`<sup>Required</sup> <a name="_pattern" id="apidays24-sg-pj.PythonProject.addPackageIgnore.parameter._pattern"></a>
 
 - *Type:* string
 
@@ -2832,7 +2832,7 @@ The glob pattern to exclude.
 
 ---
 
-##### `addTask` <a name="addTask" id="projen-projects.PythonProject.addTask"></a>
+##### `addTask` <a name="addTask" id="apidays24-sg-pj.PythonProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -2843,7 +2843,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.PythonProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.PythonProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -2851,7 +2851,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="projen-projects.PythonProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="apidays24-sg-pj.PythonProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -2859,7 +2859,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="projen-projects.PythonProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="apidays24-sg-pj.PythonProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -2867,7 +2867,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="projen-projects.PythonProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="apidays24-sg-pj.PythonProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -2875,7 +2875,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="projen-projects.PythonProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="apidays24-sg-pj.PythonProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -2889,7 +2889,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="projen-projects.PythonProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="apidays24-sg-pj.PythonProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -2897,7 +2897,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.PythonProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.PythonProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -2907,7 +2907,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.PythonProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.PythonProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -2915,7 +2915,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="projen-projects.PythonProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="apidays24-sg-pj.PythonProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -2923,7 +2923,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.PythonProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.PythonProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -2931,7 +2931,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="projen-projects.PythonProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="apidays24-sg-pj.PythonProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -2941,7 +2941,7 @@ Returns the shell command to execute in order to run a task.
 
 By default, this is `npx projen@<version> <task>`
 
-###### `task`<sup>Required</sup> <a name="task" id="projen-projects.PythonProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="apidays24-sg-pj.PythonProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -2949,7 +2949,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="projen-projects.PythonProject.synth"></a>
+##### `synth` <a name="synth" id="apidays24-sg-pj.PythonProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -2964,7 +2964,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="projen-projects.PythonProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="apidays24-sg-pj.PythonProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -2972,7 +2972,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.PythonProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.PythonProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -2983,7 +2983,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-projects.PythonProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="apidays24-sg-pj.PythonProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -2991,7 +2991,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.PythonProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.PythonProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -2999,7 +2999,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-projects.PythonProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="apidays24-sg-pj.PythonProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -3007,7 +3007,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.PythonProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.PythonProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -3015,7 +3015,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-projects.PythonProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="apidays24-sg-pj.PythonProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -3023,7 +3023,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.PythonProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.PythonProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -3034,7 +3034,7 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addDependency` <a name="addDependency" id="projen-projects.PythonProject.addDependency"></a>
+##### `addDependency` <a name="addDependency" id="apidays24-sg-pj.PythonProject.addDependency"></a>
 
 ```typescript
 public addDependency(spec: string): void
@@ -3042,7 +3042,7 @@ public addDependency(spec: string): void
 
 Adds a runtime dependency.
 
-###### `spec`<sup>Required</sup> <a name="spec" id="projen-projects.PythonProject.addDependency.parameter.spec"></a>
+###### `spec`<sup>Required</sup> <a name="spec" id="apidays24-sg-pj.PythonProject.addDependency.parameter.spec"></a>
 
 - *Type:* string
 
@@ -3050,7 +3050,7 @@ Format `<module>@<semver>`.
 
 ---
 
-##### `addDevDependency` <a name="addDevDependency" id="projen-projects.PythonProject.addDevDependency"></a>
+##### `addDevDependency` <a name="addDevDependency" id="apidays24-sg-pj.PythonProject.addDevDependency"></a>
 
 ```typescript
 public addDevDependency(spec: string): void
@@ -3058,7 +3058,7 @@ public addDevDependency(spec: string): void
 
 Adds a dev dependency.
 
-###### `spec`<sup>Required</sup> <a name="spec" id="projen-projects.PythonProject.addDevDependency.parameter.spec"></a>
+###### `spec`<sup>Required</sup> <a name="spec" id="apidays24-sg-pj.PythonProject.addDevDependency.parameter.spec"></a>
 
 - *Type:* string
 
@@ -3070,16 +3070,16 @@ Format `<module>@<semver>`.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.PythonProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.PythonProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#projen-projects.PythonProject.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#apidays24-sg-pj.PythonProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.PythonProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.PythonProject.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.PythonProject.isConstruct"></a>
 
 ```typescript
-import { PythonProject } from 'projen-projects'
+import { PythonProject } from 'apidays24-sg-pj'
 
 PythonProject.isConstruct(x: any)
 ```
@@ -3100,7 +3100,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.PythonProject.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.PythonProject.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -3108,26 +3108,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="projen-projects.PythonProject.isProject"></a>
+##### `isProject` <a name="isProject" id="apidays24-sg-pj.PythonProject.isProject"></a>
 
 ```typescript
-import { PythonProject } from 'projen-projects'
+import { PythonProject } from 'apidays24-sg-pj'
 
 PythonProject.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.PythonProject.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.PythonProject.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="projen-projects.PythonProject.of"></a>
+##### `of` <a name="of" id="apidays24-sg-pj.PythonProject.of"></a>
 
 ```typescript
-import { PythonProject } from 'projen-projects'
+import { PythonProject } from 'apidays24-sg-pj'
 
 PythonProject.of(construct: IConstruct)
 ```
@@ -3136,7 +3136,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="projen-projects.PythonProject.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="apidays24-sg-pj.PythonProject.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -3146,47 +3146,47 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.PythonProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.PythonProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.PythonProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#projen-projects.PythonProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#projen-projects.PythonProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#projen-projects.PythonProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#projen-projects.PythonProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#projen-projects.PythonProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#projen-projects.PythonProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#projen-projects.PythonProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#projen-projects.PythonProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#projen-projects.PythonProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#projen-projects.PythonProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.PythonProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#projen-projects.PythonProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#projen-projects.PythonProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#projen-projects.PythonProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#projen-projects.PythonProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#projen-projects.PythonProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#projen-projects.PythonProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#projen-projects.PythonProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#projen-projects.PythonProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.PythonProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#projen-projects.PythonProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#projen-projects.PythonProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#projen-projects.PythonProject.property.depsManager">depsManager</a></code> | <code>projen.python.IPythonDeps</code> | API for managing dependencies. |
-| <code><a href="#projen-projects.PythonProject.property.envManager">envManager</a></code> | <code>projen.python.IPythonEnv</code> | API for mangaging the Python runtime environment. |
-| <code><a href="#projen-projects.PythonProject.property.moduleName">moduleName</a></code> | <code>string</code> | Python module name (the project name, with any hyphens or periods replaced with underscores). |
-| <code><a href="#projen-projects.PythonProject.property.version">version</a></code> | <code>string</code> | Version of the package for distribution (should follow semver). |
-| <code><a href="#projen-projects.PythonProject.property.packagingManager">packagingManager</a></code> | <code>projen.python.IPythonPackaging</code> | API for managing packaging the project as a library. |
-| <code><a href="#projen-projects.PythonProject.property.pytest">pytest</a></code> | <code>projen.python.Pytest</code> | Pytest component. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.depsManager">depsManager</a></code> | <code>projen.python.IPythonDeps</code> | API for managing dependencies. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.envManager">envManager</a></code> | <code>projen.python.IPythonEnv</code> | API for mangaging the Python runtime environment. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.moduleName">moduleName</a></code> | <code>string</code> | Python module name (the project name, with any hyphens or periods replaced with underscores). |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.version">version</a></code> | <code>string</code> | Version of the package for distribution (should follow semver). |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.packagingManager">packagingManager</a></code> | <code>projen.python.IPythonPackaging</code> | API for managing packaging the project as a library. |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.pytest">pytest</a></code> | <code>projen.python.Pytest</code> | Pytest component. |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.PythonProject.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.PythonProject.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -3198,7 +3198,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-projects.PythonProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="apidays24-sg-pj.PythonProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -3208,7 +3208,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-projects.PythonProject.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="apidays24-sg-pj.PythonProject.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -3220,7 +3220,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-projects.PythonProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="apidays24-sg-pj.PythonProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -3230,7 +3230,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="projen-projects.PythonProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="apidays24-sg-pj.PythonProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -3242,7 +3242,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.PythonProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.PythonProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -3254,7 +3254,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-projects.PythonProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="apidays24-sg-pj.PythonProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -3266,7 +3266,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="projen-projects.PythonProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="apidays24-sg-pj.PythonProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -3278,7 +3278,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-projects.PythonProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="apidays24-sg-pj.PythonProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -3290,7 +3290,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-projects.PythonProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="apidays24-sg-pj.PythonProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -3302,7 +3302,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="projen-projects.PythonProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="apidays24-sg-pj.PythonProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -3314,7 +3314,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.PythonProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.PythonProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -3326,7 +3326,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-projects.PythonProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="apidays24-sg-pj.PythonProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -3338,7 +3338,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-projects.PythonProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="apidays24-sg-pj.PythonProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -3348,7 +3348,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-projects.PythonProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="apidays24-sg-pj.PythonProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -3358,7 +3358,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-projects.PythonProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="apidays24-sg-pj.PythonProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -3368,7 +3368,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-projects.PythonProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="apidays24-sg-pj.PythonProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -3380,7 +3380,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-projects.PythonProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="apidays24-sg-pj.PythonProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -3392,7 +3392,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="projen-projects.PythonProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="apidays24-sg-pj.PythonProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -3404,7 +3404,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-projects.PythonProject.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="apidays24-sg-pj.PythonProject.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -3416,7 +3416,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-projects.PythonProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="apidays24-sg-pj.PythonProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -3428,7 +3428,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-projects.PythonProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="apidays24-sg-pj.PythonProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -3438,7 +3438,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-projects.PythonProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="apidays24-sg-pj.PythonProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -3453,7 +3453,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-projects.PythonProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="apidays24-sg-pj.PythonProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -3469,7 +3469,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.PythonProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.PythonProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -3483,7 +3483,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-projects.PythonProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="apidays24-sg-pj.PythonProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -3493,7 +3493,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-projects.PythonProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="apidays24-sg-pj.PythonProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -3505,7 +3505,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.PythonProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.PythonProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -3519,7 +3519,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.PythonProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.PythonProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -3533,7 +3533,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.PythonProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.PythonProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -3547,7 +3547,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.PythonProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.PythonProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -3561,7 +3561,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `depsManager`<sup>Required</sup> <a name="depsManager" id="projen-projects.PythonProject.property.depsManager"></a>
+##### `depsManager`<sup>Required</sup> <a name="depsManager" id="apidays24-sg-pj.PythonProject.property.depsManager"></a>
 
 ```typescript
 public readonly depsManager: IPythonDeps;
@@ -3573,7 +3573,7 @@ API for managing dependencies.
 
 ---
 
-##### `envManager`<sup>Required</sup> <a name="envManager" id="projen-projects.PythonProject.property.envManager"></a>
+##### `envManager`<sup>Required</sup> <a name="envManager" id="apidays24-sg-pj.PythonProject.property.envManager"></a>
 
 ```typescript
 public readonly envManager: IPythonEnv;
@@ -3585,7 +3585,7 @@ API for mangaging the Python runtime environment.
 
 ---
 
-##### `moduleName`<sup>Required</sup> <a name="moduleName" id="projen-projects.PythonProject.property.moduleName"></a>
+##### `moduleName`<sup>Required</sup> <a name="moduleName" id="apidays24-sg-pj.PythonProject.property.moduleName"></a>
 
 ```typescript
 public readonly moduleName: string;
@@ -3597,7 +3597,7 @@ Python module name (the project name, with any hyphens or periods replaced with 
 
 ---
 
-##### `version`<sup>Required</sup> <a name="version" id="projen-projects.PythonProject.property.version"></a>
+##### `version`<sup>Required</sup> <a name="version" id="apidays24-sg-pj.PythonProject.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -3609,7 +3609,7 @@ Version of the package for distribution (should follow semver).
 
 ---
 
-##### `packagingManager`<sup>Optional</sup> <a name="packagingManager" id="projen-projects.PythonProject.property.packagingManager"></a>
+##### `packagingManager`<sup>Optional</sup> <a name="packagingManager" id="apidays24-sg-pj.PythonProject.property.packagingManager"></a>
 
 ```typescript
 public readonly packagingManager: IPythonPackaging;
@@ -3623,7 +3623,7 @@ Only applies when the `projectType` is LIB.
 
 ---
 
-##### `pytest`<sup>Optional</sup> <a name="pytest" id="projen-projects.PythonProject.property.pytest"></a>
+##### `pytest`<sup>Optional</sup> <a name="pytest" id="apidays24-sg-pj.PythonProject.property.pytest"></a>
 
 ```typescript
 public readonly pytest: Pytest;
@@ -3639,11 +3639,11 @@ Pytest component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.PythonProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#apidays24-sg-pj.PythonProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-projects.PythonProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="apidays24-sg-pj.PythonProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
@@ -3658,39 +3658,39 @@ this task should synthesize the project files.
 
 ---
 
-### SecurityScanWorkflow <a name="SecurityScanWorkflow" id="projen-projects.SecurityScanWorkflow"></a>
+### SecurityScanWorkflow <a name="SecurityScanWorkflow" id="apidays24-sg-pj.SecurityScanWorkflow"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.SecurityScanWorkflow.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.SecurityScanWorkflow.Initializer"></a>
 
 ```typescript
-import { SecurityScanWorkflow } from 'projen-projects'
+import { SecurityScanWorkflow } from 'apidays24-sg-pj'
 
 new SecurityScanWorkflow(project: JavaProject | PythonProject | NodeProject | JsiiProject, name: string, options?: SecurityScanWorkflowOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SecurityScanWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
-| <code><a href="#projen-projects.SecurityScanWorkflow.Initializer.parameter.name">name</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SecurityScanWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SecurityScanWorkflow.Initializer.parameter.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.project"></a>
 
 - *Type:* projen.java.JavaProject | projen.python.PythonProject | projen.javascript.NodeProject | projen.cdk.JsiiProject
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.SecurityScanWorkflow.Initializer.parameter.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.name"></a>
 
 - *Type:* string
 
 ---
 
-##### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SecurityScanWorkflow.Initializer.parameter.options"></a>
+##### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SecurityScanWorkflow.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a>
 
 ---
 
@@ -3698,15 +3698,15 @@ new SecurityScanWorkflow(project: JavaProject | PythonProject | NodeProject | Js
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SecurityScanWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.callReusableWorkflow">callReusableWorkflow</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.callReusableWorkflow">callReusableWorkflow</a></code> | *No description.* |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.SecurityScanWorkflow.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.SecurityScanWorkflow.toString"></a>
 
 ```typescript
 public toString(): string
@@ -3714,7 +3714,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.SecurityScanWorkflow.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.SecurityScanWorkflow.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -3724,7 +3724,7 @@ Called after synthesis.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.SecurityScanWorkflow.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.SecurityScanWorkflow.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -3732,7 +3732,7 @@ public preSynthesize(): void
 
 Called before synthesis.
 
-##### `synthesize` <a name="synthesize" id="projen-projects.SecurityScanWorkflow.synthesize"></a>
+##### `synthesize` <a name="synthesize" id="apidays24-sg-pj.SecurityScanWorkflow.synthesize"></a>
 
 ```typescript
 public synthesize(): void
@@ -3740,25 +3740,25 @@ public synthesize(): void
 
 Synthesizes files to the project output directory.
 
-##### `callReusableWorkflow` <a name="callReusableWorkflow" id="projen-projects.SecurityScanWorkflow.callReusableWorkflow"></a>
+##### `callReusableWorkflow` <a name="callReusableWorkflow" id="apidays24-sg-pj.SecurityScanWorkflow.callReusableWorkflow"></a>
 
 ```typescript
 public callReusableWorkflow(id: string, path: string, permissions?: JobPermissions): void
 ```
 
-###### `id`<sup>Required</sup> <a name="id" id="projen-projects.SecurityScanWorkflow.callReusableWorkflow.parameter.id"></a>
+###### `id`<sup>Required</sup> <a name="id" id="apidays24-sg-pj.SecurityScanWorkflow.callReusableWorkflow.parameter.id"></a>
 
 - *Type:* string
 
 ---
 
-###### `path`<sup>Required</sup> <a name="path" id="projen-projects.SecurityScanWorkflow.callReusableWorkflow.parameter.path"></a>
+###### `path`<sup>Required</sup> <a name="path" id="apidays24-sg-pj.SecurityScanWorkflow.callReusableWorkflow.parameter.path"></a>
 
 - *Type:* string
 
 ---
 
-###### `permissions`<sup>Optional</sup> <a name="permissions" id="projen-projects.SecurityScanWorkflow.callReusableWorkflow.parameter.permissions"></a>
+###### `permissions`<sup>Optional</sup> <a name="permissions" id="apidays24-sg-pj.SecurityScanWorkflow.callReusableWorkflow.parameter.permissions"></a>
 
 - *Type:* projen.github.workflows.JobPermissions
 
@@ -3768,15 +3768,15 @@ public callReusableWorkflow(id: string, path: string, permissions?: JobPermissio
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SecurityScanWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.SecurityScanWorkflow.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.SecurityScanWorkflow.isConstruct"></a>
 
 ```typescript
-import { SecurityScanWorkflow } from 'projen-projects'
+import { SecurityScanWorkflow } from 'apidays24-sg-pj'
 
 SecurityScanWorkflow.isConstruct(x: any)
 ```
@@ -3797,7 +3797,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SecurityScanWorkflow.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SecurityScanWorkflow.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -3805,17 +3805,17 @@ Any object.
 
 ---
 
-##### `isComponent` <a name="isComponent" id="projen-projects.SecurityScanWorkflow.isComponent"></a>
+##### `isComponent` <a name="isComponent" id="apidays24-sg-pj.SecurityScanWorkflow.isComponent"></a>
 
 ```typescript
-import { SecurityScanWorkflow } from 'projen-projects'
+import { SecurityScanWorkflow } from 'apidays24-sg-pj'
 
 SecurityScanWorkflow.isComponent(x: any)
 ```
 
 Test whether the given construct is a component.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SecurityScanWorkflow.isComponent.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SecurityScanWorkflow.isComponent.parameter.x"></a>
 
 - *Type:* any
 
@@ -3825,13 +3825,13 @@ Test whether the given construct is a component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SecurityScanWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.SecurityScanWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.SecurityScanWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.SecurityScanWorkflow.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.SecurityScanWorkflow.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -3843,7 +3843,7 @@ The tree node.
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SecurityScanWorkflow.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SecurityScanWorkflow.property.project"></a>
 
 ```typescript
 public readonly project: Project;
@@ -3853,7 +3853,7 @@ public readonly project: Project;
 
 ---
 
-##### `workflow`<sup>Optional</sup> <a name="workflow" id="projen-projects.SecurityScanWorkflow.property.workflow"></a>
+##### `workflow`<sup>Optional</sup> <a name="workflow" id="apidays24-sg-pj.SecurityScanWorkflow.property.workflow"></a>
 
 ```typescript
 public readonly workflow: GithubWorkflow;
@@ -3864,32 +3864,32 @@ public readonly workflow: GithubWorkflow;
 ---
 
 
-### SnykComponent <a name="SnykComponent" id="projen-projects.SnykComponent"></a>
+### SnykComponent <a name="SnykComponent" id="apidays24-sg-pj.SnykComponent"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.SnykComponent.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.SnykComponent.Initializer"></a>
 
 ```typescript
-import { SnykComponent } from 'projen-projects'
+import { SnykComponent } from 'apidays24-sg-pj'
 
 new SnykComponent(project: JavaProject | PythonProject | NodeProject | JsiiProject, options: SnykComponentOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykComponent.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponent.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykComponent.Initializer.parameter.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykComponent.Initializer.parameter.project"></a>
 
 - *Type:* projen.java.JavaProject | projen.python.PythonProject | projen.javascript.NodeProject | projen.cdk.JsiiProject
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykComponent.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykComponent.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a>
 
 ---
 
@@ -3897,14 +3897,14 @@ new SnykComponent(project: JavaProject | PythonProject | NodeProject | JsiiProje
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykComponent.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.SnykComponent.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
-| <code><a href="#projen-projects.SnykComponent.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
-| <code><a href="#projen-projects.SnykComponent.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.SnykComponent.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.SnykComponent.toString"></a>
 
 ```typescript
 public toString(): string
@@ -3912,7 +3912,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.SnykComponent.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.SnykComponent.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -3922,7 +3922,7 @@ Called after synthesis.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.SnykComponent.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.SnykComponent.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -3930,7 +3930,7 @@ public preSynthesize(): void
 
 Called before synthesis.
 
-##### `synthesize` <a name="synthesize" id="projen-projects.SnykComponent.synthesize"></a>
+##### `synthesize` <a name="synthesize" id="apidays24-sg-pj.SnykComponent.synthesize"></a>
 
 ```typescript
 public synthesize(): void
@@ -3942,15 +3942,15 @@ Synthesizes files to the project output directory.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykComponent.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.SnykComponent.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.SnykComponent.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.SnykComponent.isConstruct"></a>
 
 ```typescript
-import { SnykComponent } from 'projen-projects'
+import { SnykComponent } from 'apidays24-sg-pj'
 
 SnykComponent.isConstruct(x: any)
 ```
@@ -3971,7 +3971,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykComponent.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykComponent.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -3979,17 +3979,17 @@ Any object.
 
 ---
 
-##### `isComponent` <a name="isComponent" id="projen-projects.SnykComponent.isComponent"></a>
+##### `isComponent` <a name="isComponent" id="apidays24-sg-pj.SnykComponent.isComponent"></a>
 
 ```typescript
-import { SnykComponent } from 'projen-projects'
+import { SnykComponent } from 'apidays24-sg-pj'
 
 SnykComponent.isComponent(x: any)
 ```
 
 Test whether the given construct is a component.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykComponent.isComponent.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykComponent.isComponent.parameter.x"></a>
 
 - *Type:* any
 
@@ -3999,15 +3999,15 @@ Test whether the given construct is a component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykComponent.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.SnykComponent.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponent.property.enableSast">enableSast</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponent.property.enableSca">enableSca</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponent.property.snykWorkflowName">snykWorkflowName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.SnykComponent.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.property.enableSast">enableSast</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.property.enableSca">enableSca</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponent.property.snykWorkflowName">snykWorkflowName</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.SnykComponent.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.SnykComponent.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -4019,7 +4019,7 @@ The tree node.
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykComponent.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykComponent.property.project"></a>
 
 ```typescript
 public readonly project: Project;
@@ -4029,7 +4029,7 @@ public readonly project: Project;
 
 ---
 
-##### `enableSast`<sup>Required</sup> <a name="enableSast" id="projen-projects.SnykComponent.property.enableSast"></a>
+##### `enableSast`<sup>Required</sup> <a name="enableSast" id="apidays24-sg-pj.SnykComponent.property.enableSast"></a>
 
 ```typescript
 public readonly enableSast: boolean;
@@ -4039,7 +4039,7 @@ public readonly enableSast: boolean;
 
 ---
 
-##### `enableSca`<sup>Required</sup> <a name="enableSca" id="projen-projects.SnykComponent.property.enableSca"></a>
+##### `enableSca`<sup>Required</sup> <a name="enableSca" id="apidays24-sg-pj.SnykComponent.property.enableSca"></a>
 
 ```typescript
 public readonly enableSca: boolean;
@@ -4049,7 +4049,7 @@ public readonly enableSca: boolean;
 
 ---
 
-##### `snykWorkflowName`<sup>Required</sup> <a name="snykWorkflowName" id="projen-projects.SnykComponent.property.snykWorkflowName"></a>
+##### `snykWorkflowName`<sup>Required</sup> <a name="snykWorkflowName" id="apidays24-sg-pj.SnykComponent.property.snykWorkflowName"></a>
 
 ```typescript
 public readonly snykWorkflowName: string;
@@ -4060,32 +4060,32 @@ public readonly snykWorkflowName: string;
 ---
 
 
-### SnykSastWorkflow <a name="SnykSastWorkflow" id="projen-projects.SnykSastWorkflow"></a>
+### SnykSastWorkflow <a name="SnykSastWorkflow" id="apidays24-sg-pj.SnykSastWorkflow"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.SnykSastWorkflow.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.SnykSastWorkflow.Initializer"></a>
 
 ```typescript
-import { SnykSastWorkflow } from 'projen-projects'
+import { SnykSastWorkflow } from 'apidays24-sg-pj'
 
 new SnykSastWorkflow(project: JavaProject | PythonProject | NodeProject | JsiiProject, options: SnykSastWorkflowOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykSastWorkflow.Initializer.parameter.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykSastWorkflow.Initializer.parameter.project"></a>
 
 - *Type:* projen.java.JavaProject | projen.python.PythonProject | projen.javascript.NodeProject | projen.cdk.JsiiProject
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykSastWorkflow.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykSastWorkflow.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a>
 
 ---
 
@@ -4093,14 +4093,14 @@ new SnykSastWorkflow(project: JavaProject | PythonProject | NodeProject | JsiiPr
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.SnykSastWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
-| <code><a href="#projen-projects.SnykSastWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
-| <code><a href="#projen-projects.SnykSastWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.SnykSastWorkflow.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.SnykSastWorkflow.toString"></a>
 
 ```typescript
 public toString(): string
@@ -4108,7 +4108,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.SnykSastWorkflow.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.SnykSastWorkflow.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -4118,7 +4118,7 @@ Called after synthesis.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.SnykSastWorkflow.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.SnykSastWorkflow.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -4126,7 +4126,7 @@ public preSynthesize(): void
 
 Called before synthesis.
 
-##### `synthesize` <a name="synthesize" id="projen-projects.SnykSastWorkflow.synthesize"></a>
+##### `synthesize` <a name="synthesize" id="apidays24-sg-pj.SnykSastWorkflow.synthesize"></a>
 
 ```typescript
 public synthesize(): void
@@ -4138,15 +4138,15 @@ Synthesizes files to the project output directory.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.SnykSastWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.SnykSastWorkflow.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.SnykSastWorkflow.isConstruct"></a>
 
 ```typescript
-import { SnykSastWorkflow } from 'projen-projects'
+import { SnykSastWorkflow } from 'apidays24-sg-pj'
 
 SnykSastWorkflow.isConstruct(x: any)
 ```
@@ -4167,7 +4167,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykSastWorkflow.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykSastWorkflow.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -4175,17 +4175,17 @@ Any object.
 
 ---
 
-##### `isComponent` <a name="isComponent" id="projen-projects.SnykSastWorkflow.isComponent"></a>
+##### `isComponent` <a name="isComponent" id="apidays24-sg-pj.SnykSastWorkflow.isComponent"></a>
 
 ```typescript
-import { SnykSastWorkflow } from 'projen-projects'
+import { SnykSastWorkflow } from 'apidays24-sg-pj'
 
 SnykSastWorkflow.isComponent(x: any)
 ```
 
 Test whether the given construct is a component.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykSastWorkflow.isComponent.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykSastWorkflow.isComponent.parameter.x"></a>
 
 - *Type:* any
 
@@ -4195,13 +4195,13 @@ Test whether the given construct is a component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.SnykSastWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.SnykSastWorkflow.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.SnykSastWorkflow.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -4213,7 +4213,7 @@ The tree node.
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykSastWorkflow.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykSastWorkflow.property.project"></a>
 
 ```typescript
 public readonly project: Project;
@@ -4223,7 +4223,7 @@ public readonly project: Project;
 
 ---
 
-##### `workflow`<sup>Optional</sup> <a name="workflow" id="projen-projects.SnykSastWorkflow.property.workflow"></a>
+##### `workflow`<sup>Optional</sup> <a name="workflow" id="apidays24-sg-pj.SnykSastWorkflow.property.workflow"></a>
 
 ```typescript
 public readonly workflow: GithubWorkflow;
@@ -4234,32 +4234,32 @@ public readonly workflow: GithubWorkflow;
 ---
 
 
-### SnykScaWorkflow <a name="SnykScaWorkflow" id="projen-projects.SnykScaWorkflow"></a>
+### SnykScaWorkflow <a name="SnykScaWorkflow" id="apidays24-sg-pj.SnykScaWorkflow"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.SnykScaWorkflow.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.SnykScaWorkflow.Initializer"></a>
 
 ```typescript
-import { SnykScaWorkflow } from 'projen-projects'
+import { SnykScaWorkflow } from 'apidays24-sg-pj'
 
 new SnykScaWorkflow(project: JavaProject | PythonProject | NodeProject | JsiiProject, options: SnykScaWorkflowOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.Initializer.parameter.project">project</a></code> | <code>projen.java.JavaProject \| projen.python.PythonProject \| projen.javascript.NodeProject \| projen.cdk.JsiiProject</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a></code> | *No description.* |
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykScaWorkflow.Initializer.parameter.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykScaWorkflow.Initializer.parameter.project"></a>
 
 - *Type:* projen.java.JavaProject | projen.python.PythonProject | projen.javascript.NodeProject | projen.cdk.JsiiProject
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykScaWorkflow.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykScaWorkflow.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a>
 
 ---
 
@@ -4267,14 +4267,14 @@ new SnykScaWorkflow(project: JavaProject | PythonProject | NodeProject | JsiiPro
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.SnykScaWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
-| <code><a href="#projen-projects.SnykScaWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
-| <code><a href="#projen-projects.SnykScaWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.postSynthesize">postSynthesize</a></code> | Called after synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.preSynthesize">preSynthesize</a></code> | Called before synthesis. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.synthesize">synthesize</a></code> | Synthesizes files to the project output directory. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.SnykScaWorkflow.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.SnykScaWorkflow.toString"></a>
 
 ```typescript
 public toString(): string
@@ -4282,7 +4282,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.SnykScaWorkflow.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.SnykScaWorkflow.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -4292,7 +4292,7 @@ Called after synthesis.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.SnykScaWorkflow.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.SnykScaWorkflow.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -4300,7 +4300,7 @@ public preSynthesize(): void
 
 Called before synthesis.
 
-##### `synthesize` <a name="synthesize" id="projen-projects.SnykScaWorkflow.synthesize"></a>
+##### `synthesize` <a name="synthesize" id="apidays24-sg-pj.SnykScaWorkflow.synthesize"></a>
 
 ```typescript
 public synthesize(): void
@@ -4312,15 +4312,15 @@ Synthesizes files to the project output directory.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.SnykScaWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.isComponent">isComponent</a></code> | Test whether the given construct is a component. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.SnykScaWorkflow.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.SnykScaWorkflow.isConstruct"></a>
 
 ```typescript
-import { SnykScaWorkflow } from 'projen-projects'
+import { SnykScaWorkflow } from 'apidays24-sg-pj'
 
 SnykScaWorkflow.isConstruct(x: any)
 ```
@@ -4341,7 +4341,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykScaWorkflow.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykScaWorkflow.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -4349,17 +4349,17 @@ Any object.
 
 ---
 
-##### `isComponent` <a name="isComponent" id="projen-projects.SnykScaWorkflow.isComponent"></a>
+##### `isComponent` <a name="isComponent" id="apidays24-sg-pj.SnykScaWorkflow.isComponent"></a>
 
 ```typescript
-import { SnykScaWorkflow } from 'projen-projects'
+import { SnykScaWorkflow } from 'apidays24-sg-pj'
 
 SnykScaWorkflow.isComponent(x: any)
 ```
 
 Test whether the given construct is a component.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.SnykScaWorkflow.isComponent.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.SnykScaWorkflow.isComponent.parameter.x"></a>
 
 - *Type:* any
 
@@ -4369,13 +4369,13 @@ Test whether the given construct is a component.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.SnykScaWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.property.project">project</a></code> | <code>projen.Project</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflow.property.workflow">workflow</a></code> | <code>projen.github.GithubWorkflow</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.SnykScaWorkflow.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.SnykScaWorkflow.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -4387,7 +4387,7 @@ The tree node.
 
 ---
 
-##### `project`<sup>Required</sup> <a name="project" id="projen-projects.SnykScaWorkflow.property.project"></a>
+##### `project`<sup>Required</sup> <a name="project" id="apidays24-sg-pj.SnykScaWorkflow.property.project"></a>
 
 ```typescript
 public readonly project: Project;
@@ -4397,7 +4397,7 @@ public readonly project: Project;
 
 ---
 
-##### `workflow`<sup>Optional</sup> <a name="workflow" id="projen-projects.SnykScaWorkflow.property.workflow"></a>
+##### `workflow`<sup>Optional</sup> <a name="workflow" id="apidays24-sg-pj.SnykScaWorkflow.property.workflow"></a>
 
 ```typescript
 public readonly workflow: GithubWorkflow;
@@ -4408,27 +4408,27 @@ public readonly workflow: GithubWorkflow;
 ---
 
 
-### TypescriptProject <a name="TypescriptProject" id="projen-projects.TypescriptProject"></a>
+### TypescriptProject <a name="TypescriptProject" id="apidays24-sg-pj.TypescriptProject"></a>
 
 TypeScript project.
 
-#### Initializers <a name="Initializers" id="projen-projects.TypescriptProject.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.TypescriptProject.Initializer"></a>
 
 ```typescript
-import { TypescriptProject } from 'projen-projects'
+import { TypescriptProject } from 'apidays24-sg-pj'
 
 new TypescriptProject(options: TypescriptProjectOptions)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.TypescriptProject.Initializer.parameter.options">options</a></code> | <code><a href="#projen-projects.TypescriptProjectOptions">TypescriptProjectOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.Initializer.parameter.options">options</a></code> | <code><a href="#apidays24-sg-pj.TypescriptProjectOptions">TypescriptProjectOptions</a></code> | *No description.* |
 
 ---
 
-##### `options`<sup>Required</sup> <a name="options" id="projen-projects.TypescriptProject.Initializer.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.TypescriptProject.Initializer.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.TypescriptProjectOptions">TypescriptProjectOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.TypescriptProjectOptions">TypescriptProjectOptions</a>
 
 ---
 
@@ -4436,40 +4436,40 @@ new TypescriptProject(options: TypescriptProjectOptions)
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.TypescriptProject.toString">toString</a></code> | Returns a string representation of this construct. |
-| <code><a href="#projen-projects.TypescriptProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
-| <code><a href="#projen-projects.TypescriptProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
-| <code><a href="#projen-projects.TypescriptProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
-| <code><a href="#projen-projects.TypescriptProject.addTask">addTask</a></code> | Adds a new task to this project. |
-| <code><a href="#projen-projects.TypescriptProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
-| <code><a href="#projen-projects.TypescriptProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
-| <code><a href="#projen-projects.TypescriptProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
-| <code><a href="#projen-projects.TypescriptProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
-| <code><a href="#projen-projects.TypescriptProject.removeTask">removeTask</a></code> | Removes a task from a project. |
-| <code><a href="#projen-projects.TypescriptProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
-| <code><a href="#projen-projects.TypescriptProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
-| <code><a href="#projen-projects.TypescriptProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
-| <code><a href="#projen-projects.TypescriptProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
-| <code><a href="#projen-projects.TypescriptProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
-| <code><a href="#projen-projects.TypescriptProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
-| <code><a href="#projen-projects.TypescriptProject.addBins">addBins</a></code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
-| <code><a href="#projen-projects.TypescriptProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-projects.TypescriptProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
-| <code><a href="#projen-projects.TypescriptProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
-| <code><a href="#projen-projects.TypescriptProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
-| <code><a href="#projen-projects.TypescriptProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
-| <code><a href="#projen-projects.TypescriptProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
-| <code><a href="#projen-projects.TypescriptProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
-| <code><a href="#projen-projects.TypescriptProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
-| <code><a href="#projen-projects.TypescriptProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
-| <code><a href="#projen-projects.TypescriptProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
-| <code><a href="#projen-projects.TypescriptProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
-| <code><a href="#projen-projects.TypescriptProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addExcludeFromCleanup">addExcludeFromCleanup</a></code> | Exclude the matching files from pre-synth cleanup. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addGitIgnore">addGitIgnore</a></code> | Adds a .gitignore pattern. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addPackageIgnore">addPackageIgnore</a></code> | Adds patterns to be ignored by npm. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addTask">addTask</a></code> | Adds a new task to this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addTip">addTip</a></code> | Prints a "tip" message during synthesis. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.annotateGenerated">annotateGenerated</a></code> | Marks the provided file(s) as being generated. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.postSynthesize">postSynthesize</a></code> | Called after all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.preSynthesize">preSynthesize</a></code> | Called before all components are synthesized. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.removeTask">removeTask</a></code> | Removes a task from a project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.runTaskCommand">runTaskCommand</a></code> | Returns the shell command to execute in order to run a task. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.synth">synth</a></code> | Synthesize all project files into `outdir`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.tryFindFile">tryFindFile</a></code> | Finds a file at the specified relative path within this project and all its subprojects. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.tryFindJsonFile">tryFindJsonFile</a></code> | Finds a json file by name. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.tryFindObjectFile">tryFindObjectFile</a></code> | Finds an object file (like JsonFile, YamlFile, etc.) by name. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.tryRemoveFile">tryRemoveFile</a></code> | Finds a file at the specified relative path within this project and removes it. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addBins">addBins</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addBundledDeps">addBundledDeps</a></code> | Defines bundled dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addCompileCommand">addCompileCommand</a></code> | DEPRECATED. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addDeps">addDeps</a></code> | Defines normal dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addDevDeps">addDevDeps</a></code> | Defines development/test dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addFields">addFields</a></code> | Directly set fields in `package.json`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addKeywords">addKeywords</a></code> | Adds keywords to package.json (deduplicated). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addPeerDeps">addPeerDeps</a></code> | Defines peer dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addScripts">addScripts</a></code> | Replaces the contents of multiple npm package.json scripts. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.addTestCommand">addTestCommand</a></code> | DEPRECATED. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.hasScript">hasScript</a></code> | Indicates if a script by the name name is defined. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.removeScript">removeScript</a></code> | Removes the npm script (always successful). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.renderWorkflowSetup">renderWorkflowSetup</a></code> | Returns the set of workflow steps which should be executed to bootstrap a workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.setScript">setScript</a></code> | Replaces the contents of an npm package.json script. |
 
 ---
 
-##### `toString` <a name="toString" id="projen-projects.TypescriptProject.toString"></a>
+##### `toString` <a name="toString" id="apidays24-sg-pj.TypescriptProject.toString"></a>
 
 ```typescript
 public toString(): string
@@ -4477,7 +4477,7 @@ public toString(): string
 
 Returns a string representation of this construct.
 
-##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="projen-projects.TypescriptProject.addExcludeFromCleanup"></a>
+##### `addExcludeFromCleanup` <a name="addExcludeFromCleanup" id="apidays24-sg-pj.TypescriptProject.addExcludeFromCleanup"></a>
 
 ```typescript
 public addExcludeFromCleanup(globs: string): void
@@ -4488,7 +4488,7 @@ Exclude the matching files from pre-synth cleanup.
 Can be used when, for example, some
 source files include the projen marker and we don't want them to be erased during synth.
 
-###### `globs`<sup>Required</sup> <a name="globs" id="projen-projects.TypescriptProject.addExcludeFromCleanup.parameter.globs"></a>
+###### `globs`<sup>Required</sup> <a name="globs" id="apidays24-sg-pj.TypescriptProject.addExcludeFromCleanup.parameter.globs"></a>
 
 - *Type:* string
 
@@ -4496,7 +4496,7 @@ The glob patterns to match.
 
 ---
 
-##### `addGitIgnore` <a name="addGitIgnore" id="projen-projects.TypescriptProject.addGitIgnore"></a>
+##### `addGitIgnore` <a name="addGitIgnore" id="apidays24-sg-pj.TypescriptProject.addGitIgnore"></a>
 
 ```typescript
 public addGitIgnore(pattern: string): void
@@ -4504,7 +4504,7 @@ public addGitIgnore(pattern: string): void
 
 Adds a .gitignore pattern.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.TypescriptProject.addGitIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.TypescriptProject.addGitIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -4512,7 +4512,7 @@ The glob pattern to ignore.
 
 ---
 
-##### `addPackageIgnore` <a name="addPackageIgnore" id="projen-projects.TypescriptProject.addPackageIgnore"></a>
+##### `addPackageIgnore` <a name="addPackageIgnore" id="apidays24-sg-pj.TypescriptProject.addPackageIgnore"></a>
 
 ```typescript
 public addPackageIgnore(pattern: string): void
@@ -4520,7 +4520,7 @@ public addPackageIgnore(pattern: string): void
 
 Adds patterns to be ignored by npm.
 
-###### `pattern`<sup>Required</sup> <a name="pattern" id="projen-projects.TypescriptProject.addPackageIgnore.parameter.pattern"></a>
+###### `pattern`<sup>Required</sup> <a name="pattern" id="apidays24-sg-pj.TypescriptProject.addPackageIgnore.parameter.pattern"></a>
 
 - *Type:* string
 
@@ -4528,7 +4528,7 @@ The pattern to ignore.
 
 ---
 
-##### `addTask` <a name="addTask" id="projen-projects.TypescriptProject.addTask"></a>
+##### `addTask` <a name="addTask" id="apidays24-sg-pj.TypescriptProject.addTask"></a>
 
 ```typescript
 public addTask(name: string, props?: TaskOptions): Task
@@ -4539,7 +4539,7 @@ Adds a new task to this project.
 This will fail if the project already has
 a task with this name.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.addTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.addTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -4547,7 +4547,7 @@ The task name to add.
 
 ---
 
-###### `props`<sup>Optional</sup> <a name="props" id="projen-projects.TypescriptProject.addTask.parameter.props"></a>
+###### `props`<sup>Optional</sup> <a name="props" id="apidays24-sg-pj.TypescriptProject.addTask.parameter.props"></a>
 
 - *Type:* projen.TaskOptions
 
@@ -4555,7 +4555,7 @@ Task properties.
 
 ---
 
-##### ~~`addTip`~~ <a name="addTip" id="projen-projects.TypescriptProject.addTip"></a>
+##### ~~`addTip`~~ <a name="addTip" id="apidays24-sg-pj.TypescriptProject.addTip"></a>
 
 ```typescript
 public addTip(message: string): void
@@ -4563,7 +4563,7 @@ public addTip(message: string): void
 
 Prints a "tip" message during synthesis.
 
-###### `message`<sup>Required</sup> <a name="message" id="projen-projects.TypescriptProject.addTip.parameter.message"></a>
+###### `message`<sup>Required</sup> <a name="message" id="apidays24-sg-pj.TypescriptProject.addTip.parameter.message"></a>
 
 - *Type:* string
 
@@ -4571,7 +4571,7 @@ The message.
 
 ---
 
-##### `annotateGenerated` <a name="annotateGenerated" id="projen-projects.TypescriptProject.annotateGenerated"></a>
+##### `annotateGenerated` <a name="annotateGenerated" id="apidays24-sg-pj.TypescriptProject.annotateGenerated"></a>
 
 ```typescript
 public annotateGenerated(glob: string): void
@@ -4585,7 +4585,7 @@ repository statistics and language breakdown.
 
 > [https://github.com/github/linguist/blob/master/docs/overrides.md](https://github.com/github/linguist/blob/master/docs/overrides.md)
 
-###### `glob`<sup>Required</sup> <a name="glob" id="projen-projects.TypescriptProject.annotateGenerated.parameter.glob"></a>
+###### `glob`<sup>Required</sup> <a name="glob" id="apidays24-sg-pj.TypescriptProject.annotateGenerated.parameter.glob"></a>
 
 - *Type:* string
 
@@ -4593,7 +4593,7 @@ the glob pattern to match (could be a file path).
 
 ---
 
-##### `postSynthesize` <a name="postSynthesize" id="projen-projects.TypescriptProject.postSynthesize"></a>
+##### `postSynthesize` <a name="postSynthesize" id="apidays24-sg-pj.TypescriptProject.postSynthesize"></a>
 
 ```typescript
 public postSynthesize(): void
@@ -4603,7 +4603,7 @@ Called after all components are synthesized.
 
 Order is *not* guaranteed.
 
-##### `preSynthesize` <a name="preSynthesize" id="projen-projects.TypescriptProject.preSynthesize"></a>
+##### `preSynthesize` <a name="preSynthesize" id="apidays24-sg-pj.TypescriptProject.preSynthesize"></a>
 
 ```typescript
 public preSynthesize(): void
@@ -4611,7 +4611,7 @@ public preSynthesize(): void
 
 Called before all components are synthesized.
 
-##### `removeTask` <a name="removeTask" id="projen-projects.TypescriptProject.removeTask"></a>
+##### `removeTask` <a name="removeTask" id="apidays24-sg-pj.TypescriptProject.removeTask"></a>
 
 ```typescript
 public removeTask(name: string): Task
@@ -4619,7 +4619,7 @@ public removeTask(name: string): Task
 
 Removes a task from a project.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.removeTask.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.removeTask.parameter.name"></a>
 
 - *Type:* string
 
@@ -4627,7 +4627,7 @@ The name of the task to remove.
 
 ---
 
-##### `runTaskCommand` <a name="runTaskCommand" id="projen-projects.TypescriptProject.runTaskCommand"></a>
+##### `runTaskCommand` <a name="runTaskCommand" id="apidays24-sg-pj.TypescriptProject.runTaskCommand"></a>
 
 ```typescript
 public runTaskCommand(task: Task): string
@@ -4638,7 +4638,7 @@ Returns the shell command to execute in order to run a task.
 This will
 typically be `npx projen TASK`.
 
-###### `task`<sup>Required</sup> <a name="task" id="projen-projects.TypescriptProject.runTaskCommand.parameter.task"></a>
+###### `task`<sup>Required</sup> <a name="task" id="apidays24-sg-pj.TypescriptProject.runTaskCommand.parameter.task"></a>
 
 - *Type:* projen.Task
 
@@ -4646,7 +4646,7 @@ The task for which the command is required.
 
 ---
 
-##### `synth` <a name="synth" id="projen-projects.TypescriptProject.synth"></a>
+##### `synth` <a name="synth" id="apidays24-sg-pj.TypescriptProject.synth"></a>
 
 ```typescript
 public synth(): void
@@ -4661,7 +4661,7 @@ Synthesize all project files into `outdir`.
 5. Call "postSynthesize()" for all components of this project
 6. Call "this.postSynthesize()"
 
-##### `tryFindFile` <a name="tryFindFile" id="projen-projects.TypescriptProject.tryFindFile"></a>
+##### `tryFindFile` <a name="tryFindFile" id="apidays24-sg-pj.TypescriptProject.tryFindFile"></a>
 
 ```typescript
 public tryFindFile(filePath: string): FileBase
@@ -4669,7 +4669,7 @@ public tryFindFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and all its subprojects.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.TypescriptProject.tryFindFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.TypescriptProject.tryFindFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -4680,7 +4680,7 @@ from the root of _this_ project.
 
 ---
 
-##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="projen-projects.TypescriptProject.tryFindJsonFile"></a>
+##### ~~`tryFindJsonFile`~~ <a name="tryFindJsonFile" id="apidays24-sg-pj.TypescriptProject.tryFindJsonFile"></a>
 
 ```typescript
 public tryFindJsonFile(filePath: string): JsonFile
@@ -4688,7 +4688,7 @@ public tryFindJsonFile(filePath: string): JsonFile
 
 Finds a json file by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.TypescriptProject.tryFindJsonFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.TypescriptProject.tryFindJsonFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -4696,7 +4696,7 @@ The file path.
 
 ---
 
-##### `tryFindObjectFile` <a name="tryFindObjectFile" id="projen-projects.TypescriptProject.tryFindObjectFile"></a>
+##### `tryFindObjectFile` <a name="tryFindObjectFile" id="apidays24-sg-pj.TypescriptProject.tryFindObjectFile"></a>
 
 ```typescript
 public tryFindObjectFile(filePath: string): ObjectFile
@@ -4704,7 +4704,7 @@ public tryFindObjectFile(filePath: string): ObjectFile
 
 Finds an object file (like JsonFile, YamlFile, etc.) by name.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.TypescriptProject.tryFindObjectFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.TypescriptProject.tryFindObjectFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -4712,7 +4712,7 @@ The file path.
 
 ---
 
-##### `tryRemoveFile` <a name="tryRemoveFile" id="projen-projects.TypescriptProject.tryRemoveFile"></a>
+##### `tryRemoveFile` <a name="tryRemoveFile" id="apidays24-sg-pj.TypescriptProject.tryRemoveFile"></a>
 
 ```typescript
 public tryRemoveFile(filePath: string): FileBase
@@ -4720,7 +4720,7 @@ public tryRemoveFile(filePath: string): FileBase
 
 Finds a file at the specified relative path within this project and removes it.
 
-###### `filePath`<sup>Required</sup> <a name="filePath" id="projen-projects.TypescriptProject.tryRemoveFile.parameter.filePath"></a>
+###### `filePath`<sup>Required</sup> <a name="filePath" id="apidays24-sg-pj.TypescriptProject.tryRemoveFile.parameter.filePath"></a>
 
 - *Type:* string
 
@@ -4731,19 +4731,19 @@ resolved from the root of _this_ project.
 
 ---
 
-##### `addBins` <a name="addBins" id="projen-projects.TypescriptProject.addBins"></a>
+##### `addBins` <a name="addBins" id="apidays24-sg-pj.TypescriptProject.addBins"></a>
 
 ```typescript
 public addBins(bins: {[ key: string ]: string}): void
 ```
 
-###### `bins`<sup>Required</sup> <a name="bins" id="projen-projects.TypescriptProject.addBins.parameter.bins"></a>
+###### `bins`<sup>Required</sup> <a name="bins" id="apidays24-sg-pj.TypescriptProject.addBins.parameter.bins"></a>
 
 - *Type:* {[ key: string ]: string}
 
 ---
 
-##### `addBundledDeps` <a name="addBundledDeps" id="projen-projects.TypescriptProject.addBundledDeps"></a>
+##### `addBundledDeps` <a name="addBundledDeps" id="apidays24-sg-pj.TypescriptProject.addBundledDeps"></a>
 
 ```typescript
 public addBundledDeps(deps: string): void
@@ -4754,7 +4754,7 @@ Defines bundled dependencies.
 Bundled dependencies will be added as normal dependencies as well as to the
 `bundledDependencies` section of your `package.json`.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.TypescriptProject.addBundledDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProject.addBundledDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -4768,7 +4768,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="projen-projects.TypescriptProject.addCompileCommand"></a>
+##### ~~`addCompileCommand`~~ <a name="addCompileCommand" id="apidays24-sg-pj.TypescriptProject.addCompileCommand"></a>
 
 ```typescript
 public addCompileCommand(commands: string): void
@@ -4776,13 +4776,13 @@ public addCompileCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-projects.TypescriptProject.addCompileCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="apidays24-sg-pj.TypescriptProject.addCompileCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### `addDeps` <a name="addDeps" id="projen-projects.TypescriptProject.addDeps"></a>
+##### `addDeps` <a name="addDeps" id="apidays24-sg-pj.TypescriptProject.addDeps"></a>
 
 ```typescript
 public addDeps(deps: string): void
@@ -4790,7 +4790,7 @@ public addDeps(deps: string): void
 
 Defines normal dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.TypescriptProject.addDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProject.addDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -4804,7 +4804,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addDevDeps` <a name="addDevDeps" id="projen-projects.TypescriptProject.addDevDeps"></a>
+##### `addDevDeps` <a name="addDevDeps" id="apidays24-sg-pj.TypescriptProject.addDevDeps"></a>
 
 ```typescript
 public addDevDeps(deps: string): void
@@ -4812,7 +4812,7 @@ public addDevDeps(deps: string): void
 
 Defines development/test dependencies.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.TypescriptProject.addDevDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProject.addDevDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -4826,7 +4826,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addFields` <a name="addFields" id="projen-projects.TypescriptProject.addFields"></a>
+##### `addFields` <a name="addFields" id="apidays24-sg-pj.TypescriptProject.addFields"></a>
 
 ```typescript
 public addFields(fields: {[ key: string ]: any}): void
@@ -4834,7 +4834,7 @@ public addFields(fields: {[ key: string ]: any}): void
 
 Directly set fields in `package.json`.
 
-###### `fields`<sup>Required</sup> <a name="fields" id="projen-projects.TypescriptProject.addFields.parameter.fields"></a>
+###### `fields`<sup>Required</sup> <a name="fields" id="apidays24-sg-pj.TypescriptProject.addFields.parameter.fields"></a>
 
 - *Type:* {[ key: string ]: any}
 
@@ -4842,7 +4842,7 @@ The fields to set.
 
 ---
 
-##### `addKeywords` <a name="addKeywords" id="projen-projects.TypescriptProject.addKeywords"></a>
+##### `addKeywords` <a name="addKeywords" id="apidays24-sg-pj.TypescriptProject.addKeywords"></a>
 
 ```typescript
 public addKeywords(keywords: string): void
@@ -4850,7 +4850,7 @@ public addKeywords(keywords: string): void
 
 Adds keywords to package.json (deduplicated).
 
-###### `keywords`<sup>Required</sup> <a name="keywords" id="projen-projects.TypescriptProject.addKeywords.parameter.keywords"></a>
+###### `keywords`<sup>Required</sup> <a name="keywords" id="apidays24-sg-pj.TypescriptProject.addKeywords.parameter.keywords"></a>
 
 - *Type:* string
 
@@ -4858,7 +4858,7 @@ The keywords to add.
 
 ---
 
-##### `addPeerDeps` <a name="addPeerDeps" id="projen-projects.TypescriptProject.addPeerDeps"></a>
+##### `addPeerDeps` <a name="addPeerDeps" id="apidays24-sg-pj.TypescriptProject.addPeerDeps"></a>
 
 ```typescript
 public addPeerDeps(deps: string): void
@@ -4870,7 +4870,7 @@ When adding peer dependencies, a devDependency will also be added on the
 pinned version of the declared peer. This will ensure that you are testing
 your code against the minimum version required from your consumers.
 
-###### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.TypescriptProject.addPeerDeps.parameter.deps"></a>
+###### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProject.addPeerDeps.parameter.deps"></a>
 
 - *Type:* string
 
@@ -4884,7 +4884,7 @@ add/upgrade`. If you wish to specify a version range use this syntax:
 
 ---
 
-##### `addScripts` <a name="addScripts" id="projen-projects.TypescriptProject.addScripts"></a>
+##### `addScripts` <a name="addScripts" id="apidays24-sg-pj.TypescriptProject.addScripts"></a>
 
 ```typescript
 public addScripts(scripts: {[ key: string ]: string}): void
@@ -4892,7 +4892,7 @@ public addScripts(scripts: {[ key: string ]: string}): void
 
 Replaces the contents of multiple npm package.json scripts.
 
-###### `scripts`<sup>Required</sup> <a name="scripts" id="projen-projects.TypescriptProject.addScripts.parameter.scripts"></a>
+###### `scripts`<sup>Required</sup> <a name="scripts" id="apidays24-sg-pj.TypescriptProject.addScripts.parameter.scripts"></a>
 
 - *Type:* {[ key: string ]: string}
 
@@ -4900,7 +4900,7 @@ The scripts to set.
 
 ---
 
-##### ~~`addTestCommand`~~ <a name="addTestCommand" id="projen-projects.TypescriptProject.addTestCommand"></a>
+##### ~~`addTestCommand`~~ <a name="addTestCommand" id="apidays24-sg-pj.TypescriptProject.addTestCommand"></a>
 
 ```typescript
 public addTestCommand(commands: string): void
@@ -4908,13 +4908,13 @@ public addTestCommand(commands: string): void
 
 DEPRECATED.
 
-###### `commands`<sup>Required</sup> <a name="commands" id="projen-projects.TypescriptProject.addTestCommand.parameter.commands"></a>
+###### `commands`<sup>Required</sup> <a name="commands" id="apidays24-sg-pj.TypescriptProject.addTestCommand.parameter.commands"></a>
 
 - *Type:* string
 
 ---
 
-##### ~~`hasScript`~~ <a name="hasScript" id="projen-projects.TypescriptProject.hasScript"></a>
+##### ~~`hasScript`~~ <a name="hasScript" id="apidays24-sg-pj.TypescriptProject.hasScript"></a>
 
 ```typescript
 public hasScript(name: string): boolean
@@ -4922,7 +4922,7 @@ public hasScript(name: string): boolean
 
 Indicates if a script by the name name is defined.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.hasScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.hasScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -4930,7 +4930,7 @@ The name of the script.
 
 ---
 
-##### `removeScript` <a name="removeScript" id="projen-projects.TypescriptProject.removeScript"></a>
+##### `removeScript` <a name="removeScript" id="apidays24-sg-pj.TypescriptProject.removeScript"></a>
 
 ```typescript
 public removeScript(name: string): void
@@ -4938,7 +4938,7 @@ public removeScript(name: string): void
 
 Removes the npm script (always successful).
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.removeScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.removeScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -4946,7 +4946,7 @@ The name of the script.
 
 ---
 
-##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="projen-projects.TypescriptProject.renderWorkflowSetup"></a>
+##### `renderWorkflowSetup` <a name="renderWorkflowSetup" id="apidays24-sg-pj.TypescriptProject.renderWorkflowSetup"></a>
 
 ```typescript
 public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
@@ -4954,7 +4954,7 @@ public renderWorkflowSetup(options?: RenderWorkflowSetupOptions): JobStep[]
 
 Returns the set of workflow steps which should be executed to bootstrap a workflow.
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.TypescriptProject.renderWorkflowSetup.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.TypescriptProject.renderWorkflowSetup.parameter.options"></a>
 
 - *Type:* projen.javascript.RenderWorkflowSetupOptions
 
@@ -4962,7 +4962,7 @@ Options.
 
 ---
 
-##### `setScript` <a name="setScript" id="projen-projects.TypescriptProject.setScript"></a>
+##### `setScript` <a name="setScript" id="apidays24-sg-pj.TypescriptProject.setScript"></a>
 
 ```typescript
 public setScript(name: string, command: string): void
@@ -4970,7 +4970,7 @@ public setScript(name: string, command: string): void
 
 Replaces the contents of an npm package.json script.
 
-###### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.setScript.parameter.name"></a>
+###### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.setScript.parameter.name"></a>
 
 - *Type:* string
 
@@ -4978,7 +4978,7 @@ The script name.
 
 ---
 
-###### `command`<sup>Required</sup> <a name="command" id="projen-projects.TypescriptProject.setScript.parameter.command"></a>
+###### `command`<sup>Required</sup> <a name="command" id="apidays24-sg-pj.TypescriptProject.setScript.parameter.command"></a>
 
 - *Type:* string
 
@@ -4990,16 +4990,16 @@ The command to execute.
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.TypescriptProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
-| <code><a href="#projen-projects.TypescriptProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
-| <code><a href="#projen-projects.TypescriptProject.of">of</a></code> | Find the closest ancestor project for given construct. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.isProject">isProject</a></code> | Test whether the given construct is a project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.of">of</a></code> | Find the closest ancestor project for given construct. |
 
 ---
 
-##### `isConstruct` <a name="isConstruct" id="projen-projects.TypescriptProject.isConstruct"></a>
+##### `isConstruct` <a name="isConstruct" id="apidays24-sg-pj.TypescriptProject.isConstruct"></a>
 
 ```typescript
-import { TypescriptProject } from 'projen-projects'
+import { TypescriptProject } from 'apidays24-sg-pj'
 
 TypescriptProject.isConstruct(x: any)
 ```
@@ -5020,7 +5020,7 @@ library can be accidentally installed, and `instanceof` will behave
 unpredictably. It is safest to avoid using `instanceof`, and using
 this type-testing method instead.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.TypescriptProject.isConstruct.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.TypescriptProject.isConstruct.parameter.x"></a>
 
 - *Type:* any
 
@@ -5028,26 +5028,26 @@ Any object.
 
 ---
 
-##### `isProject` <a name="isProject" id="projen-projects.TypescriptProject.isProject"></a>
+##### `isProject` <a name="isProject" id="apidays24-sg-pj.TypescriptProject.isProject"></a>
 
 ```typescript
-import { TypescriptProject } from 'projen-projects'
+import { TypescriptProject } from 'apidays24-sg-pj'
 
 TypescriptProject.isProject(x: any)
 ```
 
 Test whether the given construct is a project.
 
-###### `x`<sup>Required</sup> <a name="x" id="projen-projects.TypescriptProject.isProject.parameter.x"></a>
+###### `x`<sup>Required</sup> <a name="x" id="apidays24-sg-pj.TypescriptProject.isProject.parameter.x"></a>
 
 - *Type:* any
 
 ---
 
-##### `of` <a name="of" id="projen-projects.TypescriptProject.of"></a>
+##### `of` <a name="of" id="apidays24-sg-pj.TypescriptProject.of"></a>
 
 ```typescript
-import { TypescriptProject } from 'projen-projects'
+import { TypescriptProject } from 'apidays24-sg-pj'
 
 TypescriptProject.of(construct: IConstruct)
 ```
@@ -5056,7 +5056,7 @@ Find the closest ancestor project for given construct.
 
 When given a project, this it the project itself.
 
-###### `construct`<sup>Required</sup> <a name="construct" id="projen-projects.TypescriptProject.of.parameter.construct"></a>
+###### `construct`<sup>Required</sup> <a name="construct" id="apidays24-sg-pj.TypescriptProject.of.parameter.construct"></a>
 
 - *Type:* constructs.IConstruct
 
@@ -5066,72 +5066,72 @@ When given a project, this it the project itself.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.TypescriptProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
-| <code><a href="#projen-projects.TypescriptProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.TypescriptProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
-| <code><a href="#projen-projects.TypescriptProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
-| <code><a href="#projen-projects.TypescriptProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
-| <code><a href="#projen-projects.TypescriptProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
-| <code><a href="#projen-projects.TypescriptProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
-| <code><a href="#projen-projects.TypescriptProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
-| <code><a href="#projen-projects.TypescriptProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
-| <code><a href="#projen-projects.TypescriptProject.property.name">name</a></code> | <code>string</code> | Project name. |
-| <code><a href="#projen-projects.TypescriptProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
-| <code><a href="#projen-projects.TypescriptProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
-| <code><a href="#projen-projects.TypescriptProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.TypescriptProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
-| <code><a href="#projen-projects.TypescriptProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
-| <code><a href="#projen-projects.TypescriptProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
-| <code><a href="#projen-projects.TypescriptProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
-| <code><a href="#projen-projects.TypescriptProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
-| <code><a href="#projen-projects.TypescriptProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
-| <code><a href="#projen-projects.TypescriptProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
-| <code><a href="#projen-projects.TypescriptProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.TypescriptProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
-| <code><a href="#projen-projects.TypescriptProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
-| <code><a href="#projen-projects.TypescriptProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
-| <code><a href="#projen-projects.TypescriptProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
-| <code><a href="#projen-projects.TypescriptProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
-| <code><a href="#projen-projects.TypescriptProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
-| <code><a href="#projen-projects.TypescriptProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
-| <code><a href="#projen-projects.TypescriptProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
-| <code><a href="#projen-projects.TypescriptProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
-| <code><a href="#projen-projects.TypescriptProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
-| <code><a href="#projen-projects.TypescriptProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
-| <code><a href="#projen-projects.TypescriptProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
-| <code><a href="#projen-projects.TypescriptProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
-| <code><a href="#projen-projects.TypescriptProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
-| <code><a href="#projen-projects.TypescriptProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
-| <code><a href="#projen-projects.TypescriptProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
-| <code><a href="#projen-projects.TypescriptProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
-| <code><a href="#projen-projects.TypescriptProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
-| <code><a href="#projen-projects.TypescriptProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
-| <code><a href="#projen-projects.TypescriptProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
-| <code><a href="#projen-projects.TypescriptProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
-| <code><a href="#projen-projects.TypescriptProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
-| <code><a href="#projen-projects.TypescriptProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
-| <code><a href="#projen-projects.TypescriptProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
-| <code><a href="#projen-projects.TypescriptProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
-| <code><a href="#projen-projects.TypescriptProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.buildTask">buildTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.compileTask">compileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.components">components</a></code> | <code>projen.Component[]</code> | Returns all the components within this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.deps">deps</a></code> | <code>projen.Dependencies</code> | Project dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.ejected">ejected</a></code> | <code>boolean</code> | Whether or not the project is being ejected. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.files">files</a></code> | <code>projen.FileBase[]</code> | All files in this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.gitattributes">gitattributes</a></code> | <code>projen.GitAttributesFile</code> | The .gitattributes file for this repository. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.gitignore">gitignore</a></code> | <code>projen.IgnoreFile</code> | .gitignore. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.logger">logger</a></code> | <code>projen.Logger</code> | Logging utilities. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.name">name</a></code> | <code>string</code> | Project name. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.outdir">outdir</a></code> | <code>string</code> | Absolute output directory of this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.packageTask">packageTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.postCompileTask">postCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.preCompileTask">preCompileTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.projectBuild">projectBuild</a></code> | <code>projen.ProjectBuild</code> | Manages the build process of the project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.projenCommand">projenCommand</a></code> | <code>string</code> | The command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.root">root</a></code> | <code>projen.Project</code> | The root project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.subprojects">subprojects</a></code> | <code>projen.Project[]</code> | Returns all the subprojects within this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.tasks">tasks</a></code> | <code>projen.Tasks</code> | Project tasks. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.testTask">testTask</a></code> | <code>projen.Task</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.defaultTask">defaultTask</a></code> | <code>projen.Task</code> | This is the "default" task, the one that executes "projen". |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.initProject">initProject</a></code> | <code>projen.InitProject</code> | The options used when this project is bootstrapped via `projen new`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.parent">parent</a></code> | <code>projen.Project</code> | A parent project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.autoApprove">autoApprove</a></code> | <code>projen.github.AutoApprove</code> | Auto approve set up for this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.devContainer">devContainer</a></code> | <code>projen.vscode.DevContainer</code> | Access for .devcontainer.json (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.github">github</a></code> | <code>projen.github.GitHub</code> | Access all github components. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.gitpod">gitpod</a></code> | <code>projen.Gitpod</code> | Access for Gitpod. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.vscode">vscode</a></code> | <code>projen.vscode.VsCode</code> | Access all VSCode components. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | The build output directory. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.artifactsJavascriptDirectory">artifactsJavascriptDirectory</a></code> | <code>string</code> | The location of the npm tarball after build (`${artifactsDirectory}/js`). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.bundler">bundler</a></code> | <code>projen.javascript.Bundler</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.entrypoint">entrypoint</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.manifest">manifest</a></code> | <code>any</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.npmrc">npmrc</a></code> | <code>projen.javascript.NpmConfig</code> | The .npmrc file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.package">package</a></code> | <code>projen.javascript.NodePackage</code> | API for managing the node package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The package manager to use. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.runScriptCommand">runScriptCommand</a></code> | <code>string</code> | The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the package manager). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.autoMerge">autoMerge</a></code> | <code>projen.github.AutoMerge</code> | Component that sets up mergify for merging approved pull requests. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.buildWorkflow">buildWorkflow</a></code> | <code>projen.build.BuildWorkflow</code> | The PR build GitHub workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.buildWorkflowJobId">buildWorkflowJobId</a></code> | <code>string</code> | The job ID of the build workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.jest">jest</a></code> | <code>projen.javascript.Jest</code> | The Jest configuration (if enabled). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Maximum node version required by this package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum node.js version required by this package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.npmignore">npmignore</a></code> | <code>projen.IgnoreFile</code> | The .npmignore file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.prettier">prettier</a></code> | <code>projen.javascript.Prettier</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.publisher">publisher</a></code> | <code>projen.release.Publisher</code> | Package publisher. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.release">release</a></code> | <code>projen.release.Release</code> | Release management. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.upgradeWorkflow">upgradeWorkflow</a></code> | <code>projen.javascript.UpgradeDependencies</code> | The upgrade workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.libdir">libdir</a></code> | <code>string</code> | The directory in which compiled .js files reside. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.srcdir">srcdir</a></code> | <code>string</code> | The directory in which the .ts sources reside. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.testdir">testdir</a></code> | <code>string</code> | The directory in which tests reside. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfig</code> | A typescript configuration file which covers all files (sources, tests, projen). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.watchTask">watchTask</a></code> | <code>projen.Task</code> | The "watch" task. |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.docgen">docgen</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.eslint">eslint</a></code> | <code>projen.javascript.Eslint</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.tsconfigEslint">tsconfigEslint</a></code> | <code>projen.javascript.TypescriptConfig</code> | *No description.* |
 
 ---
 
-##### `node`<sup>Required</sup> <a name="node" id="projen-projects.TypescriptProject.property.node"></a>
+##### `node`<sup>Required</sup> <a name="node" id="apidays24-sg-pj.TypescriptProject.property.node"></a>
 
 ```typescript
 public readonly node: Node;
@@ -5143,7 +5143,7 @@ The tree node.
 
 ---
 
-##### `buildTask`<sup>Required</sup> <a name="buildTask" id="projen-projects.TypescriptProject.property.buildTask"></a>
+##### `buildTask`<sup>Required</sup> <a name="buildTask" id="apidays24-sg-pj.TypescriptProject.property.buildTask"></a>
 
 ```typescript
 public readonly buildTask: Task;
@@ -5153,7 +5153,7 @@ public readonly buildTask: Task;
 
 ---
 
-##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="projen-projects.TypescriptProject.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Required</sup> <a name="commitGenerated" id="apidays24-sg-pj.TypescriptProject.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -5165,7 +5165,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `compileTask`<sup>Required</sup> <a name="compileTask" id="projen-projects.TypescriptProject.property.compileTask"></a>
+##### `compileTask`<sup>Required</sup> <a name="compileTask" id="apidays24-sg-pj.TypescriptProject.property.compileTask"></a>
 
 ```typescript
 public readonly compileTask: Task;
@@ -5175,7 +5175,7 @@ public readonly compileTask: Task;
 
 ---
 
-##### `components`<sup>Required</sup> <a name="components" id="projen-projects.TypescriptProject.property.components"></a>
+##### `components`<sup>Required</sup> <a name="components" id="apidays24-sg-pj.TypescriptProject.property.components"></a>
 
 ```typescript
 public readonly components: Component[];
@@ -5187,7 +5187,7 @@ Returns all the components within this project.
 
 ---
 
-##### `deps`<sup>Required</sup> <a name="deps" id="projen-projects.TypescriptProject.property.deps"></a>
+##### `deps`<sup>Required</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProject.property.deps"></a>
 
 ```typescript
 public readonly deps: Dependencies;
@@ -5199,7 +5199,7 @@ Project dependencies.
 
 ---
 
-##### `ejected`<sup>Required</sup> <a name="ejected" id="projen-projects.TypescriptProject.property.ejected"></a>
+##### `ejected`<sup>Required</sup> <a name="ejected" id="apidays24-sg-pj.TypescriptProject.property.ejected"></a>
 
 ```typescript
 public readonly ejected: boolean;
@@ -5211,7 +5211,7 @@ Whether or not the project is being ejected.
 
 ---
 
-##### `files`<sup>Required</sup> <a name="files" id="projen-projects.TypescriptProject.property.files"></a>
+##### `files`<sup>Required</sup> <a name="files" id="apidays24-sg-pj.TypescriptProject.property.files"></a>
 
 ```typescript
 public readonly files: FileBase[];
@@ -5223,7 +5223,7 @@ All files in this project.
 
 ---
 
-##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="projen-projects.TypescriptProject.property.gitattributes"></a>
+##### `gitattributes`<sup>Required</sup> <a name="gitattributes" id="apidays24-sg-pj.TypescriptProject.property.gitattributes"></a>
 
 ```typescript
 public readonly gitattributes: GitAttributesFile;
@@ -5235,7 +5235,7 @@ The .gitattributes file for this repository.
 
 ---
 
-##### `gitignore`<sup>Required</sup> <a name="gitignore" id="projen-projects.TypescriptProject.property.gitignore"></a>
+##### `gitignore`<sup>Required</sup> <a name="gitignore" id="apidays24-sg-pj.TypescriptProject.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: IgnoreFile;
@@ -5247,7 +5247,7 @@ public readonly gitignore: IgnoreFile;
 
 ---
 
-##### `logger`<sup>Required</sup> <a name="logger" id="projen-projects.TypescriptProject.property.logger"></a>
+##### `logger`<sup>Required</sup> <a name="logger" id="apidays24-sg-pj.TypescriptProject.property.logger"></a>
 
 ```typescript
 public readonly logger: Logger;
@@ -5259,7 +5259,7 @@ Logging utilities.
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProject.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProject.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -5271,7 +5271,7 @@ Project name.
 
 ---
 
-##### `outdir`<sup>Required</sup> <a name="outdir" id="projen-projects.TypescriptProject.property.outdir"></a>
+##### `outdir`<sup>Required</sup> <a name="outdir" id="apidays24-sg-pj.TypescriptProject.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -5283,7 +5283,7 @@ Absolute output directory of this project.
 
 ---
 
-##### `packageTask`<sup>Required</sup> <a name="packageTask" id="projen-projects.TypescriptProject.property.packageTask"></a>
+##### `packageTask`<sup>Required</sup> <a name="packageTask" id="apidays24-sg-pj.TypescriptProject.property.packageTask"></a>
 
 ```typescript
 public readonly packageTask: Task;
@@ -5293,7 +5293,7 @@ public readonly packageTask: Task;
 
 ---
 
-##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="projen-projects.TypescriptProject.property.postCompileTask"></a>
+##### `postCompileTask`<sup>Required</sup> <a name="postCompileTask" id="apidays24-sg-pj.TypescriptProject.property.postCompileTask"></a>
 
 ```typescript
 public readonly postCompileTask: Task;
@@ -5303,7 +5303,7 @@ public readonly postCompileTask: Task;
 
 ---
 
-##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="projen-projects.TypescriptProject.property.preCompileTask"></a>
+##### `preCompileTask`<sup>Required</sup> <a name="preCompileTask" id="apidays24-sg-pj.TypescriptProject.property.preCompileTask"></a>
 
 ```typescript
 public readonly preCompileTask: Task;
@@ -5313,7 +5313,7 @@ public readonly preCompileTask: Task;
 
 ---
 
-##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="projen-projects.TypescriptProject.property.projectBuild"></a>
+##### `projectBuild`<sup>Required</sup> <a name="projectBuild" id="apidays24-sg-pj.TypescriptProject.property.projectBuild"></a>
 
 ```typescript
 public readonly projectBuild: ProjectBuild;
@@ -5325,7 +5325,7 @@ Manages the build process of the project.
 
 ---
 
-##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="projen-projects.TypescriptProject.property.projenCommand"></a>
+##### `projenCommand`<sup>Required</sup> <a name="projenCommand" id="apidays24-sg-pj.TypescriptProject.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -5337,7 +5337,7 @@ The command to use in order to run the projen CLI.
 
 ---
 
-##### `root`<sup>Required</sup> <a name="root" id="projen-projects.TypescriptProject.property.root"></a>
+##### `root`<sup>Required</sup> <a name="root" id="apidays24-sg-pj.TypescriptProject.property.root"></a>
 
 ```typescript
 public readonly root: Project;
@@ -5349,7 +5349,7 @@ The root project.
 
 ---
 
-##### `subprojects`<sup>Required</sup> <a name="subprojects" id="projen-projects.TypescriptProject.property.subprojects"></a>
+##### `subprojects`<sup>Required</sup> <a name="subprojects" id="apidays24-sg-pj.TypescriptProject.property.subprojects"></a>
 
 ```typescript
 public readonly subprojects: Project[];
@@ -5361,7 +5361,7 @@ Returns all the subprojects within this project.
 
 ---
 
-##### `tasks`<sup>Required</sup> <a name="tasks" id="projen-projects.TypescriptProject.property.tasks"></a>
+##### `tasks`<sup>Required</sup> <a name="tasks" id="apidays24-sg-pj.TypescriptProject.property.tasks"></a>
 
 ```typescript
 public readonly tasks: Tasks;
@@ -5373,7 +5373,7 @@ Project tasks.
 
 ---
 
-##### `testTask`<sup>Required</sup> <a name="testTask" id="projen-projects.TypescriptProject.property.testTask"></a>
+##### `testTask`<sup>Required</sup> <a name="testTask" id="apidays24-sg-pj.TypescriptProject.property.testTask"></a>
 
 ```typescript
 public readonly testTask: Task;
@@ -5383,7 +5383,7 @@ public readonly testTask: Task;
 
 ---
 
-##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="projen-projects.TypescriptProject.property.defaultTask"></a>
+##### `defaultTask`<sup>Optional</sup> <a name="defaultTask" id="apidays24-sg-pj.TypescriptProject.property.defaultTask"></a>
 
 ```typescript
 public readonly defaultTask: Task;
@@ -5398,7 +5398,7 @@ the project is being ejected.
 
 ---
 
-##### `initProject`<sup>Optional</sup> <a name="initProject" id="projen-projects.TypescriptProject.property.initProject"></a>
+##### `initProject`<sup>Optional</sup> <a name="initProject" id="apidays24-sg-pj.TypescriptProject.property.initProject"></a>
 
 ```typescript
 public readonly initProject: InitProject;
@@ -5414,7 +5414,7 @@ FQN of the project type.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.TypescriptProject.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.TypescriptProject.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -5428,7 +5428,7 @@ If undefined, this is the root project.
 
 ---
 
-##### `projectType`<sup>Required</sup> <a name="projectType" id="projen-projects.TypescriptProject.property.projectType"></a>
+##### `projectType`<sup>Required</sup> <a name="projectType" id="apidays24-sg-pj.TypescriptProject.property.projectType"></a>
 
 ```typescript
 public readonly projectType: ProjectType;
@@ -5438,7 +5438,7 @@ public readonly projectType: ProjectType;
 
 ---
 
-##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="projen-projects.TypescriptProject.property.autoApprove"></a>
+##### `autoApprove`<sup>Optional</sup> <a name="autoApprove" id="apidays24-sg-pj.TypescriptProject.property.autoApprove"></a>
 
 ```typescript
 public readonly autoApprove: AutoApprove;
@@ -5450,7 +5450,7 @@ Auto approve set up for this project.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.TypescriptProject.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.TypescriptProject.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: DevContainer;
@@ -5464,7 +5464,7 @@ This will be `undefined` if devContainer boolean is false
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.TypescriptProject.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.TypescriptProject.property.github"></a>
 
 ```typescript
 public readonly github: GitHub;
@@ -5478,7 +5478,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.TypescriptProject.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.TypescriptProject.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: Gitpod;
@@ -5492,7 +5492,7 @@ This will be `undefined` if gitpod boolean is false
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.TypescriptProject.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.TypescriptProject.property.vscode"></a>
 
 ```typescript
 public readonly vscode: VsCode;
@@ -5506,7 +5506,7 @@ This will be `undefined` for subprojects.
 
 ---
 
-##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="projen-projects.TypescriptProject.property.allowLibraryDependencies"></a>
+##### ~~`allowLibraryDependencies`~~<sup>Required</sup> <a name="allowLibraryDependencies" id="apidays24-sg-pj.TypescriptProject.property.allowLibraryDependencies"></a>
 
 - *Deprecated:* use `package.allowLibraryDependencies`
 
@@ -5518,7 +5518,7 @@ public readonly allowLibraryDependencies: boolean;
 
 ---
 
-##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="projen-projects.TypescriptProject.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Required</sup> <a name="artifactsDirectory" id="apidays24-sg-pj.TypescriptProject.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -5534,7 +5534,7 @@ tarball will be placed under `dist/js/boom-boom-1.2.3.tg`.
 
 ---
 
-##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="projen-projects.TypescriptProject.property.artifactsJavascriptDirectory"></a>
+##### `artifactsJavascriptDirectory`<sup>Required</sup> <a name="artifactsJavascriptDirectory" id="apidays24-sg-pj.TypescriptProject.property.artifactsJavascriptDirectory"></a>
 
 ```typescript
 public readonly artifactsJavascriptDirectory: string;
@@ -5546,7 +5546,7 @@ The location of the npm tarball after build (`${artifactsDirectory}/js`).
 
 ---
 
-##### `bundler`<sup>Required</sup> <a name="bundler" id="projen-projects.TypescriptProject.property.bundler"></a>
+##### `bundler`<sup>Required</sup> <a name="bundler" id="apidays24-sg-pj.TypescriptProject.property.bundler"></a>
 
 ```typescript
 public readonly bundler: Bundler;
@@ -5556,7 +5556,7 @@ public readonly bundler: Bundler;
 
 ---
 
-##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="projen-projects.TypescriptProject.property.entrypoint"></a>
+##### ~~`entrypoint`~~<sup>Required</sup> <a name="entrypoint" id="apidays24-sg-pj.TypescriptProject.property.entrypoint"></a>
 
 - *Deprecated:* use `package.entrypoint`
 
@@ -5568,7 +5568,7 @@ public readonly entrypoint: string;
 
 ---
 
-##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="projen-projects.TypescriptProject.property.manifest"></a>
+##### ~~`manifest`~~<sup>Required</sup> <a name="manifest" id="apidays24-sg-pj.TypescriptProject.property.manifest"></a>
 
 - *Deprecated:* use `package.addField(x, y)`
 
@@ -5580,7 +5580,7 @@ public readonly manifest: any;
 
 ---
 
-##### `npmrc`<sup>Required</sup> <a name="npmrc" id="projen-projects.TypescriptProject.property.npmrc"></a>
+##### `npmrc`<sup>Required</sup> <a name="npmrc" id="apidays24-sg-pj.TypescriptProject.property.npmrc"></a>
 
 ```typescript
 public readonly npmrc: NpmConfig;
@@ -5592,7 +5592,7 @@ The .npmrc file.
 
 ---
 
-##### `package`<sup>Required</sup> <a name="package" id="projen-projects.TypescriptProject.property.package"></a>
+##### `package`<sup>Required</sup> <a name="package" id="apidays24-sg-pj.TypescriptProject.property.package"></a>
 
 ```typescript
 public readonly package: NodePackage;
@@ -5604,7 +5604,7 @@ API for managing the node package.
 
 ---
 
-##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="projen-projects.TypescriptProject.property.packageManager"></a>
+##### ~~`packageManager`~~<sup>Required</sup> <a name="packageManager" id="apidays24-sg-pj.TypescriptProject.property.packageManager"></a>
 
 - *Deprecated:* use `package.packageManager`
 
@@ -5618,7 +5618,7 @@ The package manager to use.
 
 ---
 
-##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="projen-projects.TypescriptProject.property.runScriptCommand"></a>
+##### `runScriptCommand`<sup>Required</sup> <a name="runScriptCommand" id="apidays24-sg-pj.TypescriptProject.property.runScriptCommand"></a>
 
 ```typescript
 public readonly runScriptCommand: string;
@@ -5630,7 +5630,7 @@ The command to use to run scripts (e.g. `yarn run` or `npm run` depends on the p
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.TypescriptProject.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.TypescriptProject.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: AutoMerge;
@@ -5642,7 +5642,7 @@ Component that sets up mergify for merging approved pull requests.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-projects.TypescriptProject.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="apidays24-sg-pj.TypescriptProject.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: BuildWorkflow;
@@ -5656,7 +5656,7 @@ The PR build GitHub workflow.
 
 ---
 
-##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="projen-projects.TypescriptProject.property.buildWorkflowJobId"></a>
+##### `buildWorkflowJobId`<sup>Optional</sup> <a name="buildWorkflowJobId" id="apidays24-sg-pj.TypescriptProject.property.buildWorkflowJobId"></a>
 
 ```typescript
 public readonly buildWorkflowJobId: string;
@@ -5668,7 +5668,7 @@ The job ID of the build workflow.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="projen-projects.TypescriptProject.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="apidays24-sg-pj.TypescriptProject.property.jest"></a>
 
 ```typescript
 public readonly jest: Jest;
@@ -5680,7 +5680,7 @@ The Jest configuration (if enabled).
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-projects.TypescriptProject.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="apidays24-sg-pj.TypescriptProject.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -5692,7 +5692,7 @@ Maximum node version required by this package.
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-projects.TypescriptProject.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="apidays24-sg-pj.TypescriptProject.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -5704,7 +5704,7 @@ Minimum node.js version required by this package.
 
 ---
 
-##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="projen-projects.TypescriptProject.property.npmignore"></a>
+##### `npmignore`<sup>Optional</sup> <a name="npmignore" id="apidays24-sg-pj.TypescriptProject.property.npmignore"></a>
 
 ```typescript
 public readonly npmignore: IgnoreFile;
@@ -5716,7 +5716,7 @@ The .npmignore file.
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-projects.TypescriptProject.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="apidays24-sg-pj.TypescriptProject.property.prettier"></a>
 
 ```typescript
 public readonly prettier: Prettier;
@@ -5726,7 +5726,7 @@ public readonly prettier: Prettier;
 
 ---
 
-##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="projen-projects.TypescriptProject.property.publisher"></a>
+##### ~~`publisher`~~<sup>Optional</sup> <a name="publisher" id="apidays24-sg-pj.TypescriptProject.property.publisher"></a>
 
 - *Deprecated:* use `release.publisher`.
 
@@ -5743,7 +5743,7 @@ release workflow.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="projen-projects.TypescriptProject.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="apidays24-sg-pj.TypescriptProject.property.release"></a>
 
 ```typescript
 public readonly release: Release;
@@ -5755,7 +5755,7 @@ Release management.
 
 ---
 
-##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="projen-projects.TypescriptProject.property.upgradeWorkflow"></a>
+##### `upgradeWorkflow`<sup>Optional</sup> <a name="upgradeWorkflow" id="apidays24-sg-pj.TypescriptProject.property.upgradeWorkflow"></a>
 
 ```typescript
 public readonly upgradeWorkflow: UpgradeDependencies;
@@ -5767,7 +5767,7 @@ The upgrade workflow.
 
 ---
 
-##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="projen-projects.TypescriptProject.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Required</sup> <a name="docsDirectory" id="apidays24-sg-pj.TypescriptProject.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -5777,7 +5777,7 @@ public readonly docsDirectory: string;
 
 ---
 
-##### `libdir`<sup>Required</sup> <a name="libdir" id="projen-projects.TypescriptProject.property.libdir"></a>
+##### `libdir`<sup>Required</sup> <a name="libdir" id="apidays24-sg-pj.TypescriptProject.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -5789,7 +5789,7 @@ The directory in which compiled .js files reside.
 
 ---
 
-##### `srcdir`<sup>Required</sup> <a name="srcdir" id="projen-projects.TypescriptProject.property.srcdir"></a>
+##### `srcdir`<sup>Required</sup> <a name="srcdir" id="apidays24-sg-pj.TypescriptProject.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -5801,7 +5801,7 @@ The directory in which the .ts sources reside.
 
 ---
 
-##### `testdir`<sup>Required</sup> <a name="testdir" id="projen-projects.TypescriptProject.property.testdir"></a>
+##### `testdir`<sup>Required</sup> <a name="testdir" id="apidays24-sg-pj.TypescriptProject.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -5813,7 +5813,7 @@ The directory in which tests reside.
 
 ---
 
-##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="projen-projects.TypescriptProject.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Required</sup> <a name="tsconfigDev" id="apidays24-sg-pj.TypescriptProject.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfig;
@@ -5825,7 +5825,7 @@ A typescript configuration file which covers all files (sources, tests, projen).
 
 ---
 
-##### `watchTask`<sup>Required</sup> <a name="watchTask" id="projen-projects.TypescriptProject.property.watchTask"></a>
+##### `watchTask`<sup>Required</sup> <a name="watchTask" id="apidays24-sg-pj.TypescriptProject.property.watchTask"></a>
 
 ```typescript
 public readonly watchTask: Task;
@@ -5837,7 +5837,7 @@ The "watch" task.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-projects.TypescriptProject.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="apidays24-sg-pj.TypescriptProject.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -5847,7 +5847,7 @@ public readonly docgen: boolean;
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-projects.TypescriptProject.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="apidays24-sg-pj.TypescriptProject.property.eslint"></a>
 
 ```typescript
 public readonly eslint: Eslint;
@@ -5857,7 +5857,7 @@ public readonly eslint: Eslint;
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-projects.TypescriptProject.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="apidays24-sg-pj.TypescriptProject.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfig;
@@ -5867,7 +5867,7 @@ public readonly tsconfig: TypescriptConfig;
 
 ---
 
-##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="projen-projects.TypescriptProject.property.tsconfigEslint"></a>
+##### `tsconfigEslint`<sup>Optional</sup> <a name="tsconfigEslint" id="apidays24-sg-pj.TypescriptProject.property.tsconfigEslint"></a>
 
 ```typescript
 public readonly tsconfigEslint: TypescriptConfig;
@@ -5881,12 +5881,12 @@ public readonly tsconfigEslint: TypescriptConfig;
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.TypescriptProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
-| <code><a href="#projen-projects.TypescriptProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.DEFAULT_TASK">DEFAULT_TASK</a></code> | <code>string</code> | The name of the default task (the task executed when `projen` is run without arguments). |
+| <code><a href="#apidays24-sg-pj.TypescriptProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN">DEFAULT_TS_JEST_TRANFORM_PATTERN</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="projen-projects.TypescriptProject.property.DEFAULT_TASK"></a>
+##### `DEFAULT_TASK`<sup>Required</sup> <a name="DEFAULT_TASK" id="apidays24-sg-pj.TypescriptProject.property.DEFAULT_TASK"></a>
 
 ```typescript
 public readonly DEFAULT_TASK: string;
@@ -5901,7 +5901,7 @@ this task should synthesize the project files.
 
 ---
 
-##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="projen-projects.TypescriptProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
+##### `DEFAULT_TS_JEST_TRANFORM_PATTERN`<sup>Required</sup> <a name="DEFAULT_TS_JEST_TRANFORM_PATTERN" id="apidays24-sg-pj.TypescriptProject.property.DEFAULT_TS_JEST_TRANFORM_PATTERN"></a>
 
 ```typescript
 public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
@@ -5913,12 +5913,12 @@ public readonly DEFAULT_TS_JEST_TRANFORM_PATTERN: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
-### AuthenticateSnykOptions <a name="AuthenticateSnykOptions" id="projen-projects.AuthenticateSnykOptions"></a>
+### AuthenticateSnykOptions <a name="AuthenticateSnykOptions" id="apidays24-sg-pj.AuthenticateSnykOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.AuthenticateSnykOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.AuthenticateSnykOptions.Initializer"></a>
 
 ```typescript
-import { AuthenticateSnykOptions } from 'projen-projects'
+import { AuthenticateSnykOptions } from 'apidays24-sg-pj'
 
 const authenticateSnykOptions: AuthenticateSnykOptions = { ... }
 ```
@@ -5927,19 +5927,19 @@ const authenticateSnykOptions: AuthenticateSnykOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.AuthenticateSnykOptions.property.snykToken">snykToken</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions.property.snykToken">snykToken</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.AuthenticateSnykOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.AuthenticateSnykOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -5953,7 +5953,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.AuthenticateSnykOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.AuthenticateSnykOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -5968,7 +5968,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.AuthenticateSnykOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.AuthenticateSnykOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -5983,7 +5983,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.AuthenticateSnykOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.AuthenticateSnykOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -5995,7 +5995,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.AuthenticateSnykOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.AuthenticateSnykOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -6009,7 +6009,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.AuthenticateSnykOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.AuthenticateSnykOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -6024,7 +6024,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.AuthenticateSnykOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.AuthenticateSnykOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -6036,7 +6036,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `snykOrgId`<sup>Required</sup> <a name="snykOrgId" id="projen-projects.AuthenticateSnykOptions.property.snykOrgId"></a>
+##### `snykOrgId`<sup>Required</sup> <a name="snykOrgId" id="apidays24-sg-pj.AuthenticateSnykOptions.property.snykOrgId"></a>
 
 ```typescript
 public readonly snykOrgId: string;
@@ -6046,7 +6046,7 @@ public readonly snykOrgId: string;
 
 ---
 
-##### `snykToken`<sup>Optional</sup> <a name="snykToken" id="projen-projects.AuthenticateSnykOptions.property.snykToken"></a>
+##### `snykToken`<sup>Optional</sup> <a name="snykToken" id="apidays24-sg-pj.AuthenticateSnykOptions.property.snykToken"></a>
 
 ```typescript
 public readonly snykToken: string;
@@ -6056,12 +6056,12 @@ public readonly snykToken: string;
 
 ---
 
-### CreateCacheOptions <a name="CreateCacheOptions" id="projen-projects.CreateCacheOptions"></a>
+### CreateCacheOptions <a name="CreateCacheOptions" id="apidays24-sg-pj.CreateCacheOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.CreateCacheOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.CreateCacheOptions.Initializer"></a>
 
 ```typescript
-import { CreateCacheOptions } from 'projen-projects'
+import { CreateCacheOptions } from 'apidays24-sg-pj'
 
 const createCacheOptions: CreateCacheOptions = { ... }
 ```
@@ -6070,18 +6070,18 @@ const createCacheOptions: CreateCacheOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.CreateCacheOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.CreateCacheOptions.property.with">with</a></code> | <code><a href="#projen-projects.CreateCacheWithOptions">CreateCacheWithOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.CreateCacheOptions.property.with">with</a></code> | <code><a href="#apidays24-sg-pj.CreateCacheWithOptions">CreateCacheWithOptions</a></code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.CreateCacheOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.CreateCacheOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -6095,7 +6095,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.CreateCacheOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.CreateCacheOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -6110,7 +6110,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.CreateCacheOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.CreateCacheOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -6125,7 +6125,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.CreateCacheOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.CreateCacheOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -6137,7 +6137,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.CreateCacheOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.CreateCacheOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -6151,7 +6151,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.CreateCacheOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.CreateCacheOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -6166,7 +6166,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.CreateCacheOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.CreateCacheOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -6178,22 +6178,22 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `with`<sup>Required</sup> <a name="with" id="projen-projects.CreateCacheOptions.property.with"></a>
+##### `with`<sup>Required</sup> <a name="with" id="apidays24-sg-pj.CreateCacheOptions.property.with"></a>
 
 ```typescript
 public readonly with: CreateCacheWithOptions;
 ```
 
-- *Type:* <a href="#projen-projects.CreateCacheWithOptions">CreateCacheWithOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.CreateCacheWithOptions">CreateCacheWithOptions</a>
 
 ---
 
-### CreateCacheWithOptions <a name="CreateCacheWithOptions" id="projen-projects.CreateCacheWithOptions"></a>
+### CreateCacheWithOptions <a name="CreateCacheWithOptions" id="apidays24-sg-pj.CreateCacheWithOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.CreateCacheWithOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.CreateCacheWithOptions.Initializer"></a>
 
 ```typescript
-import { CreateCacheWithOptions } from 'projen-projects'
+import { CreateCacheWithOptions } from 'apidays24-sg-pj'
 
 const createCacheWithOptions: CreateCacheWithOptions = { ... }
 ```
@@ -6202,18 +6202,18 @@ const createCacheWithOptions: CreateCacheWithOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.key">key</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.path">path</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.enableCrossOsArchive">enableCrossOsArchive</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.failOnCacheMiss">failOnCacheMiss</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.lookupOnly">lookupOnly</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.restoreKeys">restoreKeys</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.saveAlways">saveAlways</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.CreateCacheWithOptions.property.uploadChunkSize">uploadChunkSize</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.path">path</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.enableCrossOsArchive">enableCrossOsArchive</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.failOnCacheMiss">failOnCacheMiss</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.lookupOnly">lookupOnly</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.restoreKeys">restoreKeys</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.saveAlways">saveAlways</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.CreateCacheWithOptions.property.uploadChunkSize">uploadChunkSize</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `key`<sup>Required</sup> <a name="key" id="projen-projects.CreateCacheWithOptions.property.key"></a>
+##### `key`<sup>Required</sup> <a name="key" id="apidays24-sg-pj.CreateCacheWithOptions.property.key"></a>
 
 ```typescript
 public readonly key: string;
@@ -6223,7 +6223,7 @@ public readonly key: string;
 
 ---
 
-##### `path`<sup>Required</sup> <a name="path" id="projen-projects.CreateCacheWithOptions.property.path"></a>
+##### `path`<sup>Required</sup> <a name="path" id="apidays24-sg-pj.CreateCacheWithOptions.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -6233,7 +6233,7 @@ public readonly path: string;
 
 ---
 
-##### `enableCrossOsArchive`<sup>Optional</sup> <a name="enableCrossOsArchive" id="projen-projects.CreateCacheWithOptions.property.enableCrossOsArchive"></a>
+##### `enableCrossOsArchive`<sup>Optional</sup> <a name="enableCrossOsArchive" id="apidays24-sg-pj.CreateCacheWithOptions.property.enableCrossOsArchive"></a>
 
 ```typescript
 public readonly enableCrossOsArchive: boolean;
@@ -6243,7 +6243,7 @@ public readonly enableCrossOsArchive: boolean;
 
 ---
 
-##### `failOnCacheMiss`<sup>Optional</sup> <a name="failOnCacheMiss" id="projen-projects.CreateCacheWithOptions.property.failOnCacheMiss"></a>
+##### `failOnCacheMiss`<sup>Optional</sup> <a name="failOnCacheMiss" id="apidays24-sg-pj.CreateCacheWithOptions.property.failOnCacheMiss"></a>
 
 ```typescript
 public readonly failOnCacheMiss: boolean;
@@ -6253,7 +6253,7 @@ public readonly failOnCacheMiss: boolean;
 
 ---
 
-##### `lookupOnly`<sup>Optional</sup> <a name="lookupOnly" id="projen-projects.CreateCacheWithOptions.property.lookupOnly"></a>
+##### `lookupOnly`<sup>Optional</sup> <a name="lookupOnly" id="apidays24-sg-pj.CreateCacheWithOptions.property.lookupOnly"></a>
 
 ```typescript
 public readonly lookupOnly: boolean;
@@ -6263,7 +6263,7 @@ public readonly lookupOnly: boolean;
 
 ---
 
-##### `restoreKeys`<sup>Optional</sup> <a name="restoreKeys" id="projen-projects.CreateCacheWithOptions.property.restoreKeys"></a>
+##### `restoreKeys`<sup>Optional</sup> <a name="restoreKeys" id="apidays24-sg-pj.CreateCacheWithOptions.property.restoreKeys"></a>
 
 ```typescript
 public readonly restoreKeys: string;
@@ -6273,7 +6273,7 @@ public readonly restoreKeys: string;
 
 ---
 
-##### `saveAlways`<sup>Optional</sup> <a name="saveAlways" id="projen-projects.CreateCacheWithOptions.property.saveAlways"></a>
+##### `saveAlways`<sup>Optional</sup> <a name="saveAlways" id="apidays24-sg-pj.CreateCacheWithOptions.property.saveAlways"></a>
 
 ```typescript
 public readonly saveAlways: boolean;
@@ -6283,7 +6283,7 @@ public readonly saveAlways: boolean;
 
 ---
 
-##### `uploadChunkSize`<sup>Optional</sup> <a name="uploadChunkSize" id="projen-projects.CreateCacheWithOptions.property.uploadChunkSize"></a>
+##### `uploadChunkSize`<sup>Optional</sup> <a name="uploadChunkSize" id="apidays24-sg-pj.CreateCacheWithOptions.property.uploadChunkSize"></a>
 
 ```typescript
 public readonly uploadChunkSize: string;
@@ -6293,12 +6293,12 @@ public readonly uploadChunkSize: string;
 
 ---
 
-### EnvrcOptions <a name="EnvrcOptions" id="projen-projects.EnvrcOptions"></a>
+### EnvrcOptions <a name="EnvrcOptions" id="apidays24-sg-pj.EnvrcOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.EnvrcOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.EnvrcOptions.Initializer"></a>
 
 ```typescript
-import { EnvrcOptions } from 'projen-projects'
+import { EnvrcOptions } from 'apidays24-sg-pj'
 
 const envrcOptions: EnvrcOptions = { ... }
 ```
@@ -6307,15 +6307,15 @@ const envrcOptions: EnvrcOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.EnvrcOptions.property.committed">committed</a></code> | <code>boolean</code> | Indicates whether this file should be committed to git or ignored. |
-| <code><a href="#projen-projects.EnvrcOptions.property.editGitignore">editGitignore</a></code> | <code>boolean</code> | Update the project's .gitignore file. |
-| <code><a href="#projen-projects.EnvrcOptions.property.executable">executable</a></code> | <code>boolean</code> | Whether the generated file should be marked as executable. |
-| <code><a href="#projen-projects.EnvrcOptions.property.marker">marker</a></code> | <code>boolean</code> | Adds the projen marker to the file. |
-| <code><a href="#projen-projects.EnvrcOptions.property.readonly">readonly</a></code> | <code>boolean</code> | Whether the generated file should be readonly. |
+| <code><a href="#apidays24-sg-pj.EnvrcOptions.property.committed">committed</a></code> | <code>boolean</code> | Indicates whether this file should be committed to git or ignored. |
+| <code><a href="#apidays24-sg-pj.EnvrcOptions.property.editGitignore">editGitignore</a></code> | <code>boolean</code> | Update the project's .gitignore file. |
+| <code><a href="#apidays24-sg-pj.EnvrcOptions.property.executable">executable</a></code> | <code>boolean</code> | Whether the generated file should be marked as executable. |
+| <code><a href="#apidays24-sg-pj.EnvrcOptions.property.marker">marker</a></code> | <code>boolean</code> | Adds the projen marker to the file. |
+| <code><a href="#apidays24-sg-pj.EnvrcOptions.property.readonly">readonly</a></code> | <code>boolean</code> | Whether the generated file should be readonly. |
 
 ---
 
-##### `committed`<sup>Optional</sup> <a name="committed" id="projen-projects.EnvrcOptions.property.committed"></a>
+##### `committed`<sup>Optional</sup> <a name="committed" id="apidays24-sg-pj.EnvrcOptions.property.committed"></a>
 
 ```typescript
 public readonly committed: boolean;
@@ -6332,7 +6332,7 @@ protect against manual modifications.
 
 ---
 
-##### `editGitignore`<sup>Optional</sup> <a name="editGitignore" id="projen-projects.EnvrcOptions.property.editGitignore"></a>
+##### `editGitignore`<sup>Optional</sup> <a name="editGitignore" id="apidays24-sg-pj.EnvrcOptions.property.editGitignore"></a>
 
 ```typescript
 public readonly editGitignore: boolean;
@@ -6345,7 +6345,7 @@ Update the project's .gitignore file.
 
 ---
 
-##### `executable`<sup>Optional</sup> <a name="executable" id="projen-projects.EnvrcOptions.property.executable"></a>
+##### `executable`<sup>Optional</sup> <a name="executable" id="apidays24-sg-pj.EnvrcOptions.property.executable"></a>
 
 ```typescript
 public readonly executable: boolean;
@@ -6358,7 +6358,7 @@ Whether the generated file should be marked as executable.
 
 ---
 
-##### `marker`<sup>Optional</sup> <a name="marker" id="projen-projects.EnvrcOptions.property.marker"></a>
+##### `marker`<sup>Optional</sup> <a name="marker" id="apidays24-sg-pj.EnvrcOptions.property.marker"></a>
 
 ```typescript
 public readonly marker: boolean;
@@ -6371,7 +6371,7 @@ Adds the projen marker to the file.
 
 ---
 
-##### `readonly`<sup>Optional</sup> <a name="readonly" id="projen-projects.EnvrcOptions.property.readonly"></a>
+##### `readonly`<sup>Optional</sup> <a name="readonly" id="apidays24-sg-pj.EnvrcOptions.property.readonly"></a>
 
 ```typescript
 public readonly readonly: boolean;
@@ -6384,12 +6384,12 @@ Whether the generated file should be readonly.
 
 ---
 
-### InstallSnykOptions <a name="InstallSnykOptions" id="projen-projects.InstallSnykOptions"></a>
+### InstallSnykOptions <a name="InstallSnykOptions" id="apidays24-sg-pj.InstallSnykOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.InstallSnykOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.InstallSnykOptions.Initializer"></a>
 
 ```typescript
-import { InstallSnykOptions } from 'projen-projects'
+import { InstallSnykOptions } from 'apidays24-sg-pj'
 
 const installSnykOptions: InstallSnykOptions = { ... }
 ```
@@ -6398,21 +6398,21 @@ const installSnykOptions: InstallSnykOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.InstallSnykOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.InstallSnykOptions.property.cache">cache</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.InstallSnykOptions.property.createCacheOptions">createCacheOptions</a></code> | <code><a href="#projen-projects.CreateCacheOptions">CreateCacheOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.InstallSnykOptions.property.snykDeltaVersion">snykDeltaVersion</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.InstallSnykOptions.property.snykVersion">snykVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.cache">cache</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.createCacheOptions">createCacheOptions</a></code> | <code><a href="#apidays24-sg-pj.CreateCacheOptions">CreateCacheOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.snykDeltaVersion">snykDeltaVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykOptions.property.snykVersion">snykVersion</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.InstallSnykOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.InstallSnykOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -6426,7 +6426,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.InstallSnykOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.InstallSnykOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -6441,7 +6441,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.InstallSnykOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.InstallSnykOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -6456,7 +6456,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.InstallSnykOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.InstallSnykOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -6468,7 +6468,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.InstallSnykOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.InstallSnykOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -6482,7 +6482,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.InstallSnykOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.InstallSnykOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -6497,7 +6497,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.InstallSnykOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.InstallSnykOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -6509,7 +6509,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `cache`<sup>Optional</sup> <a name="cache" id="projen-projects.InstallSnykOptions.property.cache"></a>
+##### `cache`<sup>Optional</sup> <a name="cache" id="apidays24-sg-pj.InstallSnykOptions.property.cache"></a>
 
 ```typescript
 public readonly cache: boolean;
@@ -6519,17 +6519,17 @@ public readonly cache: boolean;
 
 ---
 
-##### `createCacheOptions`<sup>Optional</sup> <a name="createCacheOptions" id="projen-projects.InstallSnykOptions.property.createCacheOptions"></a>
+##### `createCacheOptions`<sup>Optional</sup> <a name="createCacheOptions" id="apidays24-sg-pj.InstallSnykOptions.property.createCacheOptions"></a>
 
 ```typescript
 public readonly createCacheOptions: CreateCacheOptions;
 ```
 
-- *Type:* <a href="#projen-projects.CreateCacheOptions">CreateCacheOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.CreateCacheOptions">CreateCacheOptions</a>
 
 ---
 
-##### `snykDeltaVersion`<sup>Optional</sup> <a name="snykDeltaVersion" id="projen-projects.InstallSnykOptions.property.snykDeltaVersion"></a>
+##### `snykDeltaVersion`<sup>Optional</sup> <a name="snykDeltaVersion" id="apidays24-sg-pj.InstallSnykOptions.property.snykDeltaVersion"></a>
 
 ```typescript
 public readonly snykDeltaVersion: string;
@@ -6539,7 +6539,7 @@ public readonly snykDeltaVersion: string;
 
 ---
 
-##### `snykVersion`<sup>Optional</sup> <a name="snykVersion" id="projen-projects.InstallSnykOptions.property.snykVersion"></a>
+##### `snykVersion`<sup>Optional</sup> <a name="snykVersion" id="apidays24-sg-pj.InstallSnykOptions.property.snykVersion"></a>
 
 ```typescript
 public readonly snykVersion: string;
@@ -6549,12 +6549,12 @@ public readonly snykVersion: string;
 
 ---
 
-### InstallSnykPrDiffOptions <a name="InstallSnykPrDiffOptions" id="projen-projects.InstallSnykPrDiffOptions"></a>
+### InstallSnykPrDiffOptions <a name="InstallSnykPrDiffOptions" id="apidays24-sg-pj.InstallSnykPrDiffOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.InstallSnykPrDiffOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.InstallSnykPrDiffOptions.Initializer"></a>
 
 ```typescript
-import { InstallSnykPrDiffOptions } from 'projen-projects'
+import { InstallSnykPrDiffOptions } from 'apidays24-sg-pj'
 
 const installSnykPrDiffOptions: InstallSnykPrDiffOptions = { ... }
 ```
@@ -6563,20 +6563,20 @@ const installSnykPrDiffOptions: InstallSnykPrDiffOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.cache">cache</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.createCacheOptions">createCacheOptions</a></code> | <code><a href="#projen-projects.CreateCacheOptions">CreateCacheOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.InstallSnykPrDiffOptions.property.version">version</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.cache">cache</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.createCacheOptions">createCacheOptions</a></code> | <code><a href="#apidays24-sg-pj.CreateCacheOptions">CreateCacheOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions.property.version">version</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.InstallSnykPrDiffOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -6590,7 +6590,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.InstallSnykPrDiffOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -6605,7 +6605,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.InstallSnykPrDiffOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -6620,7 +6620,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.InstallSnykPrDiffOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -6632,7 +6632,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.InstallSnykPrDiffOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -6646,7 +6646,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.InstallSnykPrDiffOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -6661,7 +6661,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.InstallSnykPrDiffOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -6673,7 +6673,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `cache`<sup>Optional</sup> <a name="cache" id="projen-projects.InstallSnykPrDiffOptions.property.cache"></a>
+##### `cache`<sup>Optional</sup> <a name="cache" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.cache"></a>
 
 ```typescript
 public readonly cache: boolean;
@@ -6683,17 +6683,17 @@ public readonly cache: boolean;
 
 ---
 
-##### `createCacheOptions`<sup>Optional</sup> <a name="createCacheOptions" id="projen-projects.InstallSnykPrDiffOptions.property.createCacheOptions"></a>
+##### `createCacheOptions`<sup>Optional</sup> <a name="createCacheOptions" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.createCacheOptions"></a>
 
 ```typescript
 public readonly createCacheOptions: CreateCacheOptions;
 ```
 
-- *Type:* <a href="#projen-projects.CreateCacheOptions">CreateCacheOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.CreateCacheOptions">CreateCacheOptions</a>
 
 ---
 
-##### `version`<sup>Optional</sup> <a name="version" id="projen-projects.InstallSnykPrDiffOptions.property.version"></a>
+##### `version`<sup>Optional</sup> <a name="version" id="apidays24-sg-pj.InstallSnykPrDiffOptions.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -6703,12 +6703,12 @@ public readonly version: string;
 
 ---
 
-### JavaProjectOptions <a name="JavaProjectOptions" id="projen-projects.JavaProjectOptions"></a>
+### JavaProjectOptions <a name="JavaProjectOptions" id="apidays24-sg-pj.JavaProjectOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.JavaProjectOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.JavaProjectOptions.Initializer"></a>
 
 ```typescript
-import { JavaProjectOptions } from 'projen-projects'
+import { JavaProjectOptions } from 'apidays24-sg-pj'
 
 const javaProjectOptions: JavaProjectOptions = { ... }
 ```
@@ -6717,58 +6717,58 @@ const javaProjectOptions: JavaProjectOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JavaProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.JavaProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.artifactId">artifactId</a></code> | <code>string</code> | The artifactId is generally the name that the project is known by. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.groupId">groupId</a></code> | <code>string</code> | This is generally unique amongst an organization or a project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.version">version</a></code> | <code>string</code> | This is the last piece of the naming puzzle. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.description">description</a></code> | <code>string</code> | Description of a project is always good. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.packaging">packaging</a></code> | <code>string</code> | Project packaging format. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.parentPom">parentPom</a></code> | <code>projen.java.ParentPom</code> | A Parent Pom can be used to have a child project inherit properties/plugins/ect in order to reduce duplication and keep standards across a large amount of repos. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.url">url</a></code> | <code>string</code> | The URL, like the name, is not required. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.compileOptions">compileOptions</a></code> | <code>projen.java.MavenCompileOptions</code> | Compile options. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | List of runtime dependencies for this project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.distdir">distdir</a></code> | <code>string</code> | Final artifact output directory. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.junit">junit</a></code> | <code>boolean</code> | Include junit tests. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.junitOptions">junitOptions</a></code> | <code>projen.java.JunitOptions</code> | junit options. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.packagingOptions">packagingOptions</a></code> | <code>projen.java.MavenPackagingOptions</code> | Packaging options. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenrcJava">projenrcJava</a></code> | <code>boolean</code> | Use projenrc in java. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.projenrcJavaOptions">projenrcJavaOptions</a></code> | <code>projen.java.ProjenrcOptions</code> | Options related to projenrc in java. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.testDeps">testDeps</a></code> | <code>string[]</code> | List of test dependencies for this project. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.sample">sample</a></code> | <code>boolean</code> | Include sample code and test if the relevant directories don't exist. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.sampleJavaPackage">sampleJavaPackage</a></code> | <code>string</code> | The java package to use for the code sample. |
-| <code><a href="#projen-projects.JavaProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.artifactId">artifactId</a></code> | <code>string</code> | The artifactId is generally the name that the project is known by. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.groupId">groupId</a></code> | <code>string</code> | This is generally unique amongst an organization or a project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.version">version</a></code> | <code>string</code> | This is the last piece of the naming puzzle. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.description">description</a></code> | <code>string</code> | Description of a project is always good. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.packaging">packaging</a></code> | <code>string</code> | Project packaging format. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.parentPom">parentPom</a></code> | <code>projen.java.ParentPom</code> | A Parent Pom can be used to have a child project inherit properties/plugins/ect in order to reduce duplication and keep standards across a large amount of repos. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.url">url</a></code> | <code>string</code> | The URL, like the name, is not required. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.compileOptions">compileOptions</a></code> | <code>projen.java.MavenCompileOptions</code> | Compile options. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | List of runtime dependencies for this project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.distdir">distdir</a></code> | <code>string</code> | Final artifact output directory. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.junit">junit</a></code> | <code>boolean</code> | Include junit tests. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.junitOptions">junitOptions</a></code> | <code>projen.java.JunitOptions</code> | junit options. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.packagingOptions">packagingOptions</a></code> | <code>projen.java.MavenPackagingOptions</code> | Packaging options. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenrcJava">projenrcJava</a></code> | <code>boolean</code> | Use projenrc in java. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.projenrcJavaOptions">projenrcJavaOptions</a></code> | <code>projen.java.ProjenrcOptions</code> | Options related to projenrc in java. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.testDeps">testDeps</a></code> | <code>string[]</code> | List of test dependencies for this project. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.sample">sample</a></code> | <code>boolean</code> | Include sample code and test if the relevant directories don't exist. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.sampleJavaPackage">sampleJavaPackage</a></code> | <code>string</code> | The java package to use for the code sample. |
+| <code><a href="#apidays24-sg-pj.JavaProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.JavaProjectOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JavaProjectOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -6781,7 +6781,7 @@ This is the name of your project.
 
 ---
 
-##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="projen-projects.JavaProjectOptions.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="apidays24-sg-pj.JavaProjectOptions.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -6794,7 +6794,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="projen-projects.JavaProjectOptions.property.gitIgnoreOptions"></a>
+##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="apidays24-sg-pj.JavaProjectOptions.property.gitIgnoreOptions"></a>
 
 ```typescript
 public readonly gitIgnoreOptions: IgnoreFileOptions;
@@ -6806,7 +6806,7 @@ Configuration options for .gitignore file.
 
 ---
 
-##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="projen-projects.JavaProjectOptions.property.gitOptions"></a>
+##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="apidays24-sg-pj.JavaProjectOptions.property.gitOptions"></a>
 
 ```typescript
 public readonly gitOptions: GitOptions;
@@ -6818,7 +6818,7 @@ Configuration options for git.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="logging" id="projen-projects.JavaProjectOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="logging" id="apidays24-sg-pj.JavaProjectOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -6831,7 +6831,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="outdir" id="projen-projects.JavaProjectOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="outdir" id="apidays24-sg-pj.JavaProjectOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -6850,7 +6850,7 @@ subprojects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.JavaProjectOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.JavaProjectOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -6862,7 +6862,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="projen-projects.JavaProjectOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="apidays24-sg-pj.JavaProjectOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -6877,7 +6877,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="projen-projects.JavaProjectOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="apidays24-sg-pj.JavaProjectOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -6890,7 +6890,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="projen-projects.JavaProjectOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="apidays24-sg-pj.JavaProjectOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcJsonOptions;
@@ -6903,7 +6903,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="projen-projects.JavaProjectOptions.property.renovatebot"></a>
+##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="apidays24-sg-pj.JavaProjectOptions.property.renovatebot"></a>
 
 ```typescript
 public readonly renovatebot: boolean;
@@ -6916,7 +6916,7 @@ Use renovatebot to handle dependency upgrades.
 
 ---
 
-##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="projen-projects.JavaProjectOptions.property.renovatebotOptions"></a>
+##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="apidays24-sg-pj.JavaProjectOptions.property.renovatebotOptions"></a>
 
 ```typescript
 public readonly renovatebotOptions: RenovatebotOptions;
@@ -6929,7 +6929,7 @@ Options for renovatebot.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="projen-projects.JavaProjectOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="apidays24-sg-pj.JavaProjectOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -6942,7 +6942,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.JavaProjectOptions.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.JavaProjectOptions.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: boolean;
@@ -6958,7 +6958,7 @@ is set to false.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="projen-projects.JavaProjectOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="apidays24-sg-pj.JavaProjectOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -6974,7 +6974,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="clobber" id="projen-projects.JavaProjectOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="clobber" id="apidays24-sg-pj.JavaProjectOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -6987,7 +6987,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.JavaProjectOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.JavaProjectOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -7000,7 +7000,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.JavaProjectOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.JavaProjectOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -7015,7 +7015,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="projen-projects.JavaProjectOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="apidays24-sg-pj.JavaProjectOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -7028,7 +7028,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.JavaProjectOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.JavaProjectOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -7041,7 +7041,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="projen-projects.JavaProjectOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="apidays24-sg-pj.JavaProjectOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -7056,7 +7056,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="projen-projects.JavaProjectOptions.property.mergifyOptions"></a>
+##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="apidays24-sg-pj.JavaProjectOptions.property.mergifyOptions"></a>
 
 - *Deprecated:* use `githubOptions.mergifyOptions` instead
 
@@ -7071,7 +7071,7 @@ Options for mergify.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="projen-projects.JavaProjectOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="apidays24-sg-pj.JavaProjectOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -7086,7 +7086,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="projen-projects.JavaProjectOptions.property.projenCredentials"></a>
+##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="apidays24-sg-pj.JavaProjectOptions.property.projenCredentials"></a>
 
 ```typescript
 public readonly projenCredentials: GithubCredentials;
@@ -7099,7 +7099,7 @@ Choose a method of providing GitHub API access for projen workflows.
 
 ---
 
-##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="projen-projects.JavaProjectOptions.property.projenTokenSecret"></a>
+##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="apidays24-sg-pj.JavaProjectOptions.property.projenTokenSecret"></a>
 
 - *Deprecated:* use `projenCredentials`
 
@@ -7117,7 +7117,7 @@ and `packages` scope.
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="readme" id="projen-projects.JavaProjectOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="readme" id="apidays24-sg-pj.JavaProjectOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -7137,7 +7137,7 @@ The README setup.
 ```
 
 
-##### `stale`<sup>Optional</sup> <a name="stale" id="projen-projects.JavaProjectOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="stale" id="apidays24-sg-pj.JavaProjectOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -7152,7 +7152,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="projen-projects.JavaProjectOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="apidays24-sg-pj.JavaProjectOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -7167,7 +7167,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.JavaProjectOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.JavaProjectOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -7182,7 +7182,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `artifactId`<sup>Required</sup> <a name="artifactId" id="projen-projects.JavaProjectOptions.property.artifactId"></a>
+##### `artifactId`<sup>Required</sup> <a name="artifactId" id="apidays24-sg-pj.JavaProjectOptions.property.artifactId"></a>
 
 ```typescript
 public readonly artifactId: string;
@@ -7205,7 +7205,7 @@ $M2_REPO/org/codehaus/mojo/my-project.
 
 ---
 
-##### `groupId`<sup>Required</sup> <a name="groupId" id="projen-projects.JavaProjectOptions.property.groupId"></a>
+##### `groupId`<sup>Required</sup> <a name="groupId" id="apidays24-sg-pj.JavaProjectOptions.property.groupId"></a>
 
 ```typescript
 public readonly groupId: string;
@@ -7230,7 +7230,7 @@ the directory $M2_REPO/org/codehaus/mojo.
 
 ---
 
-##### `version`<sup>Required</sup> <a name="version" id="projen-projects.JavaProjectOptions.property.version"></a>
+##### `version`<sup>Required</sup> <a name="version" id="apidays24-sg-pj.JavaProjectOptions.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -7252,7 +7252,7 @@ $M2_REPO/org/codehaus/mojo/my-project/1.0.
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="projen-projects.JavaProjectOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="apidays24-sg-pj.JavaProjectOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -7269,7 +7269,7 @@ helpful.
 
 ---
 
-##### `packaging`<sup>Optional</sup> <a name="packaging" id="projen-projects.JavaProjectOptions.property.packaging"></a>
+##### `packaging`<sup>Optional</sup> <a name="packaging" id="apidays24-sg-pj.JavaProjectOptions.property.packaging"></a>
 
 ```typescript
 public readonly packaging: string;
@@ -7282,7 +7282,7 @@ Project packaging format.
 
 ---
 
-##### `parentPom`<sup>Optional</sup> <a name="parentPom" id="projen-projects.JavaProjectOptions.property.parentPom"></a>
+##### `parentPom`<sup>Optional</sup> <a name="parentPom" id="apidays24-sg-pj.JavaProjectOptions.property.parentPom"></a>
 
 ```typescript
 public readonly parentPom: ParentPom;
@@ -7295,7 +7295,7 @@ A Parent Pom can be used to have a child project inherit properties/plugins/ect 
 
 ---
 
-##### `url`<sup>Optional</sup> <a name="url" id="projen-projects.JavaProjectOptions.property.url"></a>
+##### `url`<sup>Optional</sup> <a name="url" id="apidays24-sg-pj.JavaProjectOptions.property.url"></a>
 
 ```typescript
 public readonly url: string;
@@ -7311,7 +7311,7 @@ projects users, however, so that they know where the project lives.
 
 ---
 
-##### `compileOptions`<sup>Optional</sup> <a name="compileOptions" id="projen-projects.JavaProjectOptions.property.compileOptions"></a>
+##### `compileOptions`<sup>Optional</sup> <a name="compileOptions" id="apidays24-sg-pj.JavaProjectOptions.property.compileOptions"></a>
 
 ```typescript
 public readonly compileOptions: MavenCompileOptions;
@@ -7324,7 +7324,7 @@ Compile options.
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="deps" id="projen-projects.JavaProjectOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="deps" id="apidays24-sg-pj.JavaProjectOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -7341,7 +7341,7 @@ Additional dependencies can be added via `project.addDependency()`.
 
 ---
 
-##### `distdir`<sup>Optional</sup> <a name="distdir" id="projen-projects.JavaProjectOptions.property.distdir"></a>
+##### `distdir`<sup>Optional</sup> <a name="distdir" id="apidays24-sg-pj.JavaProjectOptions.property.distdir"></a>
 
 ```typescript
 public readonly distdir: string;
@@ -7354,7 +7354,7 @@ Final artifact output directory.
 
 ---
 
-##### `junit`<sup>Optional</sup> <a name="junit" id="projen-projects.JavaProjectOptions.property.junit"></a>
+##### `junit`<sup>Optional</sup> <a name="junit" id="apidays24-sg-pj.JavaProjectOptions.property.junit"></a>
 
 ```typescript
 public readonly junit: boolean;
@@ -7367,7 +7367,7 @@ Include junit tests.
 
 ---
 
-##### `junitOptions`<sup>Optional</sup> <a name="junitOptions" id="projen-projects.JavaProjectOptions.property.junitOptions"></a>
+##### `junitOptions`<sup>Optional</sup> <a name="junitOptions" id="apidays24-sg-pj.JavaProjectOptions.property.junitOptions"></a>
 
 ```typescript
 public readonly junitOptions: JunitOptions;
@@ -7380,7 +7380,7 @@ junit options.
 
 ---
 
-##### `packagingOptions`<sup>Optional</sup> <a name="packagingOptions" id="projen-projects.JavaProjectOptions.property.packagingOptions"></a>
+##### `packagingOptions`<sup>Optional</sup> <a name="packagingOptions" id="apidays24-sg-pj.JavaProjectOptions.property.packagingOptions"></a>
 
 ```typescript
 public readonly packagingOptions: MavenPackagingOptions;
@@ -7393,7 +7393,7 @@ Packaging options.
 
 ---
 
-##### `projenrcJava`<sup>Optional</sup> <a name="projenrcJava" id="projen-projects.JavaProjectOptions.property.projenrcJava"></a>
+##### `projenrcJava`<sup>Optional</sup> <a name="projenrcJava" id="apidays24-sg-pj.JavaProjectOptions.property.projenrcJava"></a>
 
 ```typescript
 public readonly projenrcJava: boolean;
@@ -7409,7 +7409,7 @@ will compile & execute `main()` from `src/main/java/projenrc.java`.
 
 ---
 
-##### `projenrcJavaOptions`<sup>Optional</sup> <a name="projenrcJavaOptions" id="projen-projects.JavaProjectOptions.property.projenrcJavaOptions"></a>
+##### `projenrcJavaOptions`<sup>Optional</sup> <a name="projenrcJavaOptions" id="apidays24-sg-pj.JavaProjectOptions.property.projenrcJavaOptions"></a>
 
 ```typescript
 public readonly projenrcJavaOptions: ProjenrcOptions;
@@ -7422,7 +7422,7 @@ Options related to projenrc in java.
 
 ---
 
-##### `testDeps`<sup>Optional</sup> <a name="testDeps" id="projen-projects.JavaProjectOptions.property.testDeps"></a>
+##### `testDeps`<sup>Optional</sup> <a name="testDeps" id="apidays24-sg-pj.JavaProjectOptions.property.testDeps"></a>
 
 ```typescript
 public readonly testDeps: string[];
@@ -7439,7 +7439,7 @@ Additional dependencies can be added via `project.addTestDependency()`.
 
 ---
 
-##### `sample`<sup>Optional</sup> <a name="sample" id="projen-projects.JavaProjectOptions.property.sample"></a>
+##### `sample`<sup>Optional</sup> <a name="sample" id="apidays24-sg-pj.JavaProjectOptions.property.sample"></a>
 
 ```typescript
 public readonly sample: boolean;
@@ -7452,7 +7452,7 @@ Include sample code and test if the relevant directories don't exist.
 
 ---
 
-##### `sampleJavaPackage`<sup>Optional</sup> <a name="sampleJavaPackage" id="projen-projects.JavaProjectOptions.property.sampleJavaPackage"></a>
+##### `sampleJavaPackage`<sup>Optional</sup> <a name="sampleJavaPackage" id="apidays24-sg-pj.JavaProjectOptions.property.sampleJavaPackage"></a>
 
 ```typescript
 public readonly sampleJavaPackage: string;
@@ -7465,22 +7465,22 @@ The java package to use for the code sample.
 
 ---
 
-##### `snykOptions`<sup>Required</sup> <a name="snykOptions" id="projen-projects.JavaProjectOptions.property.snykOptions"></a>
+##### `snykOptions`<sup>Optional</sup> <a name="snykOptions" id="apidays24-sg-pj.JavaProjectOptions.property.snykOptions"></a>
 
 ```typescript
 public readonly snykOptions: SnykComponentOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a>
 
 ---
 
-### JSIIProjectOptions <a name="JSIIProjectOptions" id="projen-projects.JSIIProjectOptions"></a>
+### JSIIProjectOptions <a name="JSIIProjectOptions" id="apidays24-sg-pj.JSIIProjectOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.JSIIProjectOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.JSIIProjectOptions.Initializer"></a>
 
 ```typescript
-import { JSIIProjectOptions } from 'projen-projects'
+import { JSIIProjectOptions } from 'apidays24-sg-pj'
 
 const jSIIProjectOptions: JSIIProjectOptions = { ... }
 ```
@@ -7489,171 +7489,171 @@ const jSIIProjectOptions: JSIIProjectOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Minimum node.js version to require via `engines` (inclusive). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum Node.js version to require via package.json `engines` (inclusive). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version to use in GitHub workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.author">author</a></code> | <code>string</code> | The name of the library author. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.authorAddress">authorAddress</a></code> | <code>string</code> | Email or URL of the library author. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.repositoryUrl">repositoryUrl</a></code> | <code>string</code> | Git repository URL. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.compat">compat</a></code> | <code>boolean</code> | Automatically run API compatibility test against the latest version published to npm after compilation. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.compatIgnore">compatIgnore</a></code> | <code>string</code> | Name of the ignore file for API compatibility tests. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.compressAssembly">compressAssembly</a></code> | <code>boolean</code> | Emit a compressed version of the assembly. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.docgenFilePath">docgenFilePath</a></code> | <code>string</code> | File path for generated docs. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.dotnet">dotnet</a></code> | <code>projen.cdk.JsiiDotNetTarget</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.excludeTypescript">excludeTypescript</a></code> | <code>string[]</code> | Accepts a list of glob patterns. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.jsiiVersion">jsiiVersion</a></code> | <code>string</code> | Version of the jsii compiler to use. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishToGo">publishToGo</a></code> | <code>projen.cdk.JsiiGoTarget</code> | Publish Go bindings to a git repository. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishToMaven">publishToMaven</a></code> | <code>projen.cdk.JsiiJavaTarget</code> | Publish to maven. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishToNuget">publishToNuget</a></code> | <code>projen.cdk.JsiiDotNetTarget</code> | Publish to NuGet. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.publishToPypi">publishToPypi</a></code> | <code>projen.cdk.JsiiPythonTarget</code> | Publish to pypi. |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.python">python</a></code> | <code>projen.cdk.JsiiPythonTarget</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.rootdir">rootdir</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.JSIIProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Minimum node.js version to require via `engines` (inclusive). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum Node.js version to require via package.json `engines` (inclusive). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version to use in GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.author">author</a></code> | <code>string</code> | The name of the library author. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.authorAddress">authorAddress</a></code> | <code>string</code> | Email or URL of the library author. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.repositoryUrl">repositoryUrl</a></code> | <code>string</code> | Git repository URL. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.compat">compat</a></code> | <code>boolean</code> | Automatically run API compatibility test against the latest version published to npm after compilation. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.compatIgnore">compatIgnore</a></code> | <code>string</code> | Name of the ignore file for API compatibility tests. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.compressAssembly">compressAssembly</a></code> | <code>boolean</code> | Emit a compressed version of the assembly. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.docgenFilePath">docgenFilePath</a></code> | <code>string</code> | File path for generated docs. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.dotnet">dotnet</a></code> | <code>projen.cdk.JsiiDotNetTarget</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.excludeTypescript">excludeTypescript</a></code> | <code>string[]</code> | Accepts a list of glob patterns. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.jsiiVersion">jsiiVersion</a></code> | <code>string</code> | Version of the jsii compiler to use. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishToGo">publishToGo</a></code> | <code>projen.cdk.JsiiGoTarget</code> | Publish Go bindings to a git repository. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishToMaven">publishToMaven</a></code> | <code>projen.cdk.JsiiJavaTarget</code> | Publish to maven. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishToNuget">publishToNuget</a></code> | <code>projen.cdk.JsiiDotNetTarget</code> | Publish to NuGet. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.publishToPypi">publishToPypi</a></code> | <code>projen.cdk.JsiiPythonTarget</code> | Publish to pypi. |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.python">python</a></code> | <code>projen.cdk.JsiiPythonTarget</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.rootdir">rootdir</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.JSIIProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.JSIIProjectOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.JSIIProjectOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -7666,7 +7666,7 @@ This is the name of your project.
 
 ---
 
-##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="projen-projects.JSIIProjectOptions.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="apidays24-sg-pj.JSIIProjectOptions.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -7679,7 +7679,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="projen-projects.JSIIProjectOptions.property.gitIgnoreOptions"></a>
+##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.gitIgnoreOptions"></a>
 
 ```typescript
 public readonly gitIgnoreOptions: IgnoreFileOptions;
@@ -7691,7 +7691,7 @@ Configuration options for .gitignore file.
 
 ---
 
-##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="projen-projects.JSIIProjectOptions.property.gitOptions"></a>
+##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.gitOptions"></a>
 
 ```typescript
 public readonly gitOptions: GitOptions;
@@ -7703,7 +7703,7 @@ Configuration options for git.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="logging" id="projen-projects.JSIIProjectOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="logging" id="apidays24-sg-pj.JSIIProjectOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -7716,7 +7716,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="outdir" id="projen-projects.JSIIProjectOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="outdir" id="apidays24-sg-pj.JSIIProjectOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -7735,7 +7735,7 @@ subprojects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.JSIIProjectOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.JSIIProjectOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -7747,7 +7747,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="projen-projects.JSIIProjectOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="apidays24-sg-pj.JSIIProjectOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -7762,7 +7762,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="projen-projects.JSIIProjectOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -7775,7 +7775,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="projen-projects.JSIIProjectOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcJsonOptions;
@@ -7788,7 +7788,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="projen-projects.JSIIProjectOptions.property.renovatebot"></a>
+##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="apidays24-sg-pj.JSIIProjectOptions.property.renovatebot"></a>
 
 ```typescript
 public readonly renovatebot: boolean;
@@ -7801,7 +7801,7 @@ Use renovatebot to handle dependency upgrades.
 
 ---
 
-##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="projen-projects.JSIIProjectOptions.property.renovatebotOptions"></a>
+##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.renovatebotOptions"></a>
 
 ```typescript
 public readonly renovatebotOptions: RenovatebotOptions;
@@ -7814,7 +7814,7 @@ Options for renovatebot.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="projen-projects.JSIIProjectOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -7827,7 +7827,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.JSIIProjectOptions.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.JSIIProjectOptions.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: boolean;
@@ -7843,7 +7843,7 @@ is set to false.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="projen-projects.JSIIProjectOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -7859,7 +7859,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="clobber" id="projen-projects.JSIIProjectOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="clobber" id="apidays24-sg-pj.JSIIProjectOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -7872,7 +7872,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.JSIIProjectOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.JSIIProjectOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -7885,7 +7885,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.JSIIProjectOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.JSIIProjectOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -7900,7 +7900,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="projen-projects.JSIIProjectOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -7913,7 +7913,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.JSIIProjectOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.JSIIProjectOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -7926,7 +7926,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="projen-projects.JSIIProjectOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="apidays24-sg-pj.JSIIProjectOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -7941,7 +7941,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="projen-projects.JSIIProjectOptions.property.mergifyOptions"></a>
+##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.mergifyOptions"></a>
 
 - *Deprecated:* use `githubOptions.mergifyOptions` instead
 
@@ -7956,7 +7956,7 @@ Options for mergify.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="projen-projects.JSIIProjectOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="apidays24-sg-pj.JSIIProjectOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -7971,7 +7971,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="projen-projects.JSIIProjectOptions.property.projenCredentials"></a>
+##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="apidays24-sg-pj.JSIIProjectOptions.property.projenCredentials"></a>
 
 ```typescript
 public readonly projenCredentials: GithubCredentials;
@@ -7984,7 +7984,7 @@ Choose a method of providing GitHub API access for projen workflows.
 
 ---
 
-##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="projen-projects.JSIIProjectOptions.property.projenTokenSecret"></a>
+##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="apidays24-sg-pj.JSIIProjectOptions.property.projenTokenSecret"></a>
 
 - *Deprecated:* use `projenCredentials`
 
@@ -8002,7 +8002,7 @@ and `packages` scope.
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="readme" id="projen-projects.JSIIProjectOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="readme" id="apidays24-sg-pj.JSIIProjectOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -8022,7 +8022,7 @@ The README setup.
 ```
 
 
-##### `stale`<sup>Optional</sup> <a name="stale" id="projen-projects.JSIIProjectOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="stale" id="apidays24-sg-pj.JSIIProjectOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -8037,7 +8037,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="projen-projects.JSIIProjectOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -8052,7 +8052,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.JSIIProjectOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.JSIIProjectOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -8067,7 +8067,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="projen-projects.JSIIProjectOptions.property.allowLibraryDependencies"></a>
+##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="apidays24-sg-pj.JSIIProjectOptions.property.allowLibraryDependencies"></a>
 
 ```typescript
 public readonly allowLibraryDependencies: boolean;
@@ -8083,7 +8083,7 @@ for specifying these.
 
 ---
 
-##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="projen-projects.JSIIProjectOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="apidays24-sg-pj.JSIIProjectOptions.property.authorEmail"></a>
 
 ```typescript
 public readonly authorEmail: string;
@@ -8095,7 +8095,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Optional</sup> <a name="authorName" id="projen-projects.JSIIProjectOptions.property.authorName"></a>
+##### `authorName`<sup>Optional</sup> <a name="authorName" id="apidays24-sg-pj.JSIIProjectOptions.property.authorName"></a>
 
 ```typescript
 public readonly authorName: string;
@@ -8107,7 +8107,7 @@ Author's name.
 
 ---
 
-##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="projen-projects.JSIIProjectOptions.property.authorOrganization"></a>
+##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="apidays24-sg-pj.JSIIProjectOptions.property.authorOrganization"></a>
 
 ```typescript
 public readonly authorOrganization: boolean;
@@ -8119,7 +8119,7 @@ Is the author an organization.
 
 ---
 
-##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="projen-projects.JSIIProjectOptions.property.authorUrl"></a>
+##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="apidays24-sg-pj.JSIIProjectOptions.property.authorUrl"></a>
 
 ```typescript
 public readonly authorUrl: string;
@@ -8131,7 +8131,7 @@ Author's URL / Website.
 
 ---
 
-##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="projen-projects.JSIIProjectOptions.property.autoDetectBin"></a>
+##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="apidays24-sg-pj.JSIIProjectOptions.property.autoDetectBin"></a>
 
 ```typescript
 public readonly autoDetectBin: boolean;
@@ -8144,7 +8144,7 @@ Automatically add all executables under the `bin` directory to your `package.jso
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="bin" id="projen-projects.JSIIProjectOptions.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="bin" id="apidays24-sg-pj.JSIIProjectOptions.property.bin"></a>
 
 ```typescript
 public readonly bin: {[ key: string ]: string};
@@ -8160,7 +8160,7 @@ executable file under `bin` will automatically be added to this section.
 
 ---
 
-##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="projen-projects.JSIIProjectOptions.property.bugsEmail"></a>
+##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="apidays24-sg-pj.JSIIProjectOptions.property.bugsEmail"></a>
 
 ```typescript
 public readonly bugsEmail: string;
@@ -8172,7 +8172,7 @@ The email address to which issues should be reported.
 
 ---
 
-##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="projen-projects.JSIIProjectOptions.property.bugsUrl"></a>
+##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="apidays24-sg-pj.JSIIProjectOptions.property.bugsUrl"></a>
 
 ```typescript
 public readonly bugsUrl: string;
@@ -8184,7 +8184,7 @@ The url to your project's issue tracker.
 
 ---
 
-##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="projen-projects.JSIIProjectOptions.property.bundledDeps"></a>
+##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="apidays24-sg-pj.JSIIProjectOptions.property.bundledDeps"></a>
 
 ```typescript
 public readonly bundledDeps: string[];
@@ -8207,7 +8207,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="projen-projects.JSIIProjectOptions.property.codeArtifactOptions"></a>
+##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.codeArtifactOptions"></a>
 
 ```typescript
 public readonly codeArtifactOptions: CodeArtifactOptions;
@@ -8222,7 +8222,7 @@ This is required if publishing packages to, or installing scoped packages from A
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="deps" id="projen-projects.JSIIProjectOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="deps" id="apidays24-sg-pj.JSIIProjectOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -8249,7 +8249,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `description`<sup>Optional</sup> <a name="description" id="projen-projects.JSIIProjectOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="apidays24-sg-pj.JSIIProjectOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -8264,7 +8264,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-description
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="projen-projects.JSIIProjectOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="apidays24-sg-pj.JSIIProjectOptions.property.devDeps"></a>
 
 ```typescript
 public readonly devDeps: string[];
@@ -8295,7 +8295,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="projen-projects.JSIIProjectOptions.property.entrypoint"></a>
+##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="apidays24-sg-pj.JSIIProjectOptions.property.entrypoint"></a>
 
 ```typescript
 public readonly entrypoint: string;
@@ -8310,7 +8310,7 @@ Set to an empty string to not include `main` in your package.json
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="homepage" id="projen-projects.JSIIProjectOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="homepage" id="apidays24-sg-pj.JSIIProjectOptions.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -8322,7 +8322,7 @@ Package's Homepage / Website.
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="keywords" id="projen-projects.JSIIProjectOptions.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="keywords" id="apidays24-sg-pj.JSIIProjectOptions.property.keywords"></a>
 
 ```typescript
 public readonly keywords: string[];
@@ -8334,7 +8334,7 @@ Keywords to include in `package.json`.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="license" id="projen-projects.JSIIProjectOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="license" id="apidays24-sg-pj.JSIIProjectOptions.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -8350,7 +8350,7 @@ Use the `licensed` option if you want to no license to be specified.
 
 ---
 
-##### `licensed`<sup>Optional</sup> <a name="licensed" id="projen-projects.JSIIProjectOptions.property.licensed"></a>
+##### `licensed`<sup>Optional</sup> <a name="licensed" id="apidays24-sg-pj.JSIIProjectOptions.property.licensed"></a>
 
 ```typescript
 public readonly licensed: boolean;
@@ -8363,7 +8363,7 @@ Indicates if a license should be added.
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-projects.JSIIProjectOptions.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -8376,7 +8376,7 @@ Minimum node.js version to require via `engines` (inclusive).
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-projects.JSIIProjectOptions.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -8389,7 +8389,7 @@ Minimum Node.js version to require via package.json `engines` (inclusive).
 
 ---
 
-##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="projen-projects.JSIIProjectOptions.property.npmAccess"></a>
+##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="apidays24-sg-pj.JSIIProjectOptions.property.npmAccess"></a>
 
 ```typescript
 public readonly npmAccess: NpmAccess;
@@ -8402,7 +8402,7 @@ Access level of the npm package.
 
 ---
 
-##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="projen-projects.JSIIProjectOptions.property.npmProvenance"></a>
+##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="apidays24-sg-pj.JSIIProjectOptions.property.npmProvenance"></a>
 
 ```typescript
 public readonly npmProvenance: boolean;
@@ -8423,7 +8423,7 @@ which is using npm internally and supports provenance statements independently o
 
 ---
 
-##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="projen-projects.JSIIProjectOptions.property.npmRegistry"></a>
+##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="apidays24-sg-pj.JSIIProjectOptions.property.npmRegistry"></a>
 
 - *Deprecated:* use `npmRegistryUrl` instead
 
@@ -8439,7 +8439,7 @@ Cannot be set together with `npmRegistryUrl`.
 
 ---
 
-##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="projen-projects.JSIIProjectOptions.property.npmRegistryUrl"></a>
+##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="apidays24-sg-pj.JSIIProjectOptions.property.npmRegistryUrl"></a>
 
 ```typescript
 public readonly npmRegistryUrl: string;
@@ -8454,7 +8454,7 @@ Must be a URL (e.g. start with "https://" or "http://")
 
 ---
 
-##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="projen-projects.JSIIProjectOptions.property.npmTokenSecret"></a>
+##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="apidays24-sg-pj.JSIIProjectOptions.property.npmTokenSecret"></a>
 
 ```typescript
 public readonly npmTokenSecret: string;
@@ -8467,7 +8467,7 @@ GitHub secret which contains the NPM token to use when publishing packages.
 
 ---
 
-##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="projen-projects.JSIIProjectOptions.property.packageManager"></a>
+##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="apidays24-sg-pj.JSIIProjectOptions.property.packageManager"></a>
 
 ```typescript
 public readonly packageManager: NodePackageManager;
@@ -8480,7 +8480,7 @@ The Node Package Manager used to execute scripts.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="packageName" id="projen-projects.JSIIProjectOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="packageName" id="apidays24-sg-pj.JSIIProjectOptions.property.packageName"></a>
 
 ```typescript
 public readonly packageName: string;
@@ -8493,7 +8493,7 @@ The "name" in package.json.
 
 ---
 
-##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="projen-projects.JSIIProjectOptions.property.peerDependencyOptions"></a>
+##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.peerDependencyOptions"></a>
 
 ```typescript
 public readonly peerDependencyOptions: PeerDependencyOptions;
@@ -8505,7 +8505,7 @@ Options for `peerDeps`.
 
 ---
 
-##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="projen-projects.JSIIProjectOptions.property.peerDeps"></a>
+##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="apidays24-sg-pj.JSIIProjectOptions.property.peerDeps"></a>
 
 ```typescript
 public readonly peerDeps: string[];
@@ -8532,7 +8532,7 @@ test your module against the lowest peer version required.
 
 ---
 
-##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="projen-projects.JSIIProjectOptions.property.pnpmVersion"></a>
+##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.pnpmVersion"></a>
 
 ```typescript
 public readonly pnpmVersion: string;
@@ -8545,7 +8545,7 @@ The version of PNPM to use if using PNPM as a package manager.
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="repository" id="projen-projects.JSIIProjectOptions.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="repository" id="apidays24-sg-pj.JSIIProjectOptions.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -8559,7 +8559,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-repository
 
 ---
 
-##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="projen-projects.JSIIProjectOptions.property.repositoryDirectory"></a>
+##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="apidays24-sg-pj.JSIIProjectOptions.property.repositoryDirectory"></a>
 
 ```typescript
 public readonly repositoryDirectory: string;
@@ -8571,7 +8571,7 @@ If the package.json for your package is not in the root directory (for example i
 
 ---
 
-##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="projen-projects.JSIIProjectOptions.property.scopedPackagesOptions"></a>
+##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.scopedPackagesOptions"></a>
 
 ```typescript
 public readonly scopedPackagesOptions: ScopedPackagesOptions[];
@@ -8584,7 +8584,7 @@ Options for privately hosted scoped packages.
 
 ---
 
-##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="projen-projects.JSIIProjectOptions.property.scripts"></a>
+##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="apidays24-sg-pj.JSIIProjectOptions.property.scripts"></a>
 
 - *Deprecated:* use `project.addTask()` or `package.setScript()`
 
@@ -8603,7 +8603,7 @@ Also adds the script as a task.
 
 ---
 
-##### `stability`<sup>Optional</sup> <a name="stability" id="projen-projects.JSIIProjectOptions.property.stability"></a>
+##### `stability`<sup>Optional</sup> <a name="stability" id="apidays24-sg-pj.JSIIProjectOptions.property.stability"></a>
 
 ```typescript
 public readonly stability: string;
@@ -8615,7 +8615,7 @@ Package's Stability.
 
 ---
 
-##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="projen-projects.JSIIProjectOptions.property.yarnBerryOptions"></a>
+##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.yarnBerryOptions"></a>
 
 ```typescript
 public readonly yarnBerryOptions: YarnBerryOptions;
@@ -8628,7 +8628,7 @@ Options for Yarn Berry.
 
 ---
 
-##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="projen-projects.JSIIProjectOptions.property.jsiiReleaseVersion"></a>
+##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.jsiiReleaseVersion"></a>
 
 ```typescript
 public readonly jsiiReleaseVersion: string;
@@ -8641,7 +8641,7 @@ Version requirement of `publib` which is used to publish modules to npm.
 
 ---
 
-##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="projen-projects.JSIIProjectOptions.property.majorVersion"></a>
+##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.majorVersion"></a>
 
 ```typescript
 public readonly majorVersion: number;
@@ -8657,7 +8657,7 @@ If not specified, we bump the global latest version.
 
 ---
 
-##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="projen-projects.JSIIProjectOptions.property.minMajorVersion"></a>
+##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.minMajorVersion"></a>
 
 ```typescript
 public readonly minMajorVersion: number;
@@ -8675,7 +8675,7 @@ Can not be set together with `majorVersion`.
 
 ---
 
-##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="projen-projects.JSIIProjectOptions.property.npmDistTag"></a>
+##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="apidays24-sg-pj.JSIIProjectOptions.property.npmDistTag"></a>
 
 ```typescript
 public readonly npmDistTag: string;
@@ -8691,7 +8691,7 @@ for each branch.
 
 ---
 
-##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="projen-projects.JSIIProjectOptions.property.postBuildSteps"></a>
+##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="apidays24-sg-pj.JSIIProjectOptions.property.postBuildSteps"></a>
 
 ```typescript
 public readonly postBuildSteps: JobStep[];
@@ -8704,7 +8704,7 @@ Steps to execute after build as part of the release workflow.
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="projen-projects.JSIIProjectOptions.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="apidays24-sg-pj.JSIIProjectOptions.property.prerelease"></a>
 
 ```typescript
 public readonly prerelease: string;
@@ -8717,7 +8717,7 @@ Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pr
 
 ---
 
-##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="projen-projects.JSIIProjectOptions.property.publishDryRun"></a>
+##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="apidays24-sg-pj.JSIIProjectOptions.property.publishDryRun"></a>
 
 ```typescript
 public readonly publishDryRun: boolean;
@@ -8730,7 +8730,7 @@ Instead of actually publishing to package managers, just print the publishing co
 
 ---
 
-##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="projen-projects.JSIIProjectOptions.property.publishTasks"></a>
+##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="apidays24-sg-pj.JSIIProjectOptions.property.publishTasks"></a>
 
 ```typescript
 public readonly publishTasks: boolean;
@@ -8746,7 +8746,7 @@ in order to create a publishing task for each publishing activity.
 
 ---
 
-##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="projen-projects.JSIIProjectOptions.property.releasableCommits"></a>
+##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="apidays24-sg-pj.JSIIProjectOptions.property.releasableCommits"></a>
 
 ```typescript
 public readonly releasableCommits: ReleasableCommits;
@@ -8759,7 +8759,7 @@ Find commits that should be considered releasable Used to decide if a release is
 
 ---
 
-##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="projen-projects.JSIIProjectOptions.property.releaseBranches"></a>
+##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseBranches"></a>
 
 ```typescript
 public readonly releaseBranches: {[ key: string ]: BranchOptions};
@@ -8779,7 +8779,7 @@ be provided for the default branch.
 
 ---
 
-##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="projen-projects.JSIIProjectOptions.property.releaseEveryCommit"></a>
+##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseEveryCommit"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.continuous()` instead
 
@@ -8794,7 +8794,7 @@ Automatically release new versions every commit to one of branches in `releaseBr
 
 ---
 
-##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="projen-projects.JSIIProjectOptions.property.releaseFailureIssue"></a>
+##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseFailureIssue"></a>
 
 ```typescript
 public readonly releaseFailureIssue: boolean;
@@ -8807,7 +8807,7 @@ Create a github issue on every failed publishing task.
 
 ---
 
-##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="projen-projects.JSIIProjectOptions.property.releaseFailureIssueLabel"></a>
+##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseFailureIssueLabel"></a>
 
 ```typescript
 public readonly releaseFailureIssueLabel: string;
@@ -8822,7 +8822,7 @@ Only applies if `releaseFailureIssue` is true.
 
 ---
 
-##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="projen-projects.JSIIProjectOptions.property.releaseSchedule"></a>
+##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseSchedule"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.scheduled()` instead
 
@@ -8837,7 +8837,7 @@ CRON schedule to trigger new releases.
 
 ---
 
-##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="projen-projects.JSIIProjectOptions.property.releaseTagPrefix"></a>
+##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseTagPrefix"></a>
 
 ```typescript
 public readonly releaseTagPrefix: string;
@@ -8855,7 +8855,7 @@ with the new prefix.
 
 ---
 
-##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="projen-projects.JSIIProjectOptions.property.releaseTrigger"></a>
+##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseTrigger"></a>
 
 ```typescript
 public readonly releaseTrigger: ReleaseTrigger;
@@ -8868,7 +8868,7 @@ The release trigger to use.
 
 ---
 
-##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="projen-projects.JSIIProjectOptions.property.releaseWorkflowName"></a>
+##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflowName"></a>
 
 ```typescript
 public readonly releaseWorkflowName: string;
@@ -8881,7 +8881,7 @@ The name of the default release workflow.
 
 ---
 
-##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="projen-projects.JSIIProjectOptions.property.releaseWorkflowSetupSteps"></a>
+##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflowSetupSteps"></a>
 
 ```typescript
 public readonly releaseWorkflowSetupSteps: JobStep[];
@@ -8893,7 +8893,7 @@ A set of workflow steps to execute in order to setup the workflow container.
 
 ---
 
-##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="projen-projects.JSIIProjectOptions.property.versionrcOptions"></a>
+##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.versionrcOptions"></a>
 
 ```typescript
 public readonly versionrcOptions: {[ key: string ]: any};
@@ -8908,7 +8908,7 @@ Given values either append to default configuration or overwrite values in it.
 
 ---
 
-##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="projen-projects.JSIIProjectOptions.property.workflowContainerImage"></a>
+##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowContainerImage"></a>
 
 ```typescript
 public readonly workflowContainerImage: string;
@@ -8921,7 +8921,7 @@ Container image to use for GitHub workflows.
 
 ---
 
-##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="projen-projects.JSIIProjectOptions.property.workflowRunsOn"></a>
+##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowRunsOn"></a>
 
 ```typescript
 public readonly workflowRunsOn: string[];
@@ -8934,7 +8934,7 @@ Github Runner selection labels.
 
 ---
 
-##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="projen-projects.JSIIProjectOptions.property.workflowRunsOnGroup"></a>
+##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowRunsOnGroup"></a>
 
 ```typescript
 public readonly workflowRunsOnGroup: GroupRunnerOptions;
@@ -8946,7 +8946,7 @@ Github Runner Group selection options.
 
 ---
 
-##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="projen-projects.JSIIProjectOptions.property.defaultReleaseBranch"></a>
+##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="apidays24-sg-pj.JSIIProjectOptions.property.defaultReleaseBranch"></a>
 
 ```typescript
 public readonly defaultReleaseBranch: string;
@@ -8959,7 +8959,7 @@ The name of the main release branch.
 
 ---
 
-##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="projen-projects.JSIIProjectOptions.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="apidays24-sg-pj.JSIIProjectOptions.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -8972,7 +8972,7 @@ A directory which will contain build artifacts.
 
 ---
 
-##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="projen-projects.JSIIProjectOptions.property.autoApproveUpgrades"></a>
+##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="apidays24-sg-pj.JSIIProjectOptions.property.autoApproveUpgrades"></a>
 
 ```typescript
 public readonly autoApproveUpgrades: boolean;
@@ -8987,7 +8987,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-projects.JSIIProjectOptions.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="apidays24-sg-pj.JSIIProjectOptions.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: boolean;
@@ -9000,7 +9000,7 @@ Define a GitHub workflow for building PRs.
 
 ---
 
-##### `buildWorkflowTriggers`<sup>Optional</sup> <a name="buildWorkflowTriggers" id="projen-projects.JSIIProjectOptions.property.buildWorkflowTriggers"></a>
+##### `buildWorkflowTriggers`<sup>Optional</sup> <a name="buildWorkflowTriggers" id="apidays24-sg-pj.JSIIProjectOptions.property.buildWorkflowTriggers"></a>
 
 ```typescript
 public readonly buildWorkflowTriggers: Triggers;
@@ -9013,7 +9013,7 @@ Build workflow triggers.
 
 ---
 
-##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="projen-projects.JSIIProjectOptions.property.bundlerOptions"></a>
+##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.bundlerOptions"></a>
 
 ```typescript
 public readonly bundlerOptions: BundlerOptions;
@@ -9025,7 +9025,7 @@ Options for `Bundler`.
 
 ---
 
-##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="projen-projects.JSIIProjectOptions.property.checkLicenses"></a>
+##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="apidays24-sg-pj.JSIIProjectOptions.property.checkLicenses"></a>
 
 ```typescript
 public readonly checkLicenses: LicenseCheckerOptions;
@@ -9040,7 +9040,7 @@ This setting will cause the build to fail, if any prohibited or not allowed lice
 
 ---
 
-##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="projen-projects.JSIIProjectOptions.property.codeCov"></a>
+##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="apidays24-sg-pj.JSIIProjectOptions.property.codeCov"></a>
 
 ```typescript
 public readonly codeCov: boolean;
@@ -9053,7 +9053,7 @@ Define a GitHub workflow step for sending code coverage metrics to https://codec
 
 ---
 
-##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="projen-projects.JSIIProjectOptions.property.codeCovTokenSecret"></a>
+##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="apidays24-sg-pj.JSIIProjectOptions.property.codeCovTokenSecret"></a>
 
 ```typescript
 public readonly codeCovTokenSecret: string;
@@ -9066,7 +9066,7 @@ Define the secret name for a specified https://codecov.io/ token A secret is req
 
 ---
 
-##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="projen-projects.JSIIProjectOptions.property.copyrightOwner"></a>
+##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="apidays24-sg-pj.JSIIProjectOptions.property.copyrightOwner"></a>
 
 ```typescript
 public readonly copyrightOwner: string;
@@ -9079,7 +9079,7 @@ License copyright owner.
 
 ---
 
-##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="projen-projects.JSIIProjectOptions.property.copyrightPeriod"></a>
+##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="apidays24-sg-pj.JSIIProjectOptions.property.copyrightPeriod"></a>
 
 ```typescript
 public readonly copyrightPeriod: string;
@@ -9092,7 +9092,7 @@ The copyright years to put in the LICENSE file.
 
 ---
 
-##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="projen-projects.JSIIProjectOptions.property.dependabot"></a>
+##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="apidays24-sg-pj.JSIIProjectOptions.property.dependabot"></a>
 
 ```typescript
 public readonly dependabot: boolean;
@@ -9107,7 +9107,7 @@ Cannot be used in conjunction with `depsUpgrade`.
 
 ---
 
-##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="projen-projects.JSIIProjectOptions.property.dependabotOptions"></a>
+##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.dependabotOptions"></a>
 
 ```typescript
 public readonly dependabotOptions: DependabotOptions;
@@ -9120,7 +9120,7 @@ Options for dependabot.
 
 ---
 
-##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="projen-projects.JSIIProjectOptions.property.depsUpgrade"></a>
+##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="apidays24-sg-pj.JSIIProjectOptions.property.depsUpgrade"></a>
 
 ```typescript
 public readonly depsUpgrade: boolean;
@@ -9135,7 +9135,7 @@ Cannot be used in conjunction with `dependabot`.
 
 ---
 
-##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="projen-projects.JSIIProjectOptions.property.depsUpgradeOptions"></a>
+##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.depsUpgradeOptions"></a>
 
 ```typescript
 public readonly depsUpgradeOptions: UpgradeDependenciesOptions;
@@ -9148,7 +9148,7 @@ Options for `UpgradeDependencies`.
 
 ---
 
-##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="projen-projects.JSIIProjectOptions.property.gitignore"></a>
+##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="apidays24-sg-pj.JSIIProjectOptions.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: string[];
@@ -9160,7 +9160,7 @@ Additional entries to .gitignore.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="projen-projects.JSIIProjectOptions.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="apidays24-sg-pj.JSIIProjectOptions.property.jest"></a>
 
 ```typescript
 public readonly jest: boolean;
@@ -9173,7 +9173,7 @@ Setup jest unit tests.
 
 ---
 
-##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="projen-projects.JSIIProjectOptions.property.jestOptions"></a>
+##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.jestOptions"></a>
 
 ```typescript
 public readonly jestOptions: JestOptions;
@@ -9186,7 +9186,7 @@ Jest options.
 
 ---
 
-##### `mutableBuild`<sup>Optional</sup> <a name="mutableBuild" id="projen-projects.JSIIProjectOptions.property.mutableBuild"></a>
+##### `mutableBuild`<sup>Optional</sup> <a name="mutableBuild" id="apidays24-sg-pj.JSIIProjectOptions.property.mutableBuild"></a>
 
 ```typescript
 public readonly mutableBuild: boolean;
@@ -9205,7 +9205,7 @@ Implies that PR builds do not have anti-tamper checks.
 
 ---
 
-##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="projen-projects.JSIIProjectOptions.property.npmignore"></a>
+##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="apidays24-sg-pj.JSIIProjectOptions.property.npmignore"></a>
 
 - *Deprecated:* - use `project.addPackageIgnore`
 
@@ -9219,7 +9219,7 @@ Additional entries to .npmignore.
 
 ---
 
-##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="projen-projects.JSIIProjectOptions.property.npmignoreEnabled"></a>
+##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="apidays24-sg-pj.JSIIProjectOptions.property.npmignoreEnabled"></a>
 
 ```typescript
 public readonly npmignoreEnabled: boolean;
@@ -9232,7 +9232,7 @@ Defines an .npmignore file. Normally this is only needed for libraries that are 
 
 ---
 
-##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="projen-projects.JSIIProjectOptions.property.npmIgnoreOptions"></a>
+##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.npmIgnoreOptions"></a>
 
 ```typescript
 public readonly npmIgnoreOptions: IgnoreFileOptions;
@@ -9244,7 +9244,7 @@ Configuration options for .npmignore file.
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="package" id="projen-projects.JSIIProjectOptions.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="package" id="apidays24-sg-pj.JSIIProjectOptions.property.package"></a>
 
 ```typescript
 public readonly package: boolean;
@@ -9257,7 +9257,7 @@ Defines a `package` task that will produce an npm tarball under the artifacts di
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-projects.JSIIProjectOptions.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="apidays24-sg-pj.JSIIProjectOptions.property.prettier"></a>
 
 ```typescript
 public readonly prettier: boolean;
@@ -9270,7 +9270,7 @@ Setup prettier.
 
 ---
 
-##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="projen-projects.JSIIProjectOptions.property.prettierOptions"></a>
+##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.prettierOptions"></a>
 
 ```typescript
 public readonly prettierOptions: PrettierOptions;
@@ -9283,7 +9283,7 @@ Prettier options.
 
 ---
 
-##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="projen-projects.JSIIProjectOptions.property.projenDevDependency"></a>
+##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="apidays24-sg-pj.JSIIProjectOptions.property.projenDevDependency"></a>
 
 ```typescript
 public readonly projenDevDependency: boolean;
@@ -9296,7 +9296,7 @@ Indicates of "projen" should be installed as a devDependency.
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="projen-projects.JSIIProjectOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcJs"></a>
 
 ```typescript
 public readonly projenrcJs: boolean;
@@ -9309,7 +9309,7 @@ Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="projen-projects.JSIIProjectOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcJsOptions"></a>
 
 ```typescript
 public readonly projenrcJsOptions: ProjenrcOptions;
@@ -9322,7 +9322,7 @@ Options for .projenrc.js.
 
 ---
 
-##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="projen-projects.JSIIProjectOptions.property.projenVersion"></a>
+##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.projenVersion"></a>
 
 ```typescript
 public readonly projenVersion: string;
@@ -9335,7 +9335,7 @@ Version of projen to install.
 
 ---
 
-##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="projen-projects.JSIIProjectOptions.property.pullRequestTemplate"></a>
+##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="apidays24-sg-pj.JSIIProjectOptions.property.pullRequestTemplate"></a>
 
 ```typescript
 public readonly pullRequestTemplate: boolean;
@@ -9348,7 +9348,7 @@ Include a GitHub pull request template.
 
 ---
 
-##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="projen-projects.JSIIProjectOptions.property.pullRequestTemplateContents"></a>
+##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="apidays24-sg-pj.JSIIProjectOptions.property.pullRequestTemplateContents"></a>
 
 ```typescript
 public readonly pullRequestTemplateContents: string[];
@@ -9361,7 +9361,7 @@ The contents of the pull request template.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="projen-projects.JSIIProjectOptions.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="apidays24-sg-pj.JSIIProjectOptions.property.release"></a>
 
 ```typescript
 public readonly release: boolean;
@@ -9374,7 +9374,7 @@ Add release management to this project.
 
 ---
 
-##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="projen-projects.JSIIProjectOptions.property.releaseToNpm"></a>
+##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseToNpm"></a>
 
 ```typescript
 public readonly releaseToNpm: boolean;
@@ -9387,7 +9387,7 @@ Automatically release to npm when new versions are introduced.
 
 ---
 
-##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="projen-projects.JSIIProjectOptions.property.releaseWorkflow"></a>
+##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="apidays24-sg-pj.JSIIProjectOptions.property.releaseWorkflow"></a>
 
 - *Deprecated:* see `release`.
 
@@ -9402,7 +9402,7 @@ DEPRECATED: renamed to `release`.
 
 ---
 
-##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="projen-projects.JSIIProjectOptions.property.workflowBootstrapSteps"></a>
+##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowBootstrapSteps"></a>
 
 ```typescript
 public readonly workflowBootstrapSteps: JobStep[];
@@ -9415,7 +9415,7 @@ Workflow steps to use in order to bootstrap this repo.
 
 ---
 
-##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="projen-projects.JSIIProjectOptions.property.workflowGitIdentity"></a>
+##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowGitIdentity"></a>
 
 ```typescript
 public readonly workflowGitIdentity: GitIdentity;
@@ -9428,7 +9428,7 @@ The git identity to use in workflows.
 
 ---
 
-##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="projen-projects.JSIIProjectOptions.property.workflowNodeVersion"></a>
+##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowNodeVersion"></a>
 
 ```typescript
 public readonly workflowNodeVersion: string;
@@ -9441,7 +9441,7 @@ The node version to use in GitHub workflows.
 
 ---
 
-##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="projen-projects.JSIIProjectOptions.property.workflowPackageCache"></a>
+##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="apidays24-sg-pj.JSIIProjectOptions.property.workflowPackageCache"></a>
 
 ```typescript
 public readonly workflowPackageCache: boolean;
@@ -9454,7 +9454,7 @@ Enable Node.js package cache in GitHub workflows.
 
 ---
 
-##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="projen-projects.JSIIProjectOptions.property.disableTsconfig"></a>
+##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="apidays24-sg-pj.JSIIProjectOptions.property.disableTsconfig"></a>
 
 ```typescript
 public readonly disableTsconfig: boolean;
@@ -9467,7 +9467,7 @@ Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.jso
 
 ---
 
-##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="projen-projects.JSIIProjectOptions.property.disableTsconfigDev"></a>
+##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="apidays24-sg-pj.JSIIProjectOptions.property.disableTsconfigDev"></a>
 
 ```typescript
 public readonly disableTsconfigDev: boolean;
@@ -9480,7 +9480,7 @@ Do not generate a `tsconfig.dev.json` file.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-projects.JSIIProjectOptions.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="apidays24-sg-pj.JSIIProjectOptions.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -9493,7 +9493,7 @@ Docgen by Typedoc.
 
 ---
 
-##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="projen-projects.JSIIProjectOptions.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="apidays24-sg-pj.JSIIProjectOptions.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -9506,7 +9506,7 @@ Docs directory.
 
 ---
 
-##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="projen-projects.JSIIProjectOptions.property.entrypointTypes"></a>
+##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="apidays24-sg-pj.JSIIProjectOptions.property.entrypointTypes"></a>
 
 ```typescript
 public readonly entrypointTypes: string;
@@ -9519,7 +9519,7 @@ The .d.ts file that includes the type declarations for this module.
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-projects.JSIIProjectOptions.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="apidays24-sg-pj.JSIIProjectOptions.property.eslint"></a>
 
 ```typescript
 public readonly eslint: boolean;
@@ -9532,7 +9532,7 @@ Setup eslint.
 
 ---
 
-##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="projen-projects.JSIIProjectOptions.property.eslintOptions"></a>
+##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.eslintOptions"></a>
 
 ```typescript
 public readonly eslintOptions: EslintOptions;
@@ -9545,7 +9545,7 @@ Eslint options.
 
 ---
 
-##### `libdir`<sup>Optional</sup> <a name="libdir" id="projen-projects.JSIIProjectOptions.property.libdir"></a>
+##### `libdir`<sup>Optional</sup> <a name="libdir" id="apidays24-sg-pj.JSIIProjectOptions.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -9558,7 +9558,7 @@ Typescript  artifacts output directory.
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="projen-projects.JSIIProjectOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcTs"></a>
 
 ```typescript
 public readonly projenrcTs: boolean;
@@ -9571,7 +9571,7 @@ Use TypeScript for your projenrc file (`.projenrc.ts`).
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="projen-projects.JSIIProjectOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.projenrcTsOptions"></a>
 
 ```typescript
 public readonly projenrcTsOptions: ProjenrcOptions;
@@ -9583,7 +9583,7 @@ Options for .projenrc.ts.
 
 ---
 
-##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="projen-projects.JSIIProjectOptions.property.sampleCode"></a>
+##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="apidays24-sg-pj.JSIIProjectOptions.property.sampleCode"></a>
 
 ```typescript
 public readonly sampleCode: boolean;
@@ -9596,7 +9596,7 @@ Generate one-time sample in `src/` and `test/` if there are no files there.
 
 ---
 
-##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="projen-projects.JSIIProjectOptions.property.srcdir"></a>
+##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="apidays24-sg-pj.JSIIProjectOptions.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -9609,7 +9609,7 @@ Typescript sources directory.
 
 ---
 
-##### `testdir`<sup>Optional</sup> <a name="testdir" id="projen-projects.JSIIProjectOptions.property.testdir"></a>
+##### `testdir`<sup>Optional</sup> <a name="testdir" id="apidays24-sg-pj.JSIIProjectOptions.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -9627,7 +9627,7 @@ compile the code in-memory.
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-projects.JSIIProjectOptions.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="apidays24-sg-pj.JSIIProjectOptions.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfigOptions;
@@ -9640,7 +9640,7 @@ Custom TSConfig.
 
 ---
 
-##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="projen-projects.JSIIProjectOptions.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="apidays24-sg-pj.JSIIProjectOptions.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfigOptions;
@@ -9653,7 +9653,7 @@ Custom tsconfig options for the development tsconfig.json file (used for testing
 
 ---
 
-##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="projen-projects.JSIIProjectOptions.property.tsconfigDevFile"></a>
+##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="apidays24-sg-pj.JSIIProjectOptions.property.tsconfigDevFile"></a>
 
 ```typescript
 public readonly tsconfigDevFile: string;
@@ -9666,7 +9666,7 @@ The name of the development tsconfig.json file.
 
 ---
 
-##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="projen-projects.JSIIProjectOptions.property.tsJestOptions"></a>
+##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.tsJestOptions"></a>
 
 ```typescript
 public readonly tsJestOptions: TsJestOptions;
@@ -9678,7 +9678,7 @@ Options for ts-jest.
 
 ---
 
-##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="projen-projects.JSIIProjectOptions.property.typescriptVersion"></a>
+##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.typescriptVersion"></a>
 
 ```typescript
 public readonly typescriptVersion: string;
@@ -9694,7 +9694,7 @@ same minor, so we recommend using a `~` dependency (e.g. `~1.2.3`).
 
 ---
 
-##### `author`<sup>Required</sup> <a name="author" id="projen-projects.JSIIProjectOptions.property.author"></a>
+##### `author`<sup>Required</sup> <a name="author" id="apidays24-sg-pj.JSIIProjectOptions.property.author"></a>
 
 ```typescript
 public readonly author: string;
@@ -9707,7 +9707,7 @@ The name of the library author.
 
 ---
 
-##### `authorAddress`<sup>Required</sup> <a name="authorAddress" id="projen-projects.JSIIProjectOptions.property.authorAddress"></a>
+##### `authorAddress`<sup>Required</sup> <a name="authorAddress" id="apidays24-sg-pj.JSIIProjectOptions.property.authorAddress"></a>
 
 ```typescript
 public readonly authorAddress: string;
@@ -9720,7 +9720,7 @@ Email or URL of the library author.
 
 ---
 
-##### `repositoryUrl`<sup>Required</sup> <a name="repositoryUrl" id="projen-projects.JSIIProjectOptions.property.repositoryUrl"></a>
+##### `repositoryUrl`<sup>Required</sup> <a name="repositoryUrl" id="apidays24-sg-pj.JSIIProjectOptions.property.repositoryUrl"></a>
 
 ```typescript
 public readonly repositoryUrl: string;
@@ -9733,7 +9733,7 @@ Git repository URL.
 
 ---
 
-##### `compat`<sup>Optional</sup> <a name="compat" id="projen-projects.JSIIProjectOptions.property.compat"></a>
+##### `compat`<sup>Optional</sup> <a name="compat" id="apidays24-sg-pj.JSIIProjectOptions.property.compat"></a>
 
 ```typescript
 public readonly compat: boolean;
@@ -9749,7 +9749,7 @@ You can manually run compatibility tests using `yarn compat` if this feature is 
 
 ---
 
-##### `compatIgnore`<sup>Optional</sup> <a name="compatIgnore" id="projen-projects.JSIIProjectOptions.property.compatIgnore"></a>
+##### `compatIgnore`<sup>Optional</sup> <a name="compatIgnore" id="apidays24-sg-pj.JSIIProjectOptions.property.compatIgnore"></a>
 
 ```typescript
 public readonly compatIgnore: string;
@@ -9762,7 +9762,7 @@ Name of the ignore file for API compatibility tests.
 
 ---
 
-##### `compressAssembly`<sup>Optional</sup> <a name="compressAssembly" id="projen-projects.JSIIProjectOptions.property.compressAssembly"></a>
+##### `compressAssembly`<sup>Optional</sup> <a name="compressAssembly" id="apidays24-sg-pj.JSIIProjectOptions.property.compressAssembly"></a>
 
 ```typescript
 public readonly compressAssembly: boolean;
@@ -9775,7 +9775,7 @@ Emit a compressed version of the assembly.
 
 ---
 
-##### `docgenFilePath`<sup>Optional</sup> <a name="docgenFilePath" id="projen-projects.JSIIProjectOptions.property.docgenFilePath"></a>
+##### `docgenFilePath`<sup>Optional</sup> <a name="docgenFilePath" id="apidays24-sg-pj.JSIIProjectOptions.property.docgenFilePath"></a>
 
 ```typescript
 public readonly docgenFilePath: string;
@@ -9788,7 +9788,7 @@ File path for generated docs.
 
 ---
 
-##### ~~`dotnet`~~<sup>Optional</sup> <a name="dotnet" id="projen-projects.JSIIProjectOptions.property.dotnet"></a>
+##### ~~`dotnet`~~<sup>Optional</sup> <a name="dotnet" id="apidays24-sg-pj.JSIIProjectOptions.property.dotnet"></a>
 
 - *Deprecated:* use `publishToNuget`
 
@@ -9800,7 +9800,7 @@ public readonly dotnet: JsiiDotNetTarget;
 
 ---
 
-##### `excludeTypescript`<sup>Optional</sup> <a name="excludeTypescript" id="projen-projects.JSIIProjectOptions.property.excludeTypescript"></a>
+##### `excludeTypescript`<sup>Optional</sup> <a name="excludeTypescript" id="apidays24-sg-pj.JSIIProjectOptions.property.excludeTypescript"></a>
 
 ```typescript
 public readonly excludeTypescript: string[];
@@ -9818,7 +9818,7 @@ that cannot be compiled with jsii's compiler settings.
 
 ---
 
-##### `jsiiVersion`<sup>Optional</sup> <a name="jsiiVersion" id="projen-projects.JSIIProjectOptions.property.jsiiVersion"></a>
+##### `jsiiVersion`<sup>Optional</sup> <a name="jsiiVersion" id="apidays24-sg-pj.JSIIProjectOptions.property.jsiiVersion"></a>
 
 ```typescript
 public readonly jsiiVersion: string;
@@ -9838,7 +9838,7 @@ and should remain on the same minor, so we recommend using a `~` dependency
 
 ---
 
-##### `publishToGo`<sup>Optional</sup> <a name="publishToGo" id="projen-projects.JSIIProjectOptions.property.publishToGo"></a>
+##### `publishToGo`<sup>Optional</sup> <a name="publishToGo" id="apidays24-sg-pj.JSIIProjectOptions.property.publishToGo"></a>
 
 ```typescript
 public readonly publishToGo: JsiiGoTarget;
@@ -9851,7 +9851,7 @@ Publish Go bindings to a git repository.
 
 ---
 
-##### `publishToMaven`<sup>Optional</sup> <a name="publishToMaven" id="projen-projects.JSIIProjectOptions.property.publishToMaven"></a>
+##### `publishToMaven`<sup>Optional</sup> <a name="publishToMaven" id="apidays24-sg-pj.JSIIProjectOptions.property.publishToMaven"></a>
 
 ```typescript
 public readonly publishToMaven: JsiiJavaTarget;
@@ -9864,7 +9864,7 @@ Publish to maven.
 
 ---
 
-##### `publishToNuget`<sup>Optional</sup> <a name="publishToNuget" id="projen-projects.JSIIProjectOptions.property.publishToNuget"></a>
+##### `publishToNuget`<sup>Optional</sup> <a name="publishToNuget" id="apidays24-sg-pj.JSIIProjectOptions.property.publishToNuget"></a>
 
 ```typescript
 public readonly publishToNuget: JsiiDotNetTarget;
@@ -9877,7 +9877,7 @@ Publish to NuGet.
 
 ---
 
-##### `publishToPypi`<sup>Optional</sup> <a name="publishToPypi" id="projen-projects.JSIIProjectOptions.property.publishToPypi"></a>
+##### `publishToPypi`<sup>Optional</sup> <a name="publishToPypi" id="apidays24-sg-pj.JSIIProjectOptions.property.publishToPypi"></a>
 
 ```typescript
 public readonly publishToPypi: JsiiPythonTarget;
@@ -9890,7 +9890,7 @@ Publish to pypi.
 
 ---
 
-##### ~~`python`~~<sup>Optional</sup> <a name="python" id="projen-projects.JSIIProjectOptions.property.python"></a>
+##### ~~`python`~~<sup>Optional</sup> <a name="python" id="apidays24-sg-pj.JSIIProjectOptions.property.python"></a>
 
 - *Deprecated:* use `publishToPyPi`
 
@@ -9902,7 +9902,7 @@ public readonly python: JsiiPythonTarget;
 
 ---
 
-##### `rootdir`<sup>Optional</sup> <a name="rootdir" id="projen-projects.JSIIProjectOptions.property.rootdir"></a>
+##### `rootdir`<sup>Optional</sup> <a name="rootdir" id="apidays24-sg-pj.JSIIProjectOptions.property.rootdir"></a>
 
 ```typescript
 public readonly rootdir: string;
@@ -9913,22 +9913,22 @@ public readonly rootdir: string;
 
 ---
 
-##### `snykOptions`<sup>Required</sup> <a name="snykOptions" id="projen-projects.JSIIProjectOptions.property.snykOptions"></a>
+##### `snykOptions`<sup>Optional</sup> <a name="snykOptions" id="apidays24-sg-pj.JSIIProjectOptions.property.snykOptions"></a>
 
 ```typescript
 public readonly snykOptions: SnykComponentOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a>
 
 ---
 
-### PythonProjectOptions <a name="PythonProjectOptions" id="projen-projects.PythonProjectOptions"></a>
+### PythonProjectOptions <a name="PythonProjectOptions" id="apidays24-sg-pj.PythonProjectOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.PythonProjectOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.PythonProjectOptions.Initializer"></a>
 
 ```typescript
-import { PythonProjectOptions } from 'projen-projects'
+import { PythonProjectOptions } from 'apidays24-sg-pj'
 
 const pythonProjectOptions: PythonProjectOptions = { ... }
 ```
@@ -9937,68 +9937,68 @@ const pythonProjectOptions: PythonProjectOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.PythonProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.PythonProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.version">version</a></code> | <code>string</code> | Version of the package. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.classifiers">classifiers</a></code> | <code>string[]</code> | A list of PyPI trove classifiers that describe the project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.description">description</a></code> | <code>string</code> | A short description of the package. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | A URL to the website of the project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.license">license</a></code> | <code>string</code> | License of this package as an SPDX identifier. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | Package name. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.poetryOptions">poetryOptions</a></code> | <code>projen.python.PoetryPyprojectOptionsWithoutDeps</code> | Additional options to set for poetry if using poetry. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.setupConfig">setupConfig</a></code> | <code>{[ key: string ]: any}</code> | Additional fields to pass in the setup() function if using setuptools. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.pythonExec">pythonExec</a></code> | <code>string</code> | Path to the python executable to use. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.moduleName">moduleName</a></code> | <code>string</code> | Name of the python package as used in imports and filenames. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | List of runtime dependencies for this project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | List of dev dependencies for this project. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.pip">pip</a></code> | <code>boolean</code> | Use pip with a requirements.txt file to track project dependencies. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.poetry">poetry</a></code> | <code>boolean</code> | Use poetry to manage your project dependencies, virtual environment, and (optional) packaging/publishing. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Use projenrc in javascript. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options related to projenrc in JavaScript. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcPython">projenrcPython</a></code> | <code>boolean</code> | Use projenrc in Python. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcPythonOptions">projenrcPythonOptions</a></code> | <code>projen.python.ProjenrcOptions</code> | Options related to projenrc in python. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use projenrc in TypeScript. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcTsOptions</code> | Options related to projenrc in TypeScript. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.pytest">pytest</a></code> | <code>boolean</code> | Include pytest tests. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.pytestOptions">pytestOptions</a></code> | <code>projen.python.PytestOptions</code> | pytest options. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.sample">sample</a></code> | <code>boolean</code> | Include sample code and test if the relevant directories don't exist. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.setuptools">setuptools</a></code> | <code>boolean</code> | Use setuptools with a setup.py script for packaging and publishing. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.venv">venv</a></code> | <code>boolean</code> | Use venv to manage a virtual environment for installing dependencies inside. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.venvOptions">venvOptions</a></code> | <code>projen.python.VenvOptions</code> | Venv options. |
-| <code><a href="#projen-projects.PythonProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.version">version</a></code> | <code>string</code> | Version of the package. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.classifiers">classifiers</a></code> | <code>string[]</code> | A list of PyPI trove classifiers that describe the project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.description">description</a></code> | <code>string</code> | A short description of the package. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | A URL to the website of the project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.license">license</a></code> | <code>string</code> | License of this package as an SPDX identifier. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | Package name. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.poetryOptions">poetryOptions</a></code> | <code>projen.python.PoetryPyprojectOptionsWithoutDeps</code> | Additional options to set for poetry if using poetry. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.setupConfig">setupConfig</a></code> | <code>{[ key: string ]: any}</code> | Additional fields to pass in the setup() function if using setuptools. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.pythonExec">pythonExec</a></code> | <code>string</code> | Path to the python executable to use. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.moduleName">moduleName</a></code> | <code>string</code> | Name of the python package as used in imports and filenames. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | List of runtime dependencies for this project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | List of dev dependencies for this project. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.pip">pip</a></code> | <code>boolean</code> | Use pip with a requirements.txt file to track project dependencies. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.poetry">poetry</a></code> | <code>boolean</code> | Use poetry to manage your project dependencies, virtual environment, and (optional) packaging/publishing. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Use projenrc in javascript. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options related to projenrc in JavaScript. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcPython">projenrcPython</a></code> | <code>boolean</code> | Use projenrc in Python. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcPythonOptions">projenrcPythonOptions</a></code> | <code>projen.python.ProjenrcOptions</code> | Options related to projenrc in python. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use projenrc in TypeScript. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcTsOptions</code> | Options related to projenrc in TypeScript. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.pytest">pytest</a></code> | <code>boolean</code> | Include pytest tests. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.pytestOptions">pytestOptions</a></code> | <code>projen.python.PytestOptions</code> | pytest options. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.sample">sample</a></code> | <code>boolean</code> | Include sample code and test if the relevant directories don't exist. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.setuptools">setuptools</a></code> | <code>boolean</code> | Use setuptools with a setup.py script for packaging and publishing. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.venv">venv</a></code> | <code>boolean</code> | Use venv to manage a virtual environment for installing dependencies inside. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.venvOptions">venvOptions</a></code> | <code>projen.python.VenvOptions</code> | Venv options. |
+| <code><a href="#apidays24-sg-pj.PythonProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.PythonProjectOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.PythonProjectOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -10011,7 +10011,7 @@ This is the name of your project.
 
 ---
 
-##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="projen-projects.PythonProjectOptions.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="apidays24-sg-pj.PythonProjectOptions.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -10024,7 +10024,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="projen-projects.PythonProjectOptions.property.gitIgnoreOptions"></a>
+##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="apidays24-sg-pj.PythonProjectOptions.property.gitIgnoreOptions"></a>
 
 ```typescript
 public readonly gitIgnoreOptions: IgnoreFileOptions;
@@ -10036,7 +10036,7 @@ Configuration options for .gitignore file.
 
 ---
 
-##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="projen-projects.PythonProjectOptions.property.gitOptions"></a>
+##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="apidays24-sg-pj.PythonProjectOptions.property.gitOptions"></a>
 
 ```typescript
 public readonly gitOptions: GitOptions;
@@ -10048,7 +10048,7 @@ Configuration options for git.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="logging" id="projen-projects.PythonProjectOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="logging" id="apidays24-sg-pj.PythonProjectOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -10061,7 +10061,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="outdir" id="projen-projects.PythonProjectOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="outdir" id="apidays24-sg-pj.PythonProjectOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -10080,7 +10080,7 @@ subprojects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.PythonProjectOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.PythonProjectOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -10092,7 +10092,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="projen-projects.PythonProjectOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="apidays24-sg-pj.PythonProjectOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -10107,7 +10107,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="projen-projects.PythonProjectOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -10120,7 +10120,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="projen-projects.PythonProjectOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcJsonOptions;
@@ -10133,7 +10133,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="projen-projects.PythonProjectOptions.property.renovatebot"></a>
+##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="apidays24-sg-pj.PythonProjectOptions.property.renovatebot"></a>
 
 ```typescript
 public readonly renovatebot: boolean;
@@ -10146,7 +10146,7 @@ Use renovatebot to handle dependency upgrades.
 
 ---
 
-##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="projen-projects.PythonProjectOptions.property.renovatebotOptions"></a>
+##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="apidays24-sg-pj.PythonProjectOptions.property.renovatebotOptions"></a>
 
 ```typescript
 public readonly renovatebotOptions: RenovatebotOptions;
@@ -10159,7 +10159,7 @@ Options for renovatebot.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="projen-projects.PythonProjectOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="apidays24-sg-pj.PythonProjectOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -10172,7 +10172,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.PythonProjectOptions.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.PythonProjectOptions.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: boolean;
@@ -10188,7 +10188,7 @@ is set to false.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="projen-projects.PythonProjectOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="apidays24-sg-pj.PythonProjectOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -10204,7 +10204,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="clobber" id="projen-projects.PythonProjectOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="clobber" id="apidays24-sg-pj.PythonProjectOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -10217,7 +10217,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.PythonProjectOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.PythonProjectOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -10230,7 +10230,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.PythonProjectOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.PythonProjectOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -10245,7 +10245,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="projen-projects.PythonProjectOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="apidays24-sg-pj.PythonProjectOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -10258,7 +10258,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.PythonProjectOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.PythonProjectOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -10271,7 +10271,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="projen-projects.PythonProjectOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="apidays24-sg-pj.PythonProjectOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -10286,7 +10286,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="projen-projects.PythonProjectOptions.property.mergifyOptions"></a>
+##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="apidays24-sg-pj.PythonProjectOptions.property.mergifyOptions"></a>
 
 - *Deprecated:* use `githubOptions.mergifyOptions` instead
 
@@ -10301,7 +10301,7 @@ Options for mergify.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="projen-projects.PythonProjectOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="apidays24-sg-pj.PythonProjectOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -10316,7 +10316,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="projen-projects.PythonProjectOptions.property.projenCredentials"></a>
+##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="apidays24-sg-pj.PythonProjectOptions.property.projenCredentials"></a>
 
 ```typescript
 public readonly projenCredentials: GithubCredentials;
@@ -10329,7 +10329,7 @@ Choose a method of providing GitHub API access for projen workflows.
 
 ---
 
-##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="projen-projects.PythonProjectOptions.property.projenTokenSecret"></a>
+##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="apidays24-sg-pj.PythonProjectOptions.property.projenTokenSecret"></a>
 
 - *Deprecated:* use `projenCredentials`
 
@@ -10347,7 +10347,7 @@ and `packages` scope.
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="readme" id="projen-projects.PythonProjectOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="readme" id="apidays24-sg-pj.PythonProjectOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -10367,7 +10367,7 @@ The README setup.
 ```
 
 
-##### `stale`<sup>Optional</sup> <a name="stale" id="projen-projects.PythonProjectOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="stale" id="apidays24-sg-pj.PythonProjectOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -10382,7 +10382,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="projen-projects.PythonProjectOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="apidays24-sg-pj.PythonProjectOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -10397,7 +10397,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.PythonProjectOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.PythonProjectOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -10412,7 +10412,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `authorEmail`<sup>Required</sup> <a name="authorEmail" id="projen-projects.PythonProjectOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Required</sup> <a name="authorEmail" id="apidays24-sg-pj.PythonProjectOptions.property.authorEmail"></a>
 
 ```typescript
 public readonly authorEmail: string;
@@ -10425,7 +10425,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Required</sup> <a name="authorName" id="projen-projects.PythonProjectOptions.property.authorName"></a>
+##### `authorName`<sup>Required</sup> <a name="authorName" id="apidays24-sg-pj.PythonProjectOptions.property.authorName"></a>
 
 ```typescript
 public readonly authorName: string;
@@ -10438,7 +10438,7 @@ Author's name.
 
 ---
 
-##### `version`<sup>Required</sup> <a name="version" id="projen-projects.PythonProjectOptions.property.version"></a>
+##### `version`<sup>Required</sup> <a name="version" id="apidays24-sg-pj.PythonProjectOptions.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -10451,7 +10451,7 @@ Version of the package.
 
 ---
 
-##### `classifiers`<sup>Optional</sup> <a name="classifiers" id="projen-projects.PythonProjectOptions.property.classifiers"></a>
+##### `classifiers`<sup>Optional</sup> <a name="classifiers" id="apidays24-sg-pj.PythonProjectOptions.property.classifiers"></a>
 
 ```typescript
 public readonly classifiers: string[];
@@ -10465,7 +10465,7 @@ A list of PyPI trove classifiers that describe the project.
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="description" id="projen-projects.PythonProjectOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="apidays24-sg-pj.PythonProjectOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -10477,7 +10477,7 @@ A short description of the package.
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="homepage" id="projen-projects.PythonProjectOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="homepage" id="apidays24-sg-pj.PythonProjectOptions.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -10489,7 +10489,7 @@ A URL to the website of the project.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="license" id="projen-projects.PythonProjectOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="license" id="apidays24-sg-pj.PythonProjectOptions.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -10501,7 +10501,7 @@ License of this package as an SPDX identifier.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="packageName" id="projen-projects.PythonProjectOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="packageName" id="apidays24-sg-pj.PythonProjectOptions.property.packageName"></a>
 
 ```typescript
 public readonly packageName: string;
@@ -10513,7 +10513,7 @@ Package name.
 
 ---
 
-##### `poetryOptions`<sup>Optional</sup> <a name="poetryOptions" id="projen-projects.PythonProjectOptions.property.poetryOptions"></a>
+##### `poetryOptions`<sup>Optional</sup> <a name="poetryOptions" id="apidays24-sg-pj.PythonProjectOptions.property.poetryOptions"></a>
 
 ```typescript
 public readonly poetryOptions: PoetryPyprojectOptionsWithoutDeps;
@@ -10525,7 +10525,7 @@ Additional options to set for poetry if using poetry.
 
 ---
 
-##### `setupConfig`<sup>Optional</sup> <a name="setupConfig" id="projen-projects.PythonProjectOptions.property.setupConfig"></a>
+##### `setupConfig`<sup>Optional</sup> <a name="setupConfig" id="apidays24-sg-pj.PythonProjectOptions.property.setupConfig"></a>
 
 ```typescript
 public readonly setupConfig: {[ key: string ]: any};
@@ -10537,7 +10537,7 @@ Additional fields to pass in the setup() function if using setuptools.
 
 ---
 
-##### `pythonExec`<sup>Optional</sup> <a name="pythonExec" id="projen-projects.PythonProjectOptions.property.pythonExec"></a>
+##### `pythonExec`<sup>Optional</sup> <a name="pythonExec" id="apidays24-sg-pj.PythonProjectOptions.property.pythonExec"></a>
 
 ```typescript
 public readonly pythonExec: string;
@@ -10550,7 +10550,7 @@ Path to the python executable to use.
 
 ---
 
-##### `moduleName`<sup>Required</sup> <a name="moduleName" id="projen-projects.PythonProjectOptions.property.moduleName"></a>
+##### `moduleName`<sup>Required</sup> <a name="moduleName" id="apidays24-sg-pj.PythonProjectOptions.property.moduleName"></a>
 
 ```typescript
 public readonly moduleName: string;
@@ -10565,7 +10565,7 @@ Must only consist of alphanumeric characters and underscores.
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="deps" id="projen-projects.PythonProjectOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="deps" id="apidays24-sg-pj.PythonProjectOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -10582,7 +10582,7 @@ Additional dependencies can be added via `project.addDependency()`.
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="projen-projects.PythonProjectOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="apidays24-sg-pj.PythonProjectOptions.property.devDeps"></a>
 
 ```typescript
 public readonly devDeps: string[];
@@ -10599,7 +10599,7 @@ Additional dependencies can be added via `project.addDevDependency()`.
 
 ---
 
-##### `pip`<sup>Optional</sup> <a name="pip" id="projen-projects.PythonProjectOptions.property.pip"></a>
+##### `pip`<sup>Optional</sup> <a name="pip" id="apidays24-sg-pj.PythonProjectOptions.property.pip"></a>
 
 ```typescript
 public readonly pip: boolean;
@@ -10612,7 +10612,7 @@ Use pip with a requirements.txt file to track project dependencies.
 
 ---
 
-##### `poetry`<sup>Optional</sup> <a name="poetry" id="projen-projects.PythonProjectOptions.property.poetry"></a>
+##### `poetry`<sup>Optional</sup> <a name="poetry" id="apidays24-sg-pj.PythonProjectOptions.property.poetry"></a>
 
 ```typescript
 public readonly poetry: boolean;
@@ -10628,7 +10628,7 @@ If you set this option to `true`, then pip, setuptools, and venv must be set to 
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="projen-projects.PythonProjectOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcJs"></a>
 
 ```typescript
 public readonly projenrcJs: boolean;
@@ -10644,7 +10644,7 @@ task which will run `.projenrc.js`.
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="projen-projects.PythonProjectOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcJsOptions"></a>
 
 ```typescript
 public readonly projenrcJsOptions: ProjenrcOptions;
@@ -10657,7 +10657,7 @@ Options related to projenrc in JavaScript.
 
 ---
 
-##### `projenrcPython`<sup>Optional</sup> <a name="projenrcPython" id="projen-projects.PythonProjectOptions.property.projenrcPython"></a>
+##### `projenrcPython`<sup>Optional</sup> <a name="projenrcPython" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcPython"></a>
 
 ```typescript
 public readonly projenrcPython: boolean;
@@ -10673,7 +10673,7 @@ task which will run `.projenrc.py`.
 
 ---
 
-##### `projenrcPythonOptions`<sup>Optional</sup> <a name="projenrcPythonOptions" id="projen-projects.PythonProjectOptions.property.projenrcPythonOptions"></a>
+##### `projenrcPythonOptions`<sup>Optional</sup> <a name="projenrcPythonOptions" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcPythonOptions"></a>
 
 ```typescript
 public readonly projenrcPythonOptions: ProjenrcOptions;
@@ -10686,7 +10686,7 @@ Options related to projenrc in python.
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="projen-projects.PythonProjectOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcTs"></a>
 
 ```typescript
 public readonly projenrcTs: boolean;
@@ -10702,7 +10702,7 @@ and use `ts-node` in the default task to parse the project source files.
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="projen-projects.PythonProjectOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="apidays24-sg-pj.PythonProjectOptions.property.projenrcTsOptions"></a>
 
 ```typescript
 public readonly projenrcTsOptions: ProjenrcTsOptions;
@@ -10715,7 +10715,7 @@ Options related to projenrc in TypeScript.
 
 ---
 
-##### `pytest`<sup>Optional</sup> <a name="pytest" id="projen-projects.PythonProjectOptions.property.pytest"></a>
+##### `pytest`<sup>Optional</sup> <a name="pytest" id="apidays24-sg-pj.PythonProjectOptions.property.pytest"></a>
 
 ```typescript
 public readonly pytest: boolean;
@@ -10728,7 +10728,7 @@ Include pytest tests.
 
 ---
 
-##### `pytestOptions`<sup>Optional</sup> <a name="pytestOptions" id="projen-projects.PythonProjectOptions.property.pytestOptions"></a>
+##### `pytestOptions`<sup>Optional</sup> <a name="pytestOptions" id="apidays24-sg-pj.PythonProjectOptions.property.pytestOptions"></a>
 
 ```typescript
 public readonly pytestOptions: PytestOptions;
@@ -10741,7 +10741,7 @@ pytest options.
 
 ---
 
-##### `sample`<sup>Optional</sup> <a name="sample" id="projen-projects.PythonProjectOptions.property.sample"></a>
+##### `sample`<sup>Optional</sup> <a name="sample" id="apidays24-sg-pj.PythonProjectOptions.property.sample"></a>
 
 ```typescript
 public readonly sample: boolean;
@@ -10754,7 +10754,7 @@ Include sample code and test if the relevant directories don't exist.
 
 ---
 
-##### `setuptools`<sup>Optional</sup> <a name="setuptools" id="projen-projects.PythonProjectOptions.property.setuptools"></a>
+##### `setuptools`<sup>Optional</sup> <a name="setuptools" id="apidays24-sg-pj.PythonProjectOptions.property.setuptools"></a>
 
 ```typescript
 public readonly setuptools: boolean;
@@ -10767,7 +10767,7 @@ Use setuptools with a setup.py script for packaging and publishing.
 
 ---
 
-##### `venv`<sup>Optional</sup> <a name="venv" id="projen-projects.PythonProjectOptions.property.venv"></a>
+##### `venv`<sup>Optional</sup> <a name="venv" id="apidays24-sg-pj.PythonProjectOptions.property.venv"></a>
 
 ```typescript
 public readonly venv: boolean;
@@ -10780,7 +10780,7 @@ Use venv to manage a virtual environment for installing dependencies inside.
 
 ---
 
-##### `venvOptions`<sup>Optional</sup> <a name="venvOptions" id="projen-projects.PythonProjectOptions.property.venvOptions"></a>
+##### `venvOptions`<sup>Optional</sup> <a name="venvOptions" id="apidays24-sg-pj.PythonProjectOptions.property.venvOptions"></a>
 
 ```typescript
 public readonly venvOptions: VenvOptions;
@@ -10793,22 +10793,22 @@ Venv options.
 
 ---
 
-##### `snykOptions`<sup>Required</sup> <a name="snykOptions" id="projen-projects.PythonProjectOptions.property.snykOptions"></a>
+##### `snykOptions`<sup>Optional</sup> <a name="snykOptions" id="apidays24-sg-pj.PythonProjectOptions.property.snykOptions"></a>
 
 ```typescript
 public readonly snykOptions: SnykComponentOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a>
 
 ---
 
-### RunScaOptions <a name="RunScaOptions" id="projen-projects.RunScaOptions"></a>
+### RunScaOptions <a name="RunScaOptions" id="apidays24-sg-pj.RunScaOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.RunScaOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.RunScaOptions.Initializer"></a>
 
 ```typescript
-import { RunScaOptions } from 'projen-projects'
+import { RunScaOptions } from 'apidays24-sg-pj'
 
 const runScaOptions: RunScaOptions = { ... }
 ```
@@ -10817,20 +10817,20 @@ const runScaOptions: RunScaOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.RunScaOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.RunScaOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.RunScaOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.RunScaOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.RunScaOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.RunScaOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.RunScaOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.RunScaOptions.property.args">args</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.RunScaOptions.property.resultPathOutputId">resultPathOutputId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.RunScaOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.args">args</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.resultPathOutputId">resultPathOutputId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunScaOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.RunScaOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.RunScaOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -10844,7 +10844,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.RunScaOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.RunScaOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -10859,7 +10859,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.RunScaOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.RunScaOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -10874,7 +10874,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.RunScaOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.RunScaOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -10886,7 +10886,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.RunScaOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.RunScaOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -10900,7 +10900,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.RunScaOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.RunScaOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -10915,7 +10915,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.RunScaOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.RunScaOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -10927,7 +10927,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `args`<sup>Optional</sup> <a name="args" id="projen-projects.RunScaOptions.property.args"></a>
+##### `args`<sup>Optional</sup> <a name="args" id="apidays24-sg-pj.RunScaOptions.property.args"></a>
 
 ```typescript
 public readonly args: string;
@@ -10937,7 +10937,7 @@ public readonly args: string;
 
 ---
 
-##### `resultPathOutputId`<sup>Optional</sup> <a name="resultPathOutputId" id="projen-projects.RunScaOptions.property.resultPathOutputId"></a>
+##### `resultPathOutputId`<sup>Optional</sup> <a name="resultPathOutputId" id="apidays24-sg-pj.RunScaOptions.property.resultPathOutputId"></a>
 
 ```typescript
 public readonly resultPathOutputId: string;
@@ -10947,7 +10947,7 @@ public readonly resultPathOutputId: string;
 
 ---
 
-##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="projen-projects.RunScaOptions.property.severityThreshold"></a>
+##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="apidays24-sg-pj.RunScaOptions.property.severityThreshold"></a>
 
 ```typescript
 public readonly severityThreshold: string;
@@ -10957,12 +10957,12 @@ public readonly severityThreshold: string;
 
 ---
 
-### RunSnykPrDiffOptions <a name="RunSnykPrDiffOptions" id="projen-projects.RunSnykPrDiffOptions"></a>
+### RunSnykPrDiffOptions <a name="RunSnykPrDiffOptions" id="apidays24-sg-pj.RunSnykPrDiffOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.RunSnykPrDiffOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.RunSnykPrDiffOptions.Initializer"></a>
 
 ```typescript
-import { RunSnykPrDiffOptions } from 'projen-projects'
+import { RunSnykPrDiffOptions } from 'apidays24-sg-pj'
 
 const runSnykPrDiffOptions: RunSnykPrDiffOptions = { ... }
 ```
@@ -10971,19 +10971,19 @@ const runSnykPrDiffOptions: RunSnykPrDiffOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.snykCodeBaselinePath">snykCodeBaselinePath</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykPrDiffOptions.property.snykCodeCurrentPath">snykCodeCurrentPath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.snykCodeBaselinePath">snykCodeBaselinePath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykPrDiffOptions.property.snykCodeCurrentPath">snykCodeCurrentPath</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.RunSnykPrDiffOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -10997,7 +10997,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.RunSnykPrDiffOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -11012,7 +11012,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.RunSnykPrDiffOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -11027,7 +11027,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.RunSnykPrDiffOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -11039,7 +11039,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.RunSnykPrDiffOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -11053,7 +11053,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.RunSnykPrDiffOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -11068,7 +11068,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.RunSnykPrDiffOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -11080,7 +11080,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `snykCodeBaselinePath`<sup>Required</sup> <a name="snykCodeBaselinePath" id="projen-projects.RunSnykPrDiffOptions.property.snykCodeBaselinePath"></a>
+##### `snykCodeBaselinePath`<sup>Required</sup> <a name="snykCodeBaselinePath" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.snykCodeBaselinePath"></a>
 
 ```typescript
 public readonly snykCodeBaselinePath: string;
@@ -11090,7 +11090,7 @@ public readonly snykCodeBaselinePath: string;
 
 ---
 
-##### `snykCodeCurrentPath`<sup>Required</sup> <a name="snykCodeCurrentPath" id="projen-projects.RunSnykPrDiffOptions.property.snykCodeCurrentPath"></a>
+##### `snykCodeCurrentPath`<sup>Required</sup> <a name="snykCodeCurrentPath" id="apidays24-sg-pj.RunSnykPrDiffOptions.property.snykCodeCurrentPath"></a>
 
 ```typescript
 public readonly snykCodeCurrentPath: string;
@@ -11100,12 +11100,12 @@ public readonly snykCodeCurrentPath: string;
 
 ---
 
-### RunSnykSastOptions <a name="RunSnykSastOptions" id="projen-projects.RunSnykSastOptions"></a>
+### RunSnykSastOptions <a name="RunSnykSastOptions" id="apidays24-sg-pj.RunSnykSastOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.RunSnykSastOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.RunSnykSastOptions.Initializer"></a>
 
 ```typescript
-import { RunSnykSastOptions } from 'projen-projects'
+import { RunSnykSastOptions } from 'apidays24-sg-pj'
 
 const runSnykSastOptions: RunSnykSastOptions = { ... }
 ```
@@ -11114,19 +11114,19 @@ const runSnykSastOptions: RunSnykSastOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykSastOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykSastOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.RunSnykSastOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.RunSnykSastOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -11140,7 +11140,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.RunSnykSastOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.RunSnykSastOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -11155,7 +11155,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.RunSnykSastOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.RunSnykSastOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -11170,7 +11170,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.RunSnykSastOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.RunSnykSastOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -11182,7 +11182,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.RunSnykSastOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.RunSnykSastOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -11196,7 +11196,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.RunSnykSastOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.RunSnykSastOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -11211,7 +11211,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.RunSnykSastOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.RunSnykSastOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -11223,17 +11223,17 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="projen-projects.RunSnykSastOptions.property.authenticateSnykOptions"></a>
+##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="apidays24-sg-pj.RunSnykSastOptions.property.authenticateSnykOptions"></a>
 
 ```typescript
 public readonly authenticateSnykOptions: AuthenticateSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
 
 ---
 
-##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="projen-projects.RunSnykSastOptions.property.severityThreshold"></a>
+##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="apidays24-sg-pj.RunSnykSastOptions.property.severityThreshold"></a>
 
 ```typescript
 public readonly severityThreshold: string;
@@ -11243,12 +11243,12 @@ public readonly severityThreshold: string;
 
 ---
 
-### RunSnykScaWithDeltaOptions <a name="RunSnykScaWithDeltaOptions" id="projen-projects.RunSnykScaWithDeltaOptions"></a>
+### RunSnykScaWithDeltaOptions <a name="RunSnykScaWithDeltaOptions" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.RunSnykScaWithDeltaOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.Initializer"></a>
 
 ```typescript
-import { RunSnykScaWithDeltaOptions } from 'projen-projects'
+import { RunSnykScaWithDeltaOptions } from 'apidays24-sg-pj'
 
 const runSnykScaWithDeltaOptions: RunSnykScaWithDeltaOptions = { ... }
 ```
@@ -11257,23 +11257,23 @@ const runSnykScaWithDeltaOptions: RunSnykScaWithDeltaOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.debug">debug</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.delta">delta</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.runScaOptions">runScaOptions</a></code> | <code><a href="#projen-projects.RunScaOptions">RunScaOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.RunSnykScaWithDeltaOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.debug">debug</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.delta">delta</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.runScaOptions">runScaOptions</a></code> | <code><a href="#apidays24-sg-pj.RunScaOptions">RunScaOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.severityThreshold">severityThreshold</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.RunSnykScaWithDeltaOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -11287,7 +11287,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.RunSnykScaWithDeltaOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -11302,7 +11302,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.RunSnykScaWithDeltaOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -11317,7 +11317,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.RunSnykScaWithDeltaOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -11329,7 +11329,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.RunSnykScaWithDeltaOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -11343,7 +11343,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.RunSnykScaWithDeltaOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -11358,7 +11358,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.RunSnykScaWithDeltaOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -11370,17 +11370,17 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="projen-projects.RunSnykScaWithDeltaOptions.property.authenticateSnykOptions"></a>
+##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.authenticateSnykOptions"></a>
 
 ```typescript
 public readonly authenticateSnykOptions: AuthenticateSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
 
 ---
 
-##### `snykMonitoredProjectId`<sup>Required</sup> <a name="snykMonitoredProjectId" id="projen-projects.RunSnykScaWithDeltaOptions.property.snykMonitoredProjectId"></a>
+##### `snykMonitoredProjectId`<sup>Required</sup> <a name="snykMonitoredProjectId" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.snykMonitoredProjectId"></a>
 
 ```typescript
 public readonly snykMonitoredProjectId: string;
@@ -11390,7 +11390,7 @@ public readonly snykMonitoredProjectId: string;
 
 ---
 
-##### `debug`<sup>Optional</sup> <a name="debug" id="projen-projects.RunSnykScaWithDeltaOptions.property.debug"></a>
+##### `debug`<sup>Optional</sup> <a name="debug" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.debug"></a>
 
 ```typescript
 public readonly debug: boolean;
@@ -11400,7 +11400,7 @@ public readonly debug: boolean;
 
 ---
 
-##### `delta`<sup>Optional</sup> <a name="delta" id="projen-projects.RunSnykScaWithDeltaOptions.property.delta"></a>
+##### `delta`<sup>Optional</sup> <a name="delta" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.delta"></a>
 
 ```typescript
 public readonly delta: boolean;
@@ -11410,17 +11410,17 @@ public readonly delta: boolean;
 
 ---
 
-##### `runScaOptions`<sup>Optional</sup> <a name="runScaOptions" id="projen-projects.RunSnykScaWithDeltaOptions.property.runScaOptions"></a>
+##### `runScaOptions`<sup>Optional</sup> <a name="runScaOptions" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.runScaOptions"></a>
 
 ```typescript
 public readonly runScaOptions: RunScaOptions;
 ```
 
-- *Type:* <a href="#projen-projects.RunScaOptions">RunScaOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunScaOptions">RunScaOptions</a>
 
 ---
 
-##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="projen-projects.RunSnykScaWithDeltaOptions.property.severityThreshold"></a>
+##### `severityThreshold`<sup>Optional</sup> <a name="severityThreshold" id="apidays24-sg-pj.RunSnykScaWithDeltaOptions.property.severityThreshold"></a>
 
 ```typescript
 public readonly severityThreshold: string;
@@ -11430,12 +11430,12 @@ public readonly severityThreshold: string;
 
 ---
 
-### SecurityScanWorkflowOptions <a name="SecurityScanWorkflowOptions" id="projen-projects.SecurityScanWorkflowOptions"></a>
+### SecurityScanWorkflowOptions <a name="SecurityScanWorkflowOptions" id="apidays24-sg-pj.SecurityScanWorkflowOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SecurityScanWorkflowOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SecurityScanWorkflowOptions.Initializer"></a>
 
 ```typescript
-import { SecurityScanWorkflowOptions } from 'projen-projects'
+import { SecurityScanWorkflowOptions } from 'apidays24-sg-pj'
 
 const securityScanWorkflowOptions: SecurityScanWorkflowOptions = { ... }
 ```
@@ -11444,12 +11444,12 @@ const securityScanWorkflowOptions: SecurityScanWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SecurityScanWorkflowOptions.property.triggersOptions">triggersOptions</a></code> | <code>projen.github.workflows.Triggers</code> | *No description.* |
-| <code><a href="#projen-projects.SecurityScanWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflowOptions.property.triggersOptions">triggersOptions</a></code> | <code>projen.github.workflows.Triggers</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SecurityScanWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
 
 ---
 
-##### `triggersOptions`<sup>Optional</sup> <a name="triggersOptions" id="projen-projects.SecurityScanWorkflowOptions.property.triggersOptions"></a>
+##### `triggersOptions`<sup>Optional</sup> <a name="triggersOptions" id="apidays24-sg-pj.SecurityScanWorkflowOptions.property.triggersOptions"></a>
 
 ```typescript
 public readonly triggersOptions: Triggers;
@@ -11459,7 +11459,7 @@ public readonly triggersOptions: Triggers;
 
 ---
 
-##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="projen-projects.SecurityScanWorkflowOptions.property.workflowOptions"></a>
+##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="apidays24-sg-pj.SecurityScanWorkflowOptions.property.workflowOptions"></a>
 
 ```typescript
 public readonly workflowOptions: GithubWorkflowOptions;
@@ -11469,12 +11469,12 @@ public readonly workflowOptions: GithubWorkflowOptions;
 
 ---
 
-### SetupNodeOptions <a name="SetupNodeOptions" id="projen-projects.SetupNodeOptions"></a>
+### SetupNodeOptions <a name="SetupNodeOptions" id="apidays24-sg-pj.SetupNodeOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SetupNodeOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SetupNodeOptions.Initializer"></a>
 
 ```typescript
-import { SetupNodeOptions } from 'projen-projects'
+import { SetupNodeOptions } from 'apidays24-sg-pj'
 
 const setupNodeOptions: SetupNodeOptions = { ... }
 ```
@@ -11483,18 +11483,18 @@ const setupNodeOptions: SetupNodeOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SetupNodeOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
-| <code><a href="#projen-projects.SetupNodeOptions.property.nodeVersion">nodeVersion</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.env">env</a></code> | <code>{[ key: string ]: string}</code> | Sets environment variables for steps to use in the runner environment. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.id">id</a></code> | <code>string</code> | A unique identifier for the step. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.if">if</a></code> | <code>string</code> | You can use the if conditional to prevent a job from running unless a condition is met. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.name">name</a></code> | <code>string</code> | A name for your step to display on GitHub. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.workingDirectory">workingDirectory</a></code> | <code>string</code> | Specifies a working directory for a step. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.continueOnError">continueOnError</a></code> | <code>boolean</code> | Prevents a job from failing when a step fails. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.timeoutMinutes">timeoutMinutes</a></code> | <code>number</code> | The maximum number of minutes to run the step before killing the process. |
+| <code><a href="#apidays24-sg-pj.SetupNodeOptions.property.nodeVersion">nodeVersion</a></code> | <code>number</code> | *No description.* |
 
 ---
 
-##### `env`<sup>Optional</sup> <a name="env" id="projen-projects.SetupNodeOptions.property.env"></a>
+##### `env`<sup>Optional</sup> <a name="env" id="apidays24-sg-pj.SetupNodeOptions.property.env"></a>
 
 ```typescript
 public readonly env: {[ key: string ]: string};
@@ -11508,7 +11508,7 @@ You can also set environment variables for the entire workflow or a job.
 
 ---
 
-##### `id`<sup>Optional</sup> <a name="id" id="projen-projects.SetupNodeOptions.property.id"></a>
+##### `id`<sup>Optional</sup> <a name="id" id="apidays24-sg-pj.SetupNodeOptions.property.id"></a>
 
 ```typescript
 public readonly id: string;
@@ -11523,7 +11523,7 @@ step in contexts.
 
 ---
 
-##### `if`<sup>Optional</sup> <a name="if" id="projen-projects.SetupNodeOptions.property.if"></a>
+##### `if`<sup>Optional</sup> <a name="if" id="apidays24-sg-pj.SetupNodeOptions.property.if"></a>
 
 ```typescript
 public readonly if: string;
@@ -11538,7 +11538,7 @@ create a conditional.
 
 ---
 
-##### `name`<sup>Optional</sup> <a name="name" id="projen-projects.SetupNodeOptions.property.name"></a>
+##### `name`<sup>Optional</sup> <a name="name" id="apidays24-sg-pj.SetupNodeOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -11550,7 +11550,7 @@ A name for your step to display on GitHub.
 
 ---
 
-##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="projen-projects.SetupNodeOptions.property.workingDirectory"></a>
+##### `workingDirectory`<sup>Optional</sup> <a name="workingDirectory" id="apidays24-sg-pj.SetupNodeOptions.property.workingDirectory"></a>
 
 ```typescript
 public readonly workingDirectory: string;
@@ -11564,7 +11564,7 @@ Overrides a job's working directory.
 
 ---
 
-##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="projen-projects.SetupNodeOptions.property.continueOnError"></a>
+##### `continueOnError`<sup>Optional</sup> <a name="continueOnError" id="apidays24-sg-pj.SetupNodeOptions.property.continueOnError"></a>
 
 ```typescript
 public readonly continueOnError: boolean;
@@ -11579,7 +11579,7 @@ to pass when this step fails.
 
 ---
 
-##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="projen-projects.SetupNodeOptions.property.timeoutMinutes"></a>
+##### `timeoutMinutes`<sup>Optional</sup> <a name="timeoutMinutes" id="apidays24-sg-pj.SetupNodeOptions.property.timeoutMinutes"></a>
 
 ```typescript
 public readonly timeoutMinutes: number;
@@ -11591,7 +11591,7 @@ The maximum number of minutes to run the step before killing the process.
 
 ---
 
-##### `nodeVersion`<sup>Optional</sup> <a name="nodeVersion" id="projen-projects.SetupNodeOptions.property.nodeVersion"></a>
+##### `nodeVersion`<sup>Optional</sup> <a name="nodeVersion" id="apidays24-sg-pj.SetupNodeOptions.property.nodeVersion"></a>
 
 ```typescript
 public readonly nodeVersion: number;
@@ -11601,12 +11601,12 @@ public readonly nodeVersion: number;
 
 ---
 
-### SnykComponentOptions <a name="SnykComponentOptions" id="projen-projects.SnykComponentOptions"></a>
+### SnykComponentOptions <a name="SnykComponentOptions" id="apidays24-sg-pj.SnykComponentOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SnykComponentOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SnykComponentOptions.Initializer"></a>
 
 ```typescript
-import { SnykComponentOptions } from 'projen-projects'
+import { SnykComponentOptions } from 'apidays24-sg-pj'
 
 const snykComponentOptions: SnykComponentOptions = { ... }
 ```
@@ -11615,18 +11615,18 @@ const snykComponentOptions: SnykComponentOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykComponentOptions.property.enableSast">enableSast</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.enableSca">enableSca</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.securityScanWorkflowOptions">securityScanWorkflowOptions</a></code> | <code><a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykSastWorkflowOptions">snykSastWorkflowOptions</a></code> | <code><a href="#projen-projects.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.snykScaWorkflowOptions">snykScaWorkflowOptions</a></code> | <code><a href="#projen-projects.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykComponentOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.enableSast">enableSast</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.enableSca">enableSca</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.securityScanWorkflowOptions">securityScanWorkflowOptions</a></code> | <code><a href="#apidays24-sg-pj.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.snykMonitoredProjectId">snykMonitoredProjectId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.snykOrgId">snykOrgId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.snykSastWorkflowOptions">snykSastWorkflowOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.snykScaWorkflowOptions">snykScaWorkflowOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykComponentOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
 
 ---
 
-##### `enableSast`<sup>Optional</sup> <a name="enableSast" id="projen-projects.SnykComponentOptions.property.enableSast"></a>
+##### `enableSast`<sup>Optional</sup> <a name="enableSast" id="apidays24-sg-pj.SnykComponentOptions.property.enableSast"></a>
 
 ```typescript
 public readonly enableSast: boolean;
@@ -11636,7 +11636,7 @@ public readonly enableSast: boolean;
 
 ---
 
-##### `enableSca`<sup>Optional</sup> <a name="enableSca" id="projen-projects.SnykComponentOptions.property.enableSca"></a>
+##### `enableSca`<sup>Optional</sup> <a name="enableSca" id="apidays24-sg-pj.SnykComponentOptions.property.enableSca"></a>
 
 ```typescript
 public readonly enableSca: boolean;
@@ -11646,17 +11646,17 @@ public readonly enableSca: boolean;
 
 ---
 
-##### `securityScanWorkflowOptions`<sup>Optional</sup> <a name="securityScanWorkflowOptions" id="projen-projects.SnykComponentOptions.property.securityScanWorkflowOptions"></a>
+##### `securityScanWorkflowOptions`<sup>Optional</sup> <a name="securityScanWorkflowOptions" id="apidays24-sg-pj.SnykComponentOptions.property.securityScanWorkflowOptions"></a>
 
 ```typescript
 public readonly securityScanWorkflowOptions: SecurityScanWorkflowOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SecurityScanWorkflowOptions">SecurityScanWorkflowOptions</a>
 
 ---
 
-##### `snykMonitoredProjectId`<sup>Optional</sup> <a name="snykMonitoredProjectId" id="projen-projects.SnykComponentOptions.property.snykMonitoredProjectId"></a>
+##### `snykMonitoredProjectId`<sup>Optional</sup> <a name="snykMonitoredProjectId" id="apidays24-sg-pj.SnykComponentOptions.property.snykMonitoredProjectId"></a>
 
 ```typescript
 public readonly snykMonitoredProjectId: string;
@@ -11666,7 +11666,7 @@ public readonly snykMonitoredProjectId: string;
 
 ---
 
-##### `snykOrgId`<sup>Optional</sup> <a name="snykOrgId" id="projen-projects.SnykComponentOptions.property.snykOrgId"></a>
+##### `snykOrgId`<sup>Optional</sup> <a name="snykOrgId" id="apidays24-sg-pj.SnykComponentOptions.property.snykOrgId"></a>
 
 ```typescript
 public readonly snykOrgId: string;
@@ -11676,27 +11676,27 @@ public readonly snykOrgId: string;
 
 ---
 
-##### `snykSastWorkflowOptions`<sup>Optional</sup> <a name="snykSastWorkflowOptions" id="projen-projects.SnykComponentOptions.property.snykSastWorkflowOptions"></a>
+##### `snykSastWorkflowOptions`<sup>Optional</sup> <a name="snykSastWorkflowOptions" id="apidays24-sg-pj.SnykComponentOptions.property.snykSastWorkflowOptions"></a>
 
 ```typescript
 public readonly snykSastWorkflowOptions: SnykSastWorkflowOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykSastWorkflowOptions">SnykSastWorkflowOptions</a>
 
 ---
 
-##### `snykScaWorkflowOptions`<sup>Optional</sup> <a name="snykScaWorkflowOptions" id="projen-projects.SnykComponentOptions.property.snykScaWorkflowOptions"></a>
+##### `snykScaWorkflowOptions`<sup>Optional</sup> <a name="snykScaWorkflowOptions" id="apidays24-sg-pj.SnykComponentOptions.property.snykScaWorkflowOptions"></a>
 
 ```typescript
 public readonly snykScaWorkflowOptions: SnykScaWorkflowOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykScaWorkflowOptions">SnykScaWorkflowOptions</a>
 
 ---
 
-##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="projen-projects.SnykComponentOptions.property.workflowName"></a>
+##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="apidays24-sg-pj.SnykComponentOptions.property.workflowName"></a>
 
 ```typescript
 public readonly workflowName: string;
@@ -11706,12 +11706,12 @@ public readonly workflowName: string;
 
 ---
 
-### SnykReusableWorkflowOptions <a name="SnykReusableWorkflowOptions" id="projen-projects.SnykReusableWorkflowOptions"></a>
+### SnykReusableWorkflowOptions <a name="SnykReusableWorkflowOptions" id="apidays24-sg-pj.SnykReusableWorkflowOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SnykReusableWorkflowOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SnykReusableWorkflowOptions.Initializer"></a>
 
 ```typescript
-import { SnykReusableWorkflowOptions } from 'projen-projects'
+import { SnykReusableWorkflowOptions } from 'apidays24-sg-pj'
 
 const snykReusableWorkflowOptions: SnykReusableWorkflowOptions = { ... }
 ```
@@ -11720,26 +11720,26 @@ const snykReusableWorkflowOptions: SnykReusableWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykReusableWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykReusableWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
 
 ---
 
-##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="projen-projects.SnykReusableWorkflowOptions.property.installSnykOptions"></a>
+##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.installSnykOptions"></a>
 
 ```typescript
 public readonly installSnykOptions: InstallSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a>
 
 ---
 
-##### `jobId`<sup>Optional</sup> <a name="jobId" id="projen-projects.SnykReusableWorkflowOptions.property.jobId"></a>
+##### `jobId`<sup>Optional</sup> <a name="jobId" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.jobId"></a>
 
 ```typescript
 public readonly jobId: string;
@@ -11749,7 +11749,7 @@ public readonly jobId: string;
 
 ---
 
-##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="projen-projects.SnykReusableWorkflowOptions.property.jobOptions"></a>
+##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.jobOptions"></a>
 
 ```typescript
 public readonly jobOptions: Job;
@@ -11759,17 +11759,17 @@ public readonly jobOptions: Job;
 
 ---
 
-##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="projen-projects.SnykReusableWorkflowOptions.property.setupNodeOptions"></a>
+##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.setupNodeOptions"></a>
 
 ```typescript
 public readonly setupNodeOptions: SetupNodeOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a>
 
 ---
 
-##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="projen-projects.SnykReusableWorkflowOptions.property.workflowName"></a>
+##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.workflowName"></a>
 
 ```typescript
 public readonly workflowName: string;
@@ -11779,7 +11779,7 @@ public readonly workflowName: string;
 
 ---
 
-##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="projen-projects.SnykReusableWorkflowOptions.property.workflowOptions"></a>
+##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="apidays24-sg-pj.SnykReusableWorkflowOptions.property.workflowOptions"></a>
 
 ```typescript
 public readonly workflowOptions: GithubWorkflowOptions;
@@ -11789,12 +11789,12 @@ public readonly workflowOptions: GithubWorkflowOptions;
 
 ---
 
-### SnykSastWorkflowOptions <a name="SnykSastWorkflowOptions" id="projen-projects.SnykSastWorkflowOptions"></a>
+### SnykSastWorkflowOptions <a name="SnykSastWorkflowOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SnykSastWorkflowOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SnykSastWorkflowOptions.Initializer"></a>
 
 ```typescript
-import { SnykSastWorkflowOptions } from 'projen-projects'
+import { SnykSastWorkflowOptions } from 'apidays24-sg-pj'
 
 const snykSastWorkflowOptions: SnykSastWorkflowOptions = { ... }
 ```
@@ -11803,35 +11803,35 @@ const snykSastWorkflowOptions: SnykSastWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.checkoutBaselineOptions">checkoutBaselineOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.checkoutCurrentOptions">checkoutCurrentOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.delta">delta</a></code> | <code>boolean</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.downloadArtifactOptions">downloadArtifactOptions</a></code> | <code>projen.github.DownloadArtifactOptions</code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.installSnykPrDiffOptions">installSnykPrDiffOptions</a></code> | <code><a href="#projen-projects.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.runSnykSastBaselineOptions">runSnykSastBaselineOptions</a></code> | <code><a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.runSnykSastCurrentOptions">runSnykSastCurrentOptions</a></code> | <code><a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykSastWorkflowOptions.property.uploadArtifactOptions">uploadArtifactOptions</a></code> | <code>projen.github.UploadArtifactOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.authenticateSnykOptions">authenticateSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.checkoutBaselineOptions">checkoutBaselineOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.checkoutCurrentOptions">checkoutCurrentOptions</a></code> | <code>projen.github.CheckoutOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.delta">delta</a></code> | <code>boolean</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.downloadArtifactOptions">downloadArtifactOptions</a></code> | <code>projen.github.DownloadArtifactOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.installSnykPrDiffOptions">installSnykPrDiffOptions</a></code> | <code><a href="#apidays24-sg-pj.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.runSnykSastBaselineOptions">runSnykSastBaselineOptions</a></code> | <code><a href="#apidays24-sg-pj.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.runSnykSastCurrentOptions">runSnykSastCurrentOptions</a></code> | <code><a href="#apidays24-sg-pj.RunSnykSastOptions">RunSnykSastOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykSastWorkflowOptions.property.uploadArtifactOptions">uploadArtifactOptions</a></code> | <code>projen.github.UploadArtifactOptions</code> | *No description.* |
 
 ---
 
-##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="projen-projects.SnykSastWorkflowOptions.property.installSnykOptions"></a>
+##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.installSnykOptions"></a>
 
 ```typescript
 public readonly installSnykOptions: InstallSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a>
 
 ---
 
-##### `jobId`<sup>Optional</sup> <a name="jobId" id="projen-projects.SnykSastWorkflowOptions.property.jobId"></a>
+##### `jobId`<sup>Optional</sup> <a name="jobId" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.jobId"></a>
 
 ```typescript
 public readonly jobId: string;
@@ -11841,7 +11841,7 @@ public readonly jobId: string;
 
 ---
 
-##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="projen-projects.SnykSastWorkflowOptions.property.jobOptions"></a>
+##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.jobOptions"></a>
 
 ```typescript
 public readonly jobOptions: Job;
@@ -11851,17 +11851,17 @@ public readonly jobOptions: Job;
 
 ---
 
-##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="projen-projects.SnykSastWorkflowOptions.property.setupNodeOptions"></a>
+##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.setupNodeOptions"></a>
 
 ```typescript
 public readonly setupNodeOptions: SetupNodeOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a>
 
 ---
 
-##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="projen-projects.SnykSastWorkflowOptions.property.workflowName"></a>
+##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.workflowName"></a>
 
 ```typescript
 public readonly workflowName: string;
@@ -11871,7 +11871,7 @@ public readonly workflowName: string;
 
 ---
 
-##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="projen-projects.SnykSastWorkflowOptions.property.workflowOptions"></a>
+##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.workflowOptions"></a>
 
 ```typescript
 public readonly workflowOptions: GithubWorkflowOptions;
@@ -11881,17 +11881,17 @@ public readonly workflowOptions: GithubWorkflowOptions;
 
 ---
 
-##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="projen-projects.SnykSastWorkflowOptions.property.authenticateSnykOptions"></a>
+##### `authenticateSnykOptions`<sup>Required</sup> <a name="authenticateSnykOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.authenticateSnykOptions"></a>
 
 ```typescript
 public readonly authenticateSnykOptions: AuthenticateSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
 
 ---
 
-##### `checkoutBaselineOptions`<sup>Optional</sup> <a name="checkoutBaselineOptions" id="projen-projects.SnykSastWorkflowOptions.property.checkoutBaselineOptions"></a>
+##### `checkoutBaselineOptions`<sup>Optional</sup> <a name="checkoutBaselineOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.checkoutBaselineOptions"></a>
 
 ```typescript
 public readonly checkoutBaselineOptions: CheckoutOptions;
@@ -11901,7 +11901,7 @@ public readonly checkoutBaselineOptions: CheckoutOptions;
 
 ---
 
-##### `checkoutCurrentOptions`<sup>Optional</sup> <a name="checkoutCurrentOptions" id="projen-projects.SnykSastWorkflowOptions.property.checkoutCurrentOptions"></a>
+##### `checkoutCurrentOptions`<sup>Optional</sup> <a name="checkoutCurrentOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.checkoutCurrentOptions"></a>
 
 ```typescript
 public readonly checkoutCurrentOptions: CheckoutOptions;
@@ -11911,7 +11911,7 @@ public readonly checkoutCurrentOptions: CheckoutOptions;
 
 ---
 
-##### `delta`<sup>Optional</sup> <a name="delta" id="projen-projects.SnykSastWorkflowOptions.property.delta"></a>
+##### `delta`<sup>Optional</sup> <a name="delta" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.delta"></a>
 
 ```typescript
 public readonly delta: boolean;
@@ -11921,7 +11921,7 @@ public readonly delta: boolean;
 
 ---
 
-##### `downloadArtifactOptions`<sup>Optional</sup> <a name="downloadArtifactOptions" id="projen-projects.SnykSastWorkflowOptions.property.downloadArtifactOptions"></a>
+##### `downloadArtifactOptions`<sup>Optional</sup> <a name="downloadArtifactOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.downloadArtifactOptions"></a>
 
 ```typescript
 public readonly downloadArtifactOptions: DownloadArtifactOptions;
@@ -11931,37 +11931,37 @@ public readonly downloadArtifactOptions: DownloadArtifactOptions;
 
 ---
 
-##### `installSnykPrDiffOptions`<sup>Optional</sup> <a name="installSnykPrDiffOptions" id="projen-projects.SnykSastWorkflowOptions.property.installSnykPrDiffOptions"></a>
+##### `installSnykPrDiffOptions`<sup>Optional</sup> <a name="installSnykPrDiffOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.installSnykPrDiffOptions"></a>
 
 ```typescript
 public readonly installSnykPrDiffOptions: InstallSnykPrDiffOptions;
 ```
 
-- *Type:* <a href="#projen-projects.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a>
 
 ---
 
-##### `runSnykSastBaselineOptions`<sup>Optional</sup> <a name="runSnykSastBaselineOptions" id="projen-projects.SnykSastWorkflowOptions.property.runSnykSastBaselineOptions"></a>
+##### `runSnykSastBaselineOptions`<sup>Optional</sup> <a name="runSnykSastBaselineOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.runSnykSastBaselineOptions"></a>
 
 ```typescript
 public readonly runSnykSastBaselineOptions: RunSnykSastOptions;
 ```
 
-- *Type:* <a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykSastOptions">RunSnykSastOptions</a>
 
 ---
 
-##### `runSnykSastCurrentOptions`<sup>Optional</sup> <a name="runSnykSastCurrentOptions" id="projen-projects.SnykSastWorkflowOptions.property.runSnykSastCurrentOptions"></a>
+##### `runSnykSastCurrentOptions`<sup>Optional</sup> <a name="runSnykSastCurrentOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.runSnykSastCurrentOptions"></a>
 
 ```typescript
 public readonly runSnykSastCurrentOptions: RunSnykSastOptions;
 ```
 
-- *Type:* <a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykSastOptions">RunSnykSastOptions</a>
 
 ---
 
-##### `uploadArtifactOptions`<sup>Optional</sup> <a name="uploadArtifactOptions" id="projen-projects.SnykSastWorkflowOptions.property.uploadArtifactOptions"></a>
+##### `uploadArtifactOptions`<sup>Optional</sup> <a name="uploadArtifactOptions" id="apidays24-sg-pj.SnykSastWorkflowOptions.property.uploadArtifactOptions"></a>
 
 ```typescript
 public readonly uploadArtifactOptions: UploadArtifactOptions;
@@ -11971,12 +11971,12 @@ public readonly uploadArtifactOptions: UploadArtifactOptions;
 
 ---
 
-### SnykScaWorkflowOptions <a name="SnykScaWorkflowOptions" id="projen-projects.SnykScaWorkflowOptions"></a>
+### SnykScaWorkflowOptions <a name="SnykScaWorkflowOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.SnykScaWorkflowOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.SnykScaWorkflowOptions.Initializer"></a>
 
 ```typescript
-import { SnykScaWorkflowOptions } from 'projen-projects'
+import { SnykScaWorkflowOptions } from 'apidays24-sg-pj'
 
 const snykScaWorkflowOptions: SnykScaWorkflowOptions = { ... }
 ```
@@ -11985,27 +11985,27 @@ const snykScaWorkflowOptions: SnykScaWorkflowOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
-| <code><a href="#projen-projects.SnykScaWorkflowOptions.property.runSnykScaWithDeltaOptions">runSnykScaWithDeltaOptions</a></code> | <code><a href="#projen-projects.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.installSnykOptions">installSnykOptions</a></code> | <code><a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.jobId">jobId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.jobOptions">jobOptions</a></code> | <code>projen.github.workflows.Job</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.setupNodeOptions">setupNodeOptions</a></code> | <code><a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.workflowName">workflowName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.workflowOptions">workflowOptions</a></code> | <code>projen.github.GithubWorkflowOptions</code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykScaWorkflowOptions.property.runSnykScaWithDeltaOptions">runSnykScaWithDeltaOptions</a></code> | <code><a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a></code> | *No description.* |
 
 ---
 
-##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="projen-projects.SnykScaWorkflowOptions.property.installSnykOptions"></a>
+##### `installSnykOptions`<sup>Optional</sup> <a name="installSnykOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.installSnykOptions"></a>
 
 ```typescript
 public readonly installSnykOptions: InstallSnykOptions;
 ```
 
-- *Type:* <a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a>
 
 ---
 
-##### `jobId`<sup>Optional</sup> <a name="jobId" id="projen-projects.SnykScaWorkflowOptions.property.jobId"></a>
+##### `jobId`<sup>Optional</sup> <a name="jobId" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.jobId"></a>
 
 ```typescript
 public readonly jobId: string;
@@ -12015,7 +12015,7 @@ public readonly jobId: string;
 
 ---
 
-##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="projen-projects.SnykScaWorkflowOptions.property.jobOptions"></a>
+##### `jobOptions`<sup>Optional</sup> <a name="jobOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.jobOptions"></a>
 
 ```typescript
 public readonly jobOptions: Job;
@@ -12025,17 +12025,17 @@ public readonly jobOptions: Job;
 
 ---
 
-##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="projen-projects.SnykScaWorkflowOptions.property.setupNodeOptions"></a>
+##### `setupNodeOptions`<sup>Optional</sup> <a name="setupNodeOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.setupNodeOptions"></a>
 
 ```typescript
 public readonly setupNodeOptions: SetupNodeOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a>
 
 ---
 
-##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="projen-projects.SnykScaWorkflowOptions.property.workflowName"></a>
+##### `workflowName`<sup>Optional</sup> <a name="workflowName" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.workflowName"></a>
 
 ```typescript
 public readonly workflowName: string;
@@ -12045,7 +12045,7 @@ public readonly workflowName: string;
 
 ---
 
-##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="projen-projects.SnykScaWorkflowOptions.property.workflowOptions"></a>
+##### `workflowOptions`<sup>Optional</sup> <a name="workflowOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.workflowOptions"></a>
 
 ```typescript
 public readonly workflowOptions: GithubWorkflowOptions;
@@ -12055,22 +12055,22 @@ public readonly workflowOptions: GithubWorkflowOptions;
 
 ---
 
-##### `runSnykScaWithDeltaOptions`<sup>Required</sup> <a name="runSnykScaWithDeltaOptions" id="projen-projects.SnykScaWorkflowOptions.property.runSnykScaWithDeltaOptions"></a>
+##### `runSnykScaWithDeltaOptions`<sup>Required</sup> <a name="runSnykScaWithDeltaOptions" id="apidays24-sg-pj.SnykScaWorkflowOptions.property.runSnykScaWithDeltaOptions"></a>
 
 ```typescript
 public readonly runSnykScaWithDeltaOptions: RunSnykScaWithDeltaOptions;
 ```
 
-- *Type:* <a href="#projen-projects.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a>
 
 ---
 
-### TypescriptProjectOptions <a name="TypescriptProjectOptions" id="projen-projects.TypescriptProjectOptions"></a>
+### TypescriptProjectOptions <a name="TypescriptProjectOptions" id="apidays24-sg-pj.TypescriptProjectOptions"></a>
 
-#### Initializer <a name="Initializer" id="projen-projects.TypescriptProjectOptions.Initializer"></a>
+#### Initializer <a name="Initializer" id="apidays24-sg-pj.TypescriptProjectOptions.Initializer"></a>
 
 ```typescript
-import { TypescriptProjectOptions } from 'projen-projects'
+import { TypescriptProjectOptions } from 'apidays24-sg-pj'
 
 const typescriptProjectOptions: TypescriptProjectOptions = { ... }
 ```
@@ -12079,155 +12079,155 @@ const typescriptProjectOptions: TypescriptProjectOptions = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Minimum node.js version to require via `engines` (inclusive). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum Node.js version to require via package.json `engines` (inclusive). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version to use in GitHub workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
-| <code><a href="#projen-projects.TypescriptProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.name">name</a></code> | <code>string</code> | This is the name of your project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.commitGenerated">commitGenerated</a></code> | <code>boolean</code> | Whether to commit the managed files by default. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.gitIgnoreOptions">gitIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .gitignore file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.gitOptions">gitOptions</a></code> | <code>projen.GitOptions</code> | Configuration options for git. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.logging">logging</a></code> | <code>projen.LoggerOptions</code> | Configure logging options such as verbosity. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.outdir">outdir</a></code> | <code>string</code> | The root directory of the project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.parent">parent</a></code> | <code>projen.Project</code> | The parent project, if this project is part of a bigger project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenCommand">projenCommand</a></code> | <code>string</code> | The shell command to use in order to run the projen CLI. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJson">projenrcJson</a></code> | <code>boolean</code> | Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .projenrc.json generation. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJsonOptions">projenrcJsonOptions</a></code> | <code>projen.ProjenrcJsonOptions</code> | Options for .projenrc.json. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.renovatebot">renovatebot</a></code> | <code>boolean</code> | Use renovatebot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.renovatebotOptions">renovatebotOptions</a></code> | <code>projen.RenovatebotOptions</code> | Options for renovatebot. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.autoApproveOptions">autoApproveOptions</a></code> | <code>projen.github.AutoApproveOptions</code> | Enable and configure the 'auto approve' workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.autoMerge">autoMerge</a></code> | <code>boolean</code> | Enable automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.autoMergeOptions">autoMergeOptions</a></code> | <code>projen.github.AutoMergeOptions</code> | Configure options for automatic merging on GitHub. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.clobber">clobber</a></code> | <code>boolean</code> | Add a `clobber` task which resets the repo to origin. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.devContainer">devContainer</a></code> | <code>boolean</code> | Add a VSCode development environment (used for GitHub Codespaces). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.github">github</a></code> | <code>boolean</code> | Enable GitHub integration. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.githubOptions">githubOptions</a></code> | <code>projen.github.GitHubOptions</code> | Options for GitHub integration. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.gitpod">gitpod</a></code> | <code>boolean</code> | Add a Gitpod development environment. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.mergify">mergify</a></code> | <code>boolean</code> | Whether mergify should be enabled on this repository or not. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.mergifyOptions">mergifyOptions</a></code> | <code>projen.github.MergifyOptions</code> | Options for mergify. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projectType">projectType</a></code> | <code>projen.ProjectType</code> | Which type of project this is (library/app). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenCredentials">projenCredentials</a></code> | <code>projen.github.GithubCredentials</code> | Choose a method of providing GitHub API access for projen workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenTokenSecret">projenTokenSecret</a></code> | <code>string</code> | The name of a secret which includes a GitHub Personal Access Token to be used by projen workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.readme">readme</a></code> | <code>projen.SampleReadmeProps</code> | The README setup. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.stale">stale</a></code> | <code>boolean</code> | Auto-close of stale issues and pull request. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.staleOptions">staleOptions</a></code> | <code>projen.github.StaleOptions</code> | Auto-close stale issues and pull requests. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.vscode">vscode</a></code> | <code>boolean</code> | Enable VSCode integration. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.allowLibraryDependencies">allowLibraryDependencies</a></code> | <code>boolean</code> | Allow the project to include `peerDependencies` and `bundledDependencies`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.authorEmail">authorEmail</a></code> | <code>string</code> | Author's e-mail. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.authorName">authorName</a></code> | <code>string</code> | Author's name. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.authorOrganization">authorOrganization</a></code> | <code>boolean</code> | Is the author an organization. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.authorUrl">authorUrl</a></code> | <code>string</code> | Author's URL / Website. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.autoDetectBin">autoDetectBin</a></code> | <code>boolean</code> | Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.bin">bin</a></code> | <code>{[ key: string ]: string}</code> | Binary programs vended with your module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.bugsEmail">bugsEmail</a></code> | <code>string</code> | The email address to which issues should be reported. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.bugsUrl">bugsUrl</a></code> | <code>string</code> | The url to your project's issue tracker. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.bundledDeps">bundledDeps</a></code> | <code>string[]</code> | List of dependencies to bundle into this module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.codeArtifactOptions">codeArtifactOptions</a></code> | <code>projen.javascript.CodeArtifactOptions</code> | Options for npm packages using AWS CodeArtifact. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.deps">deps</a></code> | <code>string[]</code> | Runtime dependencies of this module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.description">description</a></code> | <code>string</code> | The description is just a string that helps people understand the purpose of the package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.devDeps">devDeps</a></code> | <code>string[]</code> | Build dependencies for this module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.entrypoint">entrypoint</a></code> | <code>string</code> | Module entrypoint (`main` in `package.json`). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.homepage">homepage</a></code> | <code>string</code> | Package's Homepage / Website. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.keywords">keywords</a></code> | <code>string[]</code> | Keywords to include in `package.json`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.license">license</a></code> | <code>string</code> | License's SPDX identifier. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.licensed">licensed</a></code> | <code>boolean</code> | Indicates if a license should be added. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.maxNodeVersion">maxNodeVersion</a></code> | <code>string</code> | Minimum node.js version to require via `engines` (inclusive). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.minNodeVersion">minNodeVersion</a></code> | <code>string</code> | Minimum Node.js version to require via package.json `engines` (inclusive). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmAccess">npmAccess</a></code> | <code>projen.javascript.NpmAccess</code> | Access level of the npm package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmProvenance">npmProvenance</a></code> | <code>boolean</code> | Should provenance statements be generated when the package is published. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmRegistry">npmRegistry</a></code> | <code>string</code> | The host name of the npm registry to publish to. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmRegistryUrl">npmRegistryUrl</a></code> | <code>string</code> | The base URL of the npm package registry. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmTokenSecret">npmTokenSecret</a></code> | <code>string</code> | GitHub secret which contains the NPM token to use when publishing packages. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.packageManager">packageManager</a></code> | <code>projen.javascript.NodePackageManager</code> | The Node Package Manager used to execute scripts. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.packageName">packageName</a></code> | <code>string</code> | The "name" in package.json. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.peerDependencyOptions">peerDependencyOptions</a></code> | <code>projen.javascript.PeerDependencyOptions</code> | Options for `peerDeps`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.peerDeps">peerDeps</a></code> | <code>string[]</code> | Peer dependencies for this module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.pnpmVersion">pnpmVersion</a></code> | <code>string</code> | The version of PNPM to use if using PNPM as a package manager. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.repository">repository</a></code> | <code>string</code> | The repository is the location where the actual code for your package lives. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.repositoryDirectory">repositoryDirectory</a></code> | <code>string</code> | If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.scopedPackagesOptions">scopedPackagesOptions</a></code> | <code>projen.javascript.ScopedPackagesOptions[]</code> | Options for privately hosted scoped packages. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.scripts">scripts</a></code> | <code>{[ key: string ]: string}</code> | npm scripts to include. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.stability">stability</a></code> | <code>string</code> | Package's Stability. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.yarnBerryOptions">yarnBerryOptions</a></code> | <code>projen.javascript.YarnBerryOptions</code> | Options for Yarn Berry. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.jsiiReleaseVersion">jsiiReleaseVersion</a></code> | <code>string</code> | Version requirement of `publib` which is used to publish modules to npm. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.majorVersion">majorVersion</a></code> | <code>number</code> | Major version to release from the default branch. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.minMajorVersion">minMajorVersion</a></code> | <code>number</code> | Minimal Major version to release. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmDistTag">npmDistTag</a></code> | <code>string</code> | The npmDistTag to use when publishing from the default branch. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.postBuildSteps">postBuildSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Steps to execute after build as part of the release workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.prerelease">prerelease</a></code> | <code>string</code> | Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pre"). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.publishDryRun">publishDryRun</a></code> | <code>boolean</code> | Instead of actually publishing to package managers, just print the publishing command. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.publishTasks">publishTasks</a></code> | <code>boolean</code> | Define publishing tasks that can be executed manually as well as workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releasableCommits">releasableCommits</a></code> | <code>projen.ReleasableCommits</code> | Find commits that should be considered releasable Used to decide if a release is required. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseBranches">releaseBranches</a></code> | <code>{[ key: string ]: projen.release.BranchOptions}</code> | Defines additional release branches. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseEveryCommit">releaseEveryCommit</a></code> | <code>boolean</code> | Automatically release new versions every commit to one of branches in `releaseBranches`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseFailureIssue">releaseFailureIssue</a></code> | <code>boolean</code> | Create a github issue on every failed publishing task. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseFailureIssueLabel">releaseFailureIssueLabel</a></code> | <code>string</code> | The label to apply to issues indicating publish failures. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseSchedule">releaseSchedule</a></code> | <code>string</code> | CRON schedule to trigger new releases. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseTagPrefix">releaseTagPrefix</a></code> | <code>string</code> | Automatically add the given prefix to release tags. Useful if you are releasing on multiple branches with overlapping version numbers. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.defaultReleaseBranch">defaultReleaseBranch</a></code> | <code>string</code> | The name of the main release branch. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.artifactsDirectory">artifactsDirectory</a></code> | <code>string</code> | A directory which will contain build artifacts. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.autoApproveUpgrades">autoApproveUpgrades</a></code> | <code>boolean</code> | Automatically approve deps upgrade PRs, allowing them to be merged by mergify (if configued). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.buildWorkflow">buildWorkflow</a></code> | <code>boolean</code> | Define a GitHub workflow for building PRs. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.dependabot">dependabot</a></code> | <code>boolean</code> | Use dependabot to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.dependabotOptions">dependabotOptions</a></code> | <code>projen.github.DependabotOptions</code> | Options for dependabot. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.depsUpgrade">depsUpgrade</a></code> | <code>boolean</code> | Use tasks and github workflows to handle dependency upgrades. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.depsUpgradeOptions">depsUpgradeOptions</a></code> | <code>projen.javascript.UpgradeDependenciesOptions</code> | Options for `UpgradeDependencies`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.gitignore">gitignore</a></code> | <code>string[]</code> | Additional entries to .gitignore. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.jest">jest</a></code> | <code>boolean</code> | Setup jest unit tests. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.jestOptions">jestOptions</a></code> | <code>projen.javascript.JestOptions</code> | Jest options. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.mutableBuild">mutableBuild</a></code> | <code>boolean</code> | Automatically update files modified during builds to pull-request branches. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmignore">npmignore</a></code> | <code>string[]</code> | Additional entries to .npmignore. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmignoreEnabled">npmignoreEnabled</a></code> | <code>boolean</code> | Defines an .npmignore file. Normally this is only needed for libraries that are packaged as tarballs. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.npmIgnoreOptions">npmIgnoreOptions</a></code> | <code>projen.IgnoreFileOptions</code> | Configuration options for .npmignore file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.package">package</a></code> | <code>boolean</code> | Defines a `package` task that will produce an npm tarball under the artifacts directory (e.g. `dist`). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.prettier">prettier</a></code> | <code>boolean</code> | Setup prettier. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.prettierOptions">prettierOptions</a></code> | <code>projen.javascript.PrettierOptions</code> | Prettier options. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenDevDependency">projenDevDependency</a></code> | <code>boolean</code> | Indicates of "projen" should be installed as a devDependency. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJs">projenrcJs</a></code> | <code>boolean</code> | Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable .projenrc.js generation. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJsOptions">projenrcJsOptions</a></code> | <code>projen.javascript.ProjenrcOptions</code> | Options for .projenrc.js. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenVersion">projenVersion</a></code> | <code>string</code> | Version of projen to install. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.pullRequestTemplate">pullRequestTemplate</a></code> | <code>boolean</code> | Include a GitHub pull request template. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.pullRequestTemplateContents">pullRequestTemplateContents</a></code> | <code>string[]</code> | The contents of the pull request template. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.release">release</a></code> | <code>boolean</code> | Add release management to this project. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseToNpm">releaseToNpm</a></code> | <code>boolean</code> | Automatically release to npm when new versions are introduced. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflow">releaseWorkflow</a></code> | <code>boolean</code> | DEPRECATED: renamed to `release`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowBootstrapSteps">workflowBootstrapSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | Workflow steps to use in order to bootstrap this repo. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowGitIdentity">workflowGitIdentity</a></code> | <code>projen.github.GitIdentity</code> | The git identity to use in workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowNodeVersion">workflowNodeVersion</a></code> | <code>string</code> | The node version to use in GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.workflowPackageCache">workflowPackageCache</a></code> | <code>boolean</code> | Enable Node.js package cache in GitHub workflows. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.disableTsconfig">disableTsconfig</a></code> | <code>boolean</code> | Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.json is generated by the jsii compiler). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.disableTsconfigDev">disableTsconfigDev</a></code> | <code>boolean</code> | Do not generate a `tsconfig.dev.json` file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.docgen">docgen</a></code> | <code>boolean</code> | Docgen by Typedoc. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.docsDirectory">docsDirectory</a></code> | <code>string</code> | Docs directory. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.entrypointTypes">entrypointTypes</a></code> | <code>string</code> | The .d.ts file that includes the type declarations for this module. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.eslint">eslint</a></code> | <code>boolean</code> | Setup eslint. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.eslintOptions">eslintOptions</a></code> | <code>projen.javascript.EslintOptions</code> | Eslint options. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.libdir">libdir</a></code> | <code>string</code> | Typescript  artifacts output directory. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcTs">projenrcTs</a></code> | <code>boolean</code> | Use TypeScript for your projenrc file (`.projenrc.ts`). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.projenrcTsOptions">projenrcTsOptions</a></code> | <code>projen.typescript.ProjenrcOptions</code> | Options for .projenrc.ts. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.sampleCode">sampleCode</a></code> | <code>boolean</code> | Generate one-time sample in `src/` and `test/` if there are no files there. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.srcdir">srcdir</a></code> | <code>string</code> | Typescript sources directory. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.testdir">testdir</a></code> | <code>string</code> | Jest tests directory. Tests files should be named `xxx.test.ts`. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.tsconfig">tsconfig</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom TSConfig. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.tsconfigDev">tsconfigDev</a></code> | <code>projen.javascript.TypescriptConfigOptions</code> | Custom tsconfig options for the development tsconfig.json file (used for testing). |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.tsconfigDevFile">tsconfigDevFile</a></code> | <code>string</code> | The name of the development tsconfig.json file. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.tsJestOptions">tsJestOptions</a></code> | <code>projen.typescript.TsJestOptions</code> | Options for ts-jest. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.typescriptVersion">typescriptVersion</a></code> | <code>string</code> | TypeScript version to use. |
+| <code><a href="#apidays24-sg-pj.TypescriptProjectOptions.property.snykOptions">snykOptions</a></code> | <code><a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a></code> | *No description.* |
 
 ---
 
-##### `name`<sup>Required</sup> <a name="name" id="projen-projects.TypescriptProjectOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="name" id="apidays24-sg-pj.TypescriptProjectOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -12240,7 +12240,7 @@ This is the name of your project.
 
 ---
 
-##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="projen-projects.TypescriptProjectOptions.property.commitGenerated"></a>
+##### `commitGenerated`<sup>Optional</sup> <a name="commitGenerated" id="apidays24-sg-pj.TypescriptProjectOptions.property.commitGenerated"></a>
 
 ```typescript
 public readonly commitGenerated: boolean;
@@ -12253,7 +12253,7 @@ Whether to commit the managed files by default.
 
 ---
 
-##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="projen-projects.TypescriptProjectOptions.property.gitIgnoreOptions"></a>
+##### `gitIgnoreOptions`<sup>Optional</sup> <a name="gitIgnoreOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.gitIgnoreOptions"></a>
 
 ```typescript
 public readonly gitIgnoreOptions: IgnoreFileOptions;
@@ -12265,7 +12265,7 @@ Configuration options for .gitignore file.
 
 ---
 
-##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="projen-projects.TypescriptProjectOptions.property.gitOptions"></a>
+##### `gitOptions`<sup>Optional</sup> <a name="gitOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.gitOptions"></a>
 
 ```typescript
 public readonly gitOptions: GitOptions;
@@ -12277,7 +12277,7 @@ Configuration options for git.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="logging" id="projen-projects.TypescriptProjectOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="logging" id="apidays24-sg-pj.TypescriptProjectOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -12290,7 +12290,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="outdir" id="projen-projects.TypescriptProjectOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="outdir" id="apidays24-sg-pj.TypescriptProjectOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -12309,7 +12309,7 @@ subprojects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="parent" id="projen-projects.TypescriptProjectOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="parent" id="apidays24-sg-pj.TypescriptProjectOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -12321,7 +12321,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="projen-projects.TypescriptProjectOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="projenCommand" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -12336,7 +12336,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="projen-projects.TypescriptProjectOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="projenrcJson" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -12349,7 +12349,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="projen-projects.TypescriptProjectOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="projenrcJsonOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcJsonOptions;
@@ -12362,7 +12362,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="projen-projects.TypescriptProjectOptions.property.renovatebot"></a>
+##### `renovatebot`<sup>Optional</sup> <a name="renovatebot" id="apidays24-sg-pj.TypescriptProjectOptions.property.renovatebot"></a>
 
 ```typescript
 public readonly renovatebot: boolean;
@@ -12375,7 +12375,7 @@ Use renovatebot to handle dependency upgrades.
 
 ---
 
-##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="projen-projects.TypescriptProjectOptions.property.renovatebotOptions"></a>
+##### `renovatebotOptions`<sup>Optional</sup> <a name="renovatebotOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.renovatebotOptions"></a>
 
 ```typescript
 public readonly renovatebotOptions: RenovatebotOptions;
@@ -12388,7 +12388,7 @@ Options for renovatebot.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="projen-projects.TypescriptProjectOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="autoApproveOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -12401,7 +12401,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="projen-projects.TypescriptProjectOptions.property.autoMerge"></a>
+##### `autoMerge`<sup>Optional</sup> <a name="autoMerge" id="apidays24-sg-pj.TypescriptProjectOptions.property.autoMerge"></a>
 
 ```typescript
 public readonly autoMerge: boolean;
@@ -12417,7 +12417,7 @@ is set to false.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="projen-projects.TypescriptProjectOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="autoMergeOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -12433,7 +12433,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="clobber" id="projen-projects.TypescriptProjectOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="clobber" id="apidays24-sg-pj.TypescriptProjectOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -12446,7 +12446,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="projen-projects.TypescriptProjectOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="devContainer" id="apidays24-sg-pj.TypescriptProjectOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -12459,7 +12459,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="github" id="projen-projects.TypescriptProjectOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="github" id="apidays24-sg-pj.TypescriptProjectOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -12474,7 +12474,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="projen-projects.TypescriptProjectOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="githubOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -12487,7 +12487,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="projen-projects.TypescriptProjectOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="gitpod" id="apidays24-sg-pj.TypescriptProjectOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -12500,7 +12500,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="projen-projects.TypescriptProjectOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="mergify" id="apidays24-sg-pj.TypescriptProjectOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -12515,7 +12515,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="projen-projects.TypescriptProjectOptions.property.mergifyOptions"></a>
+##### ~~`mergifyOptions`~~<sup>Optional</sup> <a name="mergifyOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.mergifyOptions"></a>
 
 - *Deprecated:* use `githubOptions.mergifyOptions` instead
 
@@ -12530,7 +12530,7 @@ Options for mergify.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="projen-projects.TypescriptProjectOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="projectType" id="apidays24-sg-pj.TypescriptProjectOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -12545,7 +12545,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="projen-projects.TypescriptProjectOptions.property.projenCredentials"></a>
+##### `projenCredentials`<sup>Optional</sup> <a name="projenCredentials" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenCredentials"></a>
 
 ```typescript
 public readonly projenCredentials: GithubCredentials;
@@ -12558,7 +12558,7 @@ Choose a method of providing GitHub API access for projen workflows.
 
 ---
 
-##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="projen-projects.TypescriptProjectOptions.property.projenTokenSecret"></a>
+##### ~~`projenTokenSecret`~~<sup>Optional</sup> <a name="projenTokenSecret" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenTokenSecret"></a>
 
 - *Deprecated:* use `projenCredentials`
 
@@ -12576,7 +12576,7 @@ and `packages` scope.
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="readme" id="projen-projects.TypescriptProjectOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="readme" id="apidays24-sg-pj.TypescriptProjectOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -12596,7 +12596,7 @@ The README setup.
 ```
 
 
-##### `stale`<sup>Optional</sup> <a name="stale" id="projen-projects.TypescriptProjectOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="stale" id="apidays24-sg-pj.TypescriptProjectOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -12611,7 +12611,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="projen-projects.TypescriptProjectOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="staleOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -12626,7 +12626,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="vscode" id="projen-projects.TypescriptProjectOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="vscode" id="apidays24-sg-pj.TypescriptProjectOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -12641,7 +12641,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="projen-projects.TypescriptProjectOptions.property.allowLibraryDependencies"></a>
+##### `allowLibraryDependencies`<sup>Optional</sup> <a name="allowLibraryDependencies" id="apidays24-sg-pj.TypescriptProjectOptions.property.allowLibraryDependencies"></a>
 
 ```typescript
 public readonly allowLibraryDependencies: boolean;
@@ -12657,7 +12657,7 @@ for specifying these.
 
 ---
 
-##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="projen-projects.TypescriptProjectOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Optional</sup> <a name="authorEmail" id="apidays24-sg-pj.TypescriptProjectOptions.property.authorEmail"></a>
 
 ```typescript
 public readonly authorEmail: string;
@@ -12669,7 +12669,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Optional</sup> <a name="authorName" id="projen-projects.TypescriptProjectOptions.property.authorName"></a>
+##### `authorName`<sup>Optional</sup> <a name="authorName" id="apidays24-sg-pj.TypescriptProjectOptions.property.authorName"></a>
 
 ```typescript
 public readonly authorName: string;
@@ -12681,7 +12681,7 @@ Author's name.
 
 ---
 
-##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="projen-projects.TypescriptProjectOptions.property.authorOrganization"></a>
+##### `authorOrganization`<sup>Optional</sup> <a name="authorOrganization" id="apidays24-sg-pj.TypescriptProjectOptions.property.authorOrganization"></a>
 
 ```typescript
 public readonly authorOrganization: boolean;
@@ -12693,7 +12693,7 @@ Is the author an organization.
 
 ---
 
-##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="projen-projects.TypescriptProjectOptions.property.authorUrl"></a>
+##### `authorUrl`<sup>Optional</sup> <a name="authorUrl" id="apidays24-sg-pj.TypescriptProjectOptions.property.authorUrl"></a>
 
 ```typescript
 public readonly authorUrl: string;
@@ -12705,7 +12705,7 @@ Author's URL / Website.
 
 ---
 
-##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="projen-projects.TypescriptProjectOptions.property.autoDetectBin"></a>
+##### `autoDetectBin`<sup>Optional</sup> <a name="autoDetectBin" id="apidays24-sg-pj.TypescriptProjectOptions.property.autoDetectBin"></a>
 
 ```typescript
 public readonly autoDetectBin: boolean;
@@ -12718,7 +12718,7 @@ Automatically add all executables under the `bin` directory to your `package.jso
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="bin" id="projen-projects.TypescriptProjectOptions.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="bin" id="apidays24-sg-pj.TypescriptProjectOptions.property.bin"></a>
 
 ```typescript
 public readonly bin: {[ key: string ]: string};
@@ -12734,7 +12734,7 @@ executable file under `bin` will automatically be added to this section.
 
 ---
 
-##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="projen-projects.TypescriptProjectOptions.property.bugsEmail"></a>
+##### `bugsEmail`<sup>Optional</sup> <a name="bugsEmail" id="apidays24-sg-pj.TypescriptProjectOptions.property.bugsEmail"></a>
 
 ```typescript
 public readonly bugsEmail: string;
@@ -12746,7 +12746,7 @@ The email address to which issues should be reported.
 
 ---
 
-##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="projen-projects.TypescriptProjectOptions.property.bugsUrl"></a>
+##### `bugsUrl`<sup>Optional</sup> <a name="bugsUrl" id="apidays24-sg-pj.TypescriptProjectOptions.property.bugsUrl"></a>
 
 ```typescript
 public readonly bugsUrl: string;
@@ -12758,7 +12758,7 @@ The url to your project's issue tracker.
 
 ---
 
-##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="projen-projects.TypescriptProjectOptions.property.bundledDeps"></a>
+##### `bundledDeps`<sup>Optional</sup> <a name="bundledDeps" id="apidays24-sg-pj.TypescriptProjectOptions.property.bundledDeps"></a>
 
 ```typescript
 public readonly bundledDeps: string[];
@@ -12781,7 +12781,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="projen-projects.TypescriptProjectOptions.property.codeArtifactOptions"></a>
+##### `codeArtifactOptions`<sup>Optional</sup> <a name="codeArtifactOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.codeArtifactOptions"></a>
 
 ```typescript
 public readonly codeArtifactOptions: CodeArtifactOptions;
@@ -12796,7 +12796,7 @@ This is required if publishing packages to, or installing scoped packages from A
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="deps" id="projen-projects.TypescriptProjectOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="deps" id="apidays24-sg-pj.TypescriptProjectOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -12823,7 +12823,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `description`<sup>Optional</sup> <a name="description" id="projen-projects.TypescriptProjectOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="description" id="apidays24-sg-pj.TypescriptProjectOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -12838,7 +12838,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-description
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="projen-projects.TypescriptProjectOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="devDeps" id="apidays24-sg-pj.TypescriptProjectOptions.property.devDeps"></a>
 
 ```typescript
 public readonly devDeps: string[];
@@ -12869,7 +12869,7 @@ this will be what you `package.json` will eventually include.
 ```
 
 
-##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="projen-projects.TypescriptProjectOptions.property.entrypoint"></a>
+##### `entrypoint`<sup>Optional</sup> <a name="entrypoint" id="apidays24-sg-pj.TypescriptProjectOptions.property.entrypoint"></a>
 
 ```typescript
 public readonly entrypoint: string;
@@ -12884,7 +12884,7 @@ Set to an empty string to not include `main` in your package.json
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="homepage" id="projen-projects.TypescriptProjectOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="homepage" id="apidays24-sg-pj.TypescriptProjectOptions.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -12896,7 +12896,7 @@ Package's Homepage / Website.
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="keywords" id="projen-projects.TypescriptProjectOptions.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="keywords" id="apidays24-sg-pj.TypescriptProjectOptions.property.keywords"></a>
 
 ```typescript
 public readonly keywords: string[];
@@ -12908,7 +12908,7 @@ Keywords to include in `package.json`.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="license" id="projen-projects.TypescriptProjectOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="license" id="apidays24-sg-pj.TypescriptProjectOptions.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -12924,7 +12924,7 @@ Use the `licensed` option if you want to no license to be specified.
 
 ---
 
-##### `licensed`<sup>Optional</sup> <a name="licensed" id="projen-projects.TypescriptProjectOptions.property.licensed"></a>
+##### `licensed`<sup>Optional</sup> <a name="licensed" id="apidays24-sg-pj.TypescriptProjectOptions.property.licensed"></a>
 
 ```typescript
 public readonly licensed: boolean;
@@ -12937,7 +12937,7 @@ Indicates if a license should be added.
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="projen-projects.TypescriptProjectOptions.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="maxNodeVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -12950,7 +12950,7 @@ Minimum node.js version to require via `engines` (inclusive).
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="projen-projects.TypescriptProjectOptions.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="minNodeVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -12963,7 +12963,7 @@ Minimum Node.js version to require via package.json `engines` (inclusive).
 
 ---
 
-##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="projen-projects.TypescriptProjectOptions.property.npmAccess"></a>
+##### `npmAccess`<sup>Optional</sup> <a name="npmAccess" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmAccess"></a>
 
 ```typescript
 public readonly npmAccess: NpmAccess;
@@ -12976,7 +12976,7 @@ Access level of the npm package.
 
 ---
 
-##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="projen-projects.TypescriptProjectOptions.property.npmProvenance"></a>
+##### `npmProvenance`<sup>Optional</sup> <a name="npmProvenance" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmProvenance"></a>
 
 ```typescript
 public readonly npmProvenance: boolean;
@@ -12997,7 +12997,7 @@ which is using npm internally and supports provenance statements independently o
 
 ---
 
-##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="projen-projects.TypescriptProjectOptions.property.npmRegistry"></a>
+##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="npmRegistry" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmRegistry"></a>
 
 - *Deprecated:* use `npmRegistryUrl` instead
 
@@ -13013,7 +13013,7 @@ Cannot be set together with `npmRegistryUrl`.
 
 ---
 
-##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="projen-projects.TypescriptProjectOptions.property.npmRegistryUrl"></a>
+##### `npmRegistryUrl`<sup>Optional</sup> <a name="npmRegistryUrl" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmRegistryUrl"></a>
 
 ```typescript
 public readonly npmRegistryUrl: string;
@@ -13028,7 +13028,7 @@ Must be a URL (e.g. start with "https://" or "http://")
 
 ---
 
-##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="projen-projects.TypescriptProjectOptions.property.npmTokenSecret"></a>
+##### `npmTokenSecret`<sup>Optional</sup> <a name="npmTokenSecret" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmTokenSecret"></a>
 
 ```typescript
 public readonly npmTokenSecret: string;
@@ -13041,7 +13041,7 @@ GitHub secret which contains the NPM token to use when publishing packages.
 
 ---
 
-##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="projen-projects.TypescriptProjectOptions.property.packageManager"></a>
+##### `packageManager`<sup>Optional</sup> <a name="packageManager" id="apidays24-sg-pj.TypescriptProjectOptions.property.packageManager"></a>
 
 ```typescript
 public readonly packageManager: NodePackageManager;
@@ -13054,7 +13054,7 @@ The Node Package Manager used to execute scripts.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="packageName" id="projen-projects.TypescriptProjectOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="packageName" id="apidays24-sg-pj.TypescriptProjectOptions.property.packageName"></a>
 
 ```typescript
 public readonly packageName: string;
@@ -13067,7 +13067,7 @@ The "name" in package.json.
 
 ---
 
-##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="projen-projects.TypescriptProjectOptions.property.peerDependencyOptions"></a>
+##### `peerDependencyOptions`<sup>Optional</sup> <a name="peerDependencyOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.peerDependencyOptions"></a>
 
 ```typescript
 public readonly peerDependencyOptions: PeerDependencyOptions;
@@ -13079,7 +13079,7 @@ Options for `peerDeps`.
 
 ---
 
-##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="projen-projects.TypescriptProjectOptions.property.peerDeps"></a>
+##### `peerDeps`<sup>Optional</sup> <a name="peerDeps" id="apidays24-sg-pj.TypescriptProjectOptions.property.peerDeps"></a>
 
 ```typescript
 public readonly peerDeps: string[];
@@ -13106,7 +13106,7 @@ test your module against the lowest peer version required.
 
 ---
 
-##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="projen-projects.TypescriptProjectOptions.property.pnpmVersion"></a>
+##### `pnpmVersion`<sup>Optional</sup> <a name="pnpmVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.pnpmVersion"></a>
 
 ```typescript
 public readonly pnpmVersion: string;
@@ -13119,7 +13119,7 @@ The version of PNPM to use if using PNPM as a package manager.
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="repository" id="projen-projects.TypescriptProjectOptions.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="repository" id="apidays24-sg-pj.TypescriptProjectOptions.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -13133,7 +13133,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-repository
 
 ---
 
-##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="projen-projects.TypescriptProjectOptions.property.repositoryDirectory"></a>
+##### `repositoryDirectory`<sup>Optional</sup> <a name="repositoryDirectory" id="apidays24-sg-pj.TypescriptProjectOptions.property.repositoryDirectory"></a>
 
 ```typescript
 public readonly repositoryDirectory: string;
@@ -13145,7 +13145,7 @@ If the package.json for your package is not in the root directory (for example i
 
 ---
 
-##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="projen-projects.TypescriptProjectOptions.property.scopedPackagesOptions"></a>
+##### `scopedPackagesOptions`<sup>Optional</sup> <a name="scopedPackagesOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.scopedPackagesOptions"></a>
 
 ```typescript
 public readonly scopedPackagesOptions: ScopedPackagesOptions[];
@@ -13158,7 +13158,7 @@ Options for privately hosted scoped packages.
 
 ---
 
-##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="projen-projects.TypescriptProjectOptions.property.scripts"></a>
+##### ~~`scripts`~~<sup>Optional</sup> <a name="scripts" id="apidays24-sg-pj.TypescriptProjectOptions.property.scripts"></a>
 
 - *Deprecated:* use `project.addTask()` or `package.setScript()`
 
@@ -13177,7 +13177,7 @@ Also adds the script as a task.
 
 ---
 
-##### `stability`<sup>Optional</sup> <a name="stability" id="projen-projects.TypescriptProjectOptions.property.stability"></a>
+##### `stability`<sup>Optional</sup> <a name="stability" id="apidays24-sg-pj.TypescriptProjectOptions.property.stability"></a>
 
 ```typescript
 public readonly stability: string;
@@ -13189,7 +13189,7 @@ Package's Stability.
 
 ---
 
-##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="projen-projects.TypescriptProjectOptions.property.yarnBerryOptions"></a>
+##### `yarnBerryOptions`<sup>Optional</sup> <a name="yarnBerryOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.yarnBerryOptions"></a>
 
 ```typescript
 public readonly yarnBerryOptions: YarnBerryOptions;
@@ -13202,7 +13202,7 @@ Options for Yarn Berry.
 
 ---
 
-##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="projen-projects.TypescriptProjectOptions.property.jsiiReleaseVersion"></a>
+##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="jsiiReleaseVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.jsiiReleaseVersion"></a>
 
 ```typescript
 public readonly jsiiReleaseVersion: string;
@@ -13215,7 +13215,7 @@ Version requirement of `publib` which is used to publish modules to npm.
 
 ---
 
-##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="projen-projects.TypescriptProjectOptions.property.majorVersion"></a>
+##### `majorVersion`<sup>Optional</sup> <a name="majorVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.majorVersion"></a>
 
 ```typescript
 public readonly majorVersion: number;
@@ -13231,7 +13231,7 @@ If not specified, we bump the global latest version.
 
 ---
 
-##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="projen-projects.TypescriptProjectOptions.property.minMajorVersion"></a>
+##### `minMajorVersion`<sup>Optional</sup> <a name="minMajorVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.minMajorVersion"></a>
 
 ```typescript
 public readonly minMajorVersion: number;
@@ -13249,7 +13249,7 @@ Can not be set together with `majorVersion`.
 
 ---
 
-##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="projen-projects.TypescriptProjectOptions.property.npmDistTag"></a>
+##### `npmDistTag`<sup>Optional</sup> <a name="npmDistTag" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmDistTag"></a>
 
 ```typescript
 public readonly npmDistTag: string;
@@ -13265,7 +13265,7 @@ for each branch.
 
 ---
 
-##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="projen-projects.TypescriptProjectOptions.property.postBuildSteps"></a>
+##### `postBuildSteps`<sup>Optional</sup> <a name="postBuildSteps" id="apidays24-sg-pj.TypescriptProjectOptions.property.postBuildSteps"></a>
 
 ```typescript
 public readonly postBuildSteps: JobStep[];
@@ -13278,7 +13278,7 @@ Steps to execute after build as part of the release workflow.
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="projen-projects.TypescriptProjectOptions.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="prerelease" id="apidays24-sg-pj.TypescriptProjectOptions.property.prerelease"></a>
 
 ```typescript
 public readonly prerelease: string;
@@ -13291,7 +13291,7 @@ Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pr
 
 ---
 
-##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="projen-projects.TypescriptProjectOptions.property.publishDryRun"></a>
+##### `publishDryRun`<sup>Optional</sup> <a name="publishDryRun" id="apidays24-sg-pj.TypescriptProjectOptions.property.publishDryRun"></a>
 
 ```typescript
 public readonly publishDryRun: boolean;
@@ -13304,7 +13304,7 @@ Instead of actually publishing to package managers, just print the publishing co
 
 ---
 
-##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="projen-projects.TypescriptProjectOptions.property.publishTasks"></a>
+##### `publishTasks`<sup>Optional</sup> <a name="publishTasks" id="apidays24-sg-pj.TypescriptProjectOptions.property.publishTasks"></a>
 
 ```typescript
 public readonly publishTasks: boolean;
@@ -13320,7 +13320,7 @@ in order to create a publishing task for each publishing activity.
 
 ---
 
-##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="projen-projects.TypescriptProjectOptions.property.releasableCommits"></a>
+##### `releasableCommits`<sup>Optional</sup> <a name="releasableCommits" id="apidays24-sg-pj.TypescriptProjectOptions.property.releasableCommits"></a>
 
 ```typescript
 public readonly releasableCommits: ReleasableCommits;
@@ -13333,7 +13333,7 @@ Find commits that should be considered releasable Used to decide if a release is
 
 ---
 
-##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="projen-projects.TypescriptProjectOptions.property.releaseBranches"></a>
+##### `releaseBranches`<sup>Optional</sup> <a name="releaseBranches" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseBranches"></a>
 
 ```typescript
 public readonly releaseBranches: {[ key: string ]: BranchOptions};
@@ -13353,7 +13353,7 @@ be provided for the default branch.
 
 ---
 
-##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="projen-projects.TypescriptProjectOptions.property.releaseEveryCommit"></a>
+##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="releaseEveryCommit" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseEveryCommit"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.continuous()` instead
 
@@ -13368,7 +13368,7 @@ Automatically release new versions every commit to one of branches in `releaseBr
 
 ---
 
-##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="projen-projects.TypescriptProjectOptions.property.releaseFailureIssue"></a>
+##### `releaseFailureIssue`<sup>Optional</sup> <a name="releaseFailureIssue" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseFailureIssue"></a>
 
 ```typescript
 public readonly releaseFailureIssue: boolean;
@@ -13381,7 +13381,7 @@ Create a github issue on every failed publishing task.
 
 ---
 
-##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="projen-projects.TypescriptProjectOptions.property.releaseFailureIssueLabel"></a>
+##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="releaseFailureIssueLabel" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseFailureIssueLabel"></a>
 
 ```typescript
 public readonly releaseFailureIssueLabel: string;
@@ -13396,7 +13396,7 @@ Only applies if `releaseFailureIssue` is true.
 
 ---
 
-##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="projen-projects.TypescriptProjectOptions.property.releaseSchedule"></a>
+##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="releaseSchedule" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseSchedule"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.scheduled()` instead
 
@@ -13411,7 +13411,7 @@ CRON schedule to trigger new releases.
 
 ---
 
-##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="projen-projects.TypescriptProjectOptions.property.releaseTagPrefix"></a>
+##### `releaseTagPrefix`<sup>Optional</sup> <a name="releaseTagPrefix" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseTagPrefix"></a>
 
 ```typescript
 public readonly releaseTagPrefix: string;
@@ -13429,7 +13429,7 @@ with the new prefix.
 
 ---
 
-##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="projen-projects.TypescriptProjectOptions.property.releaseTrigger"></a>
+##### `releaseTrigger`<sup>Optional</sup> <a name="releaseTrigger" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseTrigger"></a>
 
 ```typescript
 public readonly releaseTrigger: ReleaseTrigger;
@@ -13442,7 +13442,7 @@ The release trigger to use.
 
 ---
 
-##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="projen-projects.TypescriptProjectOptions.property.releaseWorkflowName"></a>
+##### `releaseWorkflowName`<sup>Optional</sup> <a name="releaseWorkflowName" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflowName"></a>
 
 ```typescript
 public readonly releaseWorkflowName: string;
@@ -13455,7 +13455,7 @@ The name of the default release workflow.
 
 ---
 
-##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="projen-projects.TypescriptProjectOptions.property.releaseWorkflowSetupSteps"></a>
+##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="releaseWorkflowSetupSteps" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflowSetupSteps"></a>
 
 ```typescript
 public readonly releaseWorkflowSetupSteps: JobStep[];
@@ -13467,7 +13467,7 @@ A set of workflow steps to execute in order to setup the workflow container.
 
 ---
 
-##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="projen-projects.TypescriptProjectOptions.property.versionrcOptions"></a>
+##### `versionrcOptions`<sup>Optional</sup> <a name="versionrcOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.versionrcOptions"></a>
 
 ```typescript
 public readonly versionrcOptions: {[ key: string ]: any};
@@ -13482,7 +13482,7 @@ Given values either append to default configuration or overwrite values in it.
 
 ---
 
-##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="projen-projects.TypescriptProjectOptions.property.workflowContainerImage"></a>
+##### `workflowContainerImage`<sup>Optional</sup> <a name="workflowContainerImage" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowContainerImage"></a>
 
 ```typescript
 public readonly workflowContainerImage: string;
@@ -13495,7 +13495,7 @@ Container image to use for GitHub workflows.
 
 ---
 
-##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="projen-projects.TypescriptProjectOptions.property.workflowRunsOn"></a>
+##### `workflowRunsOn`<sup>Optional</sup> <a name="workflowRunsOn" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowRunsOn"></a>
 
 ```typescript
 public readonly workflowRunsOn: string[];
@@ -13508,7 +13508,7 @@ Github Runner selection labels.
 
 ---
 
-##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="projen-projects.TypescriptProjectOptions.property.workflowRunsOnGroup"></a>
+##### `workflowRunsOnGroup`<sup>Optional</sup> <a name="workflowRunsOnGroup" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowRunsOnGroup"></a>
 
 ```typescript
 public readonly workflowRunsOnGroup: GroupRunnerOptions;
@@ -13520,7 +13520,7 @@ Github Runner Group selection options.
 
 ---
 
-##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="projen-projects.TypescriptProjectOptions.property.defaultReleaseBranch"></a>
+##### `defaultReleaseBranch`<sup>Required</sup> <a name="defaultReleaseBranch" id="apidays24-sg-pj.TypescriptProjectOptions.property.defaultReleaseBranch"></a>
 
 ```typescript
 public readonly defaultReleaseBranch: string;
@@ -13533,7 +13533,7 @@ The name of the main release branch.
 
 ---
 
-##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="projen-projects.TypescriptProjectOptions.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Optional</sup> <a name="artifactsDirectory" id="apidays24-sg-pj.TypescriptProjectOptions.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -13546,7 +13546,7 @@ A directory which will contain build artifacts.
 
 ---
 
-##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="projen-projects.TypescriptProjectOptions.property.autoApproveUpgrades"></a>
+##### `autoApproveUpgrades`<sup>Optional</sup> <a name="autoApproveUpgrades" id="apidays24-sg-pj.TypescriptProjectOptions.property.autoApproveUpgrades"></a>
 
 ```typescript
 public readonly autoApproveUpgrades: boolean;
@@ -13561,7 +13561,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="projen-projects.TypescriptProjectOptions.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="buildWorkflow" id="apidays24-sg-pj.TypescriptProjectOptions.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: boolean;
@@ -13574,7 +13574,7 @@ Define a GitHub workflow for building PRs.
 
 ---
 
-##### `buildWorkflowTriggers`<sup>Optional</sup> <a name="buildWorkflowTriggers" id="projen-projects.TypescriptProjectOptions.property.buildWorkflowTriggers"></a>
+##### `buildWorkflowTriggers`<sup>Optional</sup> <a name="buildWorkflowTriggers" id="apidays24-sg-pj.TypescriptProjectOptions.property.buildWorkflowTriggers"></a>
 
 ```typescript
 public readonly buildWorkflowTriggers: Triggers;
@@ -13587,7 +13587,7 @@ Build workflow triggers.
 
 ---
 
-##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="projen-projects.TypescriptProjectOptions.property.bundlerOptions"></a>
+##### `bundlerOptions`<sup>Optional</sup> <a name="bundlerOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.bundlerOptions"></a>
 
 ```typescript
 public readonly bundlerOptions: BundlerOptions;
@@ -13599,7 +13599,7 @@ Options for `Bundler`.
 
 ---
 
-##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="projen-projects.TypescriptProjectOptions.property.checkLicenses"></a>
+##### `checkLicenses`<sup>Optional</sup> <a name="checkLicenses" id="apidays24-sg-pj.TypescriptProjectOptions.property.checkLicenses"></a>
 
 ```typescript
 public readonly checkLicenses: LicenseCheckerOptions;
@@ -13614,7 +13614,7 @@ This setting will cause the build to fail, if any prohibited or not allowed lice
 
 ---
 
-##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="projen-projects.TypescriptProjectOptions.property.codeCov"></a>
+##### `codeCov`<sup>Optional</sup> <a name="codeCov" id="apidays24-sg-pj.TypescriptProjectOptions.property.codeCov"></a>
 
 ```typescript
 public readonly codeCov: boolean;
@@ -13627,7 +13627,7 @@ Define a GitHub workflow step for sending code coverage metrics to https://codec
 
 ---
 
-##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="projen-projects.TypescriptProjectOptions.property.codeCovTokenSecret"></a>
+##### `codeCovTokenSecret`<sup>Optional</sup> <a name="codeCovTokenSecret" id="apidays24-sg-pj.TypescriptProjectOptions.property.codeCovTokenSecret"></a>
 
 ```typescript
 public readonly codeCovTokenSecret: string;
@@ -13640,7 +13640,7 @@ Define the secret name for a specified https://codecov.io/ token A secret is req
 
 ---
 
-##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="projen-projects.TypescriptProjectOptions.property.copyrightOwner"></a>
+##### `copyrightOwner`<sup>Optional</sup> <a name="copyrightOwner" id="apidays24-sg-pj.TypescriptProjectOptions.property.copyrightOwner"></a>
 
 ```typescript
 public readonly copyrightOwner: string;
@@ -13653,7 +13653,7 @@ License copyright owner.
 
 ---
 
-##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="projen-projects.TypescriptProjectOptions.property.copyrightPeriod"></a>
+##### `copyrightPeriod`<sup>Optional</sup> <a name="copyrightPeriod" id="apidays24-sg-pj.TypescriptProjectOptions.property.copyrightPeriod"></a>
 
 ```typescript
 public readonly copyrightPeriod: string;
@@ -13666,7 +13666,7 @@ The copyright years to put in the LICENSE file.
 
 ---
 
-##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="projen-projects.TypescriptProjectOptions.property.dependabot"></a>
+##### `dependabot`<sup>Optional</sup> <a name="dependabot" id="apidays24-sg-pj.TypescriptProjectOptions.property.dependabot"></a>
 
 ```typescript
 public readonly dependabot: boolean;
@@ -13681,7 +13681,7 @@ Cannot be used in conjunction with `depsUpgrade`.
 
 ---
 
-##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="projen-projects.TypescriptProjectOptions.property.dependabotOptions"></a>
+##### `dependabotOptions`<sup>Optional</sup> <a name="dependabotOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.dependabotOptions"></a>
 
 ```typescript
 public readonly dependabotOptions: DependabotOptions;
@@ -13694,7 +13694,7 @@ Options for dependabot.
 
 ---
 
-##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="projen-projects.TypescriptProjectOptions.property.depsUpgrade"></a>
+##### `depsUpgrade`<sup>Optional</sup> <a name="depsUpgrade" id="apidays24-sg-pj.TypescriptProjectOptions.property.depsUpgrade"></a>
 
 ```typescript
 public readonly depsUpgrade: boolean;
@@ -13709,7 +13709,7 @@ Cannot be used in conjunction with `dependabot`.
 
 ---
 
-##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="projen-projects.TypescriptProjectOptions.property.depsUpgradeOptions"></a>
+##### `depsUpgradeOptions`<sup>Optional</sup> <a name="depsUpgradeOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.depsUpgradeOptions"></a>
 
 ```typescript
 public readonly depsUpgradeOptions: UpgradeDependenciesOptions;
@@ -13722,7 +13722,7 @@ Options for `UpgradeDependencies`.
 
 ---
 
-##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="projen-projects.TypescriptProjectOptions.property.gitignore"></a>
+##### `gitignore`<sup>Optional</sup> <a name="gitignore" id="apidays24-sg-pj.TypescriptProjectOptions.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: string[];
@@ -13734,7 +13734,7 @@ Additional entries to .gitignore.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="jest" id="projen-projects.TypescriptProjectOptions.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="jest" id="apidays24-sg-pj.TypescriptProjectOptions.property.jest"></a>
 
 ```typescript
 public readonly jest: boolean;
@@ -13747,7 +13747,7 @@ Setup jest unit tests.
 
 ---
 
-##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="projen-projects.TypescriptProjectOptions.property.jestOptions"></a>
+##### `jestOptions`<sup>Optional</sup> <a name="jestOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.jestOptions"></a>
 
 ```typescript
 public readonly jestOptions: JestOptions;
@@ -13760,7 +13760,7 @@ Jest options.
 
 ---
 
-##### `mutableBuild`<sup>Optional</sup> <a name="mutableBuild" id="projen-projects.TypescriptProjectOptions.property.mutableBuild"></a>
+##### `mutableBuild`<sup>Optional</sup> <a name="mutableBuild" id="apidays24-sg-pj.TypescriptProjectOptions.property.mutableBuild"></a>
 
 ```typescript
 public readonly mutableBuild: boolean;
@@ -13779,7 +13779,7 @@ Implies that PR builds do not have anti-tamper checks.
 
 ---
 
-##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="projen-projects.TypescriptProjectOptions.property.npmignore"></a>
+##### ~~`npmignore`~~<sup>Optional</sup> <a name="npmignore" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmignore"></a>
 
 - *Deprecated:* - use `project.addPackageIgnore`
 
@@ -13793,7 +13793,7 @@ Additional entries to .npmignore.
 
 ---
 
-##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="projen-projects.TypescriptProjectOptions.property.npmignoreEnabled"></a>
+##### `npmignoreEnabled`<sup>Optional</sup> <a name="npmignoreEnabled" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmignoreEnabled"></a>
 
 ```typescript
 public readonly npmignoreEnabled: boolean;
@@ -13806,7 +13806,7 @@ Defines an .npmignore file. Normally this is only needed for libraries that are 
 
 ---
 
-##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="projen-projects.TypescriptProjectOptions.property.npmIgnoreOptions"></a>
+##### `npmIgnoreOptions`<sup>Optional</sup> <a name="npmIgnoreOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.npmIgnoreOptions"></a>
 
 ```typescript
 public readonly npmIgnoreOptions: IgnoreFileOptions;
@@ -13818,7 +13818,7 @@ Configuration options for .npmignore file.
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="package" id="projen-projects.TypescriptProjectOptions.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="package" id="apidays24-sg-pj.TypescriptProjectOptions.property.package"></a>
 
 ```typescript
 public readonly package: boolean;
@@ -13831,7 +13831,7 @@ Defines a `package` task that will produce an npm tarball under the artifacts di
 
 ---
 
-##### `prettier`<sup>Optional</sup> <a name="prettier" id="projen-projects.TypescriptProjectOptions.property.prettier"></a>
+##### `prettier`<sup>Optional</sup> <a name="prettier" id="apidays24-sg-pj.TypescriptProjectOptions.property.prettier"></a>
 
 ```typescript
 public readonly prettier: boolean;
@@ -13844,7 +13844,7 @@ Setup prettier.
 
 ---
 
-##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="projen-projects.TypescriptProjectOptions.property.prettierOptions"></a>
+##### `prettierOptions`<sup>Optional</sup> <a name="prettierOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.prettierOptions"></a>
 
 ```typescript
 public readonly prettierOptions: PrettierOptions;
@@ -13857,7 +13857,7 @@ Prettier options.
 
 ---
 
-##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="projen-projects.TypescriptProjectOptions.property.projenDevDependency"></a>
+##### `projenDevDependency`<sup>Optional</sup> <a name="projenDevDependency" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenDevDependency"></a>
 
 ```typescript
 public readonly projenDevDependency: boolean;
@@ -13870,7 +13870,7 @@ Indicates of "projen" should be installed as a devDependency.
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="projen-projects.TypescriptProjectOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="projenrcJs" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJs"></a>
 
 ```typescript
 public readonly projenrcJs: boolean;
@@ -13883,7 +13883,7 @@ Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="projen-projects.TypescriptProjectOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="projenrcJsOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcJsOptions"></a>
 
 ```typescript
 public readonly projenrcJsOptions: ProjenrcOptions;
@@ -13896,7 +13896,7 @@ Options for .projenrc.js.
 
 ---
 
-##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="projen-projects.TypescriptProjectOptions.property.projenVersion"></a>
+##### `projenVersion`<sup>Optional</sup> <a name="projenVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenVersion"></a>
 
 ```typescript
 public readonly projenVersion: string;
@@ -13909,7 +13909,7 @@ Version of projen to install.
 
 ---
 
-##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="projen-projects.TypescriptProjectOptions.property.pullRequestTemplate"></a>
+##### `pullRequestTemplate`<sup>Optional</sup> <a name="pullRequestTemplate" id="apidays24-sg-pj.TypescriptProjectOptions.property.pullRequestTemplate"></a>
 
 ```typescript
 public readonly pullRequestTemplate: boolean;
@@ -13922,7 +13922,7 @@ Include a GitHub pull request template.
 
 ---
 
-##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="projen-projects.TypescriptProjectOptions.property.pullRequestTemplateContents"></a>
+##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="pullRequestTemplateContents" id="apidays24-sg-pj.TypescriptProjectOptions.property.pullRequestTemplateContents"></a>
 
 ```typescript
 public readonly pullRequestTemplateContents: string[];
@@ -13935,7 +13935,7 @@ The contents of the pull request template.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="release" id="projen-projects.TypescriptProjectOptions.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="release" id="apidays24-sg-pj.TypescriptProjectOptions.property.release"></a>
 
 ```typescript
 public readonly release: boolean;
@@ -13948,7 +13948,7 @@ Add release management to this project.
 
 ---
 
-##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="projen-projects.TypescriptProjectOptions.property.releaseToNpm"></a>
+##### `releaseToNpm`<sup>Optional</sup> <a name="releaseToNpm" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseToNpm"></a>
 
 ```typescript
 public readonly releaseToNpm: boolean;
@@ -13961,7 +13961,7 @@ Automatically release to npm when new versions are introduced.
 
 ---
 
-##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="projen-projects.TypescriptProjectOptions.property.releaseWorkflow"></a>
+##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="releaseWorkflow" id="apidays24-sg-pj.TypescriptProjectOptions.property.releaseWorkflow"></a>
 
 - *Deprecated:* see `release`.
 
@@ -13976,7 +13976,7 @@ DEPRECATED: renamed to `release`.
 
 ---
 
-##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="projen-projects.TypescriptProjectOptions.property.workflowBootstrapSteps"></a>
+##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="workflowBootstrapSteps" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowBootstrapSteps"></a>
 
 ```typescript
 public readonly workflowBootstrapSteps: JobStep[];
@@ -13989,7 +13989,7 @@ Workflow steps to use in order to bootstrap this repo.
 
 ---
 
-##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="projen-projects.TypescriptProjectOptions.property.workflowGitIdentity"></a>
+##### `workflowGitIdentity`<sup>Optional</sup> <a name="workflowGitIdentity" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowGitIdentity"></a>
 
 ```typescript
 public readonly workflowGitIdentity: GitIdentity;
@@ -14002,7 +14002,7 @@ The git identity to use in workflows.
 
 ---
 
-##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="projen-projects.TypescriptProjectOptions.property.workflowNodeVersion"></a>
+##### `workflowNodeVersion`<sup>Optional</sup> <a name="workflowNodeVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowNodeVersion"></a>
 
 ```typescript
 public readonly workflowNodeVersion: string;
@@ -14015,7 +14015,7 @@ The node version to use in GitHub workflows.
 
 ---
 
-##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="projen-projects.TypescriptProjectOptions.property.workflowPackageCache"></a>
+##### `workflowPackageCache`<sup>Optional</sup> <a name="workflowPackageCache" id="apidays24-sg-pj.TypescriptProjectOptions.property.workflowPackageCache"></a>
 
 ```typescript
 public readonly workflowPackageCache: boolean;
@@ -14028,7 +14028,7 @@ Enable Node.js package cache in GitHub workflows.
 
 ---
 
-##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="projen-projects.TypescriptProjectOptions.property.disableTsconfig"></a>
+##### `disableTsconfig`<sup>Optional</sup> <a name="disableTsconfig" id="apidays24-sg-pj.TypescriptProjectOptions.property.disableTsconfig"></a>
 
 ```typescript
 public readonly disableTsconfig: boolean;
@@ -14041,7 +14041,7 @@ Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.jso
 
 ---
 
-##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="projen-projects.TypescriptProjectOptions.property.disableTsconfigDev"></a>
+##### `disableTsconfigDev`<sup>Optional</sup> <a name="disableTsconfigDev" id="apidays24-sg-pj.TypescriptProjectOptions.property.disableTsconfigDev"></a>
 
 ```typescript
 public readonly disableTsconfigDev: boolean;
@@ -14054,7 +14054,7 @@ Do not generate a `tsconfig.dev.json` file.
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="docgen" id="projen-projects.TypescriptProjectOptions.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="docgen" id="apidays24-sg-pj.TypescriptProjectOptions.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -14067,7 +14067,7 @@ Docgen by Typedoc.
 
 ---
 
-##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="projen-projects.TypescriptProjectOptions.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Optional</sup> <a name="docsDirectory" id="apidays24-sg-pj.TypescriptProjectOptions.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -14080,7 +14080,7 @@ Docs directory.
 
 ---
 
-##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="projen-projects.TypescriptProjectOptions.property.entrypointTypes"></a>
+##### `entrypointTypes`<sup>Optional</sup> <a name="entrypointTypes" id="apidays24-sg-pj.TypescriptProjectOptions.property.entrypointTypes"></a>
 
 ```typescript
 public readonly entrypointTypes: string;
@@ -14093,7 +14093,7 @@ The .d.ts file that includes the type declarations for this module.
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="eslint" id="projen-projects.TypescriptProjectOptions.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="eslint" id="apidays24-sg-pj.TypescriptProjectOptions.property.eslint"></a>
 
 ```typescript
 public readonly eslint: boolean;
@@ -14106,7 +14106,7 @@ Setup eslint.
 
 ---
 
-##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="projen-projects.TypescriptProjectOptions.property.eslintOptions"></a>
+##### `eslintOptions`<sup>Optional</sup> <a name="eslintOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.eslintOptions"></a>
 
 ```typescript
 public readonly eslintOptions: EslintOptions;
@@ -14119,7 +14119,7 @@ Eslint options.
 
 ---
 
-##### `libdir`<sup>Optional</sup> <a name="libdir" id="projen-projects.TypescriptProjectOptions.property.libdir"></a>
+##### `libdir`<sup>Optional</sup> <a name="libdir" id="apidays24-sg-pj.TypescriptProjectOptions.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -14132,7 +14132,7 @@ Typescript  artifacts output directory.
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="projen-projects.TypescriptProjectOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="projenrcTs" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcTs"></a>
 
 ```typescript
 public readonly projenrcTs: boolean;
@@ -14145,7 +14145,7 @@ Use TypeScript for your projenrc file (`.projenrc.ts`).
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="projen-projects.TypescriptProjectOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="projenrcTsOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.projenrcTsOptions"></a>
 
 ```typescript
 public readonly projenrcTsOptions: ProjenrcOptions;
@@ -14157,7 +14157,7 @@ Options for .projenrc.ts.
 
 ---
 
-##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="projen-projects.TypescriptProjectOptions.property.sampleCode"></a>
+##### `sampleCode`<sup>Optional</sup> <a name="sampleCode" id="apidays24-sg-pj.TypescriptProjectOptions.property.sampleCode"></a>
 
 ```typescript
 public readonly sampleCode: boolean;
@@ -14170,7 +14170,7 @@ Generate one-time sample in `src/` and `test/` if there are no files there.
 
 ---
 
-##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="projen-projects.TypescriptProjectOptions.property.srcdir"></a>
+##### `srcdir`<sup>Optional</sup> <a name="srcdir" id="apidays24-sg-pj.TypescriptProjectOptions.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -14183,7 +14183,7 @@ Typescript sources directory.
 
 ---
 
-##### `testdir`<sup>Optional</sup> <a name="testdir" id="projen-projects.TypescriptProjectOptions.property.testdir"></a>
+##### `testdir`<sup>Optional</sup> <a name="testdir" id="apidays24-sg-pj.TypescriptProjectOptions.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -14201,7 +14201,7 @@ compile the code in-memory.
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="projen-projects.TypescriptProjectOptions.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="tsconfig" id="apidays24-sg-pj.TypescriptProjectOptions.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfigOptions;
@@ -14214,7 +14214,7 @@ Custom TSConfig.
 
 ---
 
-##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="projen-projects.TypescriptProjectOptions.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Optional</sup> <a name="tsconfigDev" id="apidays24-sg-pj.TypescriptProjectOptions.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfigOptions;
@@ -14227,7 +14227,7 @@ Custom tsconfig options for the development tsconfig.json file (used for testing
 
 ---
 
-##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="projen-projects.TypescriptProjectOptions.property.tsconfigDevFile"></a>
+##### `tsconfigDevFile`<sup>Optional</sup> <a name="tsconfigDevFile" id="apidays24-sg-pj.TypescriptProjectOptions.property.tsconfigDevFile"></a>
 
 ```typescript
 public readonly tsconfigDevFile: string;
@@ -14240,7 +14240,7 @@ The name of the development tsconfig.json file.
 
 ---
 
-##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="projen-projects.TypescriptProjectOptions.property.tsJestOptions"></a>
+##### `tsJestOptions`<sup>Optional</sup> <a name="tsJestOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.tsJestOptions"></a>
 
 ```typescript
 public readonly tsJestOptions: TsJestOptions;
@@ -14252,7 +14252,7 @@ Options for ts-jest.
 
 ---
 
-##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="projen-projects.TypescriptProjectOptions.property.typescriptVersion"></a>
+##### `typescriptVersion`<sup>Optional</sup> <a name="typescriptVersion" id="apidays24-sg-pj.TypescriptProjectOptions.property.typescriptVersion"></a>
 
 ```typescript
 public readonly typescriptVersion: string;
@@ -14268,24 +14268,24 @@ same minor, so we recommend using a `~` dependency (e.g. `~1.2.3`).
 
 ---
 
-##### `snykOptions`<sup>Required</sup> <a name="snykOptions" id="projen-projects.TypescriptProjectOptions.property.snykOptions"></a>
+##### `snykOptions`<sup>Optional</sup> <a name="snykOptions" id="apidays24-sg-pj.TypescriptProjectOptions.property.snykOptions"></a>
 
 ```typescript
 public readonly snykOptions: SnykComponentOptions;
 ```
 
-- *Type:* <a href="#projen-projects.SnykComponentOptions">SnykComponentOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SnykComponentOptions">SnykComponentOptions</a>
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
 
-### SnykWorkflowSteps <a name="SnykWorkflowSteps" id="projen-projects.SnykWorkflowSteps"></a>
+### SnykWorkflowSteps <a name="SnykWorkflowSteps" id="apidays24-sg-pj.SnykWorkflowSteps"></a>
 
-#### Initializers <a name="Initializers" id="projen-projects.SnykWorkflowSteps.Initializer"></a>
+#### Initializers <a name="Initializers" id="apidays24-sg-pj.SnykWorkflowSteps.Initializer"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 new SnykWorkflowSteps()
 ```
@@ -14300,35 +14300,35 @@ new SnykWorkflowSteps()
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SnykWorkflowSteps.checkout">checkout</a></code> | Checks out a repository. |
-| <code><a href="#projen-projects.SnykWorkflowSteps.downloadArtifact">downloadArtifact</a></code> | Downloads an artifact. |
-| <code><a href="#projen-projects.SnykWorkflowSteps.setupGitIdentity">setupGitIdentity</a></code> | Configures the git identity (user name and email). |
-| <code><a href="#projen-projects.SnykWorkflowSteps.tagExists">tagExists</a></code> | Checks if a tag exists. |
-| <code><a href="#projen-projects.SnykWorkflowSteps.uploadArtifact">uploadArtifact</a></code> | Uploads an artifact. |
-| <code><a href="#projen-projects.SnykWorkflowSteps.authenticateSnyk">authenticateSnyk</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.createCache">createCache</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.getNpmRoot">getNpmRoot</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.installSnyk">installSnyk</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.installSnykPrDiff">installSnykPrDiff</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.runSca">runSca</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.runSnykPrDiff">runSnykPrDiff</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.runSnykSast">runSnykSast</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.runSnykScaWithDelta">runSnykScaWithDelta</a></code> | *No description.* |
-| <code><a href="#projen-projects.SnykWorkflowSteps.setupNode">setupNode</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.checkout">checkout</a></code> | Checks out a repository. |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.downloadArtifact">downloadArtifact</a></code> | Downloads an artifact. |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.setupGitIdentity">setupGitIdentity</a></code> | Configures the git identity (user name and email). |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.tagExists">tagExists</a></code> | Checks if a tag exists. |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.uploadArtifact">uploadArtifact</a></code> | Uploads an artifact. |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.authenticateSnyk">authenticateSnyk</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.createCache">createCache</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.getNpmRoot">getNpmRoot</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.installSnyk">installSnyk</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.installSnykPrDiff">installSnykPrDiff</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.runSca">runSca</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.runSnykPrDiff">runSnykPrDiff</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.runSnykSast">runSnykSast</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.runSnykScaWithDelta">runSnykScaWithDelta</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SnykWorkflowSteps.setupNode">setupNode</a></code> | *No description.* |
 
 ---
 
-##### `checkout` <a name="checkout" id="projen-projects.SnykWorkflowSteps.checkout"></a>
+##### `checkout` <a name="checkout" id="apidays24-sg-pj.SnykWorkflowSteps.checkout"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.checkout(options?: CheckoutOptions)
 ```
 
 Checks out a repository.
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.checkout.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.checkout.parameter.options"></a>
 
 - *Type:* projen.github.CheckoutOptions
 
@@ -14336,17 +14336,17 @@ Options to configure the `checkout` JobStep.
 
 ---
 
-##### `downloadArtifact` <a name="downloadArtifact" id="projen-projects.SnykWorkflowSteps.downloadArtifact"></a>
+##### `downloadArtifact` <a name="downloadArtifact" id="apidays24-sg-pj.SnykWorkflowSteps.downloadArtifact"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.downloadArtifact(options?: DownloadArtifactOptions)
 ```
 
 Downloads an artifact.
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.downloadArtifact.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.downloadArtifact.parameter.options"></a>
 
 - *Type:* projen.github.DownloadArtifactOptions
 
@@ -14354,17 +14354,17 @@ Options to configure the `download-artifact` JobStep.
 
 ---
 
-##### `setupGitIdentity` <a name="setupGitIdentity" id="projen-projects.SnykWorkflowSteps.setupGitIdentity"></a>
+##### `setupGitIdentity` <a name="setupGitIdentity" id="apidays24-sg-pj.SnykWorkflowSteps.setupGitIdentity"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.setupGitIdentity(options: SetupGitIdentityOptions)
 ```
 
 Configures the git identity (user name and email).
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.setupGitIdentity.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.setupGitIdentity.parameter.options"></a>
 
 - *Type:* projen.github.SetupGitIdentityOptions
 
@@ -14372,10 +14372,10 @@ Options to configure the git identity JobStep.
 
 ---
 
-##### `tagExists` <a name="tagExists" id="projen-projects.SnykWorkflowSteps.tagExists"></a>
+##### `tagExists` <a name="tagExists" id="apidays24-sg-pj.SnykWorkflowSteps.tagExists"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.tagExists(tag: string, options: JobStepConfiguration)
 ```
@@ -14387,7 +14387,7 @@ Requires a checkout step to have been run before this step with "fetch-depth" se
 Outputs:
 - `exists`: A string value of 'true' or 'false' indicating if the tag exists.
 
-###### `tag`<sup>Required</sup> <a name="tag" id="projen-projects.SnykWorkflowSteps.tagExists.parameter.tag"></a>
+###### `tag`<sup>Required</sup> <a name="tag" id="apidays24-sg-pj.SnykWorkflowSteps.tagExists.parameter.tag"></a>
 
 - *Type:* string
 
@@ -14397,7 +14397,7 @@ You may use valid bash code instead of a literal string in this field.
 
 ---
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.tagExists.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.tagExists.parameter.options"></a>
 
 - *Type:* projen.github.workflows.JobStepConfiguration
 
@@ -14405,17 +14405,17 @@ Options to configure the `tag-exists` JobStep.
 
 ---
 
-##### `uploadArtifact` <a name="uploadArtifact" id="projen-projects.SnykWorkflowSteps.uploadArtifact"></a>
+##### `uploadArtifact` <a name="uploadArtifact" id="apidays24-sg-pj.SnykWorkflowSteps.uploadArtifact"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.uploadArtifact(options: UploadArtifactOptions)
 ```
 
 Uploads an artifact.
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.uploadArtifact.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.uploadArtifact.parameter.options"></a>
 
 - *Type:* projen.github.UploadArtifactOptions
 
@@ -14423,143 +14423,143 @@ Options to configure the `upload-artifact` JobStep.
 
 ---
 
-##### `authenticateSnyk` <a name="authenticateSnyk" id="projen-projects.SnykWorkflowSteps.authenticateSnyk"></a>
+##### `authenticateSnyk` <a name="authenticateSnyk" id="apidays24-sg-pj.SnykWorkflowSteps.authenticateSnyk"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.authenticateSnyk(options: AuthenticateSnykOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.authenticateSnyk.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.authenticateSnyk.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.AuthenticateSnykOptions">AuthenticateSnykOptions</a>
 
 ---
 
-##### `createCache` <a name="createCache" id="projen-projects.SnykWorkflowSteps.createCache"></a>
+##### `createCache` <a name="createCache" id="apidays24-sg-pj.SnykWorkflowSteps.createCache"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.createCache(options: CreateCacheOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.createCache.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.createCache.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.CreateCacheOptions">CreateCacheOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.CreateCacheOptions">CreateCacheOptions</a>
 
 ---
 
-##### `getNpmRoot` <a name="getNpmRoot" id="projen-projects.SnykWorkflowSteps.getNpmRoot"></a>
+##### `getNpmRoot` <a name="getNpmRoot" id="apidays24-sg-pj.SnykWorkflowSteps.getNpmRoot"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.getNpmRoot(options?: JobStepConfiguration)
 ```
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.getNpmRoot.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.getNpmRoot.parameter.options"></a>
 
 - *Type:* projen.github.workflows.JobStepConfiguration
 
 ---
 
-##### `installSnyk` <a name="installSnyk" id="projen-projects.SnykWorkflowSteps.installSnyk"></a>
+##### `installSnyk` <a name="installSnyk" id="apidays24-sg-pj.SnykWorkflowSteps.installSnyk"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.installSnyk(options: InstallSnykOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.installSnyk.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.installSnyk.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.InstallSnykOptions">InstallSnykOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykOptions">InstallSnykOptions</a>
 
 ---
 
-##### `installSnykPrDiff` <a name="installSnykPrDiff" id="projen-projects.SnykWorkflowSteps.installSnykPrDiff"></a>
+##### `installSnykPrDiff` <a name="installSnykPrDiff" id="apidays24-sg-pj.SnykWorkflowSteps.installSnykPrDiff"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.installSnykPrDiff(options: InstallSnykPrDiffOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.installSnykPrDiff.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.installSnykPrDiff.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.InstallSnykPrDiffOptions">InstallSnykPrDiffOptions</a>
 
 ---
 
-##### `runSca` <a name="runSca" id="projen-projects.SnykWorkflowSteps.runSca"></a>
+##### `runSca` <a name="runSca" id="apidays24-sg-pj.SnykWorkflowSteps.runSca"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.runSca(options?: RunScaOptions)
 ```
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.runSca.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.runSca.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.RunScaOptions">RunScaOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunScaOptions">RunScaOptions</a>
 
 ---
 
-##### `runSnykPrDiff` <a name="runSnykPrDiff" id="projen-projects.SnykWorkflowSteps.runSnykPrDiff"></a>
+##### `runSnykPrDiff` <a name="runSnykPrDiff" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykPrDiff"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.runSnykPrDiff(options: RunSnykPrDiffOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.runSnykPrDiff.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykPrDiff.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.RunSnykPrDiffOptions">RunSnykPrDiffOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykPrDiffOptions">RunSnykPrDiffOptions</a>
 
 ---
 
-##### `runSnykSast` <a name="runSnykSast" id="projen-projects.SnykWorkflowSteps.runSnykSast"></a>
+##### `runSnykSast` <a name="runSnykSast" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykSast"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.runSnykSast(options: RunSnykSastOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.runSnykSast.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykSast.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.RunSnykSastOptions">RunSnykSastOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykSastOptions">RunSnykSastOptions</a>
 
 ---
 
-##### `runSnykScaWithDelta` <a name="runSnykScaWithDelta" id="projen-projects.SnykWorkflowSteps.runSnykScaWithDelta"></a>
+##### `runSnykScaWithDelta` <a name="runSnykScaWithDelta" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykScaWithDelta"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.runSnykScaWithDelta(options: RunSnykScaWithDeltaOptions)
 ```
 
-###### `options`<sup>Required</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.runSnykScaWithDelta.parameter.options"></a>
+###### `options`<sup>Required</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.runSnykScaWithDelta.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.RunSnykScaWithDeltaOptions">RunSnykScaWithDeltaOptions</a>
 
 ---
 
-##### `setupNode` <a name="setupNode" id="projen-projects.SnykWorkflowSteps.setupNode"></a>
+##### `setupNode` <a name="setupNode" id="apidays24-sg-pj.SnykWorkflowSteps.setupNode"></a>
 
 ```typescript
-import { SnykWorkflowSteps } from 'projen-projects'
+import { SnykWorkflowSteps } from 'apidays24-sg-pj'
 
 SnykWorkflowSteps.setupNode(options?: SetupNodeOptions)
 ```
 
-###### `options`<sup>Optional</sup> <a name="options" id="projen-projects.SnykWorkflowSteps.setupNode.parameter.options"></a>
+###### `options`<sup>Optional</sup> <a name="options" id="apidays24-sg-pj.SnykWorkflowSteps.setupNode.parameter.options"></a>
 
-- *Type:* <a href="#projen-projects.SetupNodeOptions">SetupNodeOptions</a>
+- *Type:* <a href="#apidays24-sg-pj.SetupNodeOptions">SetupNodeOptions</a>
 
 ---
 
@@ -14568,35 +14568,35 @@ SnykWorkflowSteps.setupNode(options?: SetupNodeOptions)
 
 ## Enums <a name="Enums" id="Enums"></a>
 
-### SeverityThreshold <a name="SeverityThreshold" id="projen-projects.SeverityThreshold"></a>
+### SeverityThreshold <a name="SeverityThreshold" id="apidays24-sg-pj.SeverityThreshold"></a>
 
 #### Members <a name="Members" id="Members"></a>
 
 | **Name** | **Description** |
 | --- | --- |
-| <code><a href="#projen-projects.SeverityThreshold.LOW">LOW</a></code> | *No description.* |
-| <code><a href="#projen-projects.SeverityThreshold.MEDIUM">MEDIUM</a></code> | *No description.* |
-| <code><a href="#projen-projects.SeverityThreshold.HIGH">HIGH</a></code> | *No description.* |
-| <code><a href="#projen-projects.SeverityThreshold.CRITICAL">CRITICAL</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SeverityThreshold.LOW">LOW</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SeverityThreshold.MEDIUM">MEDIUM</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SeverityThreshold.HIGH">HIGH</a></code> | *No description.* |
+| <code><a href="#apidays24-sg-pj.SeverityThreshold.CRITICAL">CRITICAL</a></code> | *No description.* |
 
 ---
 
-##### `LOW` <a name="LOW" id="projen-projects.SeverityThreshold.LOW"></a>
-
----
-
-
-##### `MEDIUM` <a name="MEDIUM" id="projen-projects.SeverityThreshold.MEDIUM"></a>
+##### `LOW` <a name="LOW" id="apidays24-sg-pj.SeverityThreshold.LOW"></a>
 
 ---
 
 
-##### `HIGH` <a name="HIGH" id="projen-projects.SeverityThreshold.HIGH"></a>
+##### `MEDIUM` <a name="MEDIUM" id="apidays24-sg-pj.SeverityThreshold.MEDIUM"></a>
 
 ---
 
 
-##### `CRITICAL` <a name="CRITICAL" id="projen-projects.SeverityThreshold.CRITICAL"></a>
+##### `HIGH` <a name="HIGH" id="apidays24-sg-pj.SeverityThreshold.HIGH"></a>
+
+---
+
+
+##### `CRITICAL` <a name="CRITICAL" id="apidays24-sg-pj.SeverityThreshold.CRITICAL"></a>
 
 ---
 
