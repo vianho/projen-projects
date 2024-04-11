@@ -1,7 +1,7 @@
 import { GithubCredentials } from 'projen/lib/github';
+import { NpmAccess } from 'projen/lib/javascript';
 import * as constants from './src/constants';
 import { JSIIProject } from './src/projects';
-import { NpmAccess } from "projen/lib/javascript";
 
 const project = new JSIIProject({
   defaultReleaseBranch: 'main',
