@@ -39,7 +39,7 @@ jobs:
       - name: Authenticate Snyk
         id: snyk-auth
         env:
-          SNYK_TOKEN: ${{ secrets.SVC_GITHUBACTIONS_SNYK }}
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: |-
           snyk auth $SNYK_TOKEN
           snyk config set org=vianho
