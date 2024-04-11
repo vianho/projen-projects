@@ -34,25 +34,9 @@ jobs:
         id: install-snyk
         if: steps.cache-npmg.outputs.cache-hit != 'true'
         run: npm i -g snyk@1.1256.0 snyk-delta@1.12.0
-      - name: Create cache for snyk-pr-diff
-        id: cache-snyk-pr-diff
-        uses: actions/cache@v4
-        with:
-          path: /usr/local/bin/snyk-pr-diff
-          key: ${{ runner.os }}-snyk-pr-diff-${{ hashFiles('.projenrc.ts') }}
-      - name: Install snyk-pr-diff
-        id: install-snyk-pr-diff
-        if: steps.cache-snyk-pr-diff.outputs.cache-hit != 'true'
-        run: |-
-          wget -O snyk-pr-diff https://github.com/snyk-playground/cx-tools/raw/ed3737a48ab2f82fc6aa7b8878e052e4efb7754c/snyk-pr-diff/bin/snyk-pr-diff-amd64-linux
-          chmod +x ./snyk-pr-diff
-          mv ./snyk-pr-diff /usr/local/bin/snyk-pr-diff
-          which snyk-pr-diff
-      - name: Checkout current branch
-        id: checkout-current
+      - name: Checkout HEAD
+        id: checkout
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.after }}
       - name: Authenticate Snyk
         id: snyk-auth
         env:
@@ -60,8 +44,8 @@ jobs:
         run: |-
           snyk auth $SNYK_TOKEN
           snyk config set org=vianho
-      - name: Run snyk code on current branch
-        id: snyk-sast-current
+      - name: Run snyk code on HEAD
+        id: snyk-sast
         run: |-
           SHA=$(git log -1 '--format=format:%H')
           RESULT_PATH="${{ github.workspace }}/snyk_code_result_$SHA.json"

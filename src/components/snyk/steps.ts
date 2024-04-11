@@ -170,7 +170,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
   public static runSnykScaWithDelta(
     options: RunSnykScaWithDeltaOptions,
   ): JobStep[] {
-    const delta = options?.delta ?? true;
+    const delta = options?.delta ?? false;
     const runScaOptions = {
       id: 'sca-scan',
       resultPathOutputId: 'result-path',

@@ -65,11 +65,8 @@ export class SnykSastWorkflow extends Component {
       ...(options?.checkoutBaselineOptions ?? {}),
     };
     const checkoutCurrentOptions: CheckoutOptions = {
-      name: 'Checkout current branch',
-      id: 'checkout-current',
-      with: {
-        ref: '${{ github.event.after }}',
-      },
+      name: 'Checkout HEAD',
+      id: 'checkout',
       ...(options?.checkoutCurrentOptions ?? {}),
     };
 
@@ -81,8 +78,8 @@ export class SnykSastWorkflow extends Component {
       ...(options?.runSnykSastBaselineOptions ?? {}),
     };
     const runSnykSastCurrentOptions: RunSnykSastOptions = {
-      name: 'Run snyk code on current branch',
-      id: 'snyk-sast-current',
+      name: 'Run snyk code on HEAD',
+      id: 'snyk-sast',
       authenticateSnykOptions: options.authenticateSnykOptions,
       ...(options?.runSnykSastCurrentOptions ?? {}),
       continueOnError: false,
@@ -121,6 +118,9 @@ export class SnykSastWorkflow extends Component {
 
     // partial steps for delta
     const runBaselineScanSteps: JobStep[] = [
+      ...SnykWorkflowSteps.installSnykPrDiff(
+        options?.installSnykPrDiffOptions ?? {},
+      ),
       SnykWorkflowSteps.checkout(checkoutBaselineOptions),
       ...SnykWorkflowSteps.runSnykSast(runSnykSastBaselineOptions),
       SnykWorkflowSteps.uploadArtifact(uploadArtifactOptions),
@@ -142,9 +142,6 @@ export class SnykSastWorkflow extends Component {
       steps: [
         ...SnykWorkflowSteps.setupNode(options?.setupNodeOptions ?? {}),
         ...SnykWorkflowSteps.installSnyk(options?.installSnykOptions ?? {}),
-        ...SnykWorkflowSteps.installSnykPrDiff(
-          options?.installSnykPrDiffOptions ?? {},
-        ),
         ...(options?.delta ? runBaselineScanSteps : []),
         SnykWorkflowSteps.checkout(checkoutCurrentOptions),
         ...SnykWorkflowSteps.runSnykSast(runSnykSastCurrentOptions),

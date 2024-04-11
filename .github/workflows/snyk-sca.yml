@@ -50,6 +50,3 @@ jobs:
           snyk test --prune-repeated-subdependencies --severity-threshold=high --json-file-output=$RESULT_PATH 
           echo result-path=$RESULT_PATH >> $GITHUB_OUTPUT
         continue-on-error: true
-      - name: Run snyk test with delta
-        id: sca-scan-with-delta
-        run: cat ${{ steps.sca-scan.outputs.result-path }}  | snyk-delta --baselineOrg vianho --baselineProject a93b3425-3b4b-4218-b1b1-a67887c0591d -d
