@@ -8,7 +8,6 @@ import {
 } from './security-scan-workflow';
 import { AuthenticateSnykOptions } from './steps';
 import * as constants from '../../constants';
-import { getRepoNameFromGitConfig } from '../../utils';
 import { Envrc } from '../envrc';
 
 export interface SnykComponentOptions {
@@ -70,7 +69,6 @@ export class SnykComponent extends Component {
         this.snykWorkflowName,
         {},
       );
-      const repoName:string = getRepoNameFromGitConfig(process.cwd());
       if (this.enableSca) {
         const snykScaWorkflowOptions: SnykScaWorkflowOptions = {
           runSnykScaWithDeltaOptions: {
@@ -92,7 +90,7 @@ export class SnykComponent extends Component {
         }
 
         // call sca workflow from the main workflow
-        const reusableWorkflowPath = repoName + '/' + relativeWorkflowPath;
+        const reusableWorkflowPath = './' + relativeWorkflowPath;
         securityWorkflow.callReusableWorkflow('run-sca', reusableWorkflowPath);
       }
       if (this.enableSast) {
@@ -112,7 +110,7 @@ export class SnykComponent extends Component {
           );
         }
         // call sast workflow from the main workflow
-        const reusableWorkflowPath = repoName + '/' + relativeWorkflowPath;
+        const reusableWorkflowPath = './' + relativeWorkflowPath;
         securityWorkflow.callReusableWorkflow('run-sast', reusableWorkflowPath);
       }
     }
