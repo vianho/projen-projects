@@ -60,7 +60,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
       id: 'cache-npmg',
       with: {
         path: `\${{ steps.${getNpmRootJobId}.outputs.path }}`,
-        key: '${{ runner.os }}-npm-global-snyk-${{ hashFiles(format("{0}", ".projenrc.ts")) }}',
+        key: '${{ runner.os }}-npm-global-snyk-${{ hashFiles(".projenrc.ts") }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
@@ -100,7 +100,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
       id: 'cache-snyk-pr-diff',
       with: {
         path: path,
-        key: '${{ runner.os }}-snyk-pr-diff-${{ hashFiles(format("{0}", ".projenrc.ts")) }}',
+        key: '${{ runner.os }}-snyk-pr-diff-${{ hashFiles(".projenrc.ts") }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
