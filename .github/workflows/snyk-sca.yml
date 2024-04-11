@@ -31,7 +31,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.get-npm-root.outputs.path }}
-          key: ${{ runner.os }}-npm-global-snyk-${{ hashFiles(".projenrc.ts") }}
+          key: ${{ runner.os }}-npm-global-snyk-${{ hashFiles('.projenrc.ts') }}
       - name: Install snyk and snyk-delta
         id: install-snyk
         if: steps.cache-npmg.outputs.cache-hit != 'true'

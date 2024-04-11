@@ -100,7 +100,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
       id: 'cache-snyk-pr-diff',
       with: {
         path: path,
-        key: '${{ runner.os }}-snyk-pr-diff-${{ hashFiles(".projenrc.ts") }}',
+        key: '${{ runner.os }}-snyk-pr-diff-${{ hashFiles(\'.projenrc.ts\') }}',
       },
       ...(options.createCacheOptions ?? {}),
     };
