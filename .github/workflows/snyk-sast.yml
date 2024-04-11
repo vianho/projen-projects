@@ -29,7 +29,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ steps.get-npm-root.outputs.path }}
-          key: ${{ runner.os }}-npm-global-snyk-${{ hashFiles(format('{0}', ".projenrc.ts")) }}
+          key: ${{ runner.os }}-npm-global-snyk-${{ hashFiles(".projenrc.ts") }}
       - name: Install snyk and snyk-delta
         id: install-snyk
         if: steps.cache-npmg.outputs.cache-hit != 'true'
@@ -39,7 +39,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: /usr/local/bin/snyk-pr-diff
-          key: ${{ runner.os }}-snyk-pr-diff-${{ hashFiles(format('{0}', ".projenrc.ts")) }}
+          key: ${{ runner.os }}-snyk-pr-diff-${{ hashFiles(".projenrc.ts") }}
       - name: Install snyk-pr-diff
         id: install-snyk-pr-diff
         if: steps.cache-snyk-pr-diff.outputs.cache-hit != 'true'
