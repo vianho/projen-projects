@@ -1,4 +1,5 @@
 import { GithubCredentials } from 'projen/lib/github';
+import { NpmAccess } from 'projen/lib/javascript';
 import { JSIIProject } from './src/projects';
 
 const project = new JSIIProject({
@@ -11,6 +12,8 @@ const project = new JSIIProject({
   githubOptions: {
     projenCredentials: GithubCredentials.fromApp(),
   },
+  npmAccess: NpmAccess.PUBLIC,
+  npmProvenance: true,
   snykOptions: {
     snykOrgId: 'vianho',
     snykMonitoredProjectId: 'a93b3425-3b4b-4218-b1b1-a67887c0591d',
