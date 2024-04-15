@@ -34,6 +34,7 @@ export class SecurityScanWorkflow extends Component {
       push: {
         branches: ['main'],
       },
+      pullRequest: {},
       workflowDispatch: {},
     };
 

@@ -21,6 +21,6 @@ export class PythonProject extends python.PythonProject {
       constants.DEFAULT_NPM_PACKAGE_NAME,
       DependencyType.DEVENV,
     );
-    this.addDevDependency(constants.DEFAULT_PYPI_PACKAGE_NAME);
+    // this.addDevDependency(constants.DEFAULT_PYPI_PACKAGE_NAME);
   }
 }
