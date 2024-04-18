@@ -162,7 +162,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
           `snyk test --prune-repeated-subdependencies --severity-threshold=${severityThreshold} --json-file-output=$RESULT_PATH ${args}`,
           `echo ${resultPathOutputId}=$RESULT_PATH >> $GITHUB_OUTPUT`,
         ]),
-        continueOnError: true,
+        continueOnError: options?.continueOnError ?? false,
       },
     ];
   }
@@ -178,7 +178,7 @@ export class SnykWorkflowSteps extends WorkflowSteps {
     };
     const steps = [
       ...this.authenticateSnyk(options.authenticateSnykOptions),
-      ...this.runSca(options?.runScaOptions ?? {}),
+      ...this.runSca(options?.runScaOptions ?? { continueOnError: delta }),
     ];
     const snykOrgId = options.authenticateSnykOptions.snykOrgId;
     const snykMonitoredProjectId = options.snykMonitoredProjectId;
