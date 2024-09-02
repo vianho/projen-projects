@@ -7573,7 +7573,7 @@ const jSIIProjectOptions: JSIIProjectOptions = { ... }
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
-| <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
+| <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with commit-and-tag-version package. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
@@ -7585,7 +7585,7 @@ const jSIIProjectOptions: JSIIProjectOptions = { ... }
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
-| <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
+| <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
 | <code><a href="#@vianho/apidays24pj.JSIIProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
@@ -8903,7 +8903,7 @@ public readonly versionrcOptions: {[ key: string ]: any};
 - *Type:* {[ key: string ]: any}
 - *Default:* standard configuration applicable for GitHub repositories
 
-Custom configuration used when creating changelog with standard-version package.
+Custom configuration used when creating changelog with commit-and-tag-version package.
 
 Given values either append to default configuration or overwrite values in it.
 
@@ -9064,7 +9064,7 @@ public readonly codeCov: boolean;
 - *Type:* boolean
 - *Default:* false
 
-Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`.
+Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`.
 
 ---
 
@@ -12180,7 +12180,7 @@ const typescriptProjectOptions: TypescriptProjectOptions = { ... }
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.releaseTrigger">releaseTrigger</a></code> | <code>projen.release.ReleaseTrigger</code> | The release trigger to use. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.releaseWorkflowName">releaseWorkflowName</a></code> | <code>string</code> | The name of the default release workflow. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.releaseWorkflowSetupSteps">releaseWorkflowSetupSteps</a></code> | <code>projen.github.workflows.JobStep[]</code> | A set of workflow steps to execute in order to setup the workflow container. |
-| <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with standard-version package. |
+| <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.versionrcOptions">versionrcOptions</a></code> | <code>{[ key: string ]: any}</code> | Custom configuration used when creating changelog with commit-and-tag-version package. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.workflowContainerImage">workflowContainerImage</a></code> | <code>string</code> | Container image to use for GitHub workflows. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.workflowRunsOn">workflowRunsOn</a></code> | <code>string[]</code> | Github Runner selection labels. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.workflowRunsOnGroup">workflowRunsOnGroup</a></code> | <code>projen.GroupRunnerOptions</code> | Github Runner Group selection options. |
@@ -12192,7 +12192,7 @@ const typescriptProjectOptions: TypescriptProjectOptions = { ... }
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.buildWorkflowTriggers">buildWorkflowTriggers</a></code> | <code>projen.github.workflows.Triggers</code> | Build workflow triggers. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.bundlerOptions">bundlerOptions</a></code> | <code>projen.javascript.BundlerOptions</code> | Options for `Bundler`. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.checkLicenses">checkLicenses</a></code> | <code>projen.javascript.LicenseCheckerOptions</code> | Configure which licenses should be deemed acceptable for use by dependencies. |
-| <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
+| <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.codeCov">codeCov</a></code> | <code>boolean</code> | Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.codeCovTokenSecret">codeCovTokenSecret</a></code> | <code>string</code> | Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.copyrightOwner">copyrightOwner</a></code> | <code>string</code> | License copyright owner. |
 | <code><a href="#@vianho/apidays24pj.TypescriptProjectOptions.property.copyrightPeriod">copyrightPeriod</a></code> | <code>string</code> | The copyright years to put in the LICENSE file. |
@@ -13494,7 +13494,7 @@ public readonly versionrcOptions: {[ key: string ]: any};
 - *Type:* {[ key: string ]: any}
 - *Default:* standard configuration applicable for GitHub repositories
 
-Custom configuration used when creating changelog with standard-version package.
+Custom configuration used when creating changelog with commit-and-tag-version package.
 
 Given values either append to default configuration or overwrite values in it.
 
@@ -13655,7 +13655,7 @@ public readonly codeCov: boolean;
 - *Type:* boolean
 - *Default:* false
 
-Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v3 A secret is required for private repos. Configured with `@codeCovTokenSecret`.
+Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v4 A secret is required for private repos. Configured with `@codeCovTokenSecret`.
 
 ---
 
